@@ -1,0 +1,6824 @@
+[
+ {
+  "id": "F.6D.0640",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10
+   ],
+   [
+    1,
+    7
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.1388",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    10
+   ],
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.1739",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.1883",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    3,
+    5,
+    9,
+    12,
+    13
+   ],
+   [
+    1,
+    2,
+    4,
+    6,
+    7,
+    8,
+    10,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.1885",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    5,
+    7
+   ],
+   [
+    3,
+    4,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.1983",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   [
+    2,
+    4
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.1986",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.2010",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9
+   ],
+   [
+    5,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.2022",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.2088",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   [
+    1,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.2090",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   [
+    3,
+    4
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.2241",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    3
+   ],
+   [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.2244",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   [
+    1,
+    4
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.2274",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10
+   ],
+   [
+    7,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.2280",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    3,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.2286",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10
+   ],
+   [
+    2,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.2296",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    4,
+    9
+   ],
+   [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.2334",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10
+   ],
+   [
+    7,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.2336",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    8,
+    9
+   ],
+   [
+    4,
+    7
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.2779",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   [
+    1,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.2872",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    10,
+    11
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.2874",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    9,
+    10,
+    11
+   ],
+   [
+    6,
+    8
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.2936",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    7,
+    8,
+    9,
+    10
+   ],
+   [
+    4,
+    6
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.2947",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   [
+    1,
+    12
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.2955",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    11
+   ],
+   [
+    6,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.2957",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    7,
+    8,
+    9,
+    10
+   ],
+   [
+    4,
+    6
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.3068",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.3087",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12
+   ],
+   [
+    2,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.3111",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.3112",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12
+   ],
+   [
+    2,
+    8
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.3115",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.3127",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.3153",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    8,
+    12,
+    14
+   ],
+   [
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    13
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.3154",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    11,
+    13,
+    15
+   ],
+   [
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    14
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.3155",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    9,
+    10,
+    13
+   ],
+   [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    11,
+    12
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.3156",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    4,
+    5,
+    13
+   ],
+   [
+    2,
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.3158",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    10,
+    11
+   ],
+   [
+    1,
+    7,
+    8,
+    9,
+    12,
+    13
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.3160",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    8,
+    9,
+    12
+   ],
+   [
+    5,
+    6,
+    7,
+    10,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.3179",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.3180",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.3185",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.3207",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   [
+    4,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.3214",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   [
+    2,
+    12
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.3215",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11
+   ],
+   [
+    1,
+    7
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.3247",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   [
+    2,
+    5
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.3253",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   [
+    1,
+    6
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.3255",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    9,
+    10
+   ],
+   [
+    6,
+    7
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.3284",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    3,
+    4,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12
+   ],
+   [
+    1,
+    5
+   ],
+   [
+    2,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.3285",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    13
+   ],
+   [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12
+   ],
+   [
+    2,
+    11
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.3286",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    8
+   ],
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.3287",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    4,
+    9
+   ],
+   [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.3288",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    9
+   ],
+   [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.3294",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   [
+    4,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.3303",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    10,
+    11
+   ],
+   [
+    3,
+    9
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.3304",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9
+   ],
+   [
+    8,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.3306",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   [
+    2,
+    5
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.3311",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    6
+   ],
+   [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.3826",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    11
+   ],
+   [
+    5,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.3955",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.3996",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.4025",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   [
+    3,
+    12
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4029",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10,
+    11
+   ],
+   [
+    7,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4037",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   [
+    3,
+    4
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4041",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    11
+   ],
+   [
+    6,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4188",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.4200",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    6,
+    8,
+    10,
+    13
+   ],
+   [
+    1,
+    3,
+    4,
+    5,
+    7,
+    9,
+    11,
+    12,
+    14
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4201",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    5,
+    6,
+    11
+   ],
+   [
+    1,
+    3,
+    4,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4203",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    11
+   ],
+   [
+    2,
+    6,
+    10,
+    12,
+    13,
+    14
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4204",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    6,
+    8,
+    9,
+    10,
+    13
+   ],
+   [
+    2,
+    4,
+    5,
+    7,
+    11,
+    12
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4205",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    4,
+    6,
+    8,
+    9,
+    10,
+    14
+   ],
+   [
+    1,
+    5,
+    7,
+    11,
+    12,
+    13
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.4206",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    9,
+    10,
+    11,
+    13
+   ],
+   [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    12
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4207",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    5,
+    6,
+    7,
+    11
+   ],
+   [
+    1,
+    2,
+    3,
+    4,
+    8,
+    9,
+    10,
+    12,
+    13
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4208",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10
+   ],
+   [
+    1,
+    3,
+    9,
+    11,
+    12
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4209",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   [
+    1,
+    3,
+    6,
+    12,
+    13
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4210",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    4,
+    6,
+    7,
+    9,
+    11,
+    12
+   ],
+   [
+    1,
+    3,
+    5,
+    8,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4220",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    6,
+    8,
+    10,
+    12
+   ],
+   [
+    2,
+    4,
+    5,
+    7,
+    9,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4223",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    5,
+    8,
+    11
+   ],
+   [
+    2,
+    6,
+    7,
+    9,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4234",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    10,
+    12
+   ],
+   [
+    5,
+    6,
+    7,
+    8,
+    9,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4235",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    4,
+    5,
+    7,
+    9
+   ],
+   [
+    3,
+    6,
+    8,
+    10,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4238",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    3,
+    5,
+    8,
+    10,
+    11
+   ],
+   [
+    1,
+    2,
+    4,
+    6,
+    7,
+    9,
+    12,
+    13
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4242",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    4,
+    6,
+    8,
+    11,
+    12
+   ],
+   [
+    3,
+    5,
+    7,
+    9,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4305",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.4311",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.4312",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.4313",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.4314",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.4341",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.4364",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.4369",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.4659",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    10,
+    11
+   ],
+   [
+    8,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4720",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10
+   ],
+   [
+    7,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4819",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.4905",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   [
+    4,
+    5
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4906",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    11
+   ],
+   [
+    8,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4930",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    6
+   ],
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.4954",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.4958",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.4967",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9
+   ],
+   [
+    6,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5005",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    12
+   ],
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5014",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12
+   ],
+   [
+    4,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5022",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    10,
+    11,
+    12
+   ],
+   [
+    1,
+    8
+   ],
+   [
+    7,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5025",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11
+   ],
+   [
+    1,
+    4,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5031",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11
+   ],
+   [
+    4,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5060",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    7,
+    9,
+    10,
+    11
+   ],
+   [
+    5,
+    12
+   ],
+   [
+    6,
+    8
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5061",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    3
+   ],
+   [
+    1,
+    2,
+    4,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   [
+    5,
+    6
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5062",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    5
+   ],
+   [
+    1,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12
+   ],
+   [
+    2,
+    11
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.5063",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    11
+   ],
+   [
+    1,
+    10
+   ],
+   [
+    2,
+    8
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5064",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    10,
+    11
+   ],
+   [
+    8,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5065",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11
+   ],
+   [
+    2,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5067",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    4
+   ],
+   [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5068",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    5
+   ],
+   [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5070",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    9,
+    10,
+    11
+   ],
+   [
+    5,
+    7,
+    8
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5084",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3
+   ],
+   [
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5085",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    3,
+    10
+   ],
+   [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.5087",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    9
+   ],
+   [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5115",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11
+   ],
+   [
+    4,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5116",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    11
+   ],
+   [
+    6,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5163",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    10,
+    11
+   ],
+   [
+    6,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5168",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    9,
+    10,
+    11
+   ],
+   [
+    5,
+    7
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5189",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7,
+    9
+   ],
+   [
+    3,
+    10
+   ],
+   [
+    4,
+    8
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5190",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   [
+    4,
+    6
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5193",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10
+   ],
+   [
+    2,
+    8
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5211",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8
+   ],
+   [
+    1,
+    4,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5226",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   [
+    2,
+    5
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5271",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    4,
+    6,
+    8,
+    10
+   ],
+   [
+    1,
+    7
+   ],
+   [
+    5,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5272",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   [
+    3,
+    4
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5274",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    3,
+    4
+   ],
+   [
+    1,
+    2,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5281",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    9
+   ],
+   [
+    1,
+    11
+   ],
+   [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5289",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8
+   ],
+   [
+    4,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5293",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9
+   ],
+   [
+    2,
+    5,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5485",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.5501",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.5541",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.5553",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.5634",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.5702",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    6,
+    8,
+    10,
+    11,
+    13,
+    14
+   ],
+   [
+    2,
+    5,
+    7,
+    9,
+    12,
+    15
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5703",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    5,
+    7,
+    8,
+    9,
+    10,
+    12,
+    14
+   ],
+   [
+    2,
+    4,
+    6,
+    11,
+    13
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5707",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    5,
+    7,
+    8,
+    10
+   ],
+   [
+    1,
+    2,
+    3,
+    4,
+    6,
+    9,
+    11,
+    12,
+    13
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5708",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    4,
+    9,
+    12,
+    13,
+    14
+   ],
+   [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5711",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.5712",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.5713",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    6,
+    7,
+    8,
+    12,
+    13,
+    14
+   ],
+   [
+    4,
+    5,
+    9,
+    10,
+    11,
+    15
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.5714",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    9,
+    10,
+    11,
+    14
+   ],
+   [
+    4,
+    7,
+    8,
+    12,
+    13
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5715",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.5720",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    6,
+    9,
+    13
+   ],
+   [
+    3,
+    4,
+    5,
+    7,
+    8,
+    10,
+    11,
+    12,
+    14
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5723",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    6,
+    12,
+    13
+   ],
+   [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5741",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.5743",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.5879",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.5880",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.5896",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.5901",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.5902",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.5903",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.5904",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.5908",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.5914",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    11,
+    12
+   ],
+   [
+    8,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5918",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.5953",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   [
+    1,
+    6
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.5956",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.5962",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.5965",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6026",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   [
+    3,
+    5
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6046",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11
+   ],
+   [
+    8,
+    12
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6048",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    10,
+    11
+   ],
+   [
+    8,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6078",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6101",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6174",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   [
+    1,
+    4
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6237",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12
+   ],
+   [
+    3,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6328",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   [
+    2,
+    7
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6380",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    5,
+    6,
+    7,
+    9,
+    11,
+    12,
+    13
+   ],
+   [
+    2,
+    10
+   ],
+   [
+    4,
+    8
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6381",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    7
+   ],
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.6382",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12
+   ],
+   [
+    4,
+    8
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6383",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    3,
+    12
+   ],
+   [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6411",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    11
+   ],
+   [
+    2,
+    12
+   ],
+   [
+    7,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6412",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    10
+   ],
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6413",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    9,
+    10,
+    11
+   ],
+   [
+    6,
+    7,
+    8
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6414",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    11
+   ],
+   [
+    8,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6419",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6420",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    8,
+    9,
+    10,
+    12,
+    13
+   ],
+   [
+    4,
+    11
+   ],
+   [
+    6,
+    7
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.6422",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6423",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   [
+    2,
+    7
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6426",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11
+   ],
+   [
+    2,
+    7
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6432",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    6
+   ],
+   [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.6435",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6449",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    12
+   ],
+   [
+    2,
+    11
+   ],
+   [
+    8,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6457",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11
+   ],
+   [
+    3,
+    7
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6458",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11
+   ],
+   [
+    2,
+    7
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6461",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   [
+    5,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6474",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    4,
+    11
+   ],
+   [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6529",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6534",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   [
+    3,
+    11
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.6535",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    9,
+    10
+   ],
+   [
+    6,
+    8
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6542",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6547",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6551",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    5,
+    8,
+    9
+   ],
+   [
+    1,
+    4,
+    7,
+    11,
+    12
+   ],
+   [
+    3,
+    6,
+    10,
+    13,
+    14
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6552",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    4,
+    5,
+    7
+   ],
+   [
+    2,
+    6,
+    10,
+    12,
+    15
+   ],
+   [
+    3,
+    8,
+    9,
+    11,
+    13,
+    14
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6553",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    7,
+    8,
+    14,
+    15
+   ],
+   [
+    1,
+    4,
+    5,
+    10,
+    11
+   ],
+   [
+    3,
+    6,
+    9,
+    12,
+    13,
+    16
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6554",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    11,
+    12,
+    13
+   ],
+   [
+    3,
+    4,
+    5,
+    9,
+    15,
+    16
+   ],
+   [
+    6,
+    7,
+    8,
+    10,
+    14,
+    17
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.6558",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6559",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6560",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6561",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    10,
+    11,
+    12
+   ],
+   [
+    5,
+    6,
+    7,
+    8,
+    9,
+    13
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6562",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    3,
+    5,
+    11,
+    12
+   ],
+   [
+    1,
+    2,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6576",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6577",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    6,
+    7,
+    9,
+    11,
+    12,
+    13
+   ],
+   [
+    1,
+    4,
+    5,
+    8,
+    10,
+    14
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6578",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6579",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    3,
+    4,
+    5,
+    9,
+    10,
+    12
+   ],
+   [
+    1,
+    2,
+    6,
+    7,
+    8,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6580",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6581",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    4,
+    6,
+    8,
+    10,
+    11,
+    13
+   ],
+   [
+    3,
+    5,
+    7,
+    9,
+    12
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6582",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6584",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    3,
+    5,
+    6,
+    9
+   ],
+   [
+    1,
+    2,
+    4,
+    7,
+    8,
+    10,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6585",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6608",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6609",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6610",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6611",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6614",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6624",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    4,
+    5,
+    12,
+    13
+   ],
+   [
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6628",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    4,
+    5,
+    7,
+    11,
+    13
+   ],
+   [
+    1,
+    2,
+    3,
+    6,
+    8,
+    9,
+    10,
+    12
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6629",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    5,
+    7,
+    8,
+    11,
+    12
+   ],
+   [
+    3,
+    4,
+    6,
+    9,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6632",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    11
+   ],
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6633",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6663",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    7,
+    8,
+    10,
+    11
+   ],
+   [
+    4,
+    5,
+    6,
+    9,
+    12
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6664",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    6,
+    9,
+    10,
+    13
+   ],
+   [
+    2,
+    5,
+    7,
+    8,
+    11,
+    12
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6666",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    5,
+    6,
+    7,
+    8,
+    13
+   ],
+   [
+    2,
+    3,
+    10,
+    11,
+    12
+   ],
+   [
+    4,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6667",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    5,
+    6,
+    9,
+    12,
+    13
+   ],
+   [
+    2,
+    3,
+    4,
+    8,
+    11,
+    14
+   ],
+   [
+    7,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6669",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    9,
+    10,
+    11
+   ],
+   [
+    1,
+    4,
+    5,
+    6,
+    7,
+    8,
+    12,
+    13
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6671",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    8
+   ],
+   [
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6675",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   [
+    6,
+    7
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6677",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6718",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6729",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6732",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10,
+    11
+   ],
+   [
+    7,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6733",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11
+   ],
+   [
+    2,
+    8
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6736",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    4,
+    8,
+    10,
+    11
+   ],
+   [
+    3,
+    5,
+    6,
+    7,
+    9,
+    12
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6737",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6744",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6763",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    5,
+    7,
+    9
+   ],
+   [
+    1,
+    11
+   ],
+   [
+    3,
+    8,
+    10,
+    12,
+    13
+   ],
+   [
+    4,
+    6
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6764",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    10,
+    13,
+    14
+   ],
+   [
+    1,
+    7
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    4,
+    5,
+    6,
+    9,
+    11,
+    12
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6765",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    5,
+    6,
+    7,
+    10
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    3,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   [
+    4,
+    9
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.6766",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    5,
+    6,
+    11
+   ],
+   [
+    1,
+    4,
+    9
+   ],
+   [
+    7,
+    8,
+    10,
+    12,
+    13,
+    14
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.6768",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    4,
+    8,
+    10,
+    12
+   ],
+   [
+    1,
+    3,
+    6,
+    9,
+    11,
+    13
+   ],
+   [
+    2,
+    5,
+    7
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6770",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    4,
+    5,
+    11
+   ],
+   [
+    1,
+    3,
+    7
+   ],
+   [
+    6,
+    8,
+    9,
+    10,
+    12
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6771",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    3,
+    5,
+    6,
+    8,
+    10
+   ],
+   [
+    1,
+    12
+   ],
+   [
+    2,
+    4,
+    7,
+    9,
+    11,
+    13
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6772",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    4
+   ],
+   [
+    1,
+    6,
+    8,
+    9,
+    10,
+    11
+   ],
+   [
+    2,
+    3,
+    5,
+    7,
+    12
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6774",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    4,
+    6,
+    8,
+    9,
+    12
+   ],
+   [
+    1,
+    2,
+    3,
+    5,
+    7,
+    10,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6778",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    4,
+    9,
+    10
+   ],
+   [
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6779",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   [
+    1,
+    6
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6782",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    5,
+    6,
+    10,
+    11
+   ],
+   [
+    1,
+    3,
+    4,
+    7,
+    8,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6853",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    5,
+    7,
+    10,
+    11
+   ],
+   [
+    3,
+    4,
+    6,
+    8,
+    9,
+    12
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6854",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8
+   ],
+   [
+    1,
+    7,
+    9,
+    10,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6857",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6858",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6859",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    8,
+    9,
+    10
+   ],
+   [
+    3,
+    4,
+    6,
+    7,
+    12,
+    13
+   ],
+   [
+    5,
+    11
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.6860",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6861",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    3,
+    4,
+    5,
+    8,
+    10
+   ],
+   [
+    1,
+    6,
+    9,
+    11,
+    12
+   ],
+   [
+    2,
+    7
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6863",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6864",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6865",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    8,
+    10
+   ],
+   [
+    4,
+    6,
+    7,
+    9,
+    11,
+    12
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6867",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6869",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6870",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8
+   ],
+   [
+    1,
+    4,
+    9,
+    10,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6875",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6877",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    4,
+    7,
+    8,
+    9,
+    10
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    5,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6878",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6880",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10
+   ],
+   [
+    1,
+    7
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6883",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    4,
+    6,
+    7,
+    9,
+    11
+   ],
+   [
+    1,
+    2,
+    3,
+    5,
+    8,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6884",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6888",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6889",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    10
+   ],
+   [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6921",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   [
+    2,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6930",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    11
+   ],
+   [
+    5,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6979",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   [
+    2,
+    6
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6990",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10
+   ],
+   [
+    2,
+    8
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.6991",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.6997",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   [
+    1,
+    4
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7003",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7004",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    11
+   ],
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10
+   ],
+   [
+    8,
+    12
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7005",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7006",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    6
+   ],
+   [
+    1,
+    8
+   ],
+   [
+    2,
+    3,
+    4,
+    5,
+    7,
+    9,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7007",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7008",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7011",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    4
+   ],
+   [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.7012",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    7,
+    8,
+    9
+   ],
+   [
+    4,
+    6
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7013",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7014",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    6,
+    11
+   ],
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7015",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    4,
+    9,
+    10
+   ],
+   [
+    3,
+    5,
+    6,
+    7,
+    8,
+    11
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.7016",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7019",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7020",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7022",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7024",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    5,
+    6
+   ],
+   [
+    1,
+    2,
+    3,
+    4,
+    7,
+    8,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7025",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7033",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    4,
+    8,
+    9,
+    10,
+    11
+   ],
+   [
+    3,
+    7
+   ],
+   [
+    5,
+    6
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7035",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    3
+   ],
+   [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7038",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    9
+   ],
+   [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7116",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10
+   ],
+   [
+    6,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7149",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    11
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    9,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7150",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10
+   ],
+   [
+    1,
+    7
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7151",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    5,
+    6,
+    8,
+    9,
+    10
+   ],
+   [
+    2,
+    4,
+    7
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7158",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8
+   ],
+   [
+    1,
+    12
+   ],
+   [
+    7,
+    9
+   ],
+   [
+    10,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7159",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    8,
+    11
+   ],
+   [
+    4,
+    9
+   ],
+   [
+    7,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7161",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    7,
+    9
+   ],
+   [
+    1,
+    5
+   ],
+   [
+    2,
+    3,
+    4,
+    6,
+    8,
+    10,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7162",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11
+   ],
+   [
+    1,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7165",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   [
+    2,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7166",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9
+   ],
+   [
+    8,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7169",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10
+   ],
+   [
+    3,
+    8
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7170",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   [
+    4,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7172",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9
+   ],
+   [
+    8,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7179",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   [
+    1,
+    2,
+    4,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7198",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7,
+    8,
+    10
+   ],
+   [
+    3,
+    4,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7277",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    4
+   ],
+   [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7285",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    11
+   ],
+   [
+    7,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7286",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10
+   ],
+   [
+    2,
+    7
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7326",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    6,
+    8
+   ],
+   [
+    1,
+    5
+   ],
+   [
+    4,
+    9
+   ],
+   [
+    7,
+    12
+   ],
+   [
+    10,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7327",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    6,
+    7,
+    9
+   ],
+   [
+    3,
+    12
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    8,
+    13
+   ],
+   [
+    10,
+    11
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.7328",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    6,
+    9,
+    11
+   ],
+   [
+    2,
+    4,
+    5
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    8,
+    12
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.7330",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    6,
+    7,
+    8
+   ],
+   [
+    1,
+    4,
+    11
+   ],
+   [
+    3,
+    9
+   ],
+   [
+    5,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7333",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    4,
+    5,
+    7,
+    8,
+    9
+   ],
+   [
+    1,
+    2,
+    6,
+    11
+   ],
+   [
+    3,
+    10
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.7340",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    5,
+    7,
+    8,
+    9
+   ],
+   [
+    1,
+    2,
+    6,
+    10
+   ],
+   [
+    3,
+    4
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7344",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    4,
+    6,
+    7,
+    9
+   ],
+   [
+    1,
+    3,
+    10
+   ],
+   [
+    5,
+    8,
+    11
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.7346",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    4,
+    5,
+    8,
+    9
+   ],
+   [
+    2,
+    3,
+    6,
+    7,
+    10
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.7354",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    3,
+    7,
+    8,
+    9
+   ],
+   [
+    1,
+    4,
+    6
+   ],
+   [
+    2,
+    5,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7359",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   [
+    4,
+    6,
+    7,
+    8,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7361",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    3,
+    5,
+    6,
+    8
+   ],
+   [
+    2,
+    10
+   ],
+   [
+    4,
+    9
+   ],
+   [
+    7,
+    11
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7363",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    6,
+    8,
+    9,
+    10
+   ],
+   [
+    1,
+    4
+   ],
+   [
+    5,
+    7
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7365",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    7,
+    8,
+    9,
+    10
+   ],
+   [
+    5,
+    6
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7366",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    8,
+    9
+   ],
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    10
+   ],
+   [
+    6,
+    7
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7368",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8
+   ],
+   [
+    6,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7381",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    4,
+    5
+   ],
+   [
+    1,
+    3,
+    6,
+    7,
+    8,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7382",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    8,
+    9
+   ],
+   [
+    4,
+    6,
+    7
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7472",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7496",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    4,
+    5,
+    7,
+    8
+   ],
+   [
+    3,
+    9
+   ],
+   [
+    6,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7497",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    7,
+    8,
+    9
+   ],
+   [
+    4,
+    6
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7498",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   [
+    3,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7499",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    5,
+    9
+   ],
+   [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7509",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7510",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    10
+   ],
+   [
+    1,
+    6
+   ],
+   [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8
+   ],
+   [
+    9,
+    11
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.7511",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7512",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7513",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+   ],
+   [
+    4,
+    10
+   ],
+   [
+    8,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7515",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7519",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    7
+   ],
+   [
+    1,
+    4,
+    5,
+    6,
+    8,
+    10
+   ],
+   [
+    3,
+    9
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.7522",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7523",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    9
+   ],
+   [
+    5,
+    8
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7525",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7527",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7533",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7534",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    5,
+    6,
+    7,
+    9
+   ],
+   [
+    1,
+    4,
+    8
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.6D.7535",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    4,
+    9
+   ],
+   [
+    2,
+    3,
+    5,
+    6,
+    7,
+    8
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.7540",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7548",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7549",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7551",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.6D.7588",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    8,
+    9
+   ],
+   [
+    4,
+    7
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.7597",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2
+   ],
+   [
+    1,
+    10
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    8,
+    9
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.7598",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    6,
+    9
+   ],
+   [
+    1,
+    4
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    3,
+    10
+   ],
+   [
+    5,
+    7
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.7600",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    4,
+    9
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    5,
+    8
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.7603",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    4,
+    6
+   ],
+   [
+    1,
+    2,
+    9
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    5,
+    7
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.7605",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    6,
+    8
+   ],
+   [
+    1,
+    4
+   ],
+   [
+    5,
+    7
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.7610",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    4,
+    8
+   ],
+   [
+    1,
+    5
+   ],
+   [
+    3,
+    6,
+    7
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.7613",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    7
+   ],
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.7617",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    4,
+    7
+   ],
+   [
+    1,
+    3,
+    6
+   ],
+   [
+    2,
+    5,
+    8
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.7619",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    7
+   ],
+   [
+    4,
+    5,
+    6
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.6D.7620",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3
+   ],
+   [
+    4,
+    5,
+    6,
+    7
+   ]
+  ],
+  "KE": true
+ }
+]

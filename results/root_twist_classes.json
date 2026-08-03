@@ -1,0 +1,206 @@
+[
+ {
+  "n": 4,
+  "twists": [
+   "a",
+   "-a"
+  ],
+  "negation_invariant": true,
+  "rotation_invariant": false,
+  "verdict": "stable",
+  "kahler_einstein": true,
+  "anticanonical_degree": 268,
+  "mu_TX": [
+   67,
+   1
+  ],
+  "max_subsheaf_slope": [
+   196,
+   3
+  ]
+ },
+ {
+  "n": 5,
+  "twists": [
+   "a",
+   "b",
+   "-(a+b)"
+  ],
+  "negation_invariant": false,
+  "rotation_invariant": true,
+  "verdict": "stable",
+  "kahler_einstein": true,
+  "anticanonical_degree": 2580,
+  "mu_TX": [
+   516,
+   1
+  ],
+  "max_subsheaf_slope": [
+   506,
+   1
+  ]
+ },
+ {
+  "n": 6,
+  "twists": [
+   "a",
+   "a",
+   "-a",
+   "-a"
+  ],
+  "negation_invariant": true,
+  "rotation_invariant": false,
+  "verdict": "stable",
+  "kahler_einstein": true,
+  "anticanonical_degree": 30096,
+  "mu_TX": [
+   5016,
+   1
+  ],
+  "max_subsheaf_slope": [
+   24736,
+   5
+  ]
+ },
+ {
+  "n": 6,
+  "twists": [
+   "a",
+   "b",
+   "-a",
+   "-b"
+  ],
+  "negation_invariant": true,
+  "rotation_invariant": false,
+  "verdict": "stable",
+  "kahler_einstein": true,
+  "anticanonical_degree": 29928,
+  "mu_TX": [
+   4988,
+   1
+  ],
+  "max_subsheaf_slope": [
+   24568,
+   5
+  ]
+ },
+ {
+  "n": 7,
+  "twists": [
+   "a",
+   "a",
+   "b",
+   "-a",
+   "-(a+b)"
+  ],
+  "negation_invariant": false,
+  "rotation_invariant": false,
+  "verdict": "stable",
+  "kahler_einstein": false,
+  "anticanonical_degree": 404544,
+  "mu_TX": [
+   57792,
+   1
+  ],
+  "max_subsheaf_slope": [
+   57104,
+   1
+  ]
+ },
+ {
+  "n": 8,
+  "twists": [
+   "a",
+   "a",
+   "a",
+   "-a",
+   "-a",
+   "-a"
+  ],
+  "negation_invariant": true,
+  "rotation_invariant": false,
+  "verdict": "stable",
+  "kahler_einstein": true,
+  "anticanonical_degree": 6341472,
+  "mu_TX": [
+   792684,
+   1
+  ],
+  "max_subsheaf_slope": [
+   5498784,
+   7
+  ]
+ },
+ {
+  "n": 8,
+  "twists": [
+   "a",
+   "a",
+   "b",
+   "-a",
+   "-a",
+   "-b"
+  ],
+  "negation_invariant": true,
+  "rotation_invariant": false,
+  "verdict": "stable",
+  "kahler_einstein": true,
+  "anticanonical_degree": 6273696,
+  "mu_TX": [
+   784212,
+   1
+  ],
+  "max_subsheaf_slope": [
+   5435712,
+   7
+  ]
+ },
+ {
+  "n": 8,
+  "twists": [
+   "a",
+   "a",
+   "b",
+   "b",
+   "-(a+b)",
+   "-(a+b)"
+  ],
+  "negation_invariant": false,
+  "rotation_invariant": true,
+  "verdict": "stable",
+  "kahler_einstein": true,
+  "anticanonical_degree": 6242544,
+  "mu_TX": [
+   780318,
+   1
+  ],
+  "max_subsheaf_slope": [
+   772080,
+   1
+  ]
+ },
+ {
+  "n": 8,
+  "twists": [
+   "a",
+   "b",
+   "a+b",
+   "-a",
+   "-b",
+   "-(a+b)"
+  ],
+  "negation_invariant": true,
+  "rotation_invariant": true,
+  "verdict": "stable",
+  "kahler_einstein": true,
+  "anticanonical_degree": 6240528,
+  "mu_TX": [
+   780066,
+   1
+  ],
+  "max_subsheaf_slope": [
+   771792,
+   1
+  ]
+ }
+]

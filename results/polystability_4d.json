@@ -1,0 +1,347 @@
+[
+ {
+  "id": "F.4D.0065",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.4D.0072",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.4D.0074",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   [
+    3,
+    6,
+    7,
+    8,
+    9
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.4D.0075",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    4,
+    7
+   ],
+   [
+    3,
+    5,
+    6,
+    8,
+    9,
+    10
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.4D.0076",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    8
+   ],
+   [
+    5,
+    6,
+    7,
+    9,
+    10,
+    11
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.4D.0078",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.4D.0079",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.4D.0082",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.4D.0084",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.4D.0091",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   [
+    1,
+    8
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.4D.0097",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    5,
+    6,
+    7
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    3,
+    8
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.4D.0098",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6
+   ],
+   [
+    3,
+    9
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.4D.0099",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    4,
+    5,
+    6,
+    8
+   ],
+   [
+    2,
+    3,
+    7
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.4D.0101",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   [
+    4,
+    6,
+    7
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.4D.0102",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6
+   ],
+   [
+    4,
+    7
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.4D.0109",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.4D.0110",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6
+   ],
+   [
+    4,
+    7
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.4D.0111",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.4D.0112",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.4D.0114",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.4D.0118",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    3
+   ],
+   [
+    1,
+    6
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    4,
+    5
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.4D.0119",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    4,
+    6
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    5
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.4D.0121",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    5
+   ],
+   [
+    1,
+    2,
+    3,
+    4
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.4D.0122",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    1,
+    5
+   ],
+   [
+    2,
+    3,
+    4
+   ]
+  ],
+  "KE": true
+ }
+]

@@ -1,0 +1,92 @@
+[
+ {
+  "id": "F.3D.0003",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.3D.0008",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    4,
+    5
+   ],
+   [
+    1,
+    6
+   ]
+  ],
+  "KE": false
+ },
+ {
+  "id": "F.3D.0009",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    2,
+    3,
+    4,
+    5,
+    7
+   ],
+   [
+    1,
+    6
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.3D.0011",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.3D.0013",
+  "polystable": false,
+  "decomposition_ray_indices": null,
+  "KE": false
+ },
+ {
+  "id": "F.3D.0015",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    3
+   ],
+   [
+    1,
+    4
+   ],
+   [
+    2,
+    5
+   ]
+  ],
+  "KE": true
+ },
+ {
+  "id": "F.3D.0016",
+  "polystable": true,
+  "decomposition_ray_indices": [
+   [
+    0,
+    3
+   ],
+   [
+    1,
+    2,
+    4
+   ]
+  ],
+  "KE": true
+ }
+]

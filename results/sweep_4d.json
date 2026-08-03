@@ -1,0 +1,16186 @@
+[
+ {
+  "name": "F.4D.0000",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   76,
+   21,
+   97,
+   97,
+   1,
+   216,
+   97
+  ],
+  "anticanonical_degree": 605,
+  "mu_TX": [
+   605,
+   4
+  ],
+  "max_subsheaf_slope": [
+   217,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ]
+   ],
+   "deg": 217,
+   "slope": [
+    217,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -692,
+    3025
+   ],
+   [
+    -204,
+    275
+   ],
+   [
+    -288,
+    605
+   ],
+   [
+    -692,
+    3025
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 11,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     11,
+     22,
+     18,
+     7
+    ],
+    "LATTICE_VOLUME": 605,
+    "H_STAR_VECTOR": [
+     1,
+     118,
+     367,
+     118,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0001",
+  "dim": 4,
+  "num_rays": 6,
+  "degrees": [
+   343,
+   114,
+   114,
+   114,
+   114,
+   1
+  ],
+  "anticanonical_degree": 800,
+  "mu_TX": [
+   200,
+   1
+  ],
+  "max_subsheaf_slope": [
+   344,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 344,
+   "slope": [
+    344,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -801,
+    2000
+   ],
+   [
+    -801,
+    2000
+   ],
+   [
+    -801,
+    2000
+   ],
+   [
+    267,
+    500
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 6,
+   "picard_rank": 2,
+   "dual_polydb": {
+    "N_VERTICES": 8,
+    "N_FACETS": 6,
+    "F_VECTOR": [
+     8,
+     16,
+     14,
+     6
+    ],
+    "LATTICE_VOLUME": 800,
+    "H_STAR_VECTOR": [
+     1,
+     154,
+     490,
+     154,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0002",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   5,
+   45,
+   31,
+   81,
+   49,
+   49,
+   63,
+   45
+  ],
+  "anticanonical_degree": 368,
+  "mu_TX": [
+   92,
+   1
+  ],
+  "max_subsheaf_slope": [
+   278,
+   3
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     -1,
+     1
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     -1
+    ]
+   ],
+   "deg": 278,
+   "slope": [
+    278,
+    3
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -213,
+    920
+   ],
+   [
+    -37,
+    460
+   ],
+   [
+    -139,
+    460
+   ],
+   [
+    -13,
+    92
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 17,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     17,
+     34,
+     25,
+     8
+    ],
+    "LATTICE_VOLUME": 368,
+    "H_STAR_VECTOR": [
+     1,
+     73,
+     220,
+     73,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0003",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   116,
+   176,
+   55,
+   61,
+   5,
+   61,
+   55
+  ],
+  "anticanonical_degree": 529,
+  "mu_TX": [
+   529,
+   4
+  ],
+  "max_subsheaf_slope": [
+   181,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 181,
+   "slope": [
+    181,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -1258,
+    2645
+   ],
+   [
+    -140,
+    529
+   ],
+   [
+    284,
+    2645
+   ],
+   [
+    1116,
+    2645
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 13,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     13,
+     26,
+     20,
+     7
+    ],
+    "LATTICE_VOLUME": 529,
+    "H_STAR_VECTOR": [
+     1,
+     103,
+     321,
+     103,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0004",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   71,
+   13,
+   158,
+   13,
+   71,
+   3,
+   158,
+   71
+  ],
+  "anticanonical_degree": 558,
+  "mu_TX": [
+   279,
+   2
+  ],
+  "max_subsheaf_slope": [
+   345,
+   2
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ]
+   ],
+   "deg": 345,
+   "slope": [
+    345,
+    2
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -644,
+    1395
+   ],
+   [
+    -161,
+    465
+   ],
+   [
+    -644,
+    1395
+   ],
+   [
+    161,
+    465
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 15,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     15,
+     30,
+     23,
+     8
+    ],
+    "LATTICE_VOLUME": 558,
+    "H_STAR_VECTOR": [
+     1,
+     109,
+     338,
+     109,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0005",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   3,
+   54,
+   75,
+   54,
+   13,
+   49,
+   49,
+   13,
+   54
+  ],
+  "anticanonical_degree": 364,
+  "mu_TX": [
+   91,
+   1
+  ],
+  "max_subsheaf_slope": [
+   101,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     0,
+     -1
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 202,
+   "slope": [
+    101,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -20,
+    91
+   ],
+   [
+    -15,
+    91
+   ],
+   [
+    -20,
+    91
+   ],
+   [
+    15,
+    91
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 18,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     18,
+     36,
+     27,
+     9
+    ],
+    "LATTICE_VOLUME": 364,
+    "H_STAR_VECTOR": [
+     1,
+     73,
+     216,
+     73,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0006",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   67,
+   62,
+   150,
+   13,
+   67,
+   3,
+   49,
+   67
+  ],
+  "anticanonical_degree": 478,
+  "mu_TX": [
+   239,
+   2
+  ],
+  "max_subsheaf_slope": [
+   153,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     1,
+     0,
+     -1
+    ],
+    [
+     0,
+     -1,
+     0,
+     1
+    ]
+   ],
+   "deg": 153,
+   "slope": [
+    153,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -336,
+    1195
+   ],
+   [
+    -537,
+    1195
+   ],
+   [
+    -336,
+    1195
+   ],
+   [
+    -33,
+    1195
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 15,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     15,
+     30,
+     23,
+     8
+    ],
+    "LATTICE_VOLUME": 478,
+    "H_STAR_VECTOR": [
+     1,
+     94,
+     288,
+     94,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0007",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   3,
+   19,
+   72,
+   50,
+   72,
+   50,
+   53,
+   144
+  ],
+  "anticanonical_degree": 463,
+  "mu_TX": [
+   463,
+   4
+  ],
+  "max_subsheaf_slope": [
+   147,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     0,
+     -1
+    ]
+   ],
+   "deg": 147,
+   "slope": [
+    147,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -1368,
+    2315
+   ],
+   [
+    -96,
+    463
+   ],
+   [
+    -276,
+    2315
+   ],
+   [
+    -408,
+    2315
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 463,
+    "H_STAR_VECTOR": [
+     1,
+     91,
+     279,
+     91,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0008",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   80,
+   225,
+   62,
+   62,
+   3,
+   80,
+   80
+  ],
+  "anticanonical_degree": 592,
+  "mu_TX": [
+   148,
+   1
+  ],
+  "max_subsheaf_slope": [
+   228,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 228,
+   "slope": [
+    228,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -59,
+    185
+   ],
+   [
+    -177,
+    740
+   ],
+   [
+    -59,
+    185
+   ],
+   [
+    177,
+    370
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 12,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     12,
+     24,
+     19,
+     7
+    ],
+    "LATTICE_VOLUME": 592,
+    "H_STAR_VECTOR": [
+     1,
+     115,
+     360,
+     115,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0009",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   76,
+   76,
+   13,
+   158,
+   171,
+   6,
+   76
+  ],
+  "anticanonical_degree": 576,
+  "mu_TX": [
+   144,
+   1
+  ],
+  "max_subsheaf_slope": [
+   184,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "deg": 184,
+   "slope": [
+    184,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -157,
+    360
+   ],
+   [
+    -43,
+    120
+   ],
+   [
+    -157,
+    240
+   ],
+   [
+    -157,
+    360
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 12,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     12,
+     24,
+     19,
+     7
+    ],
+    "LATTICE_VOLUME": 576,
+    "H_STAR_VECTOR": [
+     1,
+     112,
+     350,
+     112,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0010",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   75,
+   6,
+   59,
+   13,
+   59,
+   49,
+   62,
+   59
+  ],
+  "anticanonical_degree": 382,
+  "mu_TX": [
+   191,
+   2
+  ],
+  "max_subsheaf_slope": [
+   205,
+   2
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     1,
+     0,
+     -1
+    ],
+    [
+     0,
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "deg": 205,
+   "slope": [
+    205,
+    2
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -184,
+    955
+   ],
+   [
+    -183,
+    955
+   ],
+   [
+    -184,
+    955
+   ],
+   [
+    93,
+    955
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 15,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     15,
+     30,
+     23,
+     8
+    ],
+    "LATTICE_VOLUME": 382,
+    "H_STAR_VECTOR": [
+     1,
+     76,
+     228,
+     76,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0011",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   94,
+   50,
+   32,
+   4,
+   12,
+   94,
+   50,
+   160
+  ],
+  "anticanonical_degree": 496,
+  "mu_TX": [
+   124,
+   1
+  ],
+  "max_subsheaf_slope": [
+   164,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     0,
+     -1
+    ]
+   ],
+   "deg": 164,
+   "slope": [
+    164,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -521,
+    620
+   ],
+   [
+    1,
+    620
+   ],
+   [
+    -521,
+    1240
+   ],
+   [
+    -523,
+    1240
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 496,
+    "H_STAR_VECTOR": [
+     1,
+     97,
+     300,
+     97,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0012",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   33,
+   83,
+   25,
+   58,
+   50,
+   50,
+   112,
+   4
+  ],
+  "anticanonical_degree": 415,
+  "mu_TX": [
+   415,
+   4
+  ],
+  "max_subsheaf_slope": [
+   116,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 116,
+   "slope": [
+    116,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -804,
+    2075
+   ],
+   [
+    -402,
+    2075
+   ],
+   [
+    -2,
+    83
+   ],
+   [
+    756,
+    2075
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 415,
+    "H_STAR_VECTOR": [
+     1,
+     82,
+     249,
+     82,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0013",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   36,
+   98,
+   200,
+   62,
+   62,
+   98,
+   4
+  ],
+  "anticanonical_degree": 560,
+  "mu_TX": [
+   140,
+   1
+  ],
+  "max_subsheaf_slope": [
+   204,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 204,
+   "slope": [
+    204,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -471,
+    700
+   ],
+   [
+    -23,
+    200
+   ],
+   [
+    -471,
+    1400
+   ],
+   [
+    79,
+    175
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 12,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     12,
+     24,
+     19,
+     7
+    ],
+    "LATTICE_VOLUME": 560,
+    "H_STAR_VECTOR": [
+     1,
+     109,
+     340,
+     109,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0014",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   50,
+   88,
+   7,
+   88,
+   17,
+   21,
+   50,
+   112
+  ],
+  "anticanonical_degree": 433,
+  "mu_TX": [
+   433,
+   4
+  ],
+  "max_subsheaf_slope": [
+   119,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     -1,
+     0
+    ]
+   ],
+   "deg": 119,
+   "slope": [
+    119,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -1676,
+    2165
+   ],
+   [
+    26,
+    433
+   ],
+   [
+    -968,
+    2165
+   ],
+   [
+    -484,
+    2165
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 433,
+    "H_STAR_VECTOR": [
+     1,
+     85,
+     261,
+     85,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0015",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   66,
+   24,
+   42,
+   96,
+   50,
+   66,
+   6,
+   50
+  ],
+  "anticanonical_degree": 400,
+  "mu_TX": [
+   100,
+   1
+  ],
+  "max_subsheaf_slope": [
+   102,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     1,
+     0,
+     0,
+     -1
+    ],
+    [
+     -1,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 102,
+   "slope": [
+    102,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ]
+    ],
+    "deg": 100,
+    "slope": [
+     100,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      1,
+      0,
+      0,
+      -1
+     ],
+     [
+      -1,
+      0,
+      1,
+      2
+     ],
+     [
+      -1,
+      0,
+      0,
+      1
+     ]
+    ],
+    "deg": 300,
+    "slope": [
+     100,
+     1
+    ]
+   }
+  ],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -12,
+    25
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    -3,
+    40
+   ],
+   [
+    -33,
+    200
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 400,
+    "H_STAR_VECTOR": [
+     1,
+     79,
+     240,
+     79,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0016",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   60,
+   9,
+   48,
+   50,
+   60,
+   50,
+   29,
+   31
+  ],
+  "anticanonical_degree": 337,
+  "mu_TX": [
+   337,
+   4
+  ],
+  "max_subsheaf_slope": [
+   79,
+   1
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     -1,
+     0,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     0,
+     -1
+    ],
+    [
+     -1,
+     0,
+     1,
+     2
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ]
+   ],
+   "deg": 237,
+   "slope": [
+    79,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    -552,
+    1685
+   ],
+   [
+    30,
+    337
+   ],
+   [
+    -24,
+    1685
+   ],
+   [
+    -252,
+    1685
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 337,
+    "H_STAR_VECTOR": [
+     1,
+     67,
+     201,
+     67,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0017",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   111,
+   73,
+   9,
+   73,
+   29,
+   44,
+   111
+  ],
+  "anticanonical_degree": 450,
+  "mu_TX": [
+   225,
+   2
+  ],
+  "max_subsheaf_slope": [
+   231,
+   2
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     -1,
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     -1,
+     1
+    ]
+   ],
+   "deg": 231,
+   "slope": [
+    231,
+    2
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -788,
+    1125
+   ],
+   [
+    -28,
+    225
+   ],
+   [
+    -254,
+    1125
+   ],
+   [
+    89,
+    375
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 13,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     13,
+     26,
+     20,
+     7
+    ],
+    "LATTICE_VOLUME": 450,
+    "H_STAR_VECTOR": [
+     1,
+     88,
+     272,
+     88,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0018",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   72,
+   150,
+   62,
+   62,
+   6,
+   72,
+   72
+  ],
+  "anticanonical_degree": 496,
+  "mu_TX": [
+   124,
+   1
+  ],
+  "max_subsheaf_slope": [
+   156,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 156,
+   "slope": [
+    156,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ]
+    ],
+    "deg": 124,
+    "slope": [
+     124,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      1,
+      0,
+      1,
+      2
+     ]
+    ],
+    "deg": 372,
+    "slope": [
+     124,
+     1
+    ]
+   }
+  ],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -8,
+    31
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    -8,
+    31
+   ],
+   [
+    12,
+    31
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 12,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     12,
+     24,
+     19,
+     7
+    ],
+    "LATTICE_VOLUME": 496,
+    "H_STAR_VECTOR": [
+     1,
+     97,
+     300,
+     97,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0019",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   64,
+   75,
+   62,
+   62,
+   9,
+   64,
+   64
+  ],
+  "anticanonical_degree": 400,
+  "mu_TX": [
+   100,
+   1
+  ],
+  "max_subsheaf_slope": [
+   104,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     1,
+     0,
+     -1
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 208,
+   "slope": [
+    104,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -21,
+    125
+   ],
+   [
+    63,
+    500
+   ],
+   [
+    -21,
+    125
+   ],
+   [
+    63,
+    250
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 12,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     12,
+     24,
+     19,
+     7
+    ],
+    "LATTICE_VOLUME": 400,
+    "H_STAR_VECTOR": [
+     1,
+     79,
+     240,
+     79,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0020",
+  "dim": 4,
+  "num_rays": 6,
+  "degrees": [
+   9,
+   171,
+   81,
+   81,
+   81,
+   171
+  ],
+  "anticanonical_degree": 594,
+  "mu_TX": [
+   297,
+   2
+  ],
+  "max_subsheaf_slope": [
+   351,
+   2
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     1,
+     0,
+     1
+    ]
+   ],
+   "deg": 351,
+   "slope": [
+    351,
+    2
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -68,
+    165
+   ],
+   [
+    -34,
+    55
+   ],
+   [
+    -68,
+    165
+   ],
+   [
+    17,
+    55
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 6,
+   "picard_rank": 2,
+   "dual_polydb": {
+    "N_VERTICES": 9,
+    "N_FACETS": 6,
+    "F_VECTOR": [
+     9,
+     18,
+     15,
+     6
+    ],
+    "LATTICE_VOLUME": 594,
+    "H_STAR_VECTOR": [
+     1,
+     115,
+     362,
+     115,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0021",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   18,
+   59,
+   25,
+   25,
+   41,
+   30,
+   30,
+   41,
+   36
+  ],
+  "anticanonical_degree": 305,
+  "mu_TX": [
+   305,
+   4
+  ],
+  "max_subsheaf_slope": [
+   77,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ]
+   ],
+   "deg": 77,
+   "slope": [
+    77,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -184,
+    1525
+   ],
+   [
+    -46,
+    1525
+   ],
+   [
+    -276,
+    1525
+   ],
+   [
+    46,
+    1525
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 21,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     21,
+     42,
+     30,
+     9
+    ],
+    "LATTICE_VOLUME": 305,
+    "H_STAR_VECTOR": [
+     1,
+     61,
+     181,
+     61,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0022",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   55,
+   47,
+   30,
+   70,
+   72,
+   25,
+   23,
+   47
+  ],
+  "anticanonical_degree": 369,
+  "mu_TX": [
+   369,
+   4
+  ],
+  "max_subsheaf_slope": [
+   93,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 93,
+   "slope": [
+    93,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -314,
+    1845
+   ],
+   [
+    -476,
+    1845
+   ],
+   [
+    -4,
+    45
+   ],
+   [
+    316,
+    1845
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 17,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     17,
+     34,
+     25,
+     8
+    ],
+    "LATTICE_VOLUME": 369,
+    "H_STAR_VECTOR": [
+     1,
+     73,
+     221,
+     73,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0023",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   72,
+   47,
+   72,
+   25,
+   72,
+   47,
+   25,
+   25
+  ],
+  "anticanonical_degree": 385,
+  "mu_TX": [
+   385,
+   4
+  ],
+  "max_subsheaf_slope": [
+   97,
+   1
+  ],
+  "witness": {
+   "deg": 291,
+   "dim": 3,
+   "rays_in_V": [
+    [
+     -1,
+     -1,
+     1,
+     1
+    ],
+    [
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     -1,
+     -1
+    ]
+   ],
+   "slope": [
+    97,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -316,
+    1925
+   ],
+   [
+    -316,
+    1925
+   ],
+   [
+    -474,
+    1925
+   ],
+   [
+    -474,
+    1925
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 17,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     17,
+     34,
+     25,
+     8
+    ],
+    "LATTICE_VOLUME": 385,
+    "H_STAR_VECTOR": [
+     1,
+     76,
+     231,
+     76,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0024",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   24,
+   47,
+   24,
+   47,
+   23,
+   24,
+   47,
+   47,
+   24
+  ],
+  "anticanonical_degree": 307,
+  "mu_TX": [
+   307,
+   4
+  ],
+  "max_subsheaf_slope": [
+   71,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ]
+   ],
+   "deg": 71,
+   "slope": [
+    71,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    -156,
+    1535
+   ],
+   [
+    -156,
+    1535
+   ],
+   [
+    156,
+    1535
+   ],
+   [
+    -624,
+    1535
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 23,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     23,
+     46,
+     32,
+     9
+    ],
+    "LATTICE_VOLUME": 307,
+    "H_STAR_VECTOR": [
+     1,
+     61,
+     183,
+     61,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0025",
+  "dim": 4,
+  "num_rays": 10,
+  "degrees": [
+   23,
+   23,
+   23,
+   23,
+   23,
+   23,
+   23,
+   23,
+   23,
+   23
+  ],
+  "anticanonical_degree": 230,
+  "mu_TX": [
+   115,
+   2
+  ],
+  "max_subsheaf_slope": [
+   46,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "deg": 46,
+   "slope": [
+    46,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "kahler_einstein": true,
+  "extra": {
+   "n_vertices": 10,
+   "picard_rank": 6,
+   "dual_polydb": {
+    "N_VERTICES": 30,
+    "N_FACETS": 10,
+    "F_VECTOR": [
+     30,
+     60,
+     40,
+     10
+    ],
+    "LATTICE_VOLUME": 230,
+    "H_STAR_VECTOR": [
+     1,
+     46,
+     136,
+     46,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0026",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   108,
+   28,
+   55,
+   53,
+   81,
+   53,
+   55
+  ],
+  "anticanonical_degree": 433,
+  "mu_TX": [
+   433,
+   4
+  ],
+  "max_subsheaf_slope": [
+   109,
+   1
+  ],
+  "witness": {
+   "deg": 327,
+   "dim": 3,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     1
+    ]
+   ],
+   "slope": [
+    109,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -266,
+    2165
+   ],
+   [
+    -444,
+    2165
+   ],
+   [
+    -356,
+    2165
+   ],
+   [
+    532,
+    2165
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 13,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     13,
+     26,
+     20,
+     7
+    ],
+    "LATTICE_VOLUME": 433,
+    "H_STAR_VECTOR": [
+     1,
+     85,
+     261,
+     85,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0027",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   45,
+   45,
+   28,
+   45,
+   45,
+   45,
+   45,
+   28
+  ],
+  "anticanonical_degree": 326,
+  "mu_TX": [
+   163,
+   2
+  ],
+  "max_subsheaf_slope": [
+   236,
+   3
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     1,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1,
+     1
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     1,
+     -1
+    ]
+   ],
+   "deg": 236,
+   "slope": [
+    236,
+    3
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    -8,
+    163
+   ],
+   [
+    -8,
+    163
+   ],
+   [
+    16,
+    163
+   ],
+   [
+    16,
+    163
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 17,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     17,
+     34,
+     25,
+     8
+    ],
+    "LATTICE_VOLUME": 326,
+    "H_STAR_VECTOR": [
+     1,
+     65,
+     194,
+     65,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0028",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   69,
+   28,
+   7,
+   69,
+   7,
+   104,
+   69,
+   152
+  ],
+  "anticanonical_degree": 505,
+  "mu_TX": [
+   505,
+   4
+  ],
+  "max_subsheaf_slope": [
+   159,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "deg": 159,
+   "slope": [
+    159,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -164,
+    505
+   ],
+   [
+    -978,
+    2525
+   ],
+   [
+    -164,
+    505
+   ],
+   [
+    504,
+    2525
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 15,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     15,
+     30,
+     23,
+     8
+    ],
+    "LATTICE_VOLUME": 505,
+    "H_STAR_VECTOR": [
+     1,
+     99,
+     305,
+     99,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0029",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   7,
+   54,
+   61,
+   54,
+   7,
+   28,
+   61,
+   54,
+   28
+  ],
+  "anticanonical_degree": 354,
+  "mu_TX": [
+   177,
+   2
+  ],
+  "max_subsheaf_slope": [
+   96,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     1,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 192,
+   "slope": [
+    96,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -10,
+    59
+   ],
+   [
+    -15,
+    59
+   ],
+   [
+    -10,
+    59
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 18,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     18,
+     36,
+     27,
+     9
+    ],
+    "LATTICE_VOLUME": 354,
+    "H_STAR_VECTOR": [
+     1,
+     71,
+     210,
+     71,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0030",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   7,
+   19,
+   21,
+   70,
+   89,
+   70,
+   49,
+   117
+  ],
+  "anticanonical_degree": 442,
+  "mu_TX": [
+   221,
+   2
+  ],
+  "max_subsheaf_slope": [
+   124,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     0,
+     -1
+    ]
+   ],
+   "deg": 124,
+   "slope": [
+    124,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -122,
+    221
+   ],
+   [
+    -101,
+    221
+   ],
+   [
+    -138,
+    1105
+   ],
+   [
+    -229,
+    1105
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 442,
+    "H_STAR_VECTOR": [
+     1,
+     87,
+     266,
+     87,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0031",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   28,
+   98,
+   63,
+   26,
+   63,
+   7,
+   63,
+   61
+  ],
+  "anticanonical_degree": 409,
+  "mu_TX": [
+   409,
+   4
+  ],
+  "max_subsheaf_slope": [
+   110,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     1,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "deg": 220,
+   "slope": [
+    110,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -62,
+    409
+   ],
+   [
+    -282,
+    2045
+   ],
+   [
+    -648,
+    2045
+   ],
+   [
+    -62,
+    409
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 15,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     15,
+     30,
+     23,
+     8
+    ],
+    "LATTICE_VOLUME": 409,
+    "H_STAR_VECTOR": [
+     1,
+     81,
+     245,
+     81,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0032",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   78,
+   189,
+   104,
+   26,
+   7,
+   78,
+   78
+  ],
+  "anticanonical_degree": 560,
+  "mu_TX": [
+   140,
+   1
+  ],
+  "max_subsheaf_slope": [
+   196,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 196,
+   "slope": [
+    196,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -83,
+    280
+   ],
+   [
+    -657,
+    1400
+   ],
+   [
+    -83,
+    280
+   ],
+   [
+    21,
+    50
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 12,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     12,
+     24,
+     19,
+     7
+    ],
+    "LATTICE_VOLUME": 560,
+    "H_STAR_VECTOR": [
+     1,
+     109,
+     340,
+     109,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0033",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   23,
+   12,
+   51,
+   74,
+   23,
+   51,
+   74,
+   109
+  ],
+  "anticanonical_degree": 417,
+  "mu_TX": [
+   417,
+   4
+  ],
+  "max_subsheaf_slope": [
+   121,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "deg": 121,
+   "slope": [
+    121,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -644,
+    2085
+   ],
+   [
+    -160,
+    417
+   ],
+   [
+    -478,
+    2085
+   ],
+   [
+    52,
+    695
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 17,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     17,
+     34,
+     25,
+     8
+    ],
+    "LATTICE_VOLUME": 417,
+    "H_STAR_VECTOR": [
+     1,
+     82,
+     251,
+     82,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0034",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   12,
+   61,
+   25,
+   43,
+   43,
+   41,
+   23,
+   18,
+   55
+  ],
+  "anticanonical_degree": 321,
+  "mu_TX": [
+   321,
+   4
+  ],
+  "max_subsheaf_slope": [
+   235,
+   3
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     1,
+     0,
+     -1,
+     0
+    ],
+    [
+     -1,
+     0,
+     1,
+     0
+    ],
+    [
+     -1,
+     0,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "deg": 235,
+   "slope": [
+    235,
+    3
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    -314,
+    1605
+   ],
+   [
+    -62,
+    535
+   ],
+   [
+    -166,
+    1605
+   ],
+   [
+    224,
+    1605
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 21,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     21,
+     42,
+     30,
+     9
+    ],
+    "LATTICE_VOLUME": 321,
+    "H_STAR_VECTOR": [
+     1,
+     64,
+     191,
+     64,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0035",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   27,
+   33,
+   60,
+   33,
+   46,
+   27,
+   19,
+   46,
+   19
+  ],
+  "anticanonical_degree": 310,
+  "mu_TX": [
+   155,
+   2
+  ],
+  "max_subsheaf_slope": [
+   218,
+   3
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     -1,
+     1
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     1,
+     -1,
+     1,
+     0
+    ],
+    [
+     -1,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 218,
+   "slope": [
+    218,
+    3
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    -28,
+    155
+   ],
+   [
+    -19,
+    155
+   ],
+   [
+    -9,
+    155
+   ],
+   [
+    19,
+    155
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 21,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     21,
+     42,
+     30,
+     9
+    ],
+    "LATTICE_VOLUME": 310,
+    "H_STAR_VECTOR": [
+     1,
+     62,
+     184,
+     62,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0036",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   27,
+   65,
+   38,
+   53,
+   38,
+   53,
+   26,
+   27
+  ],
+  "anticanonical_degree": 327,
+  "mu_TX": [
+   327,
+   4
+  ],
+  "max_subsheaf_slope": [
+   221,
+   3
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     -1,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     1,
+     0,
+     0,
+     1
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ]
+   ],
+   "deg": 221,
+   "slope": [
+    221,
+    3
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    -36,
+    545
+   ],
+   [
+    38,
+    327
+   ],
+   [
+    38,
+    327
+   ],
+   [
+    72,
+    545
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 18,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     18,
+     36,
+     26,
+     8
+    ],
+    "LATTICE_VOLUME": 327,
+    "H_STAR_VECTOR": [
+     1,
+     65,
+     195,
+     65,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0037",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   31,
+   26,
+   26,
+   26,
+   26,
+   31,
+   26,
+   26,
+   31
+  ],
+  "anticanonical_degree": 249,
+  "mu_TX": [
+   249,
+   4
+  ],
+  "max_subsheaf_slope": [
+   145,
+   3
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     0,
+     1,
+     -1,
+     1
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     -1,
+     1,
+     -1
+    ]
+   ],
+   "deg": 145,
+   "slope": [
+    145,
+    3
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "kahler_einstein": true,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 24,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     24,
+     48,
+     33,
+     9
+    ],
+    "LATTICE_VOLUME": 249,
+    "H_STAR_VECTOR": [
+     1,
+     50,
+     147,
+     50,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0038",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   31,
+   65,
+   34,
+   31,
+   34,
+   31,
+   65,
+   31
+  ],
+  "anticanonical_degree": 322,
+  "mu_TX": [
+   161,
+   2
+  ],
+  "max_subsheaf_slope": [
+   66,
+   1
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     1,
+     -1,
+     -1,
+     1
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     1,
+     0
+    ]
+   ],
+   "deg": 198,
+   "slope": [
+    66,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    -124,
+    805
+   ],
+   [
+    -62,
+    805
+   ],
+   [
+    -62,
+    805
+   ],
+   [
+    124,
+    805
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 18,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     18,
+     36,
+     26,
+     8
+    ],
+    "LATTICE_VOLUME": 322,
+    "H_STAR_VECTOR": [
+     1,
+     64,
+     192,
+     64,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0039",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   20,
+   30,
+   49,
+   49,
+   53,
+   23,
+   72,
+   73
+  ],
+  "anticanonical_degree": 369,
+  "mu_TX": [
+   369,
+   4
+  ],
+  "max_subsheaf_slope": [
+   93,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "deg": 93,
+   "slope": [
+    93,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -356,
+    1845
+   ],
+   [
+    -218,
+    615
+   ],
+   [
+    -52,
+    615
+   ],
+   [
+    -38,
+    205
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 17,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     17,
+     34,
+     25,
+     8
+    ],
+    "LATTICE_VOLUME": 369,
+    "H_STAR_VECTOR": [
+     1,
+     73,
+     221,
+     73,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0040",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   85,
+   26,
+   36,
+   30,
+   66,
+   56,
+   66,
+   19
+  ],
+  "anticanonical_degree": 384,
+  "mu_TX": [
+   96,
+   1
+  ],
+  "max_subsheaf_slope": [
+   104,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 104,
+   "slope": [
+    104,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -59,
+    192
+   ],
+   [
+    -7,
+    64
+   ],
+   [
+    -1,
+    64
+   ],
+   [
+    11,
+    48
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 384,
+    "H_STAR_VECTOR": [
+     1,
+     76,
+     230,
+     76,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0041",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   73,
+   41,
+   31,
+   104,
+   32,
+   63,
+   73
+  ],
+  "anticanonical_degree": 417,
+  "mu_TX": [
+   417,
+   4
+  ],
+  "max_subsheaf_slope": [
+   104,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ]
+   ],
+   "deg": 104,
+   "slope": [
+    104,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    -508,
+    2085
+   ],
+   [
+    4,
+    2085
+   ],
+   [
+    -122,
+    417
+   ],
+   [
+    100,
+    417
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 13,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     13,
+     26,
+     20,
+     7
+    ],
+    "LATTICE_VOLUME": 417,
+    "H_STAR_VECTOR": [
+     1,
+     82,
+     251,
+     82,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0042",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   73,
+   28,
+   53,
+   53,
+   73,
+   45,
+   81
+  ],
+  "anticanonical_degree": 406,
+  "mu_TX": [
+   203,
+   2
+  ],
+  "max_subsheaf_slope": [
+   100,
+   1
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     1,
+     0,
+     0,
+     -1
+    ]
+   ],
+   "deg": 300,
+   "slope": [
+    100,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    -304,
+    1015
+   ],
+   [
+    -96,
+    1015
+   ],
+   [
+    8,
+    145
+   ],
+   [
+    -16,
+    145
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 13,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     13,
+     26,
+     20,
+     7
+    ],
+    "LATTICE_VOLUME": 406,
+    "H_STAR_VECTOR": [
+     1,
+     80,
+     244,
+     80,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0043",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   72,
+   98,
+   98,
+   26,
+   26,
+   72,
+   72
+  ],
+  "anticanonical_degree": 464,
+  "mu_TX": [
+   116,
+   1
+  ],
+  "max_subsheaf_slope": [
+   124,
+   1
+  ],
+  "witness": {
+   "deg": 248,
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "slope": [
+    124,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -4,
+    29
+   ],
+   [
+    -6,
+    29
+   ],
+   [
+    -4,
+    29
+   ],
+   [
+    6,
+    29
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 12,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     12,
+     24,
+     19,
+     7
+    ],
+    "LATTICE_VOLUME": 464,
+    "H_STAR_VECTOR": [
+     1,
+     91,
+     280,
+     91,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0044",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   59,
+   37,
+   26,
+   59,
+   26,
+   59,
+   48,
+   37
+  ],
+  "anticanonical_degree": 351,
+  "mu_TX": [
+   351,
+   4
+  ],
+  "max_subsheaf_slope": [
+   87,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "deg": 174,
+   "slope": [
+    87,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    -64,
+    1755
+   ],
+   [
+    -32,
+    585
+   ],
+   [
+    -32,
+    585
+   ],
+   [
+    -64,
+    1755
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 15,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     15,
+     30,
+     23,
+     8
+    ],
+    "LATTICE_VOLUME": 351,
+    "H_STAR_VECTOR": [
+     1,
+     70,
+     209,
+     70,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0045",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   70,
+   63,
+   96,
+   37,
+   70,
+   26,
+   70
+  ],
+  "anticanonical_degree": 432,
+  "mu_TX": [
+   108,
+   1
+  ],
+  "max_subsheaf_slope": [
+   111,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     1
+    ]
+   ],
+   "deg": 222,
+   "slope": [
+    111,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -79,
+    1080
+   ],
+   [
+    7,
+    90
+   ],
+   [
+    -79,
+    1080
+   ],
+   [
+    79,
+    360
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 12,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     12,
+     24,
+     19,
+     7
+    ],
+    "LATTICE_VOLUME": 432,
+    "H_STAR_VECTOR": [
+     1,
+     85,
+     260,
+     85,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0046",
+  "dim": 4,
+  "num_rays": 6,
+  "degrees": [
+   63,
+   144,
+   81,
+   81,
+   81,
+   63
+  ],
+  "anticanonical_degree": 513,
+  "mu_TX": [
+   513,
+   4
+  ],
+  "max_subsheaf_slope": [
+   144,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ]
+   ],
+   "deg": 144,
+   "slope": [
+    144,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -28,
+    285
+   ],
+   [
+    -14,
+    95
+   ],
+   [
+    -28,
+    285
+   ],
+   [
+    28,
+    95
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 6,
+   "picard_rank": 2,
+   "dual_polydb": {
+    "N_VERTICES": 9,
+    "N_FACETS": 6,
+    "F_VECTOR": [
+     9,
+     18,
+     15,
+     6
+    ],
+    "LATTICE_VOLUME": 513,
+    "H_STAR_VECTOR": [
+     1,
+     100,
+     311,
+     100,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0047",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   46,
+   14,
+   46,
+   46,
+   46,
+   14,
+   112,
+   6,
+   112
+  ],
+  "anticanonical_degree": 442,
+  "mu_TX": [
+   221,
+   2
+  ],
+  "max_subsheaf_slope": [
+   129,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ]
+   ],
+   "deg": 258,
+   "slope": [
+    129,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -329,
+    1105
+   ],
+   [
+    -329,
+    1105
+   ],
+   [
+    -329,
+    1105
+   ],
+   [
+    329,
+    1105
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 20,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     20,
+     40,
+     29,
+     9
+    ],
+    "LATTICE_VOLUME": 442,
+    "H_STAR_VECTOR": [
+     1,
+     87,
+     266,
+     87,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0048",
+  "dim": 4,
+  "num_rays": 10,
+  "degrees": [
+   36,
+   36,
+   6,
+   14,
+   36,
+   36,
+   14,
+   38,
+   38,
+   54
+  ],
+  "anticanonical_degree": 308,
+  "mu_TX": [
+   77,
+   1
+  ],
+  "max_subsheaf_slope": [
+   82,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     -1
+    ]
+   ],
+   "deg": 164,
+   "slope": [
+    82,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -10,
+    77
+   ],
+   [
+    -10,
+    77
+   ],
+   [
+    -10,
+    77
+   ],
+   [
+    10,
+    77
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 10,
+   "picard_rank": 6,
+   "dual_polydb": {
+    "N_VERTICES": 24,
+    "N_FACETS": 10,
+    "F_VECTOR": [
+     24,
+     48,
+     34,
+     10
+    ],
+    "LATTICE_VOLUME": 308,
+    "H_STAR_VECTOR": [
+     1,
+     62,
+     182,
+     62,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0049",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   44,
+   52,
+   44,
+   44,
+   108,
+   44,
+   14,
+   6,
+   38
+  ],
+  "anticanonical_degree": 394,
+  "mu_TX": [
+   197,
+   2
+  ],
+  "max_subsheaf_slope": [
+   114,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     1,
+     0,
+     -1
+    ],
+    [
+     0,
+     -1,
+     0,
+     1
+    ]
+   ],
+   "deg": 114,
+   "slope": [
+    114,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -176,
+    985
+   ],
+   [
+    -391,
+    985
+   ],
+   [
+    -176,
+    985
+   ],
+   [
+    -39,
+    985
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 20,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     20,
+     40,
+     29,
+     9
+    ],
+    "LATTICE_VOLUME": 394,
+    "H_STAR_VECTOR": [
+     1,
+     78,
+     236,
+     78,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0050",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   6,
+   52,
+   52,
+   162,
+   52,
+   52,
+   52,
+   52
+  ],
+  "anticanonical_degree": 480,
+  "mu_TX": [
+   120,
+   1
+  ],
+  "max_subsheaf_slope": [
+   168,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ]
+   ],
+   "deg": 168,
+   "slope": [
+    168,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -21,
+    100
+   ],
+   [
+    -21,
+    100
+   ],
+   [
+    -21,
+    100
+   ],
+   [
+    21,
+    50
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 480,
+    "H_STAR_VECTOR": [
+     1,
+     94,
+     290,
+     94,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0051",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   14,
+   50,
+   112,
+   50,
+   50,
+   12,
+   50,
+   126
+  ],
+  "anticanonical_degree": 464,
+  "mu_TX": [
+   116,
+   1
+  ],
+  "max_subsheaf_slope": [
+   140,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "deg": 140,
+   "slope": [
+    140,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -313,
+    1160
+   ],
+   [
+    -46,
+    145
+   ],
+   [
+    -313,
+    580
+   ],
+   [
+    -313,
+    1160
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 464,
+    "H_STAR_VECTOR": [
+     1,
+     91,
+     280,
+     91,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0052",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   38,
+   40,
+   12,
+   40,
+   40,
+   14,
+   54,
+   52,
+   40
+  ],
+  "anticanonical_degree": 330,
+  "mu_TX": [
+   165,
+   2
+  ],
+  "max_subsheaf_slope": [
+   85,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     -1
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "deg": 170,
+   "slope": [
+    85,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -28,
+    275
+   ],
+   [
+    -139,
+    825
+   ],
+   [
+    -28,
+    275
+   ],
+   [
+    29,
+    825
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 20,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     20,
+     40,
+     29,
+     9
+    ],
+    "LATTICE_VOLUME": 330,
+    "H_STAR_VECTOR": [
+     1,
+     66,
+     196,
+     66,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0053",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   44,
+   9,
+   23,
+   44,
+   46,
+   9,
+   46,
+   76,
+   108
+  ],
+  "anticanonical_degree": 405,
+  "mu_TX": [
+   405,
+   4
+  ],
+  "max_subsheaf_slope": [
+   117,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "deg": 117,
+   "slope": [
+    117,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -224,
+    675
+   ],
+   [
+    -514,
+    2025
+   ],
+   [
+    -112,
+    675
+   ],
+   [
+    356,
+    2025
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 20,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     20,
+     40,
+     29,
+     9
+    ],
+    "LATTICE_VOLUME": 405,
+    "H_STAR_VECTOR": [
+     1,
+     80,
+     243,
+     80,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0054",
+  "dim": 4,
+  "num_rays": 10,
+  "degrees": [
+   23,
+   36,
+   36,
+   36,
+   9,
+   45,
+   36,
+   9,
+   23,
+   45
+  ],
+  "anticanonical_degree": 298,
+  "mu_TX": [
+   149,
+   2
+  ],
+  "max_subsheaf_slope": [
+   77,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     -1
+    ],
+    [
+     -1,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "deg": 154,
+   "slope": [
+    77,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -30,
+    149
+   ],
+   [
+    -15,
+    149
+   ],
+   [
+    -15,
+    149
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 10,
+   "picard_rank": 6,
+   "dual_polydb": {
+    "N_VERTICES": 24,
+    "N_FACETS": 10,
+    "F_VECTOR": [
+     24,
+     48,
+     34,
+     10
+    ],
+    "LATTICE_VOLUME": 298,
+    "H_STAR_VECTOR": [
+     1,
+     60,
+     176,
+     60,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0055",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   46,
+   21,
+   46,
+   16,
+   92,
+   92,
+   9,
+   67,
+   16
+  ],
+  "anticanonical_degree": 405,
+  "mu_TX": [
+   405,
+   4
+  ],
+  "max_subsheaf_slope": [
+   225,
+   2
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     1,
+     1
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ]
+   ],
+   "deg": 225,
+   "slope": [
+    225,
+    2
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -992,
+    2025
+   ],
+   [
+    -496,
+    2025
+   ],
+   [
+    514,
+    2025
+   ],
+   [
+    514,
+    2025
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 20,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     20,
+     40,
+     29,
+     9
+    ],
+    "LATTICE_VOLUME": 405,
+    "H_STAR_VECTOR": [
+     1,
+     80,
+     243,
+     80,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0056",
+  "dim": 4,
+  "num_rays": 10,
+  "degrees": [
+   16,
+   36,
+   16,
+   36,
+   54,
+   18,
+   34,
+   9,
+   45,
+   34
+  ],
+  "anticanonical_degree": 298,
+  "mu_TX": [
+   149,
+   2
+  ],
+  "max_subsheaf_slope": [
+   77,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1,
+     1
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     1,
+     -1
+    ]
+   ],
+   "deg": 154,
+   "slope": [
+    77,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -44,
+    149
+   ],
+   [
+    -22,
+    149
+   ],
+   [
+    15,
+    149
+   ],
+   [
+    30,
+    149
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 10,
+   "picard_rank": 6,
+   "dual_polydb": {
+    "N_VERTICES": 24,
+    "N_FACETS": 10,
+    "F_VECTOR": [
+     24,
+     48,
+     34,
+     10
+    ],
+    "LATTICE_VOLUME": 298,
+    "H_STAR_VECTOR": [
+     1,
+     60,
+     176,
+     60,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0057",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   44,
+   65,
+   44,
+   21,
+   9,
+   34,
+   16,
+   90,
+   50
+  ],
+  "anticanonical_degree": 373,
+  "mu_TX": [
+   373,
+   4
+  ],
+  "max_subsheaf_slope": [
+   199,
+   2
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ]
+   ],
+   "deg": 199,
+   "slope": [
+    199,
+    2
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -668,
+    1865
+   ],
+   [
+    -334,
+    1865
+   ],
+   [
+    -94,
+    1865
+   ],
+   [
+    562,
+    1865
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 20,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     20,
+     40,
+     29,
+     9
+    ],
+    "LATTICE_VOLUME": 373,
+    "H_STAR_VECTOR": [
+     1,
+     74,
+     223,
+     74,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0058",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   40,
+   40,
+   44,
+   9,
+   23,
+   24,
+   44,
+   72,
+   45
+  ],
+  "anticanonical_degree": 341,
+  "mu_TX": [
+   341,
+   4
+  ],
+  "max_subsheaf_slope": [
+   87,
+   1
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     1,
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "deg": 261,
+   "slope": [
+    87,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -168,
+    1705
+   ],
+   [
+    -452,
+    1705
+   ],
+   [
+    -226,
+    1705
+   ],
+   [
+    -84,
+    1705
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 20,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     20,
+     40,
+     29,
+     9
+    ],
+    "LATTICE_VOLUME": 341,
+    "H_STAR_VECTOR": [
+     1,
+     68,
+     203,
+     68,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0059",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   76,
+   52,
+   135,
+   52,
+   50,
+   24,
+   9,
+   50
+  ],
+  "anticanonical_degree": 448,
+  "mu_TX": [
+   112,
+   1
+  ],
+  "max_subsheaf_slope": [
+   144,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 144,
+   "slope": [
+    144,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -2,
+    5
+   ],
+   [
+    -103,
+    560
+   ],
+   [
+    -1,
+    5
+   ],
+   [
+    103,
+    280
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 448,
+    "H_STAR_VECTOR": [
+     1,
+     88,
+     270,
+     88,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0060",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   40,
+   15,
+   46,
+   46,
+   13,
+   40,
+   27,
+   36,
+   68
+  ],
+  "anticanonical_degree": 331,
+  "mu_TX": [
+   331,
+   4
+  ],
+  "max_subsheaf_slope": [
+   251,
+   3
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     -1,
+     1
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "deg": 251,
+   "slope": [
+    251,
+    3
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -384,
+    1655
+   ],
+   [
+    -226,
+    1655
+   ],
+   [
+    68,
+    1655
+   ],
+   [
+    34,
+    1655
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 20,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     20,
+     40,
+     29,
+     9
+    ],
+    "LATTICE_VOLUME": 331,
+    "H_STAR_VECTOR": [
+     1,
+     66,
+     197,
+     66,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0061",
+  "dim": 4,
+  "num_rays": 10,
+  "degrees": [
+   15,
+   36,
+   36,
+   36,
+   13,
+   36,
+   15,
+   27,
+   27,
+   37
+  ],
+  "anticanonical_degree": 278,
+  "mu_TX": [
+   139,
+   2
+  ],
+  "max_subsheaf_slope": [
+   206,
+   3
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1,
+     1
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     -1,
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "deg": 206,
+   "slope": [
+    206,
+    3
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    -20,
+    139
+   ],
+   [
+    -5,
+    139
+   ],
+   [
+    -10,
+    139
+   ],
+   [
+    -5,
+    139
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 10,
+   "picard_rank": 6,
+   "dual_polydb": {
+    "N_VERTICES": 24,
+    "N_FACETS": 10,
+    "F_VECTOR": [
+     24,
+     48,
+     34,
+     10
+    ],
+    "LATTICE_VOLUME": 278,
+    "H_STAR_VECTOR": [
+     1,
+     56,
+     164,
+     56,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0062",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   44,
+   15,
+   44,
+   44,
+   13,
+   44,
+   72,
+   15,
+   72
+  ],
+  "anticanonical_degree": 363,
+  "mu_TX": [
+   363,
+   4
+  ],
+  "max_subsheaf_slope": [
+   187,
+   2
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     1,
+     0
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     1,
+     0,
+     -1,
+     0
+    ]
+   ],
+   "deg": 187,
+   "slope": [
+    187,
+    2
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -776,
+    1815
+   ],
+   [
+    -194,
+    1815
+   ],
+   [
+    -388,
+    1815
+   ],
+   [
+    -194,
+    1815
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 20,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     20,
+     40,
+     29,
+     9
+    ],
+    "LATTICE_VOLUME": 363,
+    "H_STAR_VECTOR": [
+     1,
+     72,
+     217,
+     72,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0063",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   63,
+   20,
+   45,
+   15,
+   20,
+   45,
+   18,
+   53,
+   53
+  ],
+  "anticanonical_degree": 332,
+  "mu_TX": [
+   83,
+   1
+  ],
+  "max_subsheaf_slope": [
+   242,
+   3
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     -1,
+     0,
+     1,
+     0
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "deg": 242,
+   "slope": [
+    242,
+    3
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    -23,
+    166
+   ],
+   [
+    12,
+    83
+   ],
+   [
+    23,
+    166
+   ],
+   [
+    -6,
+    83
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 21,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     21,
+     42,
+     30,
+     9
+    ],
+    "LATTICE_VOLUME": 332,
+    "H_STAR_VECTOR": [
+     1,
+     66,
+     198,
+     66,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0064",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   42,
+   46,
+   12,
+   18,
+   46,
+   72,
+   42,
+   72,
+   18
+  ],
+  "anticanonical_degree": 368,
+  "mu_TX": [
+   92,
+   1
+  ],
+  "max_subsheaf_slope": [
+   96,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     0,
+     1
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 192,
+   "slope": [
+    96,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "deg": 92,
+    "slope": [
+     92,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      1
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      1,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ]
+    ],
+    "deg": 276,
+    "slope": [
+     92,
+     1
+    ]
+   }
+  ],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -37,
+    184
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    -37,
+    184
+   ],
+   [
+    37,
+    184
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 20,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     20,
+     40,
+     29,
+     9
+    ],
+    "LATTICE_VOLUME": 368,
+    "H_STAR_VECTOR": [
+     1,
+     73,
+     220,
+     73,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0065",
+  "dim": 4,
+  "num_rays": 10,
+  "degrees": [
+   30,
+   30,
+   12,
+   36,
+   36,
+   36,
+   36,
+   18,
+   18,
+   36
+  ],
+  "anticanonical_degree": 288,
+  "mu_TX": [
+   72,
+   1
+  ],
+  "max_subsheaf_slope": [
+   72,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "deg": 72,
+   "slope": [
+    72,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "deg": 72,
+    "slope": [
+     72,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      1
+     ],
+     [
+      1,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 144,
+    "slope": [
+     72,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "deg": 216,
+    "slope": [
+     72,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      -1
+     ],
+     [
+      -1,
+      0,
+      1,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 216,
+    "slope": [
+     72,
+     1
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    -5,
+    72
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    -5,
+    72
+   ],
+   [
+    5,
+    72
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 10,
+   "picard_rank": 6,
+   "dual_polydb": {
+    "N_VERTICES": 24,
+    "N_FACETS": 10,
+    "F_VECTOR": [
+     24,
+     48,
+     34,
+     10
+    ],
+    "LATTICE_VOLUME": 288,
+    "H_STAR_VECTOR": [
+     1,
+     58,
+     170,
+     58,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0066",
+  "dim": 4,
+  "num_rays": 10,
+  "degrees": [
+   36,
+   18,
+   18,
+   36,
+   36,
+   22,
+   22,
+   22,
+   36,
+   22
+  ],
+  "anticanonical_degree": 268,
+  "mu_TX": [
+   67,
+   1
+  ],
+  "max_subsheaf_slope": [
+   196,
+   3
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     -1,
+     0,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     0,
+     -1
+    ],
+    [
+     -1,
+     0,
+     1,
+     1
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "deg": 196,
+   "slope": [
+    196,
+    3
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "kahler_einstein": true,
+  "extra": {
+   "n_vertices": 10,
+   "picard_rank": 6,
+   "dual_polydb": {
+    "N_VERTICES": 24,
+    "N_FACETS": 10,
+    "F_VECTOR": [
+     24,
+     48,
+     34,
+     10
+    ],
+    "LATTICE_VOLUME": 268,
+    "H_STAR_VECTOR": [
+     1,
+     54,
+     158,
+     54,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0067",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   42,
+   44,
+   12,
+   18,
+   44,
+   42,
+   30,
+   72,
+   48
+  ],
+  "anticanonical_degree": 352,
+  "mu_TX": [
+   88,
+   1
+  ],
+  "max_subsheaf_slope": [
+   90,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     0,
+     1
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     1,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 180,
+   "slope": [
+    90,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "deg": 88,
+    "slope": [
+     88,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      1
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      1,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      1,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ]
+    ],
+    "deg": 264,
+    "slope": [
+     88,
+     1
+    ]
+   }
+  ],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -53,
+    176
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    -21,
+    176
+   ],
+   [
+    -1,
+    16
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 20,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     20,
+     40,
+     29,
+     9
+    ],
+    "LATTICE_VOLUME": 352,
+    "H_STAR_VECTOR": [
+     1,
+     70,
+     210,
+     70,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0068",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   44,
+   44,
+   40,
+   44,
+   36,
+   40,
+   22,
+   18,
+   22
+  ],
+  "anticanonical_degree": 310,
+  "mu_TX": [
+   155,
+   2
+  ],
+  "max_subsheaf_slope": [
+   230,
+   3
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     1,
+     1,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     -1
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ]
+   ],
+   "deg": 230,
+   "slope": [
+    230,
+    3
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    -139,
+    775
+   ],
+   [
+    34,
+    775
+   ],
+   [
+    -34,
+    775
+   ],
+   [
+    -71,
+    775
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 20,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     20,
+     40,
+     29,
+     9
+    ],
+    "LATTICE_VOLUME": 310,
+    "H_STAR_VECTOR": [
+     1,
+     62,
+     184,
+     62,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0069",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   88,
+   88,
+   15,
+   27,
+   46,
+   46,
+   81,
+   20
+  ],
+  "anticanonical_degree": 411,
+  "mu_TX": [
+   411,
+   4
+  ],
+  "max_subsheaf_slope": [
+   319,
+   3
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     1,
+     0,
+     0,
+     1
+    ],
+    [
+     -1,
+     0,
+     1,
+     0
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ]
+   ],
+   "deg": 319,
+   "slope": [
+    319,
+    3
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -608,
+    2055
+   ],
+   [
+    -172,
+    685
+   ],
+   [
+    424,
+    2055
+   ],
+   [
+    304,
+    2055
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 411,
+    "H_STAR_VECTOR": [
+     1,
+     81,
+     247,
+     81,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0070",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   86,
+   86,
+   18,
+   22,
+   46,
+   46,
+   32,
+   54
+  ],
+  "anticanonical_degree": 390,
+  "mu_TX": [
+   195,
+   2
+  ],
+  "max_subsheaf_slope": [
+   298,
+   3
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     1,
+     0,
+     -1,
+     1
+    ],
+    [
+     -1,
+     0,
+     1,
+     0
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ]
+   ],
+   "deg": 298,
+   "slope": [
+    298,
+    3
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -409,
+    975
+   ],
+   [
+    -13,
+    75
+   ],
+   [
+    -71,
+    975
+   ],
+   [
+    13,
+    75
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 390,
+    "H_STAR_VECTOR": [
+     1,
+     77,
+     234,
+     77,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0071",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   48,
+   48,
+   52,
+   108,
+   48,
+   48,
+   12,
+   52
+  ],
+  "anticanonical_degree": 416,
+  "mu_TX": [
+   104,
+   1
+  ],
+  "max_subsheaf_slope": [
+   120,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 120,
+   "slope": [
+    120,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "deg": 104,
+    "slope": [
+     104,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      1,
+      1
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ]
+    ],
+    "deg": 312,
+    "slope": [
+     104,
+     1
+    ]
+   }
+  ],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -2,
+    13
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    -2,
+    13
+   ],
+   [
+    4,
+    13
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 416,
+    "H_STAR_VECTOR": [
+     1,
+     82,
+     250,
+     82,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0072",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   44,
+   44,
+   52,
+   54,
+   44,
+   44,
+   18,
+   52
+  ],
+  "anticanonical_degree": 352,
+  "mu_TX": [
+   88,
+   1
+  ],
+  "max_subsheaf_slope": [
+   88,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     0,
+     -1
+    ]
+   ],
+   "deg": 176,
+   "slope": [
+    88,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      1,
+      0,
+      -1
+     ]
+    ],
+    "deg": 176,
+    "slope": [
+     88,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      1,
+      1
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      1,
+      0,
+      -1
+     ]
+    ],
+    "deg": 264,
+    "slope": [
+     88,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      1,
+      0,
+      -1
+     ]
+    ],
+    "deg": 264,
+    "slope": [
+     88,
+     1
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    -17,
+    220
+   ],
+   [
+    17,
+    220
+   ],
+   [
+    -17,
+    220
+   ],
+   [
+    17,
+    110
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 352,
+    "H_STAR_VECTOR": [
+     1,
+     70,
+     210,
+     70,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0073",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   126,
+   18,
+   54,
+   54,
+   54,
+   126,
+   54
+  ],
+  "anticanonical_degree": 486,
+  "mu_TX": [
+   243,
+   2
+  ],
+  "max_subsheaf_slope": [
+   135,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     1
+    ]
+   ],
+   "deg": 270,
+   "slope": [
+    135,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -11,
+    45
+   ],
+   [
+    -22,
+    45
+   ],
+   [
+    -11,
+    45
+   ],
+   [
+    11,
+    45
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 12,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     12,
+     24,
+     19,
+     7
+    ],
+    "LATTICE_VOLUME": 486,
+    "H_STAR_VECTOR": [
+     1,
+     95,
+     294,
+     95,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0074",
+  "dim": 4,
+  "num_rays": 10,
+  "degrees": [
+   21,
+   42,
+   21,
+   21,
+   21,
+   42,
+   21,
+   21,
+   42,
+   42
+  ],
+  "anticanonical_degree": 294,
+  "mu_TX": [
+   147,
+   2
+  ],
+  "max_subsheaf_slope": [
+   147,
+   2
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     1,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ]
+   ],
+   "deg": 147,
+   "slope": [
+    147,
+    2
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      0,
+      1,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ]
+    ],
+    "deg": 147,
+    "slope": [
+     147,
+     2
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      -1,
+      1,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 147,
+    "slope": [
+     147,
+     2
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    -2,
+    21
+   ],
+   [
+    2,
+    21
+   ],
+   [
+    2,
+    21
+   ],
+   [
+    2,
+    21
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 10,
+   "picard_rank": 6,
+   "dual_polydb": {
+    "N_VERTICES": 25,
+    "N_FACETS": 10,
+    "F_VECTOR": [
+     25,
+     50,
+     35,
+     10
+    ],
+    "LATTICE_VOLUME": 294,
+    "H_STAR_VECTOR": [
+     1,
+     59,
+     174,
+     59,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0075",
+  "dim": 4,
+  "num_rays": 11,
+  "degrees": [
+   18,
+   36,
+   18,
+   21,
+   18,
+   21,
+   21,
+   36,
+   21,
+   21,
+   21
+  ],
+  "anticanonical_degree": 252,
+  "mu_TX": [
+   63,
+   1
+  ],
+  "max_subsheaf_slope": [
+   63,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     1,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ]
+   ],
+   "deg": 126,
+   "slope": [
+    63,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      0,
+      1,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ]
+    ],
+    "deg": 126,
+    "slope": [
+     63,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      1,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      -1,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 126,
+    "slope": [
+     63,
+     1
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    21
+   ],
+   [
+    2,
+    21
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 11,
+   "picard_rank": 7,
+   "dual_polydb": {
+    "N_VERTICES": 30,
+    "N_FACETS": 11,
+    "F_VECTOR": [
+     30,
+     60,
+     41,
+     11
+    ],
+    "LATTICE_VOLUME": 252,
+    "H_STAR_VECTOR": [
+     1,
+     51,
+     148,
+     51,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0076",
+  "dim": 4,
+  "num_rays": 12,
+  "degrees": [
+   18,
+   18,
+   18,
+   18,
+   18,
+   18,
+   18,
+   18,
+   18,
+   18,
+   18,
+   18
+  ],
+  "anticanonical_degree": 216,
+  "mu_TX": [
+   54,
+   1
+  ],
+  "max_subsheaf_slope": [
+   54,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     1,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     -1,
+     1
+    ]
+   ],
+   "deg": 108,
+   "slope": [
+    54,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      1,
+      -1
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      -1,
+      1
+     ]
+    ],
+    "deg": 108,
+    "slope": [
+     54,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      1,
+      -1,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      -1,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 108,
+    "slope": [
+     54,
+     1
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "kahler_einstein": true,
+  "extra": {
+   "n_vertices": 12,
+   "picard_rank": 8,
+   "dual_polydb": {
+    "N_VERTICES": 36,
+    "N_FACETS": 12,
+    "F_VECTOR": [
+     36,
+     72,
+     48,
+     12
+    ],
+    "LATTICE_VOLUME": 216,
+    "H_STAR_VECTOR": [
+     1,
+     44,
+     126,
+     44,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0077",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   16,
+   61,
+   40,
+   40,
+   18,
+   50,
+   21,
+   34,
+   45
+  ],
+  "anticanonical_degree": 325,
+  "mu_TX": [
+   325,
+   4
+  ],
+  "max_subsheaf_slope": [
+   245,
+   3
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     1
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ]
+   ],
+   "deg": 245,
+   "slope": [
+    245,
+    3
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -2,
+    125
+   ],
+   [
+    -206,
+    1625
+   ],
+   [
+    218,
+    1625
+   ],
+   [
+    194,
+    1625
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 20,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     20,
+     40,
+     29,
+     9
+    ],
+    "LATTICE_VOLUME": 325,
+    "H_STAR_VECTOR": [
+     1,
+     65,
+     193,
+     65,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0078",
+  "dim": 4,
+  "num_rays": 10,
+  "degrees": [
+   36,
+   24,
+   24,
+   18,
+   24,
+   36,
+   24,
+   24,
+   24,
+   54
+  ],
+  "anticanonical_degree": 288,
+  "mu_TX": [
+   72,
+   1
+  ],
+  "max_subsheaf_slope": [
+   72,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "deg": 72,
+   "slope": [
+    72,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "deg": 72,
+    "slope": [
+     72,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      1,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "deg": 144,
+    "slope": [
+     72,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      1,
+      0,
+      0,
+      -1
+     ]
+    ],
+    "deg": 144,
+    "slope": [
+     72,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      1,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "deg": 216,
+    "slope": [
+     72,
+     1
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    0,
+    1
+   ],
+   [
+    -1,
+    6
+   ],
+   [
+    -1,
+    12
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 10,
+   "picard_rank": 6,
+   "dual_polydb": {
+    "N_VERTICES": 24,
+    "N_FACETS": 10,
+    "F_VECTOR": [
+     24,
+     48,
+     34,
+     10
+    ],
+    "LATTICE_VOLUME": 288,
+    "H_STAR_VECTOR": [
+     1,
+     58,
+     170,
+     58,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0079",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   21,
+   48,
+   63,
+   48,
+   24,
+   42,
+   24,
+   42,
+   24
+  ],
+  "anticanonical_degree": 336,
+  "mu_TX": [
+   84,
+   1
+  ],
+  "max_subsheaf_slope": [
+   84,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ]
+   ],
+   "deg": 84,
+   "slope": [
+    84,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ]
+    ],
+    "deg": 84,
+    "slope": [
+     84,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      1,
+      0,
+      1
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ]
+    ],
+    "deg": 168,
+    "slope": [
+     84,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ]
+    ],
+    "deg": 168,
+    "slope": [
+     84,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ]
+    ],
+    "deg": 252,
+    "slope": [
+     84,
+     1
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    -2,
+    21
+   ],
+   [
+    -1,
+    12
+   ],
+   [
+    2,
+    21
+   ],
+   [
+    1,
+    6
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 20,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     20,
+     40,
+     29,
+     9
+    ],
+    "LATTICE_VOLUME": 336,
+    "H_STAR_VECTOR": [
+     1,
+     67,
+     200,
+     67,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0080",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   34,
+   79,
+   46,
+   46,
+   45,
+   20,
+   54,
+   33
+  ],
+  "anticanonical_degree": 357,
+  "mu_TX": [
+   357,
+   4
+  ],
+  "max_subsheaf_slope": [
+   265,
+   3
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 265,
+   "slope": [
+    265,
+    3
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    8,
+    1785
+   ],
+   [
+    -52,
+    595
+   ],
+   [
+    244,
+    1785
+   ],
+   [
+    304,
+    1785
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 357,
+    "H_STAR_VECTOR": [
+     1,
+     71,
+     213,
+     71,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0081",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   74,
+   16,
+   50,
+   18,
+   50,
+   24,
+   108,
+   92
+  ],
+  "anticanonical_degree": 432,
+  "mu_TX": [
+   108,
+   1
+  ],
+  "max_subsheaf_slope": [
+   124,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ]
+   ],
+   "deg": 124,
+   "slope": [
+    124,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -473,
+    1080
+   ],
+   [
+    -241,
+    1080
+   ],
+   [
+    1,
+    120
+   ],
+   [
+    38,
+    135
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 432,
+    "H_STAR_VECTOR": [
+     1,
+     85,
+     260,
+     85,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0082",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   48,
+   24,
+   48,
+   24,
+   72,
+   48,
+   72,
+   48
+  ],
+  "anticanonical_degree": 384,
+  "mu_TX": [
+   96,
+   1
+  ],
+  "max_subsheaf_slope": [
+   96,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ]
+   ],
+   "deg": 96,
+   "slope": [
+    96,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ]
+    ],
+    "deg": 96,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "deg": 96,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      1,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "deg": 192,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      0,
+      1,
+      1
+     ]
+    ],
+    "deg": 192,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "deg": 192,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      1,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "deg": 288,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      1
+     ]
+    ],
+    "deg": 288,
+    "slope": [
+     96,
+     1
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    -1,
+    12
+   ],
+   [
+    -1,
+    6
+   ],
+   [
+    -1,
+    12
+   ],
+   [
+    1,
+    6
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 384,
+    "H_STAR_VECTOR": [
+     1,
+     76,
+     230,
+     76,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0083",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   40,
+   40,
+   37,
+   40,
+   27,
+   24,
+   24,
+   27,
+   40
+  ],
+  "anticanonical_degree": 299,
+  "mu_TX": [
+   299,
+   4
+  ],
+  "max_subsheaf_slope": [
+   73,
+   1
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1,
+     1
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "deg": 219,
+   "slope": [
+    73,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    -16,
+    1495
+   ],
+   [
+    -32,
+    1495
+   ],
+   [
+    -32,
+    1495
+   ],
+   [
+    -16,
+    1495
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 20,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     20,
+     40,
+     29,
+     9
+    ],
+    "LATTICE_VOLUME": 299,
+    "H_STAR_VECTOR": [
+     1,
+     60,
+     177,
+     60,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0084",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   27,
+   68,
+   44,
+   45,
+   50,
+   24,
+   44,
+   50
+  ],
+  "anticanonical_degree": 352,
+  "mu_TX": [
+   88,
+   1
+  ],
+  "max_subsheaf_slope": [
+   88,
+   1
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     1,
+     -1,
+     0,
+     0
+    ]
+   ],
+   "deg": 264,
+   "slope": [
+    88,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      1
+     ],
+     [
+      1,
+      -1,
+      0,
+      0
+     ]
+    ],
+    "deg": 264,
+    "slope": [
+     88,
+     1
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    17,
+    440
+   ],
+   [
+    17,
+    220
+   ],
+   [
+    -6,
+    55
+   ],
+   [
+    31,
+    220
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 352,
+    "H_STAR_VECTOR": [
+     1,
+     70,
+     210,
+     70,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0085",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   99,
+   45,
+   54,
+   54,
+   54,
+   45,
+   54
+  ],
+  "anticanonical_degree": 405,
+  "mu_TX": [
+   405,
+   4
+  ],
+  "max_subsheaf_slope": [
+   99,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ]
+   ],
+   "deg": 99,
+   "slope": [
+    99,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    -4,
+    75
+   ],
+   [
+    -8,
+    75
+   ],
+   [
+    -4,
+    75
+   ],
+   [
+    16,
+    75
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 12,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     12,
+     24,
+     19,
+     7
+    ],
+    "LATTICE_VOLUME": 405,
+    "H_STAR_VECTOR": [
+     1,
+     80,
+     243,
+     80,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0086",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   73,
+   69,
+   53,
+   69,
+   31,
+   22,
+   27,
+   20
+  ],
+  "anticanonical_degree": 364,
+  "mu_TX": [
+   91,
+   1
+  ],
+  "max_subsheaf_slope": [
+   86,
+   1
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     1,
+     1
+    ]
+   ],
+   "deg": 258,
+   "slope": [
+    86,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    9,
+    91
+   ],
+   [
+    -167,
+    910
+   ],
+   [
+    79,
+    455
+   ],
+   [
+    9,
+    91
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 17,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     17,
+     34,
+     25,
+     8
+    ],
+    "LATTICE_VOLUME": 364,
+    "H_STAR_VECTOR": [
+     1,
+     72,
+     218,
+     72,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0087",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   68,
+   81,
+   23,
+   46,
+   46,
+   12,
+   45,
+   68
+  ],
+  "anticanonical_degree": 389,
+  "mu_TX": [
+   389,
+   4
+  ],
+  "max_subsheaf_slope": [
+   99,
+   1
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     -1
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     1,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 297,
+   "slope": [
+    99,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    76,
+    1945
+   ],
+   [
+    -644,
+    1945
+   ],
+   [
+    -246,
+    1945
+   ],
+   [
+    -152,
+    1945
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 389,
+    "H_STAR_VECTOR": [
+     1,
+     77,
+     233,
+     77,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0088",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   36,
+   99,
+   13,
+   36,
+   50,
+   50,
+   50,
+   50
+  ],
+  "anticanonical_degree": 384,
+  "mu_TX": [
+   96,
+   1
+  ],
+  "max_subsheaf_slope": [
+   112,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ]
+   ],
+   "deg": 112,
+   "slope": [
+    112,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -71,
+    960
+   ],
+   [
+    -71,
+    240
+   ],
+   [
+    -71,
+    480
+   ],
+   [
+    -71,
+    960
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 384,
+    "H_STAR_VECTOR": [
+     1,
+     76,
+     230,
+     76,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0089",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   85,
+   25,
+   66,
+   66,
+   41,
+   19,
+   19,
+   63
+  ],
+  "anticanonical_degree": 384,
+  "mu_TX": [
+   96,
+   1
+  ],
+  "max_subsheaf_slope": [
+   93,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     -1,
+     0
+    ]
+   ],
+   "deg": 186,
+   "slope": [
+    93,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    -161,
+    480
+   ],
+   [
+    193,
+    960
+   ],
+   [
+    -163,
+    960
+   ],
+   [
+    -1,
+    64
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 384,
+    "H_STAR_VECTOR": [
+     1,
+     76,
+     230,
+     76,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0090",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   50,
+   18,
+   24,
+   72,
+   48,
+   50,
+   90,
+   48
+  ],
+  "anticanonical_degree": 400,
+  "mu_TX": [
+   100,
+   1
+  ],
+  "max_subsheaf_slope": [
+   108,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "deg": 108,
+   "slope": [
+    108,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 100,
+    "slope": [
+     100,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      -1,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      -1,
+      1
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ]
+    ],
+    "deg": 300,
+    "slope": [
+     100,
+     1
+    ]
+   }
+  ],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    0,
+    1
+   ],
+   [
+    -6,
+    25
+   ],
+   [
+    -8,
+    25
+   ],
+   [
+    -4,
+    25
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 400,
+    "H_STAR_VECTOR": [
+     1,
+     79,
+     240,
+     79,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0091",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   30,
+   40,
+   24,
+   42,
+   42,
+   18,
+   36,
+   48,
+   40
+  ],
+  "anticanonical_degree": 320,
+  "mu_TX": [
+   80,
+   1
+  ],
+  "max_subsheaf_slope": [
+   80,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "deg": 80,
+   "slope": [
+    80,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 80,
+    "slope": [
+     80,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      -1,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      -1,
+      1,
+      1
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      -1
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "deg": 240,
+    "slope": [
+     80,
+     1
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    0,
+    1
+   ],
+   [
+    -21,
+    160
+   ],
+   [
+    -1,
+    32
+   ],
+   [
+    -11,
+    160
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 20,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     20,
+     40,
+     29,
+     9
+    ],
+    "LATTICE_VOLUME": 320,
+    "H_STAR_VECTOR": [
+     1,
+     64,
+     190,
+     64,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0092",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   64,
+   36,
+   27,
+   46,
+   46,
+   27,
+   37,
+   64
+  ],
+  "anticanonical_degree": 347,
+  "mu_TX": [
+   347,
+   4
+  ],
+  "max_subsheaf_slope": [
+   85,
+   1
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     -1
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     1,
+     1,
+     0,
+     0
+    ]
+   ],
+   "deg": 255,
+   "slope": [
+    85,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    144,
+    1735
+   ],
+   [
+    -288,
+    1735
+   ],
+   [
+    -36,
+    1735
+   ],
+   [
+    -216,
+    1735
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 347,
+    "H_STAR_VECTOR": [
+     1,
+     69,
+     207,
+     69,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0093",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   54,
+   81,
+   108,
+   108,
+   27,
+   54,
+   27
+  ],
+  "anticanonical_degree": 459,
+  "mu_TX": [
+   459,
+   4
+  ],
+  "max_subsheaf_slope": [
+   243,
+   2
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     1,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 243,
+   "slope": [
+    243,
+    2
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    16,
+    85
+   ],
+   [
+    -104,
+    255
+   ],
+   [
+    -52,
+    255
+   ],
+   [
+    16,
+    85
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 12,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     12,
+     24,
+     19,
+     7
+    ],
+    "LATTICE_VOLUME": 459,
+    "H_STAR_VECTOR": [
+     1,
+     90,
+     277,
+     90,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0094",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   19,
+   12,
+   98,
+   67,
+   98,
+   67,
+   67,
+   19
+  ],
+  "anticanonical_degree": 447,
+  "mu_TX": [
+   447,
+   4
+  ],
+  "max_subsheaf_slope": [
+   123,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 246,
+   "slope": [
+    123,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -356,
+    2235
+   ],
+   [
+    178,
+    745
+   ],
+   [
+    -356,
+    2235
+   ],
+   [
+    178,
+    745
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 15,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     15,
+     30,
+     23,
+     8
+    ],
+    "LATTICE_VOLUME": 447,
+    "H_STAR_VECTOR": [
+     1,
+     88,
+     269,
+     88,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0095",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   19,
+   12,
+   54,
+   37,
+   54,
+   37,
+   48,
+   19,
+   54
+  ],
+  "anticanonical_degree": 334,
+  "mu_TX": [
+   167,
+   2
+  ],
+  "max_subsheaf_slope": [
+   86,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     0,
+     -1
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "deg": 172,
+   "slope": [
+    86,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -10,
+    167
+   ],
+   [
+    15,
+    167
+   ],
+   [
+    -10,
+    167
+   ],
+   [
+    30,
+    167
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 18,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     18,
+     36,
+     27,
+     9
+    ],
+    "LATTICE_VOLUME": 334,
+    "H_STAR_VECTOR": [
+     1,
+     67,
+     198,
+     67,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0096",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   65,
+   12,
+   65,
+   37,
+   96,
+   19,
+   56,
+   65
+  ],
+  "anticanonical_degree": 415,
+  "mu_TX": [
+   415,
+   4
+  ],
+  "max_subsheaf_slope": [
+   110,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "deg": 220,
+   "slope": [
+    110,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -194,
+    2075
+   ],
+   [
+    -114,
+    2075
+   ],
+   [
+    -194,
+    2075
+   ],
+   [
+    582,
+    2075
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 15,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     15,
+     30,
+     23,
+     8
+    ],
+    "LATTICE_VOLUME": 415,
+    "H_STAR_VECTOR": [
+     1,
+     82,
+     249,
+     82,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0097",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   24,
+   48,
+   42,
+   42,
+   42,
+   48,
+   24,
+   24,
+   42
+  ],
+  "anticanonical_degree": 336,
+  "mu_TX": [
+   84,
+   1
+  ],
+  "max_subsheaf_slope": [
+   84,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ]
+   ],
+   "deg": 84,
+   "slope": [
+    84,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ]
+    ],
+    "deg": 84,
+    "slope": [
+     84,
+     1
+    ]
+   },
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 84,
+    "slope": [
+     84,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      1,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ]
+    ],
+    "deg": 168,
+    "slope": [
+     84,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 168,
+    "slope": [
+     84,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      1,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ]
+    ],
+    "deg": 252,
+    "slope": [
+     84,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      1,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 252,
+    "slope": [
+     84,
+     1
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    21
+   ],
+   [
+    2,
+    21
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 20,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     20,
+     40,
+     29,
+     9
+    ],
+    "LATTICE_VOLUME": 336,
+    "H_STAR_VECTOR": [
+     1,
+     67,
+     200,
+     67,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0098",
+  "dim": 4,
+  "num_rays": 10,
+  "degrees": [
+   24,
+   24,
+   24,
+   36,
+   24,
+   24,
+   24,
+   36,
+   36,
+   36
+  ],
+  "anticanonical_degree": 288,
+  "mu_TX": [
+   72,
+   1
+  ],
+  "max_subsheaf_slope": [
+   72,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "deg": 72,
+   "slope": [
+    72,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "deg": 72,
+    "slope": [
+     72,
+     1
+    ]
+   },
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 72,
+    "slope": [
+     72,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      1,
+      -1
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      -1,
+      1
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ]
+    ],
+    "deg": 144,
+    "slope": [
+     72,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "deg": 144,
+    "slope": [
+     72,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      1,
+      -1
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      -1,
+      1
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "deg": 216,
+    "slope": [
+     72,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      1,
+      -1
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      -1,
+      1
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 216,
+    "slope": [
+     72,
+     1
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "kahler_einstein": true,
+  "extra": {
+   "n_vertices": 10,
+   "picard_rank": 6,
+   "dual_polydb": {
+    "N_VERTICES": 24,
+    "N_FACETS": 10,
+    "F_VECTOR": [
+     24,
+     48,
+     34,
+     10
+    ],
+    "LATTICE_VOLUME": 288,
+    "H_STAR_VECTOR": [
+     1,
+     58,
+     170,
+     58,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0099",
+  "dim": 4,
+  "num_rays": 9,
+  "degrees": [
+   27,
+   27,
+   54,
+   54,
+   27,
+   27,
+   27,
+   54,
+   27
+  ],
+  "anticanonical_degree": 324,
+  "mu_TX": [
+   81,
+   1
+  ],
+  "max_subsheaf_slope": [
+   81,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     1,
+     -1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "deg": 162,
+   "slope": [
+    81,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      -1,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      1,
+      -1,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "deg": 162,
+    "slope": [
+     81,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      1
+     ]
+    ],
+    "deg": 162,
+    "slope": [
+     81,
+     1
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "kahler_einstein": true,
+  "extra": {
+   "n_vertices": 9,
+   "picard_rank": 5,
+   "dual_polydb": {
+    "N_VERTICES": 18,
+    "N_FACETS": 9,
+    "F_VECTOR": [
+     18,
+     36,
+     27,
+     9
+    ],
+    "LATTICE_VOLUME": 324,
+    "H_STAR_VECTOR": [
+     1,
+     65,
+     192,
+     65,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0100",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   48,
+   19,
+   61,
+   24,
+   61,
+   56,
+   61,
+   37
+  ],
+  "anticanonical_degree": 367,
+  "mu_TX": [
+   367,
+   4
+  ],
+  "max_subsheaf_slope": [
+   92,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     1,
+     1,
+     0
+    ]
+   ],
+   "deg": 184,
+   "slope": [
+    92,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -66,
+    1835
+   ],
+   [
+    -198,
+    1835
+   ],
+   [
+    264,
+    1835
+   ],
+   [
+    -66,
+    1835
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 15,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     15,
+     30,
+     23,
+     8
+    ],
+    "LATTICE_VOLUME": 367,
+    "H_STAR_VECTOR": [
+     1,
+     73,
+     219,
+     73,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0101",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   27,
+   27,
+   27,
+   54,
+   63,
+   54,
+   63,
+   63
+  ],
+  "anticanonical_degree": 378,
+  "mu_TX": [
+   189,
+   2
+  ],
+  "max_subsheaf_slope": [
+   189,
+   2
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     -1,
+     0
+    ]
+   ],
+   "deg": 189,
+   "slope": [
+    189,
+    2
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      1,
+      1,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ]
+    ],
+    "deg": 189,
+    "slope": [
+     189,
+     2
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      1,
+      0,
+      0,
+      1
+     ]
+    ],
+    "deg": 189,
+    "slope": [
+     189,
+     2
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    21
+   ],
+   [
+    2,
+    21
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 15,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     15,
+     30,
+     23,
+     8
+    ],
+    "LATTICE_VOLUME": 378,
+    "H_STAR_VECTOR": [
+     1,
+     75,
+     226,
+     75,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0102",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   24,
+   66,
+   66,
+   54,
+   46,
+   30,
+   36,
+   46
+  ],
+  "anticanonical_degree": 368,
+  "mu_TX": [
+   92,
+   1
+  ],
+  "max_subsheaf_slope": [
+   92,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "deg": 92,
+   "slope": [
+    92,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 92,
+    "slope": [
+     92,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      1,
+      1,
+      1
+     ],
+     [
+      0,
+      1,
+      0,
+      1
+     ]
+    ],
+    "deg": 276,
+    "slope": [
+     92,
+     1
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    0,
+    1
+   ],
+   [
+    11,
+    184
+   ],
+   [
+    21,
+    184
+   ],
+   [
+    11,
+    184
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 368,
+    "H_STAR_VECTOR": [
+     1,
+     73,
+     220,
+     73,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0103",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   85,
+   85,
+   85,
+   64,
+   27,
+   48,
+   37
+  ],
+  "anticanonical_degree": 431,
+  "mu_TX": [
+   431,
+   4
+  ],
+  "max_subsheaf_slope": [
+   101,
+   1
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     0,
+     1
+    ]
+   ],
+   "deg": 303,
+   "slope": [
+    101,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    94,
+    2155
+   ],
+   [
+    94,
+    2155
+   ],
+   [
+    264,
+    2155
+   ],
+   [
+    94,
+    2155
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 11,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     11,
+     22,
+     18,
+     7
+    ],
+    "LATTICE_VOLUME": 431,
+    "H_STAR_VECTOR": [
+     1,
+     85,
+     259,
+     85,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0104",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   89,
+   89,
+   8,
+   28,
+   125,
+   89,
+   61
+  ],
+  "anticanonical_degree": 489,
+  "mu_TX": [
+   489,
+   4
+  ],
+  "max_subsheaf_slope": [
+   133,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "deg": 133,
+   "slope": [
+    133,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -272,
+    815
+   ],
+   [
+    -152,
+    2445
+   ],
+   [
+    -152,
+    2445
+   ],
+   [
+    -392,
+    815
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 11,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     11,
+     22,
+     18,
+     7
+    ],
+    "LATTICE_VOLUME": 489,
+    "H_STAR_VECTOR": [
+     1,
+     96,
+     295,
+     96,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0105",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   76,
+   144,
+   56,
+   12,
+   76,
+   56,
+   76
+  ],
+  "anticanonical_degree": 496,
+  "mu_TX": [
+   124,
+   1
+  ],
+  "max_subsheaf_slope": [
+   156,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 156,
+   "slope": [
+    156,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -18,
+    155
+   ],
+   [
+    -27,
+    155
+   ],
+   [
+    -18,
+    155
+   ],
+   [
+    54,
+    155
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 12,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     12,
+     24,
+     19,
+     7
+    ],
+    "LATTICE_VOLUME": 496,
+    "H_STAR_VECTOR": [
+     1,
+     97,
+     300,
+     97,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0106",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   92,
+   56,
+   112,
+   92,
+   20,
+   56,
+   36
+  ],
+  "anticanonical_degree": 464,
+  "mu_TX": [
+   116,
+   1
+  ],
+  "max_subsheaf_slope": [
+   132,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 132,
+   "slope": [
+    132,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    8,
+    145
+   ],
+   [
+    -27,
+    145
+   ],
+   [
+    8,
+    145
+   ],
+   [
+    38,
+    145
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 12,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     12,
+     24,
+     19,
+     7
+    ],
+    "LATTICE_VOLUME": 464,
+    "H_STAR_VECTOR": [
+     1,
+     91,
+     280,
+     91,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0107",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   74,
+   117,
+   98,
+   19,
+   74,
+   24,
+   74
+  ],
+  "anticanonical_degree": 480,
+  "mu_TX": [
+   120,
+   1
+  ],
+  "max_subsheaf_slope": [
+   136,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 136,
+   "slope": [
+    136,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -161,
+    1200
+   ],
+   [
+    53,
+    400
+   ],
+   [
+    -161,
+    1200
+   ],
+   [
+    27,
+    100
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 12,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     12,
+     24,
+     19,
+     7
+    ],
+    "LATTICE_VOLUME": 480,
+    "H_STAR_VECTOR": [
+     1,
+     94,
+     290,
+     94,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0108",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   73,
+   37,
+   73,
+   73,
+   36,
+   36,
+   73
+  ],
+  "anticanonical_degree": 401,
+  "mu_TX": [
+   401,
+   4
+  ],
+  "max_subsheaf_slope": [
+   91,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     -1,
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     -1,
+     0,
+     1
+    ]
+   ],
+   "deg": 182,
+   "slope": [
+    91,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    -576,
+    2005
+   ],
+   [
+    -288,
+    2005
+   ],
+   [
+    144,
+    2005
+   ],
+   [
+    144,
+    2005
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 13,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     13,
+     26,
+     20,
+     7
+    ],
+    "LATTICE_VOLUME": 401,
+    "H_STAR_VECTOR": [
+     1,
+     79,
+     241,
+     79,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0109",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   48,
+   24,
+   48,
+   48,
+   72,
+   48,
+   48,
+   48
+  ],
+  "anticanonical_degree": 384,
+  "mu_TX": [
+   96,
+   1
+  ],
+  "max_subsheaf_slope": [
+   96,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "deg": 96,
+   "slope": [
+    96,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 96,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ]
+    ],
+    "deg": 96,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "deg": 96,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 192,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "deg": 192,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      0,
+      1,
+      1
+     ]
+    ],
+    "deg": 192,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "deg": 192,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      1
+     ]
+    ],
+    "deg": 288,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "deg": 288,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      1
+     ]
+    ],
+    "deg": 288,
+    "slope": [
+     96,
+     1
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    -1,
+    12
+   ],
+   [
+    1,
+    6
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 384,
+    "H_STAR_VECTOR": [
+     1,
+     76,
+     230,
+     76,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0110",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   48,
+   48,
+   48,
+   36,
+   44,
+   48,
+   36,
+   44
+  ],
+  "anticanonical_degree": 352,
+  "mu_TX": [
+   88,
+   1
+  ],
+  "max_subsheaf_slope": [
+   88,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "deg": 88,
+   "slope": [
+    88,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 88,
+    "slope": [
+     88,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      1,
+      0,
+      -1
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      0,
+      1,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ]
+    ],
+    "deg": 264,
+    "slope": [
+     88,
+     1
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "kahler_einstein": true,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 352,
+    "H_STAR_VECTOR": [
+     1,
+     70,
+     210,
+     70,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0111",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   90,
+   36,
+   54,
+   54,
+   54,
+   90,
+   54
+  ],
+  "anticanonical_degree": 432,
+  "mu_TX": [
+   108,
+   1
+  ],
+  "max_subsheaf_slope": [
+   108,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "deg": 108,
+   "slope": [
+    108,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 108,
+    "slope": [
+     108,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      1
+     ]
+    ],
+    "deg": 216,
+    "slope": [
+     108,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      1
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 324,
+    "slope": [
+     108,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      1
+     ]
+    ],
+    "deg": 324,
+    "slope": [
+     108,
+     1
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    0,
+    1
+   ],
+   [
+    -1,
+    4
+   ],
+   [
+    -1,
+    8
+   ],
+   [
+    1,
+    8
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 12,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     12,
+     24,
+     19,
+     7
+    ],
+    "LATTICE_VOLUME": 432,
+    "H_STAR_VECTOR": [
+     1,
+     85,
+     260,
+     85,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0112",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   72,
+   81,
+   54,
+   27,
+   72,
+   54,
+   72
+  ],
+  "anticanonical_degree": 432,
+  "mu_TX": [
+   108,
+   1
+  ],
+  "max_subsheaf_slope": [
+   108,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ]
+   ],
+   "deg": 108,
+   "slope": [
+    108,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ]
+    ],
+    "deg": 108,
+    "slope": [
+     108,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      1,
+      0,
+      0,
+      1
+     ]
+    ],
+    "deg": 216,
+    "slope": [
+     108,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      1,
+      1,
+      0
+     ]
+    ],
+    "deg": 216,
+    "slope": [
+     108,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      1,
+      0,
+      0,
+      1
+     ]
+    ],
+    "deg": 324,
+    "slope": [
+     108,
+     1
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    0,
+    1
+   ],
+   [
+    -1,
+    12
+   ],
+   [
+    1,
+    6
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 12,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     12,
+     24,
+     19,
+     7
+    ],
+    "LATTICE_VOLUME": 432,
+    "H_STAR_VECTOR": [
+     1,
+     85,
+     260,
+     85,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0113",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   68,
+   36,
+   56,
+   48,
+   68,
+   56,
+   68
+  ],
+  "anticanonical_degree": 400,
+  "mu_TX": [
+   100,
+   1
+  ],
+  "max_subsheaf_slope": [
+   98,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     1,
+     0
+    ]
+   ],
+   "deg": 196,
+   "slope": [
+    98,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    -2,
+    125
+   ],
+   [
+    3,
+    125
+   ],
+   [
+    -6,
+    125
+   ],
+   [
+    -2,
+    125
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 12,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     12,
+     24,
+     19,
+     7
+    ],
+    "LATTICE_VOLUME": 400,
+    "H_STAR_VECTOR": [
+     1,
+     79,
+     240,
+     79,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0114",
+  "dim": 4,
+  "num_rays": 6,
+  "degrees": [
+   112,
+   112,
+   112,
+   48,
+   64,
+   64
+  ],
+  "anticanonical_degree": 512,
+  "mu_TX": [
+   128,
+   1
+  ],
+  "max_subsheaf_slope": [
+   128,
+   1
+  ],
+  "witness": {
+   "dim": 3,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     0,
+     1
+    ],
+    [
+     0,
+     -1,
+     0,
+     0
+    ]
+   ],
+   "deg": 384,
+   "slope": [
+    128,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      1,
+      0,
+      1
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ]
+    ],
+    "deg": 384,
+    "slope": [
+     128,
+     1
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    1,
+    10
+   ],
+   [
+    -3,
+    10
+   ],
+   [
+    -3,
+    20
+   ],
+   [
+    1,
+    10
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 6,
+   "picard_rank": 2,
+   "dual_polydb": {
+    "N_VERTICES": 8,
+    "N_FACETS": 6,
+    "F_VECTOR": [
+     8,
+     16,
+     14,
+     6
+    ],
+    "LATTICE_VOLUME": 512,
+    "H_STAR_VECTOR": [
+     1,
+     100,
+     310,
+     100,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0115",
+  "dim": 4,
+  "num_rays": 6,
+  "degrees": [
+   216,
+   104,
+   104,
+   104,
+   104,
+   8
+  ],
+  "anticanonical_degree": 640,
+  "mu_TX": [
+   160,
+   1
+  ],
+  "max_subsheaf_slope": [
+   224,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 224,
+   "slope": [
+    224,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -21,
+    100
+   ],
+   [
+    -21,
+    100
+   ],
+   [
+    -21,
+    100
+   ],
+   [
+    21,
+    50
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 6,
+   "picard_rank": 2,
+   "dual_polydb": {
+    "N_VERTICES": 8,
+    "N_FACETS": 6,
+    "F_VECTOR": [
+     8,
+     16,
+     14,
+     6
+    ],
+    "LATTICE_VOLUME": 640,
+    "H_STAR_VECTOR": [
+     1,
+     124,
+     390,
+     124,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0116",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   72,
+   96,
+   56,
+   56,
+   24,
+   72,
+   72
+  ],
+  "anticanonical_degree": 448,
+  "mu_TX": [
+   112,
+   1
+  ],
+  "max_subsheaf_slope": [
+   120,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 120,
+   "slope": [
+    120,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ]
+    ],
+    "deg": 112,
+    "slope": [
+     112,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      1,
+      0,
+      1,
+      1
+     ]
+    ],
+    "deg": 336,
+    "slope": [
+     112,
+     1
+    ]
+   }
+  ],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -1,
+    14
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    -1,
+    14
+   ],
+   [
+    3,
+    14
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 12,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     12,
+     24,
+     19,
+     7
+    ],
+    "LATTICE_VOLUME": 448,
+    "H_STAR_VECTOR": [
+     1,
+     88,
+     270,
+     88,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0117",
+  "dim": 4,
+  "num_rays": 6,
+  "degrees": [
+   36,
+   117,
+   81,
+   81,
+   81,
+   117
+  ],
+  "anticanonical_degree": 513,
+  "mu_TX": [
+   513,
+   4
+  ],
+  "max_subsheaf_slope": [
+   135,
+   1
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     1,
+     0,
+     1
+    ]
+   ],
+   "deg": 270,
+   "slope": [
+    135,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -32,
+    285
+   ],
+   [
+    -32,
+    95
+   ],
+   [
+    -32,
+    285
+   ],
+   [
+    16,
+    95
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 6,
+   "picard_rank": 2,
+   "dual_polydb": {
+    "N_VERTICES": 9,
+    "N_FACETS": 6,
+    "F_VECTOR": [
+     9,
+     18,
+     15,
+     6
+    ],
+    "LATTICE_VOLUME": 513,
+    "H_STAR_VECTOR": [
+     1,
+     100,
+     311,
+     100,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0118",
+  "dim": 4,
+  "num_rays": 8,
+  "degrees": [
+   48,
+   48,
+   48,
+   48,
+   48,
+   48,
+   48,
+   48
+  ],
+  "anticanonical_degree": 384,
+  "mu_TX": [
+   96,
+   1
+  ],
+  "max_subsheaf_slope": [
+   96,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ]
+   ],
+   "deg": 96,
+   "slope": [
+    96,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ]
+    ],
+    "deg": 96,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ]
+    ],
+    "deg": 96,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 96,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ]
+    ],
+    "deg": 96,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ]
+    ],
+    "deg": 192,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 192,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ]
+    ],
+    "deg": 192,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 192,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ]
+    ],
+    "deg": 192,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 192,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 288,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ]
+    ],
+    "deg": 288,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 288,
+    "slope": [
+     96,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 288,
+    "slope": [
+     96,
+     1
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "kahler_einstein": true,
+  "extra": {
+   "n_vertices": 8,
+   "picard_rank": 4,
+   "dual_polydb": {
+    "N_VERTICES": 16,
+    "N_FACETS": 8,
+    "F_VECTOR": [
+     16,
+     32,
+     24,
+     8
+    ],
+    "LATTICE_VOLUME": 384,
+    "H_STAR_VECTOR": [
+     1,
+     76,
+     230,
+     76,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0119",
+  "dim": 4,
+  "num_rays": 7,
+  "degrees": [
+   72,
+   54,
+   54,
+   54,
+   72,
+   54,
+   72
+  ],
+  "anticanonical_degree": 432,
+  "mu_TX": [
+   108,
+   1
+  ],
+  "max_subsheaf_slope": [
+   108,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "deg": 108,
+   "slope": [
+    108,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "deg": 108,
+    "slope": [
+     108,
+     1
+    ]
+   },
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ]
+    ],
+    "deg": 108,
+    "slope": [
+     108,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      1,
+      0,
+      1
+     ]
+    ],
+    "deg": 216,
+    "slope": [
+     108,
+     1
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ]
+    ],
+    "deg": 216,
+    "slope": [
+     108,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      1,
+      0,
+      1
+     ]
+    ],
+    "deg": 324,
+    "slope": [
+     108,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      1
+     ]
+    ],
+    "deg": 324,
+    "slope": [
+     108,
+     1
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "kahler_einstein": true,
+  "extra": {
+   "n_vertices": 7,
+   "picard_rank": 3,
+   "dual_polydb": {
+    "N_VERTICES": 12,
+    "N_FACETS": 7,
+    "F_VECTOR": [
+     12,
+     24,
+     19,
+     7
+    ],
+    "LATTICE_VOLUME": 432,
+    "H_STAR_VECTOR": [
+     1,
+     85,
+     260,
+     85,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0120",
+  "dim": 4,
+  "num_rays": 6,
+  "degrees": [
+   125,
+   98,
+   98,
+   98,
+   98,
+   27
+  ],
+  "anticanonical_degree": 544,
+  "mu_TX": [
+   136,
+   1
+  ],
+  "max_subsheaf_slope": [
+   152,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "deg": 152,
+   "slope": [
+    152,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "unstable",
+  "barycenter": [
+   [
+    -81,
+    1360
+   ],
+   [
+    -81,
+    1360
+   ],
+   [
+    -81,
+    1360
+   ],
+   [
+    81,
+    340
+   ]
+  ],
+  "kahler_einstein": false,
+  "extra": {
+   "n_vertices": 6,
+   "picard_rank": 2,
+   "dual_polydb": {
+    "N_VERTICES": 8,
+    "N_FACETS": 6,
+    "F_VECTOR": [
+     8,
+     16,
+     14,
+     6
+    ],
+    "LATTICE_VOLUME": 544,
+    "H_STAR_VECTOR": [
+     1,
+     106,
+     330,
+     106,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0121",
+  "dim": 4,
+  "num_rays": 6,
+  "degrees": [
+   64,
+   96,
+   96,
+   96,
+   96,
+   64
+  ],
+  "anticanonical_degree": 512,
+  "mu_TX": [
+   128,
+   1
+  ],
+  "max_subsheaf_slope": [
+   128,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     0,
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ]
+   ],
+   "deg": 128,
+   "slope": [
+    128,
+    1
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 1,
+    "rays_in_V": [
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ]
+    ],
+    "deg": 128,
+    "slope": [
+     128,
+     1
+    ]
+   },
+   {
+    "dim": 3,
+    "rays_in_V": [
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      1,
+      1,
+      0,
+      1
+     ]
+    ],
+    "deg": 384,
+    "slope": [
+     128,
+     1
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "kahler_einstein": true,
+  "extra": {
+   "n_vertices": 6,
+   "picard_rank": 2,
+   "dual_polydb": {
+    "N_VERTICES": 8,
+    "N_FACETS": 6,
+    "F_VECTOR": [
+     8,
+     16,
+     14,
+     6
+    ],
+    "LATTICE_VOLUME": 512,
+    "H_STAR_VECTOR": [
+     1,
+     100,
+     310,
+     100,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0122",
+  "dim": 4,
+  "num_rays": 6,
+  "degrees": [
+   81,
+   81,
+   81,
+   81,
+   81,
+   81
+  ],
+  "anticanonical_degree": 486,
+  "mu_TX": [
+   243,
+   2
+  ],
+  "max_subsheaf_slope": [
+   243,
+   2
+  ],
+  "witness": {
+   "dim": 2,
+   "rays_in_V": [
+    [
+     0,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     1,
+     0,
+     1
+    ]
+   ],
+   "deg": 243,
+   "slope": [
+    243,
+    2
+   ]
+  },
+  "equality_witnesses": [
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      1,
+      0,
+      1
+     ]
+    ],
+    "deg": 243,
+    "slope": [
+     243,
+     2
+    ]
+   },
+   {
+    "dim": 2,
+    "rays_in_V": [
+     [
+      1,
+      0,
+      1,
+      0
+     ],
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ]
+    ],
+    "deg": 243,
+    "slope": [
+     243,
+     2
+    ]
+   }
+  ],
+  "verdict": "strictly semistable",
+  "barycenter": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "kahler_einstein": true,
+  "extra": {
+   "n_vertices": 6,
+   "picard_rank": 2,
+   "dual_polydb": {
+    "N_VERTICES": 9,
+    "N_FACETS": 6,
+    "F_VECTOR": [
+     9,
+     18,
+     15,
+     6
+    ],
+    "LATTICE_VOLUME": 486,
+    "H_STAR_VECTOR": [
+     1,
+     95,
+     294,
+     95,
+     1
+    ]
+   }
+  }
+ },
+ {
+  "name": "F.4D.0123",
+  "dim": 4,
+  "num_rays": 5,
+  "degrees": [
+   125,
+   125,
+   125,
+   125,
+   125
+  ],
+  "anticanonical_degree": 625,
+  "mu_TX": [
+   625,
+   4
+  ],
+  "max_subsheaf_slope": [
+   125,
+   1
+  ],
+  "witness": {
+   "dim": 1,
+   "rays_in_V": [
+    [
+     -1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "deg": 125,
+   "slope": [
+    125,
+    1
+   ]
+  },
+  "equality_witnesses": [],
+  "verdict": "stable",
+  "barycenter": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "kahler_einstein": true,
+  "extra": {
+   "n_vertices": 5,
+   "picard_rank": 1,
+   "dual_polydb": {
+    "N_VERTICES": 5,
+    "N_FACETS": 5,
+    "F_VECTOR": [
+     5,
+     10,
+     10,
+     5
+    ],
+    "LATTICE_VOLUME": 625,
+    "H_STAR_VECTOR": [
+     1,
+     121,
+     381,
+     121,
+     1
+    ]
+   }
+  }
+ }
+]

@@ -1,0 +1,4 @@
+# Only the accelerated checker (src/toric_fast.py) and the verification
+# scripts require these; src/toric_stability.py is dependency-free.
+numpy
+scipy

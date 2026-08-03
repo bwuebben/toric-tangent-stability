@@ -1,0 +1,1008 @@
+{
+ "dim": 3,
+ "count": 18,
+ "source": "polyDB (https://polydb.org), collection Polytopes.Lattice.SmoothReflexive, REST API https://polydb.org/rest/current/find/Polytopes.Lattice.SmoothReflexive?query={\"DIM\":d}; data by Andreas Paffenholz (http://polymake.org/polytopes/paffenholz/www/fano.html), computed with Mikkel Obro's classification algorithm (arXiv:0704.0049). Retrieved 2026-07-10.",
+ "convention": "vertices are primitive ray generators of the fan in N; polytope is the convex hull (smooth Fano polytope: reflexive, every facet a unimodular simplex). NOTE: polyDB stores the DUAL convention (the smooth reflexive moment polytope P in M, polymake VERTICES/FACETS); the fan polytope Q given here was obtained exactly as Q = conv of the primitive integer facet normals of P (each polyDB FACETS row [a0,a1..an], rescaled to primitive integers, has a0 = 1, and (a1..an) is a vertex of Q). Verified per polytope: all vertices primitive; for every vertex w of P the set {v in Q : <v,w> = -1} is a facet of Q that is a unimodular simplex (|det| = 1), all Q-vertices satisfy <v,w> >= -1, every Q-vertex lies on a facet, and the facet count of Q equals the vertex count of P. Origin is strictly interior (all facets at lattice distance 1). The id is the polyDB _id; extra.dual_polydb holds combinatorial data of the stored dual P (not of Q).",
+ "polytopes": [
+  {
+   "id": "F.3D.0000",
+   "vertices": [
+    [
+     -1,
+     1,
+     2
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ],
+    [
+     1,
+     0,
+     -1
+    ]
+   ],
+   "extra": {
+    "n_vertices": 6,
+    "picard_rank": 3,
+    "dual_polydb": {
+     "N_VERTICES": 8,
+     "N_FACETS": 6,
+     "F_VECTOR": [
+      8,
+      12,
+      6
+     ],
+     "LATTICE_VOLUME": 50,
+     "H_STAR_VECTOR": [
+      1,
+      24,
+      24,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "F.3D.0001",
+   "vertices": [
+    [
+     1,
+     1,
+     2
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ],
+   "extra": {
+    "n_vertices": 5,
+    "picard_rank": 2,
+    "dual_polydb": {
+     "N_VERTICES": 6,
+     "N_FACETS": 5,
+     "F_VECTOR": [
+      6,
+      9,
+      5
+     ],
+     "LATTICE_VOLUME": 62,
+     "H_STAR_VECTOR": [
+      1,
+      30,
+      30,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "F.3D.0002",
+   "vertices": [
+    [
+     -1,
+     1,
+     1
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     -1
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ],
+   "extra": {
+    "n_vertices": 7,
+    "picard_rank": 4,
+    "dual_polydb": {
+     "N_VERTICES": 10,
+     "N_FACETS": 7,
+     "F_VECTOR": [
+      10,
+      15,
+      7
+     ],
+     "LATTICE_VOLUME": 46,
+     "H_STAR_VECTOR": [
+      1,
+      22,
+      22,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "F.3D.0003",
+   "vertices": [
+    [
+     -1,
+     1,
+     1
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     -1
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     -1
+    ]
+   ],
+   "extra": {
+    "n_vertices": 8,
+    "picard_rank": 5,
+    "dual_polydb": {
+     "N_VERTICES": 12,
+     "N_FACETS": 8,
+     "F_VECTOR": [
+      12,
+      18,
+      8
+     ],
+     "LATTICE_VOLUME": 36,
+     "H_STAR_VECTOR": [
+      1,
+      17,
+      17,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "F.3D.0004",
+   "vertices": [
+    [
+     -1,
+     1,
+     1
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     -1
+    ],
+    [
+     1,
+     0,
+     -1
+    ]
+   ],
+   "extra": {
+    "n_vertices": 7,
+    "picard_rank": 4,
+    "dual_polydb": {
+     "N_VERTICES": 10,
+     "N_FACETS": 7,
+     "F_VECTOR": [
+      10,
+      15,
+      7
+     ],
+     "LATTICE_VOLUME": 44,
+     "H_STAR_VECTOR": [
+      1,
+      21,
+      21,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "F.3D.0005",
+   "vertices": [
+    [
+     0,
+     1,
+     1
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ],
+   "extra": {
+    "n_vertices": 6,
+    "picard_rank": 3,
+    "dual_polydb": {
+     "N_VERTICES": 8,
+     "N_FACETS": 6,
+     "F_VECTOR": [
+      8,
+      12,
+      6
+     ],
+     "LATTICE_VOLUME": 52,
+     "H_STAR_VECTOR": [
+      1,
+      25,
+      25,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "F.3D.0006",
+   "vertices": [
+    [
+     0,
+     -1,
+     1
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ],
+   "extra": {
+    "n_vertices": 6,
+    "picard_rank": 3,
+    "dual_polydb": {
+     "N_VERTICES": 8,
+     "N_FACETS": 6,
+     "F_VECTOR": [
+      8,
+      12,
+      6
+     ],
+     "LATTICE_VOLUME": 50,
+     "H_STAR_VECTOR": [
+      1,
+      24,
+      24,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "F.3D.0007",
+   "vertices": [
+    [
+     -1,
+     1,
+     1
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     -1
+    ]
+   ],
+   "extra": {
+    "n_vertices": 7,
+    "picard_rank": 4,
+    "dual_polydb": {
+     "N_VERTICES": 10,
+     "N_FACETS": 7,
+     "F_VECTOR": [
+      10,
+      15,
+      7
+     ],
+     "LATTICE_VOLUME": 40,
+     "H_STAR_VECTOR": [
+      1,
+      19,
+      19,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "F.3D.0008",
+   "vertices": [
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     1
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ],
+   "extra": {
+    "n_vertices": 7,
+    "picard_rank": 4,
+    "dual_polydb": {
+     "N_VERTICES": 10,
+     "N_FACETS": 7,
+     "F_VECTOR": [
+      10,
+      15,
+      7
+     ],
+     "LATTICE_VOLUME": 42,
+     "H_STAR_VECTOR": [
+      1,
+      20,
+      20,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "F.3D.0009",
+   "vertices": [
+    [
+     0,
+     -1,
+     1
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     1,
+     -1
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ],
+   "extra": {
+    "n_vertices": 8,
+    "picard_rank": 5,
+    "dual_polydb": {
+     "N_VERTICES": 12,
+     "N_FACETS": 8,
+     "F_VECTOR": [
+      12,
+      18,
+      8
+     ],
+     "LATTICE_VOLUME": 36,
+     "H_STAR_VECTOR": [
+      1,
+      17,
+      17,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "F.3D.0010",
+   "vertices": [
+    [
+     1,
+     0,
+     1
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     1
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ],
+   "extra": {
+    "n_vertices": 6,
+    "picard_rank": 3,
+    "dual_polydb": {
+     "N_VERTICES": 8,
+     "N_FACETS": 6,
+     "F_VECTOR": [
+      8,
+      12,
+      6
+     ],
+     "LATTICE_VOLUME": 46,
+     "H_STAR_VECTOR": [
+      1,
+      22,
+      22,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "F.3D.0011",
+   "vertices": [
+    [
+     0,
+     1,
+     1
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ],
+   "extra": {
+    "n_vertices": 6,
+    "picard_rank": 3,
+    "dual_polydb": {
+     "N_VERTICES": 8,
+     "N_FACETS": 6,
+     "F_VECTOR": [
+      8,
+      12,
+      6
+     ],
+     "LATTICE_VOLUME": 48,
+     "H_STAR_VECTOR": [
+      1,
+      23,
+      23,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "F.3D.0012",
+   "vertices": [
+    [
+     0,
+     1,
+     1
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ],
+    [
+     1,
+     0,
+     -1
+    ]
+   ],
+   "extra": {
+    "n_vertices": 6,
+    "picard_rank": 3,
+    "dual_polydb": {
+     "N_VERTICES": 8,
+     "N_FACETS": 6,
+     "F_VECTOR": [
+      8,
+      12,
+      6
+     ],
+     "LATTICE_VOLUME": 44,
+     "H_STAR_VECTOR": [
+      1,
+      21,
+      21,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "F.3D.0013",
+   "vertices": [
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     1
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ],
+   "extra": {
+    "n_vertices": 5,
+    "picard_rank": 2,
+    "dual_polydb": {
+     "N_VERTICES": 6,
+     "N_FACETS": 5,
+     "F_VECTOR": [
+      6,
+      9,
+      5
+     ],
+     "LATTICE_VOLUME": 54,
+     "H_STAR_VECTOR": [
+      1,
+      26,
+      26,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "F.3D.0014",
+   "vertices": [
+    [
+     1,
+     1,
+     1
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ],
+   "extra": {
+    "n_vertices": 5,
+    "picard_rank": 2,
+    "dual_polydb": {
+     "N_VERTICES": 6,
+     "N_FACETS": 5,
+     "F_VECTOR": [
+      6,
+      9,
+      5
+     ],
+     "LATTICE_VOLUME": 56,
+     "H_STAR_VECTOR": [
+      1,
+      27,
+      27,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "F.3D.0015",
+   "vertices": [
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ],
+   "extra": {
+    "n_vertices": 6,
+    "picard_rank": 3,
+    "dual_polydb": {
+     "N_VERTICES": 8,
+     "N_FACETS": 6,
+     "F_VECTOR": [
+      8,
+      12,
+      6
+     ],
+     "LATTICE_VOLUME": 48,
+     "H_STAR_VECTOR": [
+      1,
+      23,
+      23,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "F.3D.0016",
+   "vertices": [
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     1
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ],
+   "extra": {
+    "n_vertices": 5,
+    "picard_rank": 2,
+    "dual_polydb": {
+     "N_VERTICES": 6,
+     "N_FACETS": 5,
+     "F_VECTOR": [
+      6,
+      9,
+      5
+     ],
+     "LATTICE_VOLUME": 54,
+     "H_STAR_VECTOR": [
+      1,
+      26,
+      26,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "F.3D.0017",
+   "vertices": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "extra": {
+    "n_vertices": 4,
+    "picard_rank": 1,
+    "dual_polydb": {
+     "N_VERTICES": 4,
+     "N_FACETS": 4,
+     "F_VECTOR": [
+      4,
+      6,
+      4
+     ],
+     "LATTICE_VOLUME": 64,
+     "H_STAR_VECTOR": [
+      1,
+      31,
+      31,
+      1
+     ]
+    }
+   }
+  }
+ ]
+}
