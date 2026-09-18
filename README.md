@@ -4,7 +4,7 @@ Reproducibility and verification companion to the paper
 
 > **Slope stability of tangent bundles of smooth toric Fano varieties**
 > Bernd Johannes Wuebben, 2026.
-> arXiv: *(to be added on posting)*
+> [arXiv:2608.20411](https://arxiv.org/abs/2608.20411) (math.DG, cross-listed math.AG)
 
 The paper determines the slope stability, with respect to the anticanonical
 polarization, of the tangent bundle of **every smooth toric Fano variety of
@@ -122,9 +122,12 @@ latexmk -pdf main.tex
 
 ```bibtex
 @misc{Wuebben2026ToricTangent,
-  author = {Wuebben, Bernd Johannes},
-  title  = {Slope stability of tangent bundles of smooth toric Fano varieties},
-  year   = {2026},
-  note   = {arXiv preprint}
+  author        = {Wuebben, Bernd Johannes},
+  title         = {Slope stability of tangent bundles of smooth toric Fano varieties},
+  year          = {2026},
+  eprint        = {2608.20411},
+  archivePrefix = {arXiv},
+  primaryClass  = {math.DG},
+  note          = {arXiv:2608.20411}
 }
 ```
