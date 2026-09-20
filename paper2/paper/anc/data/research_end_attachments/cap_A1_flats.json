@@ -1,0 +1,357 @@
+[
+  {
+    "indices": [],
+    "rank": 0,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3
+    ],
+    "rank": 1,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4
+    ],
+    "rank": 1,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5
+    ],
+    "rank": 1,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6
+    ],
+    "rank": 1,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7
+    ],
+    "rank": 1,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      8
+    ],
+    "rank": 1,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      9
+    ],
+    "rank": 1,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      9
+    ],
+    "rank": 2,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      9
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      8,
+      9
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      9
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      9
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      7,
+      9
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      6,
+      7,
+      9
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": true
+  },
+  {
+    "indices": [
+      2,
+      5,
+      7,
+      8,
+      9
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": true
+  },
+  {
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "rank": 4,
+    "ground": true,
+    "quotient_full": true
+  },
+  {
+    "indices": [
+      0,
+      3,
+      6,
+      9
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      6,
+      8,
+      9
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": true
+  },
+  {
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      8,
+      9
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      8
+    ],
+    "rank": 2,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      8
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      8
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      8
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      7,
+      8
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      6,
+      7,
+      8
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": true
+  },
+  {
+    "indices": [
+      0,
+      3,
+      6,
+      8
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      7
+    ],
+    "rank": 2,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      6,
+      7
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      7
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      6
+    ],
+    "rank": 2,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      6
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "rank": 2,
+    "ground": true,
+    "quotient_full": false
+  }
+]

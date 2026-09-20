@@ -1,13 +1,14 @@
 This repository is released under two licenses.
 
-1. SOURCE CODE (the files in src/) is licensed under the MIT License, below.
+1. SOURCE CODE (the files in src/, paper2/paper/anc/code/, and paper2/figures/code/) is licensed under the MIT License, below.
 
-2. THE PAPER (paper/, including main.tex, refs.bib, main.pdf and the ancillary
-   package paper/anc/) and the DATA AND RESULTS (data/, results/) are licensed
-   under the Creative Commons Attribution 4.0 International License (CC BY 4.0),
-   https://creativecommons.org/licenses/by/4.0/. The polytope databases in
-   data/ derive from the standard classification of smooth toric Fano varieties
-   as collected in polyDB (https://polydb.org); please retain that attribution.
+2. THE MANUSCRIPTS AND MATHEMATICAL DATA (paper/, data/, results/, and the
+   non-code contents of paper2/) are licensed under the Creative Commons
+   Attribution 4.0 International License (CC BY 4.0),
+   https://creativecommons.org/licenses/by/4.0/. The polytope databases derive
+   from the standard classification of smooth toric Fano varieties as collected
+   in polyDB (https://polydb.org) and distributed by Paffenholz; please retain
+   the source attribution supplied with each dataset.
 
 ================================================================================
 MIT License

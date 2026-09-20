@@ -1,0 +1,257 @@
+\section{Proof for the end attachments}\label{sec:attachments}
+
+We prove Theorem~\ref{attach:stable}, using the varieties and root lists
+defined in Section~\ref{sec:bundle-families}.
+
+\subsection{Geometry and divisor degrees}
+The lattice is the direct sum of the hexagon lattices and the base
+lattices. In a base factor of dimension $d$, the lifted rays are
+$e_1,\ldots,e_d,t-\sum e_i$, where $t$ is its stated twisting vector.
+Maximal cones contain adjacent ray pairs in each hexagon and omit one
+ray in each base factor. The simplex lengths in the anticanonical polytope are at least one,
+so its normal fan is precisely the displayed complete bundle fan;
+the block triangular maximal-cone matrices are unimodular. The primitive
+collections are the hexagon primitive collections and the lifted
+primitive collections of the base. Each leaf relation has degree
+$2-1=1$, and each internal base relation has degree $3-2=1$.
+The fibre primitive relations have degrees one and two. Thus the
+variety is Fano. The incidence graph is connected; within each hexagon
+the rays form one matroid component, and each lifted base relation
+connects its base coordinates to all the incident hexagon components.
+Hence the ray matroid is connected.
+
+The number of base factors is $j+a+b+1$ and their total dimension is
+$2j+a+b$. The dimension and Picard formulas follow. We prove stability
+using the following explicit degree and rank calculations.
+\medskip
+The dual anticanonical hexagon is
+\[
+ Q=\{(x,z): |x|,|z|,|x+z|\le1\}.
+\]
+Its vertices, cyclically ordered, are
+$(1,0),(1,-1),(0,-1),(-1,0),(-1,1),(0,1)$.
+For $A_a=(t_1,\ldots,t_{a+1})$ set
+\[
+ P_a(x,z)=\prod_{\ell=1}^{a+1}(2+\langle(x,z),t_\ell\rangle),
+ \qquad
+ m_a(p)=\int_Q x^pP_a(x,z)\,dx\,dz\quad(0\le p\le2).
+\]
+The three-entry moment vectors are
+\[
+\begin{array}{c|ccc}
+ a&m_a(0)&m_a(1)&m_a(2)\\\hline
+ 0&6&-5/6&5/3\\
+ 1&139/12&-5/3&10/3\\
+ 2&67/3&-31/10&31/5\\
+ 3&43&-86/15&1373/120
+\end{array}
+\]
+For a hexagon ray $h$, define $m_{a,h}$ by the same formula integrated
+over its facet $\langle(x,z),h\rangle=-1$ with lattice measure.
+For either ray of leaf $\ell$, define $m_{a,\ell}$ by omitting the
+factor $2+\langle(x,z),t_\ell\rangle$ from $P_a$.
+These prescriptions specify every modified moment vector without
+rounding. Reflection changes a right-hand moment vector $v_p$ to
+$(-1)^pv_p$. The reflected local hexagon ray $h$ is the global ray $-h$.
+
+Write
+\[
+ W=\begin{pmatrix}3&0&5/6\\0&5/6&0\\5/6&0&7/15\end{pmatrix},\quad
+ \kappa=\begin{pmatrix}9/2&-3&1/2\\3&-1&0\\1/2&0&0\end{pmatrix},\quad
+ \kappa_1=\begin{pmatrix}3&-1&0\\1&0&0\\0&0&0\end{pmatrix}.
+\]
+These are respectively the moments of $(2-|x|)dx$, the coefficients
+of $(3+x-x')^2/2$, and the coefficients of $3+x-x'$.
+For $j\ge2$, let $L_0=m_a$ be a row vector and let $R_0$ be the
+reflected $m_b$ as a column vector. Set
+\[
+ L_{i+1}=L_i\kappa W,\qquad R_{i+1}=W\kappa R_i.
+\]
+The anticanonical polytope volume is
+$Z=L_0\kappa R_{j-2}$, and $(-K_X)^n=n!Z$.
+Normalized weights are facet volumes divided by $Z$.
+For the left end replace $L_0$ by its modified vector; for the right
+replace $R_0$ by its reflected modified vector. For the internal base
+factor $c$, $1\le c\le j-1$, each of its three rays has weight
+\[
+ \beta_c=\frac{L_{c-1}\kappa_1R_{j-1-c}}{Z}.
+\]
+For an internal hexagon $i$, $1\le i\le j-2$, replace $W$ in
+$L_{i-1}\kappa W\kappa R_{j-2-i}$ by its facet moment matrix $W_h$.
+Its denominator is $Z$. These formulas follow by integrating the
+simplex slices and applying Fubini. The case $j=1$ is simply the
+integral of $P_a(x,z)P_b(-x,-z)$ over $Q$.
+
+\subsection{End subspaces and the rank recurrence}
+An end of type $a$ has lattice $E_a=\ZZ^2\oplus\ZZ^{a+1}$ and rays
+\[
+ (h,0)\ (h\in\{\pm r,\pm q,\pm(r+q)\}),\quad
+ (0,e_\ell),\ (t_\ell,-e_\ell)\quad(1\le\ell\le a+1).
+\]
+Enumerate the ray-spanned subspaces by starting with zero, adjoining
+each ray in turn, and closing under inclusion of all rays in the span.
+This finite, exact linear-algebra procedure gives respectively
+$13,34,92,241$ subspaces for $a=0,1,2,3$, including zero and the whole
+space. All their ray subsets and ranks are supplied with the computation.
+For such an end subspace $S$, record its rank, selected ray weight,
+whether $r\in S$, and whether $S+\CC r=E_{a,\CC}$.
+No symmetry of either end is assumed.
+
+Use only the independent reflections of the internal hexagons fixing
+$r_i$, and the transpositions of the two untwisted rays of each internal
+$\PP^2$. These preserve the entire fan, including the end pieces.
+Every invariant ray-spanned subspace is represented by an end choice
+on each side, choices $H_i\in\{0,1,2\}$ of empty set, distinguished line,
+or whole plane in each internal hexagon, and binary choices $C_c,T_c$
+for the two untwisted base rays and the twisted ray. Passing to closure
+can only increase weight at fixed rank, so minimizing over all these
+configurations suffices.
+
+The outgoing boundary state is $G$ if its distinguished ray was selected,
+$g$ if that line is spanned through the preceding relations, and $u$ if
+it is not spanned. Initialize at the left end with $G$ when $r\in S$
+and $u$ otherwise, with rank $\dim S$. Adjoining an internal base and
+the following hexagon adds the rank
+\[
+ d=2C+T(1-C)+
+ \begin{cases}
+ H+\mathbf1_{CT=1,\,s=u},&H\ge1,\\
+ CT,&H=0,
+ \end{cases}
+\]
+and gives state $G$ when $H\ge1$, state $g$ when $H=0$, $CT=1$,
+and $s\ne u$, and state $u$ otherwise. Its selected weight is
+$(2C+T)\beta+\omega(H)$, where $\omega(H)$ is the empty, line,
+or plane weight. This is the usual path relation
+$-g_c+r_{c-1}-r_c$ modulo previously selected subspaces.
+
+For the selected subspace $V$ in the processed ambient space $E$, define
+binary indicators $\eta=\mathbf1_{V\ne0}$ and
+$F=\mathbf1_{E/(V+\CC r)=0}$, where $r$ is the outgoing distinguished
+ray. Initially $F=\mathbf1_{S+\CC r=E_{a,\CC}}$. At an internal step,
+$\eta'=\mathbf1_{\eta=1\text{ or }d>0}$ and
+\[
+ F'=F\ \text{and}\ \bigl(\mathbf1_{s=u}+4-d
+                              =\mathbf1_{s'=u}\bigr).
+\]
+Indeed, if $F$ holds, the old rank deficiency is exactly
+$\mathbf1_{s=u}$. Otherwise, a missing direction independent of the
+boundary can never be supplied by the remaining chain. This also proves
+that $F=0$ implies $F'=0$.
+
+To close with right end subspace $S_R$, let $e=\dim S_R$ and let
+$g_R$ mean $r\in S_R$. The last base and right end add rank
+\[
+ d_R=2C+T(1-C)+e+\mathbf1_{CT=1}\mathbf1_{s=u\ \mathrm{or}\ \neg g_R}.
+\]
+The whole configuration has full rank precisely when
+\[
+ F\ \text{and}\ \bigl(\mathbf1_{s=u}+2+(b+3)-d_R=0\bigr).
+\]
+The formula for $d_R$ follows because the remaining relation
+$r_{j-2}-r_{j-1}$ is dependent exactly when both boundary lines are
+already spanned. Minimize rank minus selected weight, retaining only
+the least cost for each state and pair of binary indicators. Discard the empty
+and full-rank final configurations. This proves the finite recurrence;
+it is not inferred from comparisons with numerical ranks.
+
+\subsection{Uniform comparison and stability}
+The internal kernel is positive and has Hilbert projective contraction
+factor $\tau=2/7$ and diameter $\Delta=\log(81/25)$, as in the path theorem.
+The end polynomials are positive on $Q$. Equivalently, their moment
+vectors are those of the positive density
+\[
+ g_a(x)=\frac{1}{2-|x|}\int_{\{z:(x,z)\in Q\}}P_a(x,z)\,dz
+\]
+against $(2-|x|)dx$. After one application of the kernel the outgoing
+functions have oscillation ratio at most nine.
+Thus they converge to the same limiting functions as the original path
+ends. Every internal hexagon weight is at most $27$, and every base
+weight is at most two. At an end, $1\le P_a\le3^4=81$ and the incoming
+function has oscillation ratio at most nine. Since a hexagon facet has
+lattice length one and $\operatorname{vol}(Q)=3$, every end hexagon
+weight is at most $81\cdot9/3=243$. End leaf weights are at most one.
+These bounds also hold for limiting and finite comparison weights.
+
+Take $q_0=20$, comparison index $K=40$, and $j=2q_0+m$.
+The left end and periods $1,\ldots,q_0-1$ retain their left chain
+indices and use the limiting right function. Periods
+$q_0,\ldots,q_0+m-1$ use both limiting functions. The remaining
+periods and the right end retain their right indices and use the
+limiting left function. There are at most $9q_0+10$ rays in either
+end zone. Write
+\[
+ \bar\Delta=11757/10000,\quad x=\bar\Delta\tau^{q_0-3},\quad
+ y=2\bar\Delta\tau^{K-2},\quad B=243.
+\]
+The deliberately weaker exponents cover the first kernel application
+from an end piece, including its adjacent base factor. The contraction
+bound and $e^t-1\le t+t^2$ imply the uniform true-path error
+\[
+ E_{\rm path}=B\left\{9\frac{2x}{1-\tau}(1+2x)
+                    +2(9q_0+10)(x+x^2)\right\}.
+\]
+For each of the four comparison paths $m=0,1,2,3$, replacing infinite
+indices by $K$ changes every configuration cost by at most
+\[
+ E_{\rm rat}=B\{9(2q_0+4)+10\}(y+y^2).
+\]
+This also covers every simple internal transition cycle.
+
+The limiting all-selected period has weight four: summable convergence
+errors make the difference between total weight and the number of
+periods times the limiting weight bounded independently of $j$, whereas
+the total weight is $4j+a+b$. Hence the all-selected $G$ loop and empty
+$u$ loop have exactly zero cost. All other simple cycles are the same
+as in the original path theorem and have cost exceeding $0.1259$.
+The exact rational comparison calculation gives the following strict
+lower bounds; these are terminating decimal lower bounds, not rounded
+minima:
+\begin{table}[ht]
+\centering
+\caption{Strict lower bounds for nonempty proper-rank configurations.}
+\label{attach:bounds}
+\begin{adjustbox}{max width=\textwidth,center}
+\begin{tabular}{ccc}
+\toprule
+$(a,b)$ & every true $2\le j\le44$ & each comparison $m=0,1,2,3$\\
+\midrule
+\csname @@input\endcsname tables/attachment_bounds.tex
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+Their all-selected comparison costs have absolute value less than
+$6\cdot10^{-25}$. The exact rational bounds give
+\[
+ E_{\rm path}+2E_{\rm rat}+6\cdot10^{-25}<0.00006523.
+\]
+The finite inputs are fully specified by the displayed rays, moment
+integrals, matrices, recurrence, and constants. The supplied code uses
+rational arithmetic to evaluate them. The $j=1$ cases are checked by
+positive rational decompositions into ray bases with strongly connected
+exchange graphs, as in Lemma~\ref{lem:basecertificate}. Their normalized
+degrees independently agree with direct integration of the product of
+the stated linear factors over $Q$ and its facets. The decompositions
+are supplied in the ancillary data.
+
+\begin{proof}[Completion of the proof of Theorem~\ref{attach:stable}]
+Apply the cycle-deletion argument of Appendix~\ref{sec:paths} to the
+central periods. A walk between repeated states either contains a positive-cost
+simple cycle, or consists solely of one of the two zero loops. Deleting
+all-selected $G$ loops preserves nonemptiness and proper rank. Deleting
+empty $u$ loops does likewise: the boundary at which deletion occurs is
+an internal hexagon, so state $u$ implies that this hexagon's independent
+nondistinguished direction is missing; the shortened configuration
+cannot become full rank. Thus the end pieces cause no new exception in
+the zero-loop argument. A full-rank reduced configuration has cost at
+least that of the all-selected configuration, by positivity of weights.
+Deleting cycles therefore reduces every comparison configuration to
+$m\le3$, or supplies the positive cycle bound. Subtracting all errors,
+every nonempty proper-rank configuration at arbitrary length has deficit
+\[
+ >0.028404-0.00006523=0.02833877>0.
+\]
+Together with the finite cases and connectedness of the ray matroid,
+the symmetry criterion proves the theorem.
+\end{proof}

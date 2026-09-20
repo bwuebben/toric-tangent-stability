@@ -1,6 +1,13 @@
-# Slope stability of tangent bundles of smooth toric Fano varieties
+# Tangent-bundle stability on smooth toric Fano varieties
 
-Reproducibility and verification companion to the paper
+Manuscripts, exact computations and data for two related papers.
+
+| Paper | Manuscript and materials |
+|---|---|
+| **1. Slope stability of tangent bundles of smooth toric Fano varieties** | [Current PDF](paper/toric-tangent-stability.pdf) · [arXiv:2608.20411](https://arxiv.org/abs/2608.20411) · code and data below |
+| **2. Tangent stability on toric Fano blowups and bundles** | [PDF](paper2/paper/main.pdf) · [Guide, source and exact proof package](paper2/README.md) · preprint, 20 September 2026 |
+
+## Paper 1: classification and root-twisted families
 
 > **Slope stability of tangent bundles of smooth toric Fano varieties**
 > Bernd Johannes Wuebben, 2026.
@@ -43,11 +50,32 @@ Every verdict in the paper is reproducible from the ray data in this
 repository, with exact (integer/rational) arithmetic and no external data
 dependencies.
 
+## Paper 2: stability mechanisms and abundant extremizers
+
+The second paper proves an all-subspace stability criterion for blowup trees,
+uniform stability for trees of maximum degree three with the stated factor
+dimensions, and a specified degree-four instability obstruction. An exceptional
+mixed-intersection formula identifies the degree of the corresponding toric
+foliation; stable degree-four/five examples show why valence alone is insufficient.
+
+For the specified toric bundles with degree-six del Pezzo-product fibres and
+projective-space-product bases, it proves the sharp stable Picard maximum
+`floor(5n/4)+1` for every `n >= 4`, allowing arbitrary integral twists.
+Every fixed subcubic tree with an edge gives further maximizers after sufficiently
+long independent subdivisions. The resulting number of torically distinct
+extremizers is unbounded. The unrestricted `4n/3+1` upper bound remains open.
+
+The bundle existence proofs use exact rational calculations together with uniform
+error estimates and induction. Complete proofs, reproducible code and data are
+included in [paper2/](paper2/README.md). This is a separate preprint; it is not an
+arXiv replacement for Paper 1.
+
 ## Layout
 
 | Path | Contents |
 |---|---|
-| `paper/` | The paper: `main.tex` (self-contained, bibliography included), `toric-tangent-stability.pdf`, and `anc/` — the ancillary data package (per-variety degrees, slopes, maximal-slope subspace and verdict for all 8630 varieties, plus the root-twist family and the nine zero-sum twist classes, gzipped, with its own `README.txt`). |
+| `paper/` | Paper 1: `main.tex` (self-contained, bibliography included), `toric-tangent-stability.pdf`, and `anc/` — the ancillary data package (per-variety degrees, slopes, maximal-slope subspace and verdict for all 8630 varieties, plus the root-twist family and the nine zero-sum twist classes, gzipped, with its own `README.txt`). |
+| `paper2/` | Paper 2 guide, complete manuscript and source, and a portable exact proof package with its own README and checksums. |
 | `src/` | The computation and verification code (Python, standard library + NumPy/SciPy; see below). |
 | `data/` | Vertex data of the smooth Fano polytopes (primitive ray generators of the fans) in dimensions 3–6. Each file records its `source` in a `source` field. |
 | `results/` | Precomputed verdict tables: `sweep_<n>d.json` (per-variety degrees, slopes, witness subsheaf, verdict, barycenter) and `polystability_<n>d.json` (the polystability refinement), plus `root_twist.json` (the root-twist family, dimensions 4–8) and `root_twist_classes.json` (all nine zero-sum twist classes up to the hexagon's dihedral symmetry, with stability, Kähler–Einstein status, and multiset symmetries). Fully regenerable from `src/` + `data/`. |
@@ -64,7 +92,7 @@ comparisons of slopes over subspaces spanned by subsets of rays. The smooth
 toric Fano varieties are completely classified, so the strategy is: a certified
 exact sweep over the classification, then pattern, then theorem.
 
-## Reproducing the results
+## Reproducing the Paper 1 results
 
 Requirements: Python 3.9+. The core checker `src/toric_stability.py` is
 **dependency-free** (pure `fractions`); the accelerated variant
@@ -119,17 +147,21 @@ and Øbro's algorithm in dimensions 5–6), as collected in
 `Polytopes.Lattice.SmoothReflexive`, Paffenholz). Each JSON file's `source`
 field records its origin. Please credit polyDB when reusing the polytope data.
 
-## Building the paper
+## Building the manuscripts
 
 ```bash
 cd paper
-latexmk -pdf main.tex
+latexmk -pdf -jobname=toric-tangent-stability main.tex
 ```
+
+For Paper 2, run `latexmk -pdf main.tex` from `paper2/paper/`. Its portable
+proof commands and Python requirements are in [paper2/README.md](paper2/README.md).
 
 ## License
 
-- **Code** (`src/`): MIT License — see `LICENSE`.
-- **Paper** (`paper/`) and **data/results** (`data/`, `results/`, `paper/anc/`):
+- **Code** (`src/`, `paper2/paper/anc/code/`, `paper2/figures/code/`): MIT License — see `LICENSE`.
+- **Manuscripts and mathematical data** (`paper/`, `data/`, `results/`, and
+  the non-code contents of `paper2/`):
   Creative Commons Attribution 4.0 International (CC BY 4.0) — see `LICENSE`.
 
 ## Citation
@@ -145,3 +177,5 @@ latexmk -pdf main.tex
   note          = {arXiv:2608.20411}
 }
 ```
+
+For Paper 2, use the separate [citation entry](paper2/README.md#citation).

@@ -1,0 +1,89 @@
+{
+  "scope": "Exact finite star comparisons m=1,...,14; analytic tail is in manuscript",
+  "rows": [
+    {
+      "arms": 1,
+      "volume": "7/2",
+      "facet_volume": "2",
+      "one_minus_central_degree": "3/7"
+    },
+    {
+      "arms": 2,
+      "volume": "155/12",
+      "facet_volume": "10",
+      "one_minus_central_degree": "7/31"
+    },
+    {
+      "arms": 3,
+      "volume": "1193/24",
+      "facet_volume": "87/2",
+      "one_minus_central_degree": "149/1193"
+    },
+    {
+      "arms": 4,
+      "volume": "47119/240",
+      "facet_volume": "551/3",
+      "one_minus_central_degree": "3039/47119"
+    },
+    {
+      "arms": 5,
+      "volume": "1136179/1440",
+      "facet_volume": "55429/72",
+      "one_minus_central_degree": "2509/103289"
+    },
+    {
+      "arms": 6,
+      "volume": "38833301/12096",
+      "facet_volume": "77389/24",
+      "one_minus_central_degree": "-13135/2987177"
+    },
+    {
+      "arms": 7,
+      "volume": "1594796251/120960",
+      "facet_volume": "58432021/4320",
+      "one_minus_central_degree": "-41300337/1594796251"
+    },
+    {
+      "arms": 8,
+      "volume": "197900582879/3628800",
+      "facet_volume": "143286799/2520",
+      "one_minus_central_degree": "-8432407681/197900582879"
+    },
+    {
+      "arms": 9,
+      "volume": "1646595334057/7257600",
+      "facet_volume": "48298899247/201600",
+      "one_minus_central_degree": "-92165038835/1646595334057"
+    },
+    {
+      "arms": 10,
+      "volume": "2403314880227/2534400",
+      "facet_volume": "52447581517/51840",
+      "one_minus_central_degree": "-1447101945437/21629833922043"
+    },
+    {
+      "arms": 11,
+      "volume": "3811832962784653/958003200",
+      "facet_volume": "13316769245077/3110400",
+      "one_minus_central_degree": "-289731964699063/3811832962784653"
+    },
+    {
+      "arms": 12,
+      "volume": "2920544373257729893/174356582400",
+      "facet_volume": "724594049975443/39916800",
+      "one_minus_central_degree": "-244482437035005131/2920544373257729893"
+    },
+    {
+      "arms": 13,
+      "volume": "123294500114195565143/1743565824000",
+      "facet_volume": "2585182448584178081/33530112000",
+      "one_minus_central_degree": "-11134987212181695069/123294500114195565143"
+    },
+    {
+      "arms": 14,
+      "volume": "853808372551441453163/2853107712000",
+      "facet_volume": "12254538390692232331/37362124800",
+      "one_minus_central_degree": "-901920150115619173247/9391892098065855984793"
+    }
+  ]
+}

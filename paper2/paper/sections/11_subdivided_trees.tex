@@ -1,0 +1,441 @@
+\section{Subdivided trees and abundant extremizers}\label{sec:subdivided}
+
+The sharp bundle bound admits extremizers with arbitrary fixed subcubic
+branching patterns. Sufficiently long paths between branching vertices
+make the divisor degrees nearly independent of distant branches. An
+inequality for joining subtrees then controls subspaces meeting both
+sides of a path. Together these arguments prove stability, with no
+requirement that the subdivision lengths agree.
+
+For a finite tree $T$ of maximum degree three, suppress its degree-two
+vertices; the resulting tree will be called its skeleton. Let $s$ be the
+number of trivalent vertices. If $s\ge1$, the skeleton has $s+2$ leaves
+and $2s+1$ edges. Replacing its edges by paths of positive integral lengths
+gives a subdivision $\Gamma$. Throughout this section put
+$b_v=\deg_\Gamma(v)$ in Definition~\ref{graph:construction}.
+
+\begin{theorem}\label{tree:stable}
+There are explicit integers $L_s$, depending only on the number $s\ge1$
+of trivalent vertices, such that $T_{X(\Gamma)}$ is anticanonically stable
+whenever every skeleton edge is replaced by a path of length at least
+$L_s$. The lengths may be chosen independently. One can take $L_1=2$
+and $L_s=O(\log s)$ as $s\to\infty$.
+If $j$ is the total number of edges of $\Gamma$, then
+\[
+ \dim X(\Gamma)=4j,\qquad \rho(X(\Gamma))=5j+1.
+\]
+In particular every fixed finite tree of maximum degree three and at
+least one edge gives stable tangent bundles after all sufficiently long
+independent edge subdivisions.
+\end{theorem}
+
+The case with no trivalent vertex is Theorem~\ref{path:stable}.
+The examples attain the Picard bound in Theorem~\ref{interact:bound}.
+The graph can also be recovered from the fan, so varying its branching
+pattern produces distinct extremizers in a common dimension.
+
+\begin{corollary}[Abundance of extremal fans]\label{tree:abundance}
+For every integer $q\ge1$, there is an integer $J_q$ such that for every
+$j\ge J_q$ there are at least $q$ pairwise nonisomorphic toric fans of
+smooth toric Fano varieties with stable tangent bundle, dimension $4j$,
+and Picard number $5j+1$. Each belongs to the bundle class of
+Theorem~\ref{interact:bound} and attains its maximum in that dimension.
+\end{corollary}
+
+\begin{proof}
+Choose $q$ finite subcubic trees with an edge and with pairwise distinct
+numbers of trivalent vertices, all positive. Such trees exist: take a
+path of $s$ vertices and attach leaves so that each path vertex has
+degree three, with the three-arm tree for $s=1$. Their branching
+patterns remain distinct under subdivision.
+
+For each chosen tree, first suppress degree-two vertices and give every
+skeleton edge a length satisfying Theorem~\ref{tree:stable}. Let $j_t$
+be the resulting total length for the $t$th tree, and put
+$J_q=\max_t j_t$. For any $j\ge J_q$, increase the length of one
+skeleton edge in the $t$th tree by $j-j_t$. The stability theorem
+allows independent lengths, so every resulting graph bundle is stable.
+Each subdivided tree has $j$ edges and $j+1$ vertices, and
+$\sum_v b_v=\sum_v\deg(v)=2j$. Proposition~\ref{graph:geometry}
+therefore gives dimension $4j$ and Picard number $5j+1$.
+
+Subdivisions of the chosen trees are nonisomorphic because their
+numbers of trivalent vertices differ. Lemma~\ref{graph:reconstruction}
+then excludes isomorphisms of their toric fans. Finally,
+Theorem~\ref{interact:bound} identifies $5j+1$ as the maximum within
+the bundle class.
+\end{proof}
+
+This corollary concerns isomorphisms of toric fans. It neither classifies
+all extremizers nor asserts a growth rate for their number.
+
+\subsection{Subdivision and dependence on distant branches}
+The estimate~\eqref{tree:boundary-contraction} makes dependence on
+distant branches exponentially small along a subdivided edge.
+
+Convergence of individual ray degrees does not itself imply stability.
+The proof below combines it with the rank formula at a cut and an
+induction on the number of trivalent vertices. The initial three-arm
+case is the quantitative form of Theorem~\ref{spider:stable}. Its
+finite rational comparisons, and those for paths, are given in
+Appendices~\ref{sec:spiders} and~\ref{sec:paths}; their uniform error
+bounds apply to every allowed length. The resulting sufficient lengths
+are explicit, though not claimed optimal:
+\[
+\begin{array}{c|rrrrrrrrrr}
+s&1&2&3&4&5&10&25&50&100&1000\\ \hline
+L_s&2&27&31&31&33&35&41&43&47&57.
+\end{array}
+\]
+No enumeration of tree shapes is required. This subdivision theorem
+concerns the hexagon bundles of Definition~\ref{graph:construction}.
+It is distinct from subdivision in the blowup construction, which can
+produce instability as in Corollary~\ref{branch:subdivision}.
+
+For clarity, we fix the slice functions used in the proof. Put
+$d\nu(t)=(2-|t|)\,dt$ on $[-1,1]$ and
+$\mathcal K(s,t)=(3+s-t)^2/2$. The right operator is
+\[
+ (\mathcal T_Rh)(s)=\int_{-1}^1\mathcal K(s,t)h(t)\,d\nu(t).
+\]
+Write $h_\infty$ for its positive projective limit, obtained by iterating
+from $h_0(t)=2+t$ and normalizing at zero. The contraction estimate
+makes the limit independent of the positive initial function. At a
+trivalent vertex, integrating the other two branches with incoming
+functions $u,v$ gives the outgoing slice function
+\[
+ J_{u,v}(s)=\iint_{[-1,1]^2}\frac{(4-s-t-z)^3}{6}
+                       u(t)v(z)\,d\nu(t)d\nu(z).
+\]
+This is the cubic integral of \eqref{spider:J}; it is a function of a
+boundary coordinate, distinct from the scalar exceptional contributions
+$J_{v,e}$ in the blowup construction.
+
+\subsection{Rank at a cut}
+Use the independent hexagon reflections and untwisted-base permutations
+from Appendix~\ref{sec:spiders}, without permuting branches. An invariant
+ray-spanned subspace selects each hexagon as $H_e=0,1,2$ (empty,
+distinguished line, or plane), and at each vertex selects the untwisted
+rays and twisted ray with indicators $C_v,T_v$. Delete the edges with
+$H_e>0$. A component of the remaining forest is called complete for this
+selection if $C_v=T_v=1$ at every vertex in it. If $c_0$ counts these
+components, the rank is
+\begin{equation}\label{tree:rank}
+ r=\sum_e H_e+\sum_v b_vC_v+\sum_vT_v-c_0.
+\end{equation}
+Indeed, first quotient by the selected hexagon directions and untwisted
+base coordinates. A selected twisted ray with $C_v=0$ has a private
+base coordinate and contributes one dimension. The remaining twisted
+rays are rows of the incidence matrix of the zero-edge forest. A
+dependence among selected rows extends by zero to a function constant
+on each component, and exists precisely on a complete component.
+
+For a subtree rooted at a cut, postpone subtracting the relation of its
+root component. Write $a=1$ if this component is complete, and $a=0$
+otherwise. Let $e$ record a nonempty selection. Let $f=1$ mean that
+every hexagon is a plane, every vertex with $b_v\ge2$ has $C_v=1$,
+and every leaf has $C_v\lor T_v=1$. These are precisely the local
+requirements for full rank when the tree is completed. Necessity follows
+from the independent nontrivial representations at hexagons and bases,
+and from the private coordinate of each leaf; they also suffice.
+The possible triples are
+\[
+ (a,e,f)=(0,0,0),(0,1,0),(1,1,0),(0,1,1),(1,1,1).
+\]
+Let $c_*$ count the complete components other than the root component.
+If $w_e(H)$ is the selected hexagon weight and $\delta_v$ one base-ray
+weight, define the open deficit
+\[
+ A=\sum_e(H_e-w_e(H_e))
+    +\sum_v(b_vC_v+T_v)(1-\delta_v)-c_*.
+\]
+This is the rank deficit with the single boundary relation left uncounted.
+Joining two rooted pieces with open deficits $A,B$ and indicators $a,b$
+across a hexagon $H$ gives final deficit
+\begin{equation}\label{tree:join}
+ \begin{cases}
+ A+B-ab,&H=0,\\
+ A+B+H-w(H)-a-b,&H>0.
+ \end{cases}
+\end{equation}
+For $H=0$ the two root components merge and are complete exactly when
+$a=b=1$; for $H>0$ they close separately. The combined selection is
+nonempty exactly when $e\lor e'\lor(H>0)$, and has full rank exactly
+when $f\land f'\land(H=2)$.
+
+\subsection{An inequality inherited from a completed tree}
+Consider a finite subtree ending at a degree-two vertex adjacent to the
+cut. Give it the limiting degrees obtained by continuing the cut to an
+ordinary leaf whose distance tends to infinity. Equivalently, its incoming
+function at the cut is $h_\infty$. Let $\alpha$ be its all-selected
+open deficit.
+
+\begin{lemma}\label{tree:inherit}
+Suppose every sufficiently long completion to that leaf has deficit
+at least $\mu>0$ for every invariant selection of rank strictly between
+zero and the ambient dimension. For the retained subtree,
+\[
+\begin{array}{c|c}
+\text{boundary condition}&\text{inequality}\\ \hline
+a=0,\ e=1&A\ge\mu\\
+a=1,\ f=0&A-\alpha\ge\mu\\
+a=1,\ f=1&A-\alpha\ge0.
+\end{array}
+\]
+The empty selection has $A=0$.
+\end{lemma}
+
+\begin{proof}
+For $a=0,e=1$, select no ray in the continuation or its joining
+hexagon. The completed selection is proper and nonempty, including
+when the retained subtree has $f=1$. Formula~\eqref{tree:join} makes
+its deficit exactly $A$. Pass to the limit in the finitely many
+retained degrees.
+
+For $a=1,f=0$, select every ray in the continuation and take $H=2$
+at the cut. The full-rank failure in the retained subtree persists.
+Subtract the all-selected deficit, which is zero. The continuation
+and joining terms cancel exactly, leaving $A-\alpha$. Only then
+pass to the limit, so no unbounded sum is interchanged with a limit.
+For $a=f=1$, adding omitted rays preserves the open rank and boundary
+indicator and decreases the deficit, since their weights are positive.
+Thus the all-selected configuration minimizes this state.
+\end{proof}
+
+\subsection{Nonnegative limiting transitions}
+Let $w_1,w_2$ be the limiting weights of a distinguished hexagon line
+and full plane, and let $\delta$ be one limiting degree-two-base weight.
+Appendix~\ref{sec:paths} gives $w_2+3\delta=4$. The rational moment
+matrices at index $40$, with Lemma~\ref{path:contraction}, give
+\begin{equation}\label{tree:bulk-bounds}
+ \frac{187}{100}<w_2<\frac{15}{8},\qquad 0<w_1<\frac{14}{25}.
+\end{equation}
+The rational approximations are
+\[
+ w_1\simeq0.5579289459,\qquad w_2\simeq1.8740976113.
+\]
+For the exact index-$40$ rational values, with $D=11757/10000$,
+$B=81$ and $y=2D(2/7)^{39}$, the errors are
+at most $2B(y+y^2)$ and $6B(y+y^2)$, respectively; these bounds
+are smaller than the distances to the endpoints in
+\eqref{tree:bulk-bounds}.
+
+Put $\beta=w_2/2$ and replace the open deficit by $A-\beta a$.
+Extending across one hexagon $H$ and one new degree-two vertex $C,T$
+changes the boundary indicator to $a'=CTa$ for $H=0$, and $a'=CT$ for
+$H>0$. The adjusted increment is
+\begin{equation}\label{tree:increment}
+ (2C+T)(1-\delta)+H-w(H)-a\mathbf1_{\{H>0\}}
+       +\beta(a-a').
+\end{equation}
+For $C=T=0$ its three values, indexed by $H=0,1,2$, are
+\[
+\begin{array}{c|ccc}
+a=0&0&1-w_1&2-w_2\\
+a=1&\beta&\beta-w_1&1-\beta.
+\end{array}
+\]
+When $CT=0$ and $(C,T)\ne(0,0)$, add
+$(2C+T)(1-\delta)$. For $C=T=1$ the values are
+\[
+\begin{array}{c|ccc}
+a=0&w_2-1&\beta-w_1&1-\beta\\
+a=1&w_2-1&w_2-w_1-1&0.
+\end{array}
+\]
+All nonzero entries exceed $1/16$ by~\eqref{tree:bulk-bounds}; also
+$1-\delta=(w_2-1)/3>0.29$. The only zero transitions are
+$(a,C,T,H)=(0,0,0,0)$ and $(1,1,1,2)$, the empty and all-selected
+periods. In the same adjusted deficits the joining correction is
+\begin{equation}\label{tree:adjusted-join}
+ \begin{cases}
+ \beta(a+b)-ab,&H=0,\\
+ H-w(H)+(\beta-1)(a+b),&H>0.
+ \end{cases}
+\end{equation}
+Its only zeros are $(a,b,H)=(0,0,0)$ and $(1,1,2)$; all other
+values exceed $1/16$. Thus arbitrarily many limiting periods may be
+inserted without accumulating a negative increment.
+
+\subsection{Uniform control of the geometric error}
+Split an internal skeleton edge of length $2q+1+m$, $m\ge0$,
+leaving $q$ edges and $q$ degree-two vertices at each end. Call these
+retained paths the two necks. The middle consists of $m+1$ hexagons
+and $m$ degree-two bases. The two components, capped by a leaf on
+the chosen edge, have $s_1,s_2\ge1$ trivalent vertices, with
+$s_1+s_2=s$. Retain all their other edge lengths.
+
+Define comparison weights by putting the incoming function $h_\infty$
+at each cut and using the limiting weights on the middle. Every
+individual ray weight is at most $B=81$, provided all skeleton
+lengths are at least two. Indeed a junction slice function
+$J_{u,v}$ in~\eqref{spider:J} has oscillation ratio at most $27$.
+Each hexagon has at least one endpoint of degree two or one; that
+side's function has oscillation at most nine. The facet measure has
+mass one and $\nu$ has mass three, giving $27\cdot9/3=81$.
+The base-ray bounds are at most $1,2,3$ at leaves, degree-two
+vertices and junctions.
+
+Changing one incoming function by Hilbert distance $\eta$ changes
+$J_{u,v}$ by at most $\eta$: normalize its pointwise ratio to lie in
+$[1,e^\eta]$ and integrate the positive cubic. At each degree-two
+vertex the distance contracts by $\tau=2/7$. There is a unique path
+from the cut to each vertex. Consequently only one incoming argument
+changes at every later junction. The disturbance can enter both
+outgoing branches, but does not add to itself at a junction.
+
+Set
+\begin{equation}\label{tree:error}
+ x_q=D\tau^{q-1},\qquad
+ c_s=\frac{156s+272}{5},\qquad
+ E_s(q)=B c_s x_q(1+2x_q),
+ \qquad D=\frac{11757}{10000}.
+\end{equation}
+
+\begin{lemma}\label{tree:comparison}
+If all skeleton lengths are at least two and $2x_q\le1$, the
+actual and comparison deficits of every selection differ by at most
+$E_s(q)$, independently of all subdivision lengths.
+\end{lemma}
+
+\begin{proof}
+The incoming function at either cut has traversed at least $q$
+degree-two vertices from the opposite junction. Its distance from
+the limit is at most $x=x_q$. Along the retained neck it contracts
+geometrically toward the junction. Six hexagon rays and three base
+rays per step give a sum of logarithmic degree errors at most
+$9x/(1-\tau)$. The base closest to the cut has error at most $x$;
+the adjacent retained hexagon has an additional contraction, which
+this estimate discards.
+
+A capped component with $s_i$ junctions has $2s_i+1$ skeleton edges.
+One is the neck just counted; each other edge contributes at most
+$9x/(1-\tau)$, by contraction along its interior. We discard any
+attenuation before reaching that edge. Its $s_i$ junction bases add
+$4s_ix$, and its $s_i+1$ genuine leaf bases add $2(s_i+1)x$.
+The endpoint total is at most
+\[
+ \left\{\frac{9(2s_i+1)}{1-\tau}+6s_i+2\right\}x.
+\]
+
+Number the chosen bridge edges $i=0,\ldots,L-1$, where
+$L=2q+1+m$, and its internal bases $c=1,\ldots,L-1$. On the
+middle edges $q\le i\le L-q-1$, the omitted left and right
+distances are at most $D\tau^{i-1}$ and $D\tau^{L-2-i}$.
+On middle bases $q+1\le c\le L-q-1$, they are at most
+$D\tau^{c-2}$ and $D\tau^{L-2-c}$. Each pair is at most $2x$;
+summing either set over its positions gives at most $2x/(1-\tau)$.
+The six hexagon and three base rays therefore add at most
+$18x/(1-\tau)$.
+
+The sum of all logarithmic ray errors is consequently at most
+\[
+ \left\{\frac{9(2s+4)}{1-\tau}+6s+4\right\}x=c_sx.
+\]
+Each individual error $\eta$ is at most $2x\le1$, and
+$e^\eta-1\le\eta(1+2x)$. Multiplying by $B$ bounds the sum of
+absolute ray-weight changes by $E_s(q)$. The selected rank is
+unchanged, so the same bound holds for every deficit.
+\end{proof}
+
+\subsection{Joining and induction}
+Let $\alpha_i$ be the all-selected open deficit of endpoint $i$.
+Glue two identical copies of this endpoint with a bridge of length
+$2q+1$. Its actual all-selected deficit is zero. The comparison
+deficit is $2\alpha_i-w_2$. Lemma~\ref{tree:comparison}, applied
+with $2s_i$ junctions and the same $q$, gives
+\[
+ |\alpha_i-\beta|\le\tfrac12 E_{2s_i}(q).
+\]
+This uses the degree identity for the doubled tree, without a stability
+assumption. Since $c_s$ is affine,
+\begin{equation}\label{tree:potential-sum}
+ \tfrac12\{E_{2s_1}(q)+E_{2s_2}(q)\}=E_s(q).
+\end{equation}
+
+Suppose the two completed endpoint families have invariant margins
+$\mu_1,\mu_2\le\mu_0:=2698/100000<1/16$.
+Lemma~\ref{tree:inherit} and~\eqref{tree:potential-sum} show that a
+positive-margin endpoint contributes its inherited margin minus its
+potential error in the adjusted deficit. An endpoint with $a=f=1$
+contributes at least minus that error, and an empty endpoint contributes
+zero. All intervening increments and the final joining correction
+are nonnegative.
+
+If neither endpoint has a positive-margin state, a proper nonempty
+global selection must contain a positive increment or joining
+correction. Otherwise the zero transitions propagate only empty to
+empty or full to full, giving an excluded global selection. Thus the
+comparison deficit is at least $\min(\mu_1,\mu_2)-E_s(q)$.
+Subtracting the geometric error proves the joining inequality
+\begin{equation}\label{tree:gluing-bound}
+ \text{actual deficit}\ \ge\min(\mu_1,\mu_2)-2E_s(q).
+\end{equation}
+
+\begin{proof}[Proof of Theorem~\ref{tree:stable}]
+For $s\ge2$, let $q_s$ be the least positive integer such that
+\begin{equation}\label{tree:threshold}
+ 2x_{q_s}\le1,\qquad
+ E_s(q_s)\le\frac{\mu_0}{4s(s-1)},
+ \qquad L_s=2q_s+1.
+\end{equation}
+Put $L_1=2$ and $\mu_s=\frac{\mu_0}{2}(1+1/s)$.
+The minimum exists by geometric decay. These thresholds are
+nondecreasing: $c_s$ increases and the allowed error decreases.
+We prove the stronger assertion that every invariant selection of
+rank strictly between zero and $4j$ has deficit at least $\mu_s$.
+The case $s=1$ is the quantitative conclusion of
+Theorem~\ref{spider:stable}.
+
+For $s\ge2$, remove any internal skeleton edge and cap each exposed
+junction by a leaf. The two smaller trees have $s_1,s_2\ge1$
+junctions, with $s_1+s_2=s$. Their unchanged lengths satisfy the
+inductive thresholds since $L_s\ge L_{s_i}$. Their new leaf edges
+may be continued to arbitrary sufficiently large lengths, giving the
+families required by Lemma~\ref{tree:inherit}. Retain $q_s$ neck
+edges at either end of the chosen original edge; its length is at
+least $2q_s+1$. Formula~\eqref{tree:gluing-bound} now gives
+\[
+ \text{deficit}\ge\mu_{s-1}-2E_s(q_s)
+ \ge\mu_{s-1}-\frac{\mu_0}{2s(s-1)}=\mu_s>0.
+\]
+The independent local symmetries and connected ray matroid therefore
+give stability by Proposition~\ref{prop:symmetry}.
+
+For the growth bound, it suffices to choose
+\[
+ q\ge1+\left\lceil
+  \log_{7/2}\!\left(\frac{8BDc_s s(s-1)}{\mu_0}\right)
+ \right\rceil.
+\]
+Then $2x_q\le1$ and
+$E_s(q)\le2Bc_sx_q\le\mu_0/[4s(s-1)]$. Thus $L_s=O(\log s)$.
+The dimension and Picard number follow from
+Proposition~\ref{graph:geometry}, since $\sum_v b_v=2j$ and a tree
+has $j+1$ vertices. For a tree with original degree-two vertices,
+the skeleton lengths are sums of the original subdivision lengths.
+The case $s=0$ is Theorem~\ref{path:stable}.
+\end{proof}
+
+The quantitative margin $\mu_s>0.01349$ concerns these locally invariant
+selections only. The theorem asserts stability for all subspaces through
+the symmetry criterion, without a uniform quantitative claim for them.
+
+\begin{corollary}\label{tree:two-junctions}
+Suppose a tree has two trivalent vertices joined by a path of length
+at least $27$, with two outer arms at each vertex. If all four outer
+arms have length at least two, the graph bundle with $b_v=\deg(v)$ has
+anticanonically stable tangent bundle.
+\end{corollary}
+
+\begin{proof}
+The two completed endpoint families are three-arm trees, so both
+inherited margins are $\mu_0$ even when the outer lengths are less
+than $L_2$. Lemma~\ref{tree:comparison} needs only outer lengths
+at least two. With $q=13$, formula~\eqref{tree:gluing-bound} gives
+\[
+ \mu_0-2E_2(13)=
+ \frac{122113777399878205459586741}
+      {5986913480642700450031250000}>0.02039.
+\]
+\end{proof}

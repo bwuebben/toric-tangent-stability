@@ -1,0 +1,169 @@
+\section{Stability for cycles}\label{sec:cycles}
+
+The cycle construction gives another infinite family. Its additional
+symmetry allows a short induction in place of the finite reduction
+needed for paths.
+
+\begin{theorem}\label{cycle:stable}
+Let $C_j$ be a cycle with $j\ge3$ vertices and edges, or the graph with
+two vertices and two parallel edges when $j=2$. Put $b_c=2$ at every
+vertex. Then $X(C_j)$ is a smooth toric Fano variety with stable tangent
+bundle, dimension $4j$, and Picard number $5j$.
+\end{theorem}
+
+\begin{proof}
+The geometric assertions and connectedness of the ray matroid follow
+from Proposition~\ref{graph:geometry}. Number vertices and edges modulo
+$j$, orienting edge $i$ from $i$ to $i+1$, and write
+$g_c=f^c_1+f^c_2$. The twisted base ray at $c$ is
+\[
+ f^c_0=-g_c+r_{c-1}-r_c.
+\]
+Rotation sends vertex $c$ to $c+1$ and hexagon $i$ to $i+1$, preserving
+the coordinates in each transported summand. Reflection sends $c$ to
+$-c$ and $i$ to $-i-1$, and negates both coordinates in each transported
+hexagon. Both maps send the displayed twisted ray to the twisted ray
+at the image vertex. They preserve adjacent pairs of hexagon rays and
+the choices of an omitted base ray, hence preserve the fan. The same
+reflection works for $j=2$, where it exchanges the parallel edges and
+fixes the vertices.
+
+Together with the independent hexagon reflections
+$r_i\mapsto r_i$, $q_i\mapsto-r_i-q_i$ and the transpositions of
+$f^c_1,f^c_2$, these maps give four ray orbits: the $2j$ distinguished
+hexagon rays $\pm r_i$, the other $4j$ hexagon rays, the $2j$ untwisted
+base rays, and the $j$ twisted base rays. A ray-spanned invariant
+subspace containing any nondistinguished hexagon ray must contain the
+whole plane of every hexagon. Thus it suffices to consider a common
+hexagon choice $H\in\{0,1,2\}$, for empty, line, or plane, and common
+binary choices $C,T$ for untwisted and twisted base rays.
+
+Let $a,b,c$ be the normalized degrees of a distinguished hexagon ray,
+a nondistinguished hexagon ray, and a base ray, respectively. Symmetry
+gives the first two equalities across factors. Principal divisor
+relations give equal degrees for all three base rays at a vertex, so
+there is only one base value $c$. Their sum satisfies
+\begin{equation}\label{cycle:weightsum}
+ 2a+4b+3c=4.
+\end{equation}
+The nine proper nonempty configurations are listed in
+Table~\ref{cycle:flats}. For their ranks, selected untwisted base rays
+contribute $2jC$, and hexagon choices contribute $jH$. If $C=0$, each
+selected twisted ray has an independent base coordinate. If $C=T=1$,
+its residual vector is $r_{c-1}-r_c$: these vectors span a space of
+dimension $j-1$ when $H=0$, and vanish modulo the selected hexagon
+lines when $H>0$. This gives every rank in the table. The other three
+configurations are empty or have full rank.
+
+\begin{table}[ht]
+\centering
+\caption{Proper cycle configurations and their weights.}
+\label{cycle:flats}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{ccccc}
+\toprule
+$H$ & $C$ & $T$ & Rank & Weight divided by $j$\\
+\midrule
+0&0&1&$j$&$c$\\
+0&1&0&$2j$&$2c$\\
+0&1&1&$3j-1$&$3c$\\
+1&0&0&$j$&$2a$\\
+1&0&1&$2j$&$2a+c$\\
+1&1&0&$3j$&$2a+2c$\\
+1&1&1&$3j$&$2a+3c$\\
+2&0&0&$2j$&$2a+4b$\\
+2&0&1&$3j$&$2a+4b+c$\\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+We will prove the bounds
+\begin{equation}\label{cycle:bounds}
+ a<\frac12,\qquad b>\frac14,\qquad \frac23<c<\frac56.
+\end{equation}
+They imply every strict weight inequality in the table. For example,
+$3jc<(5/2)j\le3j-1$ for $j\ge2$; the row $(1,1,1)$ follows from
+$2a+3c=4-4b<3$; and the rows with $H=2$ follow from
+$2a+4b=4-3c$. The remaining inequalities follow directly from
+\eqref{cycle:bounds}. Proposition~\ref{prop:symmetry} will then prove
+stability.
+
+Let $W,\kappa$ be the three-dimensional matrices in
+\eqref{path:matrices}, and put $M=W\kappa$. For $0\le p,q\le2$, set
+\[
+ (W_r)_{pq}=(-1)^{p+q},\qquad
+ (W_-)_{pq}=\frac{(-1)^{p+q}}{p+q+1},\qquad
+ \kappa_1=\begin{pmatrix}3&-1&0\\1&0&0\\0&0&0\end{pmatrix}.
+\]
+Expanding the cyclic product of kernels and integrating each variable
+contracts their coefficients cyclically. Consequently the volume and
+facet integrals of Section~\ref{sec:graphs} are
+\begin{align*}
+ Z_j&=\operatorname{tr}(M^j),&
+ A_j&=\operatorname{tr}(W_r\kappa M^{j-1}),\\
+ B_j&=\operatorname{tr}(W_-\kappa M^{j-1}),&
+ C_j'&=\operatorname{tr}(W\kappa_1M^{j-1}).
+\end{align*}
+Here $a=A_j/Z_j$, $b=B_j/Z_j$, $c=C_j'/Z_j$. The denominator is the
+integral of the strictly positive cyclic kernel, so $Z_j>0$.
+Define four rational sequences by
+\[
+ s_j^{(1)}=\tfrac12Z_j-A_j,\quad
+ s_j^{(2)}=B_j-\tfrac14Z_j,\quad
+ s_j^{(3)}=C_j'-\tfrac23Z_j,\quad
+ s_j^{(4)}=\tfrac56Z_j-C_j'.
+\]
+The characteristic polynomial of $M$ is
+\[
+ x^3-\frac{27}{2}x^2+\frac{2491}{240}x-\frac{127}{864}.
+\]
+By Cayley--Hamilton, each sequence satisfies
+\begin{equation}\label{cycle:recurrence}
+ s_{j+3}=\frac{27}{2}s_{j+2}-\frac{2491}{240}s_{j+1}
+             +\frac{127}{864}s_j.
+\end{equation}
+The starting values, obtained from the displayed matrices, are in
+Table~\ref{cycle:seeds}. Index one denotes a formal trace value, not a
+looped graph construction.
+
+\begin{table}[ht]
+\centering
+\caption{Exact starting values for the four cycle inequalities.}
+\label{cycle:seeds}
+\begin{adjustbox}{max width=\textwidth}
+\renewcommand{\arraystretch}{1.55}
+\begin{tabular}{ccccc}
+\toprule
+$j$&$s_j^{(1)}$&$s_j^{(2)}$&$s_j^{(3)}$&$s_j^{(4)}$\\
+\midrule
+\csname @@input\endcsname tables/cycle_seeds.tex
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+All first terms are nonnegative, all second and third terms are positive,
+and componentwise
+\[
+ s_3-12s_2=
+ \left(\frac{20887}{720},\frac{21871}{2880},
+       \frac{19903}{2160},\frac{34037}{4320}\right)>0.
+\]
+Suppose $s_k>12s_{k-1}>0$ and $s_{k-2}\ge0$. Recurrence
+\eqref{cycle:recurrence} gives
+\[
+ s_{k+1}>
+ \left(\frac{27}{2}-\frac{2491}{2880}\right)s_k>12s_k>0,
+\]
+since $27/2-2491/2880-12=1829/2880>0$. Induction proves positivity
+for each sequence at every $j\ge2$. These four signs are exactly
+\eqref{cycle:bounds}, completing the proof.
+\end{proof}
+
+All data used by the induction are printed above. Exact checks reproduce
+the seeds and compare the trace degrees with the independently integrated
+graph formulas for $j=2,3$.\footnote{The checks are implemented in
+\path{figures/code/compute06_cycle_tables.py}.}
+These checks verify the finite matrix calculations; the induction proves
+the assertion for every length.

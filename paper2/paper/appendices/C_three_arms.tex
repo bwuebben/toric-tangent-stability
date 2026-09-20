@@ -1,0 +1,271 @@
+\section{Proof for three independent arms}\label{sec:spiders}
+
+We prove Theorem~\ref{spider:stable}. The notation $Y_{a,b,c}$ and the
+construction are fixed in Section~\ref{sec:bundle-families}.
+
+\subsection{Independent arm subspaces and the central relation}
+
+Use the independent local reflections $r\mapsto r$,
+$q\mapsto-r-q$, the untwisted-ray transpositions at internal $\PP^2$
+factors, and the permutations of the three central untwisted rays.
+They preserve the distinguished vectors and the sums of untwisted
+base coordinates, hence every twist. They also preserve adjacent
+hexagon pairs and omitted base-ray sets. They therefore generate a
+group $A$ of fan automorphisms for arbitrary arm lengths.
+
+Every $A$-invariant closed ray set selects each hexagon as empty, its
+distinguished line, or its whole plane, denoted $H=0,1,2$. At an
+internal base the two untwisted rays are selected together, and the
+twisted ray independently, with indicators $C,T$. At a leaf its two
+rays are chosen independently. At the center $C_*,T_*$ select all
+three untwisted rays and the twisted ray. These configurations include
+every invariant flat; the arm choices need not agree.
+
+Read each arm from the leaf to the center using the path recurrence
+\eqref{path:transition}. Its state $s=G,g,u$ records whether the
+outgoing distinguished line is selected, is spanned through earlier
+relations, or is unspanned. Let $e$ indicate a nonempty arm selection.
+Let $f=1$ when every hexagon is a plane, every internal base has $C=1$,
+and the leaf has at least one ray selected. The reachable terminal
+triples are
+\[
+ (G,1,0),\quad(G,1,1),\quad(g,1,0),\quad(u,0,0),\quad(u,1,0).
+\]
+
+\begin{lemma}\label{spider:rank}
+Suppose the three arm selections have ranks $r_i$, deficits $v_i$,
+and terminal triples $(s_i,e_i,f_i)$. Adding the central choice gives
+rank
+\[
+ \sum_{i=1}^3r_i+3C_*+T_*(1-C_*)
+       +C_*T_*\mathbf1_{\{\exists i:s_i=u\}}
+\]
+and deficit
+\begin{equation}\label{spider:central-cost}
+ \sum_{i=1}^3v_i+3C_*+T_*(1-C_*)
+ +C_*T_*\mathbf1_{\{\exists i:s_i=u\}}
+ -(3C_*+T_*)\delta_*.
+\end{equation}
+Here $\delta_*$ is the normalized degree of one central ray. The
+selection is empty exactly when all $e_i,C_*,T_*$ vanish, and has full
+rank exactly when $C_*=f_1=f_2=f_3=1$.
+\end{lemma}
+\begin{proof}
+The arm spans occupy disjoint coordinate blocks. The central untwisted
+rays add $3C_*$ dimensions. If $C_*=0$ and $T_*=1$, the twisted ray has a new
+central coordinate and adds one dimension. If $C_*=T_*=1$, its remaining
+image is minus the sum of the terminal distinguished vectors in the
+direct sum of the three arm quotients. This sum is nonzero precisely
+when at least one summand is nonzero, giving the displayed rank.
+Subtracting selected weights proves~\eqref{spider:central-cost}.
+
+Full rank requires each hexagon's nontrivial reflection representation,
+each internal base's nontrivial transposition representation, and the
+central base's two-dimensional standard representation. Thus every
+hexagon must be a plane, every internal untwisted pair must be selected,
+and $C_*=1$. The remaining leaf coordinate requires at least one leaf
+ray. These conditions also suffice directly. Emptiness is immediate.
+\end{proof}
+
+Minimize each arm deficit for its five terminal triples, and combine
+the results for the four central choices. This gives $5^3\cdot4=500$
+entries before the empty and full-rank exclusions. Their positivity
+implies stability by Proposition~\ref{prop:symmetry}. All quantitative
+deficits below concern these $A$-invariant configurations.
+
+\subsection{The mixed cubic integral}
+
+Write $L_1=a,L_2=b,L_3=c$. On each arm number the hexagons from the
+center by $p=0,\ldots,L_i-1$. With $d\nu(t)=(2-|t|)\,dt$ on $[-1,1]$
+and the kernel $\mathcal K$ of~\eqref{path:kernel}, put
+\[
+ h_0(t)=2+t,\qquad
+ h_{k+1}(s)=\int\mathcal K(s,t)h_k(t)\,d\nu(t).
+\]
+For positive functions $u,v$ define
+\begin{align}
+ J_{u,v}(s)&=\iint\frac{(4-s-t-z)^3}{6}
+                u(t)v(z)\,d\nu(t)d\nu(z),\label{spider:J}\\
+ J^-_{u,v}(s)&=\iint\frac{(4-s-t-z)^2}{2}
+                u(t)v(z)\,d\nu(t)d\nu(z).\label{spider:Jminus}
+\end{align}
+Set $h^{(i)}=h_{L_i-1}$. The left initial function on arm $i$ is
+$\ell_{0,i}=J_{h^{(j)},h^{(k)}}$, where $\{i,j,k\}=\{1,2,3\}$.
+Propagate it by the left operator in~\eqref{path:chains}. The central
+ray degree is
+\begin{equation}\label{spider:central-degree}
+ \delta_*=
+ \frac{\int J^-_{h^{(j)},h^{(k)}}(s)h^{(i)}(s)\,d\nu(s)}
+      {\int J_{h^{(j)},h^{(k)}}(s)h^{(i)}(s)\,d\nu(s)}.
+\end{equation}
+The value is independent of $i$. The other degrees are the path
+ratios~\eqref{path:hexdegree}--\eqref{path:basedegree}, using left
+index $p$ and right index $L_i-1-p$ for hexagon $p$, and left index
+$c-1$ and right index $L_i-1-c$ for internal base $c$. The leaf
+numerator replaces $2+t$ by $1$. These formulas follow by integrating
+the other two arms in Proposition~\ref{graph:degree-formulas}.
+
+To specify the new polynomials, put $M_r(u)=\int t^ru(t)\,d\nu(t)$.
+The coefficient of $s^d$ in $J_{u,v}$ is
+\begin{equation}\label{spider:coefficients}
+ \sum_{\substack{r,t\ge0\\d+r+t\le3}}
+ \frac{(-1)^{d+r+t}4^{3-d-r-t}M_r(u)M_t(v)}
+      {d!r!t!(3-d-r-t)!}.
+\end{equation}
+Replacing $3$ by $2$ gives $J^-_{u,v}$. Thus the four-by-four moment
+matrices already printed in Appendix~\ref{sec:paths} determine every
+finite degree exactly.
+
+\subsection{Uniform estimates with different arm lengths}
+
+Keep $\Delta=\log(81/25)$ and $\tau=2/7$. Lemma~\ref{path:contraction}
+applies to any positive initial function. The left and right chains
+have positive projective limits $\ell_\infty,h_\infty$, independent
+of their initial functions, with index-$k$ error at most
+$\Delta\tau^{k-1}$ for $k\ge1$. Each degree ratio has logarithmic
+error at most the sum of the projective errors of its factors.
+
+Every individual ray weight in the following actual and comparison
+configurations is at most $B=81$. Indeed, for fixed $t,z$ the
+oscillation ratio of $(4-s-t-z)^3$ is at most $27$, and this persists
+under positive integration. Right functions have oscillation ratio
+at most $9$. Hexagon facet measures have mass one and $\nu$ has mass
+three, giving $27\cdot9/3=81$. Internal, leaf and central base weights
+are positive averages bounded by $2$, $1$ and $3$ respectively.
+
+Fix $q=16$. Call an arm short if $2\le L_i<2q$, and otherwise write
+$L_i=2q+m_i$, $m_i\ge0$. First replace the incoming function $h^{(i)}$
+of every long arm by $h_\infty$, keeping short incoming functions
+unchanged. Denote these functions by $\widehat h^{(i)}$. Use them in
+the central degree and in each initial left function; for the moment
+retain every actual right chain on the arms.
+
+Put $\bar\Delta=11757/10000>\Delta$, using the rational exponential
+estimate of Appendix~\ref{sec:paths}. For a long arm set
+$\epsilon_i=\bar\Delta\tau^{L_i-2}$, and for a short arm set
+$\epsilon_i=0$. Positivity of the mixed integral gives
+\[
+ d_H\bigl(J_{h^{(j)},h^{(k)}},
+          J_{\widehat h^{(j)},\widehat h^{(k)}}\bigr)
+ \le\epsilon_j+\epsilon_k.
+\]
+Let $z=3\bar\Delta\tau^{2q-2}$. Each sum on the right is at most $z$.
+After propagation along arm $i$, the logarithmic weight change is at
+most $z\tau^p$ for hexagon $p$, $z\tau^{c-1}$ for internal base $c$,
+and $z\tau^{L_i-1}$ for the leaf. The central logarithmic change is
+at most $\sum_i\epsilon_i\le z$.
+
+Using $e^t-1\le t+t^2$ for $0\le t\le1$, sum the six hexagon rays,
+three internal-base rays and two leaf rays on each arm. Their geometric
+sum is bounded by $9/(1-\tau)+2$. The four central rays give the
+uniform junction error
+\begin{equation}\label{spider:junction-error}
+ E_J=B\left(10+\frac{27}{1-\tau}\right)(z+z^2).
+\end{equation}
+In particular, increasing the length of another arm does not multiply
+this perturbation by its number of rays.
+
+Next replace each long arm by three zones. Read an internal period as
+base $c$ followed by hexagon $c-1$ and give both the index $p=c-1$;
+hexagon $p$ has the same zone index. For $p<q$, keep the finite left
+function and use $h_\infty$ on the right. For $q\le p<q+m_i$, use
+both limiting functions. For $p\ge q+m_i$, keep the right function
+and use $\ell_\infty$ on the left. The leaf uses the limiting left
+function. Short arms retain the preceding mixed-junction weights.
+Write $M(m_1,\ldots,m_k)$ for this comparison, where $k$ is the number
+of long arms. Its initial junction functions depend on the short
+lengths and the set of long arms, but not on any $m_i$.
+
+Put $x=\bar\Delta\tau^{q-2}$ and $S=2x/(1-\tau)$. Each boundary zone
+has at most $9q+4$ rays and omitted-chain logarithmic error at most $x$.
+In a middle period $p$ the error is at most
+\[
+ t_p=\bar\Delta(\tau^{p-1}+\tau^{L_i-3-p}),\qquad
+ t_p\le2x,\qquad \sum_pt_p\le S.
+\]
+There are at most nine rays per period. Summing over at most three
+long arms gives
+\begin{equation}\label{spider:zone-error}
+ E_Z=3B\{9S(1+2x)+2(9q+4)(x+x^2)\}.
+\end{equation}
+Hence every selected-ray deficit changes by at most $E_J+E_Z$ from
+the actual geometry to its comparison, uniformly in all arm lengths.
+
+\subsection{Finite comparisons and independent arm shortening}
+
+Consider the thirty short lengths $2,\ldots,31$ and the four long-arm
+middle lengths $m=0,1,2,3$. Their unordered triples give $7140$ finite
+comparisons. Ordering removes duplicate geometries only; every case
+still includes independent selections on its arms.
+
+For rational evaluation put $P=40$. Replace $h_\infty$ by $h_P$ and
+$\ell_\infty$ by the index-$P$ left chain starting at $2-s$. The
+common limit is independent of this initial choice. With
+$y=3\bar\Delta\tau^{P-1}$, each ray degree has logarithmic error at
+most $y$: a finite mixed left function changes by at most
+$2\bar\Delta\tau^{P-1}$, and an omitted right or left limit by at
+most $\bar\Delta\tau^{P-1}$. A finite comparison has at most
+$27(2q+3)+1$ rays, so its deficit error is bounded by
+\begin{equation}\label{spider:proxy-error}
+ E_R=B\{27(2q+3)+1\}(y+y^2).
+\end{equation}
+
+Let $\mu$ be the smallest proper nonempty rational deficit in these
+comparisons, and let $F_0$ be the largest absolute all-selected cost.
+Table~\ref{spider:table} records the finite minima by number of long
+arms; each displayed lower bound is rounded down. The arm recurrence,
+the five terminal states, \eqref{spider:central-cost}, and the mixed
+moment formula specify the finite calculation completely.
+
+% The reviewed finite table and bounds are inserted after computation.
+\input{tables/unequal_spider_comparisons}
+
+At true limiting weights, the empty $u$-loop and all-selected $G$-loop
+have cost zero. The latter assertion follows because a limiting period
+has total weight four, as proved in Appendix~\ref{sec:paths}. The same
+period calculation gives a positive rational simple-cycle gap $\gamma$,
+after the two zero loops are removed. A simple cycle uses at most
+three nine-ray periods, so its true gap is at least $\gamma-E_R$.
+
+Set $F=F_0+E_R$. Inserting a full middle period changes neither the
+all-selected cost nor the junction data of a true comparison. Therefore
+the all-selected cost is at least $-F$ for every choice of middle
+lengths. Every full-rank selection has cost at least this value:
+adding its omitted positive-weight rays changes no rank. Empty
+selections have cost zero.
+
+\begin{proof}[Proof of Theorem~\ref{spider:stable}]
+We first prove that every proper nonempty true comparison has deficit
+at least
+\[
+ \min\{\mu-E_R,\ \gamma-E_R-F\}.
+\]
+Induct on the sum of its middle lengths. If each is at most three,
+the finite comparison applies. Otherwise choose an arm with at least
+four middle periods. Two of its boundary states agree among $G,g,u$.
+Delete the closed walk between them on this arm. The retained indices
+from the center and leaf are unchanged, as are the junction functions,
+so the resulting weights are those of the shorter comparison.
+
+If the deleted walk contains only the empty $u$-loop, it removes no
+selected ray, and the retained $u$ boundary prevents full rank. If it
+contains only the full $G$-loop, the retained $G$ boundary prevents
+emptiness, and deleting selected planes and untwisted pairs removes
+no failure of a full-rank condition. Proper nonemptiness is therefore
+preserved in both zero-cost cases, and induction applies.
+
+Every other closed walk contains a positive simple cycle, with cost
+at least $\gamma-E_R$. The remaining configuration is proper nonempty,
+empty, or full rank. Apply induction, the zero empty cost, or the bound
+$-F$, respectively. This proves the comparison inequality; it uses
+the gap of one arm, without an equal-length or simultaneous-deletion
+assumption.
+
+Subtracting the actual-to-comparison error gives every proper nonempty
+$A$-invariant configuration deficit at least
+\[
+ \min\{\mu-E_R,\ \gamma-E_R-F\}-E_J-E_Z>0.02698.
+\]
+The symmetry criterion proves anticanonical stability. The dimension
+and Picard number follow from the graph construction.
+\end{proof}

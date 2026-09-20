@@ -1,0 +1,333 @@
+\section{The finite classifications}\label{sec:computation}
+
+The path family explains why the inequality $\rho\le n+2$ eventually
+fails for stable tangent bundles.  We now determine where the first
+failure occurs in the classifications of smooth toric Fano varieties.
+Throughout this section stability refers to the polarization $-K_X$.
+
+\begin{theorem}\label{census:lowdim}
+Let $X$ be a smooth toric Fano variety of dimension $n\le7$.
+If $T_X$ is stable, then $\rho(X)\le n+2$.
+For each $n=4,5,6,7$ this bound is attained, by respectively
+$3,1,10,15$ isomorphism classes.
+\end{theorem}
+
+\begin{theorem}\label{census:eight}
+The largest Picard number of a smooth toric Fano eightfold with stable
+tangent bundle is $11$.  Exactly one isomorphism class attains it:
+the path variety $X_2$ of Example~\ref{graph:path}.
+\end{theorem}
+
+\subsection{An independent test using bases}
+
+For $S\subseteq\mathcal R$, put $\delta(S)=\sum_{\rho\in S}\delta_\rho$.
+Lemma~\ref{lem:klyachko} is equivalent to
+\begin{equation}\label{eq:subsetstability}
+ \delta(S)<r(S)\quad
+ \text{for every nonempty proper }S\subset\mathcal R,
+\end{equation}
+with weak inequalities for semistability. Indeed, if $r(S)<n$, apply
+the subspace criterion to the span of $S$. If $r(S)=n$, positivity of
+the weights gives $\delta(S)<\delta(\mathcal R)=n$. Conversely, for a
+proper subspace $V$ containing rays, use the set of all rays in $V$;
+its rank is at most $\dim V$.
+
+A basis of the ray matroid is a subset $B\subset\mathcal R$ for which
+$\{u_\rho:\rho\in B\}$ is a basis of $N_\CC$. Write $\mathbf1_B$ for
+its incidence vector. The convex hull of these vectors is the
+\emph{base polytope} of the ray matroid.
+
+\begin{lemma}\label{lem:basecertificate}
+Suppose the normalized degree vector admits a decomposition
+\[
+ \delta=\sum_{k=1}^{\ell}\lambda_k\mathbf1_{B_k},
+ \qquad \lambda_k>0,\qquad\sum_{k=1}^{\ell}\lambda_k=1,
+\]
+where each $B_k$ is a basis of the ray matroid. Then $T_X$ is
+semistable. Form a directed graph on $\mathcal R$ with an edge
+$e\longrightarrow e'$ whenever, for some $k$, one has
+$e\notin B_k$, $e'\in B_k$, and $(B_k\setminus\{e'\})\cup\{e\}$ is
+also a basis. If this graph is strongly connected, then $T_X$ is stable.
+\end{lemma}
+
+\begin{proof}
+For every $S\subseteq\mathcal R$,
+\[
+ \delta(S)=\sum_k\lambda_k|B_k\cap S|\le r(S),
+\]
+because $B_k\cap S$ is independent. Equality holds precisely when
+$|B_k\cap S|=r(S)$ for every $k$.
+If a nonempty proper $S$ gives equality and the directed graph is
+strongly connected, an edge $e\longrightarrow e'$ leaves $S$.
+For its corresponding basis $B_k$, replacing $e'\notin S$ by $e\in S$
+produces a basis containing $r(S)+1$ members of $S$, a contradiction.
+Thus \eqref{eq:subsetstability} holds. This argument does not use
+Proposition~\ref{prop:symmetry}.
+\end{proof}
+
+\subsection{Coverage and exact slope comparisons}
+
+We use the complete classification of smooth Fano polytopes obtained
+by \O bro's algorithm \cite{Obro2007}, with the low-dimensional data
+from polyDB and the seven- and eight-dimensional lists distributed
+by Paffenholz \cite{polyDB}.  A smooth Fano polytope is the convex hull
+of the primitive ray generators, and its facets determine the maximal
+cones.  The facet normals of the dual moment polytope thus give the
+same ray configuration.  This distinction matters because the two
+distributions use different polytope conventions.
+
+The computations through dimension six are those of
+\cite{Wuebben2026}.  In dimension four, the classification by tangent
+bundle stability was already obtained by Reynolds
+\cite[Appendix~A]{Reynolds2023}; our four-dimensional calculation is an
+independent verification, rather than a new classification.
+The additional coverage used here is precisely
+\[
+ \begin{array}{c|c|r}
+ n&\text{Picard numbers examined}&\text{number of varieties}\\ \hline
+ 7&\rho\ge9&1277\\
+ 8&\rho\ge11&1582.
+ \end{array}
+\]
+Thus all sevenfolds at or above $\rho=n+2$ are covered, whereas in
+dimension eight the complete calculation starts at $\rho=n+3$.
+The eight-dimensional stratum $\rho=10$ has not been classified here
+by stability.  No stability classification in dimension nine is used.
+
+For each ray configuration, the intersection numbers $d_v$ are
+computed as normalized facet volumes of the moment polytope.
+Candidate facets and vertices obtained numerically are checked by
+rational linear algebra before evaluating the volumes.  The identities
+\[
+ \sum_vd_v=D,\qquad \sum_vd_vv=0
+\]
+provide consistency checks, while each final slope comparison is a
+comparison of rational numbers.  To disprove stability it suffices to
+exhibit a proper ray-spanned subspace $W$ for which
+\begin{equation}\label{census:witness}
+ \frac{\sum_{v\in W}d_v}{\dim W}\ge\frac Dn.
+\end{equation}
+The search first examines subspaces spanned by at most four rays.
+If it finds no such subspace, all ray-spanned subspaces are examined.
+Consequently failure to find a small-dimensional subspace is never
+used as evidence of stability.
+
+There are two distinct kinds of non-stability record.  A strict
+inequality in \eqref{census:witness} proves instability.  An equality
+excludes stability but does not exclude the existence of a different
+subspace with strictly larger slope.  We therefore retain the term
+\emph{equality witness} for the latter records, without classifying
+all of them as semistable.
+
+\begin{proof}[Proof of Theorem~\ref{census:lowdim}]
+The bound in dimensions at most six follows from the complete
+low-dimensional calculation cited above and, in dimensions one and
+two, from the classifications of smooth toric Fano curves and surfaces.
+The numbers of varieties with $\rho\ge n+3$ in dimensions $4,5,6$
+are $2,7,52$; none has stable tangent bundle.
+Of the $1277$ sevenfolds examined, $1013$ have $\rho=9$ and $264$
+have $\rho\ge10$.  Among the latter, $100$ admit a strict witness
+and $164$ have a recorded equality witness.  Hence none is stable.
+Among the former, exactly $15$ are stable.  Together with the stable
+counts $3,1,10$ at $\rho=n+2$ in dimensions $4,5,6$, this proves both
+assertions.
+\end{proof}
+
+\begin{table}[ht]
+\centering
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{rrrrr}
+\toprule
+$\rho$ & total & stable & unstable & equality witness\\
+\midrule
+\csname @@input\endcsname tables/screen8_counts.tex
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\caption{All smooth toric Fano eightfolds with $\rho\ge11$.
+The final column excludes stability but does not assert semistability.}
+\label{census:screen8}
+\end{table}
+
+\begin{proof}[Proof of Theorem~\ref{census:eight}]
+Table~\ref{census:screen8} accounts for all $1582$ varieties with
+$\rho\ge11$: one is stable, $762$ have a strict destabilizing witness,
+and $819$ have an equality witness.  The stable variety has $\rho=11$
+and identifier \texttt{P8D.smooth\_fano\_8d.gz.389596} in Paffenholz's
+list.  Its anticanonical degree is $D=5753440$.
+
+Here is an explicit identification with $X_2$.  Order the coordinates
+of its lattice as
+\[
+ (r_0,q_0,r_1,q_1,f^0_1,f^1_1,f^1_2,f^2_1),
+\]
+with the orientations in Example~\ref{graph:path}.  In the database
+coordinates the lattice map is
+\begin{equation}\label{census:identification}
+ A=\begin{pmatrix}
+ 0&0&0&0&0&-1&0&0\\
+ -1&0&0&0&0&0&0&0\\
+ 0&0&1&-1&0&0&0&0\\
+ 0&0&0&0&0&0&0&-1\\
+ 0&0&0&0&-1&0&0&0\\
+ 0&0&0&0&0&0&-1&0\\
+ 0&0&-1&0&0&0&0&0\\
+ 1&-1&0&0&0&0&0&0
+ \end{pmatrix}.
+\end{equation}
+Direct evaluation gives $\det A=1$ and shows that $A$ maps the $19$
+ray generators of $X_2$ bijectively onto those of the listed variety.
+Since both fans are the fans over the faces of their smooth Fano
+polytopes, this ray bijection identifies the fans as well.
+
+There is also a finite verification of stability directly from the
+database rays, independent of the path-family proof.  Its rational
+base-polytope expression consists of $19$ bases with positive rational
+coefficients summing to $1$.  The weighted sum of their incidence
+vectors equals $(\delta_v)_v$, and their directed exchange graph is
+strongly connected.  Lemma~\ref{lem:basecertificate} therefore proves stability.
+These finite checks and the absence of any other stable record prove
+uniqueness and maximality.
+\end{proof}
+
+\subsection{The varieties of Picard number \texorpdfstring{$n+2$}{n+2}}
+
+For clarity, define the even-dimensional del Pezzo variety $V_{2m}$
+as the smooth toric Fano variety whose fan is the fan over the faces
+of the polytope
+\begin{equation}\label{census:del-pezzo}
+ \operatorname{conv}\{\pm e_1,\ldots,\pm e_{2m},
+                  \pm(e_1+\cdots+e_{2m})\}\subset\ZZ^{2m}_\RR.
+\end{equation}
+This is the del Pezzo variety of Voskresenski\u\i{} and Klyachko
+\cite{VoskresenskiiKlyachko1985}.  It has $4m+2$ rays and Picard number
+$2m+2$; in particular $V_2=S_6$.  A toric fibre bundle with this fibre
+means a Zariski locally trivial toric morphism with fibre $V_{2m}$,
+equivalently a fan split by the base fan and the fan of $V_{2m}$ as in
+Lemma~\ref{graph:split-collections}.
+
+\begin{theorem}\label{census:boundary}
+Suppose $4\le n\le7$, $X$ is a smooth toric Fano $n$-fold,
+$\rho(X)=n+2$, and $T_X$ is stable.  Then either $n$ is even and
+$X\cong V_n$, or $X$ is a toric fibre bundle with fibre $V_{2m}$,
+$0<2m<n$, over a smooth projective toric variety $Y$ satisfying
+$\rho(Y)=\dim Y$.  The numbers of isomorphism classes are as follows:
+\[
+ \begin{array}{c|rrrr}
+ n&V_n&V_2\text{-bundles}&V_4\text{-bundles}&\text{total}\\ \hline
+ 4&1&2&0&3\\
+ 5&0&1&0&1\\
+ 6&1&7&2&10\\
+ 7&0&14&1&15.
+ \end{array}
+\]
+\end{theorem}
+
+\begin{proof}
+For the $29$ stable varieties counted in
+Theorem~\ref{census:lowdim}, we examine rational subspaces spanned by
+rays in even dimension.  The fibre configurations are identified with
+\eqref{census:del-pezzo} in integral coordinates.  In each of the $27$
+proper-fibre cases, the non-fibre rays project bijectively onto the
+rays of a smooth complete quotient fan.  Moreover, the maximal cones
+of the original fan are exactly all sums of a fibre maximal cone and
+a chosen lift of a quotient maximal cone.  Thus the full split-fan
+condition holds, and the toric local triviality theorem applies.
+The other two configurations are $V_4$ and $V_6$ themselves.
+
+The base is projective: a base maximal cone lifts to a cone of the
+original fan, and the orbit closure associated to any fixed fibre
+maximal cone is a section isomorphic to the base.  Since $X$ is
+projective, so is this closed subvariety.  Finally, counting fibre
+and base rays in a split fan gives
+\[
+ \rho(X)=\rho(V_{2m})+\rho(Y),\qquad
+ \dim X=2m+\dim Y.
+\]
+Substituting $\rho(X)=n+2$ and $\rho(V_{2m})=2m+2$ yields
+$\rho(Y)=\dim Y$.
+\end{proof}
+
+The statement describes a finite part of the classification, not a
+criterion asserting stability for every del Pezzo bundle of these
+dimensions.  Nor does it imply that the base is a product of projective
+lines.  Already in dimension six there are stable hexagon bundles over
+other smooth toric bases of dimension and Picard number four.
+
+\subsection{Reproducibility}
+
+The ancillary package includes standalone rational-arithmetic programs
+for the uniform path, end-attachment, branching and cycle
+calculations. Their inputs are the rays, moment matrices, rank recurrences
+and comparison bounds stated above. In particular, the end-attachment
+and branching programs reproduce the finite minima, all-selected costs
+and error bounds. The unequal-arm calculation evaluates all $500$
+central choices for each of $7140$ mixed comparisons, including every
+short-length case required by the contraction argument. The general-tree
+theorem then uses an induction rather than an enumeration of tree shapes.
+Its additional arithmetic consists of the limiting transition inequalities
+and the explicit subdivision thresholds. From the ancillary
+directory, the commands
+\begin{quote}
+\small\ttfamily\raggedright
+python3 -S code/end\_attachment\_proof.py --uniform\\
+python3 -S code/unequal\_spider\_proof.py --uniform\\
+python3 -S code/two\_junction\_gluing.py\\
+python3 -S code/subcubic\_thresholds.py\\
+python3 -S code/research\_graph\_targets.py
+\end{quote}
+require only the Python standard library. The package retains the exact
+rational outputs and $93$ positive basis decompositions for independently
+checking selected finite examples. Running
+\texttt{python3 -S code/verify\_certificate.py certificates/*.json}
+checks all these decompositions. Numerical searches for decompositions
+are not dependencies of their rational verification or of the uniform
+stability proofs.
+
+For the mixed-blowup construction, the tree criterion, the all-length
+path theorem and the saturated-vertex comparison are proved by identities
+and inequalities without a finite graph enumeration. The fourteen exact
+fractions used in the star-transition proof are reproduced directly from
+\eqref{branch:finite-sum} and its derivative by
+\begin{quote}
+\small\ttfamily\raggedright
+python3 -S code/mixed\_star\_table.py --check-json\\
+\hspace*{1em}data/mixed\_star\_table/signs.json
+\end{quote}
+The second line continues the same command. This calculation covers only
+$m\le14$; the estimate \eqref{branch:star-tail} proves the assertion
+for every $m\ge15$.
+
+The finite rational inputs for the tree stability theorem and the local
+degree-four and degree-five obstructions are reproduced by
+\begin{quote}
+\small\ttfamily\raggedright
+python3 -S code/mixed\_tree\_arithmetic.py --check-json\\
+\hspace*{1em}data/mixed\_tree\_arithmetic/signs.json
+\end{quote}
+This also checks the eighteen positive linear-functional values and six
+adjacent pairs in Proposition~\ref{treemix:two-centres}. The conclusions
+for arbitrary trees and connecting lengths use the monotonicity and
+induction arguments in Section~\ref{sec:mixed-tree-threshold}.
+
+The ancillary data distinguish input polytopes from varieties whose
+stability has actually been decided.  The seven-dimensional records
+cover all $1277$ varieties with $\rho\ge9$; the eight-dimensional records
+cover precisely the $1582$ with $\rho\ge11$.  They retain identifiers,
+ray coordinates, divisor degrees and the subspaces proving
+non-stability.  The stable-boundary list is restricted to $\rho=n+2$
+in dimensions four through seven.  In particular it does not include
+$X_2$, whose Picard number is $n+3$.
+
+For the stable eightfold, the rational expression in $19$ bases can be
+checked using only the ray matrix, the normalized degrees and rational
+arithmetic: verify each determinant is nonzero, each coefficient is
+positive, their sum is $1$, the weighted incidence-vector identity
+holds, and the directed exchange graph is strongly connected.  This check uses no fan
+symmetry.  The identification matrix \eqref{census:identification}
+gives a separate comparison with the graph construction.\footnote{\raggedright The
+computations are implemented by \texttt{screen\_high\_rank.py},
+\texttt{matroid\_certificate.py} and \texttt{verify\_certificate.py}.
+The stable-eightfold expression is retained as
+\texttt{P8D\_389596.json}.  Only completed calculations enter the
+ancillary tables.}

@@ -1,0 +1,89 @@
+\pdfoutput=1
+\documentclass[11pt]{amsart}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{adjustbox}
+\usepackage{tikz}
+\setcounter{tocdepth}{1}
+\usepackage[margin=1.2in]{geometry}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\hypersetup{pdfauthor={Bernd Johannes Wuebben},
+  pdftitle={Tangent stability on toric Fano blowups and bundles}}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{question}[theorem]{Question}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\PP}{\mathbb{P}}
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\dP}{\mathrm{dP}}
+
+\hyphenation{semi-sta-ble poly-sta-ble Her-mit-ian}
+
+\title[Tangent stability on toric Fano varieties]{Tangent stability on toric Fano\ blowups and bundles}
+
+\author{Bernd Johannes Wuebben}
+\subjclass[2020]{14M25 (primary); 14J45, 14J60, 52B20 (secondary)}
+\keywords{Toric Fano varieties, tangent bundle, slope stability, Picard number,
+smooth Fano polytopes, del Pezzo varieties, Klyachko filtrations}
+\date{September 20, 2026}
+
+\begin{document}
+\begin{abstract}
+We study anticanonical slope stability of tangent bundles under two
+constructions of smooth toric Fano varieties. For codimension-two
+blowups of products of projective spaces indexed by a tree, all
+subspace stability inequalities reduce to one divisor-degree inequality
+at each vertex. We express the exceptional contributions as mixed
+intersections on the blowup centres. The criterion proves stability
+for every tree of maximum degree three whose nonleaf factor dimensions
+equal their valences, with arbitrary positive leaf dimensions; a specified degree-four neighbourhood forces
+instability, although other degree-four and degree-five arrangements
+remain stable. For locally trivial toric bundles with fibre a product
+of degree-six del Pezzo surfaces and base a product of projective
+spaces, we prove that the maximal stable Picard number in dimension
+$n\ge4$ is $\lfloor5n/4\rfloor+1$, allowing arbitrary integral twists.
+Every fixed subcubic tree with an edge yields maximizers after
+sufficiently long independent subdivisions. Consequently the number
+of torically distinct stable extremizers is unbounded as the dimension
+grows through multiples of four. The proofs combine relative tangent
+obstructions, subspace-rank formulas and integral comparisons; the
+bundle existence proofs also use exact rational calculations with
+uniform error estimates.
+\end{abstract}
+\maketitle
+
+\tableofcontents
+
+\input{sections/01_introduction}
+\input{sections/02_stability}
+\input{sections/12_mixed_blowup_trees}
+\input{sections/15_exceptional_intersections}
+\input{sections/13_mixed_blowup_branching}
+\input{sections/14_mixed_blowup_tree_threshold}
+\input{sections/03_interactions}
+\input{sections/03_graph_bundles}
+\input{sections/16_bundle_families}
+\input{sections/11_subdivided_trees}
+\input{sections/07_questions}
+\appendix
+\input{appendices/blowup_comparisons}
+\input{appendices/A_paths}
+\input{appendices/B_end_attachments}
+\input{appendices/C_three_arms}
+\input{appendices/D_cycles}
+\input{appendices/E_classification}
+\input{appendices/F_auxiliary}
+\input{references}
+\end{document}

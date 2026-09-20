@@ -1,0 +1,72 @@
+\section{Further questions}\label{sec:questions}
+
+The two constructions give complete extremal statements within their
+classes, but do not classify all stable members. For blowups, the
+vertex criterion separates this classification problem from the
+subspace-rank calculation. For bundles, the subdivision theorem gives
+many extremizers without a characterization of every stable twist.
+
+\begin{question}
+Which saturated blowup trees of maximum degree four or five have
+stable tangent bundle? What additional subspace inequalities are needed
+for the same construction on graphs with cycles?
+\end{question}
+
+The degree-four obstruction is sufficient, whereas
+Proposition~\ref{treemix:two-centres} gives stable higher-degree
+arrangements. Larger factor dimensions at nonleaf vertices also lie
+beyond the subcubic stability theorem. The exceptional mixed-intersection
+formula in Section~\ref{sec:intrinsic} remains available without a tree,
+but controlling its associated foliation alone does not control every
+higher-rank subsheaf.
+
+\begin{question}
+Is there an absolute integer $L_*$ such that every finite subcubic
+tree with an edge gives a stable graph bundle whenever all skeleton
+edges are subdivided to length at least $L_*$?
+\end{question}
+
+Theorem~\ref{tree:stable} gives a sufficient length growing
+logarithmically with the number of trivalent vertices. It does not
+show that this dependence is necessary. More generally, the necessary
+incidence conditions in Corollary~\ref{interact:equality} do not decide
+which primitive twisting vectors produce stable extremizers.
+
+Finally, let $R(n)$ be the largest Picard number of a smooth toric
+Fano $n$-fold with anticanonically stable tangent bundle. The bundle
+theorem gives the lower bound below. For comparison, a published
+splitting theorem supplies a general upper bound.
+
+\begin{corollary}[Consequence of Assarf--Nill]\label{cor:publishedbound}
+For $n\ge4$,
+\[
+ \left\lfloor\frac{5n}{4}\right\rfloor+1\le R(n)\le
+ 2n-\left\lceil\frac{\sqrt{60n+1309}-37}{30}\right\rceil.
+\]
+\end{corollary}
+\begin{proof}
+The lower bound is Theorem~\ref{thm:main}. For a stable $X$, put
+$k=2n-\rho(X)\ge0$, using Casagrande's bound
+\cite{Casagrande2006}. Assarf--Nill
+\cite[Theorem~8]{AssarfNill2016} show that
+$n>15k^2+37k+1$ forces a factor $S_6$ in a product decomposition.
+For $n\ge3$ this is a nontrivial product, whose tangent bundle is
+not stable. Thus $n\le15k^2+37k+1$; solving for the nonnegative
+integer $k$ gives the upper bound.
+\end{proof}
+
+Assarf--Nill \cite[Conjecture~13]{AssarfNill2016} conjecture the
+stronger bound $\rho\le(4n+3)/3$ for smooth toric Fano varieties of
+dimension at least three that are not nontrivial products. Tangent
+stability implies this nonproduct condition.
+\begin{question}
+Does every smooth toric Fano $n$-fold with anticanonically stable
+tangent bundle satisfy $\rho\le(4n+3)/3$ for $n\ge3$? What is
+$\limsup_{n\to\infty}R(n)/n$?
+\end{question}
+
+The results here give an asymptotic lower ratio of $5/4$. The proposed
+upper ratio $4/3$ remains conjectural. A general proof would have to
+show that excessive Picard number forces excessive degree in some
+proper tangent subspace. Neither the exceptional-intersection identity
+nor the restricted bundle incidence argument supplies that implication.

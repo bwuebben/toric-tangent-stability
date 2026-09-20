@@ -13,3 +13,6 @@ __pycache__/
 *.out
 *.synctex.gz
 *.toc
+
+# Regenerated Paper 2 verification outputs
+paper2/paper/anc/output/

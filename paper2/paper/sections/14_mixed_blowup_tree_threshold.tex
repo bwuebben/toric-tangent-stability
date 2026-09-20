@@ -1,0 +1,392 @@
+\section{A sharp universal degree threshold for blowup trees}
+\label{sec:mixed-tree-threshold}
+
+We now prove that every tree of maximum degree three gives a stable
+blowup when the nonleaf dimensions equal their valences; the leaf
+dimensions can be arbitrary. The argument controls the incoming volume
+profiles uniformly under both the one-child and two-child integration
+operations. Four neighbours with sufficiently large profiles instead
+force the central radial foliation to destabilize. This yields a sharp
+universal degree threshold, while allowing the stable degree-four and
+degree-five arrangements of Section~\ref{sec:mixed-branching}.
+A family with two branching vertices gives further stable arrangements.
+
+\begin{theorem}\label{treemix:subcubic}
+Let $G$ be a finite tree with at least one edge and maximum degree at
+most three. Set $b_v=d_v$ at every nonleaf vertex, and choose any positive
+integer $b_v$ at each leaf. Then the mixed blowup $Y(G,b)$ has
+anticanonically stable tangent bundle. If $M=|E(G)|$, then
+\[
+ n=2M+\sum_{v\text{ leaf}}(b_v-1),\qquad \rho=2M+1.
+\]
+It is smooth Fano and admits no torus-equivariantly locally trivial
+bundle presentation with positive-dimensional complete fibre and base.
+The normalized degrees of unassigned original divisors satisfy
+\begin{equation}\label{treemix:local-bounds}
+ A_v\le\frac{25950132}{26414113}<1\quad(d_v=3),\qquad
+ A_v\le\frac{24}{25}<1\quad(d_v=2).
+\end{equation}
+In particular, every saturated tree of maximum degree three gives such
+a stable variety with $n=2M$ and $\rho=n+1$.
+\end{theorem}
+
+There is no restriction on the distances between branching vertices or
+on the relative sizes of the components of $G-v$. The numerical bounds
+in \eqref{treemix:local-bounds} concern the indicated individual divisor
+degrees; they do not give a uniform slope gap for all proper subspaces
+or for leaves of arbitrary dimension.
+
+In the notation of Section~\ref{sec:intrinsic}, the two internal-vertex
+bounds imply
+\[
+ \sum_{e\ni v}J_{v,e}\le\frac{24558189}{26414113}<1
+ \quad(d_v=3),\qquad
+ \sum_{e\ni v}J_{v,e}\le\frac{22}{25}<1
+ \quad(d_v=2).
+\]
+The proof therefore bounds the sum of the ordered exceptional
+intersections, including their dependence on all farther branches.
+Theorem~\ref{mixed:tree} is the additional step that promotes these
+local inequalities to stability of the entire tangent bundle.
+
+\subsection{Comparison of simplex integrals}
+
+We use two elementary integral constructions together with Efron's
+conditional-sum theorem. A function in this subsection is positive and
+continuous on $[0,\infty)$ and constant on $[1,\infty)$. For $k\ge1$ set
+\[
+ V_{p_1,\ldots,p_k}(t)=
+ \int_{\substack{x_i\ge0\\\sum_i x_i\le t}}\prod_i p_i(x_i)\,dx,
+ \qquad F_{p_1,\ldots,p_k}(t)=V'_{p_1,\ldots,p_k}(t),
+\]
+and
+\[
+ B_{p_1,\ldots,p_k}(t)=
+ \int_{\substack{x_i\ge0\\\sum_i x_i\le t}}
+       (t-\textstyle\sum_i x_i)\prod_i p_i(x_i)\,dx.
+\]
+The derivative $F$ is the integral on the sum slice in lattice measure,
+obtained by eliminating one coordinate with coefficient one.
+
+\begin{lemma}\label{treemix:convolution}
+Let $p_i,q_i$ be functions as above, with $q_i$ log-concave. If every
+$p_i/q_i$ is nonincreasing, then
+\[
+ \frac{B_{p_1,\ldots,p_k}(t)}{B_{q_1,\ldots,q_k}(t)}
+ \quad\hbox{and}\quad
+ \frac{F_{p_1,\ldots,p_k}(t)}{F_{q_1,\ldots,q_k}(t)}
+\]
+are nonincreasing for $t>0$, and
+\begin{equation}\label{treemix:root-comparison}
+ \frac{F_{p_1,\ldots,p_k}(t)}{V_{p_1,\ldots,p_k}(t)}
+ \le\frac{F_{q_1,\ldots,q_k}(t)}{V_{q_1,\ldots,q_k}(t)}.
+\end{equation}
+If every $p_i/q_i$ is nondecreasing, both monotonicity assertions and
+inequality \eqref{treemix:root-comparison} reverse.
+\end{lemma}
+
+\begin{proof}
+Take independent variables $X_i$ with densities proportional to
+$e^{-x}q_i(x)$ on $[0,\infty)$, and two further independent exponential
+variables of rate one. These densities are log-concave. The bounded
+positive function $R(x)=\prod_i p_i(x_i)/q_i(x_i)$ has the asserted
+coordinatewise monotonicity and is independent of the two extra
+coordinates. Extend it to real arguments by their nonnegative parts.
+Efron's conditional-sum theorem
+\cite[Theorems~3.2--3.3]{saumardwellner2018} makes its conditional
+expectation monotone in the total sum. The nonincreasing version follows
+by applying the theorem to $-R$.
+
+On a slice of total $t$, the common exponential factor cancels. Integrating
+the two additional coordinates gives the factor $t-\sum_i x_i$, so the
+conditional expectation is exactly $B_p(t)/B_q(t)$. Omitting these two
+variables instead gives $h(t)=F_p(t)/F_q(t)$; for $k=1$ this is just the
+assumed ratio order. Rescaling to a fixed compact simplex proves continuity
+of all slice ratios for $t>0$. Their positive denominators ensure that
+the monotone versions supplied by the theorem agree with these ratios
+everywhere. In the nonincreasing case,
+\[
+ V_p(t)=\int_0^t F_q(s)h(s)\,ds\ge h(t)V_q(t),\qquad
+ F_p(t)=F_q(t)h(t).
+\]
+Division proves \eqref{treemix:root-comparison}. The same calculation
+with the reversed integral inequality proves the other case.
+\end{proof}
+
+The following coefficient identity specifies the finite rational
+calculations used below. For a function $p$ as above define the formal
+power series
+\begin{equation}\label{treemix:Q}
+ Q_p(z)=p(1)+z\sum_{j\ge0}\frac{z^j}{j!}
+                   \int_0^1(1-a)^jp(a)\,da.
+\end{equation}
+Only finitely many coefficients are needed in each application.
+
+\begin{lemma}\label{treemix:coefficients}
+For $k\ge1$, $r\ge0$, and an integer $s\ge0$,
+\begin{equation}\label{treemix:split}
+ \int_{\substack{a_i\ge0\\\sum_i a_i\le k+r}}
+ \frac{(k+r-\sum_i a_i)^s}{s!}\prod_i p_i(a_i)\,da
+ =[z^{k+s}]e^{rz}\prod_i Q_{p_i}(z).
+\end{equation}
+For $r>0$, the facet volume is
+\[
+ F_{p_1,\ldots,p_k}(k+r)=[z^{k-1}]e^{rz}\prod_i Q_{p_i}(z).
+\]
+\end{lemma}
+
+\begin{proof}
+Partition the domain according to the set $S$ of coordinates in $[0,1]$.
+Subtract one from each of the remaining $k-|S|$ coordinates. Their
+integration leaves
+\[
+ \frac{(r+\sum_{i\in S}(1-a_i))^{k-|S|+s}}{(k-|S|+s)!}
+ \prod_{i\notin S}p_i(1)
+\]
+times the product of the short-coordinate weights. Express this power
+as an exponential coefficient, integrate the short coordinates over
+$[0,1]^S$, and sum over $S$. The result is
+\eqref{treemix:split}. Differentiate the case $s=0$ with respect to $r$
+to obtain the facet formula.
+\end{proof}
+
+\subsection{The proof for maximum degree three}
+
+Fix an oriented edge towards a parent vertex. With the parent's
+incidence coordinate equal to $a$, integrate over the component on
+the other side of the edge and denote its volume by $p(a)$.
+These incoming functions are positive, continuous, and constant for
+$a\ge1$. Indeed, the only inequality involving the fixed coordinate is
+$a+x\ge1$; above one it is redundant. Positivity follows by choosing
+all assigned coordinates slightly greater than one and all remaining
+coordinates small and positive. The inequalities $b_v\ge d_v$ leave
+room in every vertex simplex. Continuity follows by dominated convergence
+inside the fixed compact product of these simplexes. Since removing a
+vertex separates the tree into disjoint components, the incoming
+functions multiply when its coordinates are fixed.
+
+For a leaf of dimension $b$, the incoming function is
+\[
+ \phi_b(a)=\frac{(b+\min(a,1))^b}{b!}.
+\]
+At a nonleaf of degree two or three, integration of the coordinate
+assigned to the parent gives, for $0\le a\le1$,
+\begin{align}
+ T(p)(a)&=B_p(2+a),\label{treemix:T}\\
+ \mathcal G(p,q)(a)&=B_{p,q}(3+a),\label{treemix:G}
+\end{align}
+followed by constant continuation. There are respectively one and two
+child coordinates; the remaining interval has length
+$2+a-x$ or $3+a-x-y$.
+
+\begin{proof}[Proof of Theorem~\ref{treemix:subcubic}]
+Put $P(a)=(2+\min(a,1))^3$, and write $p\preceq P$ if $p/P$ is
+nonincreasing. The reference $P$ is an auxiliary function, not the
+volume of an additional projective-space factor. It is log-concave:
+its logarithmic derivative is $3/(2+a)$ below one and drops to zero
+above one. Every leaf satisfies $\phi_b\preceq P$, since
+\[
+ \frac{d}{da}\log\frac{\phi_b(a)}{P(a)}
+ =\frac b{b+a}-\frac3{2+a}\le1-\frac3{2+a}\le0
+ \qquad(0<a<1).
+\]
+This includes every positive leaf dimension.
+
+We next prove closure under \eqref{treemix:T}--\eqref{treemix:G}.
+Direct integration, or Lemma~\ref{treemix:coefficients}, gives
+\begin{align*}
+ T(P)(a)&=\frac{363}{10}+\frac{173}{4}a+\frac{27}{2}a^2,\\
+ \mathcal G(P,P)(a)&=\frac{119659}{80}+\frac{148781}{80}a
+                  +\frac{3213}{4}a^2+\frac{243}{2}a^3.
+\end{align*}
+For a polynomial $g$ of degree at most three,
+\[
+ \left(\frac{g(a)}{(2+a)^3}\right)'
+ =\frac{(2+a)g'(a)-3g(a)}{(2+a)^4}.
+\]
+The numerator coefficients are as follows; the cubic coefficient is zero.
+\begin{center}
+\begin{adjustbox}{max width=\textwidth,center}
+\begin{tabular}{lrrr}
+\toprule
+$g$ & $1$ & $a$ & $a^2$\\
+\midrule
+$T(P)$ & $-112/5$ & $-65/2$ & $-27/2$\\
+$\mathcal G(P,P)$ & $-12283/16$ & $-20261/40$ & $-297/4$\\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{center}
+All are negative. Hence $T(P)\preceq P$ and
+$\mathcal G(P,P)\preceq P$. By Lemma~\ref{treemix:convolution},
+$T(p)/T(P)$ and $\mathcal G(p,q)/\mathcal G(P,P)$ are nonincreasing
+whenever $p,q\preceq P$. Multiplying positive nonincreasing ratios
+proves $T(p),\mathcal G(p,q)\preceq P$. Induction on the number of
+vertices in each oriented component now gives $p\preceq P$ for every
+incoming function. The two child inputs need not be equal.
+
+At a degree-three vertex, the simplex capacity is four. For three
+reference inputs $P$, the volume and facet volume are
+\[
+ V_{P,P,P}(4)=\frac{26414113}{320},\qquad
+ F_{P,P,P}(4)=\frac{6487533}{80}.
+\]
+All arithmetic in these values and the two preceding reference
+polynomials follows from
+\[
+ Q_P(z)=27+\frac{65}{4}z+\frac{131}{20}z^2
+                   +\frac{233}{120}z^3+O(z^4)
+\]
+and Lemma~\ref{treemix:coefficients}: the root values are the coefficients
+of $z^3$ and $z^2$ in $e^zQ_P(z)^3$, while the outgoing polynomials
+are $[z^2]e^{(1+a)z}Q_P(z)$ and
+$[z^3]e^{(1+a)z}Q_P(z)^2$.
+Inequality~\eqref{treemix:root-comparison} therefore gives
+$A_v\le25950132/26414113$, whose deficit from one is
+$463981/26414113>0$.
+
+At a degree-two vertex, each incoming function satisfies
+\[
+ \frac{p(a)}{p(1)}\ge\frac{P(a)}{P(1)}\ge a
+ \quad(0\le a\le1),\qquad
+ (2+a)^3-27a=(1-a)^2(a+8)\ge0.
+\]
+Thus both inputs satisfy precisely \eqref{mixed:incoming-bound}.
+The two-input calculation
+\eqref{mixed:path-volume}--\eqref{mixed:path-facet}, which requires only
+those inequalities and the constant continuation, gives $24V-25F\ge0$.
+Hence $A_v\le24/25$. At every leaf, Lemma~\ref{mixed:flux} gives
+$A_v<1$, also when its dimension exceeds one. All vertices satisfy
+Theorem~\ref{mixed:tree}, which proves stability against all proper
+subspaces and hence against all subsheaves. The geometric assertions
+and counts follow from Proposition~\ref{mixed:geometry} and
+$\sum_vd_v=2M$.
+\end{proof}
+
+\subsection{A local obstruction at degree four}
+
+\begin{theorem}\label{treemix:degree-four}
+Let $Y(G,b)$ be a Fano mixed blowup indexed by a finite tree, with
+$b_u\ge d_u$ at every vertex. Suppose that a vertex $v$ and its four
+neighbors all have degree four and factor dimension four. Then
+\begin{equation}\label{treemix:four-bound}
+ A_v\ge\frac{40090063176909393024}{39498346443818421703}>1.
+\end{equation}
+The unassigned ray at $v$ defines a strict rank-one destabilizer.
+No additional condition is imposed on the branches beyond these neighbors.
+\end{theorem}
+
+\begin{proof}
+Let $\ell(a)=1+\min(a,1)$. Every incoming branch function $p$ in a Fano
+tree satisfies that $p/\ell$ is nondecreasing. To see this, let $b$ be
+the dimension of its first vertex, $x$ the coordinate assigned to the
+parent, and $z$ its other $b-1$ coordinates. After integration over more
+distant vertices, their volume $\Psi(z)$ is coordinatewise nondecreasing,
+since increasing a coordinate only relaxes mixed inequalities. It is
+independent of $x$. For $0\le a\le1$, integration of $x$ from $1-a$ to
+$b+1-\sum z_j$ and rescaling give
+\[
+ p(a)=(b+a)^b\int_{\substack{y\ge0\\\sum_j y_j\le1}}
+                   (1-\textstyle\sum_j y_j)\Psi((b+a)y)\,dy.
+\]
+The integral factor is nondecreasing; the same formula includes $b=1$
+as a zero-dimensional integral. Moreover,
+\[
+ \frac{d}{da}\log\frac{(b+a)^b}{1+a}
+ =\frac{a(b-1)}{(b+a)(1+a)}\ge0.
+\]
+Both functions are constant above one, which proves the claim.
+
+At a degree-four neighbor $w$ of $v$, the incoming function is
+$g_w(a)=B_{p_1,p_2,p_3}(4+a)$ on $[0,1]$, where $p_i$ are its three
+child inputs. Apply the increasing case of
+Lemma~\ref{treemix:convolution} with reference inputs $\ell$.
+This function is log-concave, and each $p_i/\ell$ is nondecreasing.
+It follows that $g_w/g_4$ is nondecreasing, where
+\begin{equation}\label{treemix:g-four}
+ g_4(a)=B_{\ell,\ell,\ell}(4+a)
+ =\frac{5217+5965a+2610a^2+520a^3+40a^4}{120}
+ \quad(0\le a\le1),
+\end{equation}
+with constant continuation.
+
+For a further application of the lemma, we check log-concavity of $g_4$.
+Writing $H=120g_4$ on $[0,1]$, direct differentiation gives
+\begin{align*}
+ (H')^2-HH''={}&8348485+14860260a+11120040a^2\\
+ &+4474400a^3+1020000a^4+124800a^5+6400a^6.
+\end{align*}
+Its coefficients are positive. Also $H'>0$, so the logarithmic
+derivative drops to zero at the constant continuation. Thus $g_4$ is
+log-concave on the whole half-line.
+
+The four components at $v$ supply four functions whose ratios to $g_4$
+are nondecreasing. Their product is the outside volume at fixed central
+coordinates. The increasing case of
+\eqref{treemix:root-comparison} compares $A_v$ with the ratio for four
+copies of $g_4$ at capacity five. The reference values are
+\[
+ V_0(5)=\frac{39498346443818421703}{23224320000},\qquad
+ F_0(5)=\frac{104401206189868211}{60480000}.
+\]
+For their exact evaluation, formula~\eqref{treemix:Q} gives
+\[
+ Q_{g_4}(z)=\frac{598}{5}+\frac{3683}{48}z+\frac{513}{16}z^2
+       +\frac{195899}{20160}z^3+\frac{11549}{5040}z^4+O(z^5).
+\]
+Lemma~\ref{treemix:coefficients} identifies $V_0(5),F_0(5)$ with
+$[z^4]e^zQ_{g_4}(z)^4$ and $[z^3]e^zQ_{g_4}(z)^4$.
+Their ratio proves \eqref{treemix:four-bound}; its excess over one is
+$591716733090971321/39498346443818421703$.
+The unassigned ray is the negative sum of four independent basis
+vectors and is the only ray on its line: other original rays lie on
+different lines or in different vertex summands, and exceptional rays
+have nonzero components in two summands. That line has normalized
+weight exactly $A_v>1$, proving strict instability.
+\end{proof}
+
+\begin{corollary}\label{treemix:threshold}
+Three is the largest integer $D$ for which every saturated mixed-blowup
+tree of maximum degree at most $D$ has anticanonically stable tangent
+bundle. A counterexample at degree four has dimension $32$ and Picard
+number $33$.
+\end{corollary}
+
+\begin{proof}
+Theorem~\ref{treemix:subcubic} proves the assertion for $D=3$.
+For $D=4$, take one degree-four vertex joined to four degree-four
+vertices, each with three additional pendant leaves, and saturate every
+vertex. There are sixteen edges, five dimension-four factors, and twelve
+unit leaves, so $n=32$ and $\rho=33$. All comparisons in
+Theorem~\ref{treemix:degree-four} are equalities in this case. Thus
+\eqref{treemix:four-bound} gives an unstable example of maximum degree
+four, which also excludes every $D\ge4$.
+\end{proof}
+
+\subsection{Two branching vertices with arbitrary separation}
+
+The sharp universal threshold does not preclude stable trees containing
+degree-four or degree-five vertices. The following smaller family allows
+an arbitrary distance between two such vertices, while keeping their
+pendant edges of length one.
+
+\begin{proposition}\label{treemix:two-centres}
+Let $d,e\in\{3,4,5\}$. Join vertices of degrees $d,e$ by a path of
+$L\ge1$ edges, and attach respectively $d-1,e-1$ unit-length pendant
+edges. Saturate every vertex. The resulting mixed blowup is smooth Fano,
+has anticanonically stable tangent bundle, and admits no nontrivial
+torus-equivariantly locally trivial bundle presentation. Writing
+$M=d+e+L-2$, its dimension and Picard number are $n=2M$ and $\rho=2M+1$.
+\end{proposition}
+
+The proof is in Appendix~\ref{sec:blowup-comparisons}. It bounds the
+degree-two vertices uniformly and proves positivity at the two branching
+vertices by a linear functional on their incoming slice polynomials.
+
+
+The fixed pendant lengths in Proposition~\ref{treemix:two-centres} are
+essential to its statement. Corollary~\ref{branch:degree-five} prevents
+an extension allowing all pendant arms at a degree-five centre to have
+arbitrary lengths. The degree-four obstruction, in turn, concerns trees;
+its factorization argument does not establish the same assertion for
+simple graphs with cycles.

@@ -1,0 +1,307 @@
+\section{Branching and neighbouring factor dimensions}\label{sec:mixed-branching}
+
+We retain the mixed-blowup construction $Y(G,b)$ of
+Section~\ref{sec:mixed}, with distinct original rays assigned to the
+incidences at each vertex. Write $d_v=\deg_G(v)$. Throughout this
+section assume $b_v\ge d_v$ and $b_v\ge1$ at every vertex, so that
+$Y(G,b)$ is Fano. A vertex $v$ is
+\emph{saturated} if $b_v=d_v$; equivalently, exactly one of its original
+rays is unassigned. The degree of its unassigned divisor depends on
+the geometry beyond its incident centres. We first determine stability
+for saturated stars, including the stable degree-four and degree-five
+examples. We then show that replacing the rest of the geometry by
+independent leaves of the same neighbouring dimensions can only decrease
+this degree. This comparison allows cycles and does not require
+saturation at the other vertices.
+
+\subsection{The exact transition for stars}
+
+Let $Y_m$ be the mixed blowup associated with a star with $m\ge1$ edges,
+central dimension $m$, and dimension one at each leaf. In the product
+lattice, choose bases $e_1,\ldots,e_m$ for the central factor and $u_i$
+for leaf $i$. Put
+\[
+ e_0=-\sum_{i=1}^m e_i,\qquad s_i=e_i+u_i.
+\]
+Thus $Y_m$ is obtained from $\PP^m\times(\PP^1)^m$ by subdividing the
+$m$ original cones $\langle e_i,u_i\rangle$. Let $A_m$ denote the
+normalized divisor degree of $e_0$, with the normalization used in
+Section~\ref{sec:mixed}.
+
+\begin{theorem}\label{branch:stars}
+For every $m\ge1$, the variety $Y_m$ is smooth Fano, has dimension $2m$
+and Picard number $2m+1$, and admits no torus-equivariantly locally
+trivial bundle presentation with positive-dimensional complete fibre
+and positive-dimensional base. Its tangent bundle is anticanonically
+stable exactly when $1\le m\le5$. For every $m\ge6$, the line
+$\CC e_0$ defines a strictly destabilizing saturated subsheaf.
+\end{theorem}
+
+The proof, including the finite sign calculation and the uniform tail
+estimate, is given in Appendix~\ref{sec:blowup-comparisons}.
+
+
+For the two stable stars with higher valence, the central degrees and
+total exceptional contributions are
+\[
+ A_4=\frac{44080}{47119},\qquad
+ \sum_iJ_{0,i}=\frac{31924}{47119}<1;
+ \qquad
+ A_5=\frac{100780}{103289},\qquad
+ \sum_iJ_{0,i}=\frac{88235}{103289}<1.
+\]
+These values follow from the table and \eqref{mixed:flux-identity}.
+They show that neither four nor five incident blowups alone forces the
+radial foliation of Proposition~\ref{intrinsic:foliation} to destabilize.
+The neighbouring slice profiles, rather than the number of contributions,
+determine whether their sum reaches one.
+
+The same line is the first Harder--Narasimhan term for $m\ge6$
+(Corollary~\ref{branch:hn}).
+
+\subsection{Comparison at a saturated vertex}
+
+The star calculation gives a necessary condition for stability in the
+entire simple-graph construction. In the next statement, the graph need
+not be connected and may contain cycles.
+
+\begin{theorem}\label{branch:comparison}
+Let $G$ be a finite simple graph with positive dimensions $b_w\ge d_w$
+at every vertex, and use injective incidence assignments in the
+construction of $Y(G,b)$. Suppose $v$ is saturated and
+$b_v=d_v=m\ge1$. Let $A_v$ be the normalized divisor degree of its unique
+unassigned original ray. Enumerate the neighbors as $w_1,\ldots,w_m$
+and put $c_i=b_{w_i}$. Define
+\[
+ \phi_c(a)=\frac{(c+\min(a,1))^c}{c!},\qquad
+ Z_{\mathbf c}(t)=\int_{\substack{a_i\ge0\\\sum_i a_i\le t}}
+                  \prod_{i=1}^m\phi_{c_i}(a_i)\,da.
+\]
+Then
+\[
+ A_v\ge\frac{Z'_{\mathbf c}(m+1)}{Z_{\mathbf c}(m+1)}
+       \ge A_m.
+\]
+The first ratio is nondecreasing in each neighboring dimension $c_i$.
+The dimensions at vertices other than $v$ may exceed their degrees.
+\end{theorem}
+
+\begin{proof}
+At every vertex $w$, choose an unassigned original ray as the negative
+sum ray, and use the other $b_w$ rays as a lattice basis. This is
+possible because $b_w\ge d_w$. In affine coordinates
+$a_{w,j}=1+\langle x,r_{w,j}\rangle$, the anticanonical polytope is
+\begin{equation}\label{branch:graph-polytope}
+ a_{w,j}\ge0,\qquad
+ \sum_{j=1}^{b_w}a_{w,j}\le b_w+1,\qquad
+ a_{w,e}+a_{z,e}\ge1\quad(e=\{w,z\}).
+\end{equation}
+Here $a_{w,e}$ is the coordinate assigned to the incidence $(w,e)$.
+The coordinate change preserves lattice volume.
+
+Write $a=(a_1,\ldots,a_m)$ for the coordinates at $v$. Before imposing
+the simplex inequality at $v$, integrate over all other vertices and
+denote the resulting volume by $W(a)$, for every $a_i\ge0$.
+It is bounded by the product of the other simplex volumes and is
+coordinatewise nondecreasing, since increasing $a_i$ only relaxes one
+inequality. It is constant in each coordinate once that coordinate is
+at least one.
+
+Moreover, $W(0)>0$. At every other vertex choose its assigned
+coordinates equal to $1+\varepsilon$ and its remaining coordinates
+equal to $\varepsilon$. For sufficiently small $\varepsilon>0$, the
+sum at $w$ is $d_w+b_w\varepsilon<b_w+1$, and all mixed inequalities
+are strict. An open set of such choices has positive volume.
+Monotonicity gives $W(a)>0$ throughout the nonnegative orthant.
+The function $W$ is continuous: its domain is contained in a fixed
+compact product of simplexes, and under a convergent change of $a$
+the defining indicators converge away from finitely many affine
+hyperplanes of measure zero.
+
+We first prove that
+\begin{equation}\label{branch:ratio}
+ R(a)=\frac{W(a)}{\prod_{i=1}^m\phi_{c_i}(a_i)}
+\end{equation}
+is coordinatewise nondecreasing. Fix every central coordinate except
+$a_i$, and let $w$ be the other endpoint of its edge. Put $b=b_w$.
+At $w$, let $x$ be the coordinate assigned to this edge and let
+$z=(z_1,\ldots,z_{b-1})$ be its remaining coordinates. Injectivity of
+the incidence assignments ensures that no other mixed inequality
+uses $x$. Simplicity ensures that $w$ has no second edge to $v$.
+
+Temporarily omit the simplex inequality at $w$ and integrate over
+every vertex other than $v,w$. The resulting function $\Psi(z)$ is
+nonnegative and coordinatewise nondecreasing on the nonnegative
+orthant: increasing a component of $z$ only enlarges the feasible set.
+It may depend on the other fixed central coordinates, but it is
+independent of $x$ and $a_i$. Edges among the other vertices remain
+inside this integral, so no independence of neighbouring components
+is required.
+
+For $0\le a_i\le1$, the interval for $x$ is
+$[1-a_i,b+1-\sum_jz_j]$. With $s=b+a_i$, integration over this interval
+and then the substitution $z=sy$ give
+\begin{align}
+ W(a)
+ &=\int_{\substack{z_j\ge0\\\sum_jz_j\le s}}
+       (s-\textstyle\sum_jz_j)\Psi(z)\,dz \notag\\
+ &=s^b\int_{\substack{y_j\ge0\\\sum_jy_j\le1}}
+       (1-\textstyle\sum_jy_j)\Psi(sy)\,dy.
+ \label{branch:neighbour-integral}
+\end{align}
+When $b=1$, the last integral is zero-dimensional and the same identity
+holds. The integral factor is nondecreasing in $s$. Thus, with the
+other coordinates fixed and $0\le a\le a'\le1$,
+\[
+ \frac{W(a')}{W(a)}
+ \ge\left(\frac{b+a'}{b+a}\right)^b
+ =\frac{\phi_b(a')}{\phi_b(a)}.
+\]
+This proves monotonicity
+of $R$ below one in each coordinate. Above one both $W$ and $\phi_{c_i}$
+are constant, and continuity gives the assertion across one.
+The function $R$ is also bounded, since each $\phi_{c_i}$ has a positive lower bound.
+
+To compare the simplex integrals, introduce independent random variables
+$X_1,\ldots,X_m$ with respective densities
+\[
+ f_i(x)=C_i e^{-x}\phi_{c_i}(x)\mathbf 1_{\{x\ge0\}},
+\]
+where $C_i>0$ is the normalizing constant. Each density is log-concave.
+On $(0,1)$ its logarithmic derivative is $-1+c_i/(c_i+x)$, which decreases;
+at one this derivative jumps downward to $-1$ and stays constant
+thereafter. Its support is the interval $[0,\infty)$.
+
+Efron's conditional-sum theorem states that, for independent
+log-concave random variables, the conditional expectation of a bounded
+coordinatewise nondecreasing function is nondecreasing in their sum;
+the version for general log-concave densities and any finite number
+of variables is given in
+\cite[Theorems~3.2--3.3]{saumardwellner2018}.
+Extend $R$ to $\RR^m$ by replacing each argument by its nonnegative
+part. The extension is bounded and coordinatewise nondecreasing.
+The theorem therefore implies that
+\[
+ h(s)=\mathbb E\!\left[
+ R(X_1,\ldots,X_m)\,\middle|\,X_1+\cdots+X_m=s
+ \right]
+\]
+has a nondecreasing version. When $m=1$, the same assertion follows
+directly from $h(s)=R(s)$.
+
+On the slice $\sum_i a_i=s$, the product exponential factor equals
+$e^{-s}$ and cancels from the conditional expectation. Thus $h(s)$
+is the ratio of the $W$-weighted slice volume to the
+$\prod_i\phi_{c_i}(a_i)$-weighted slice volume. These integrals are
+continuous for $s>0$, by rescaling the compact sum simplex to a fixed
+simplex and applying dominated convergence. The denominator is
+positive. Their ratio consequently agrees everywhere on $(0,\infty)$
+with the nondecreasing version supplied by the theorem.
+
+Set
+\[
+ F(t)=\int_{\substack{a_i\ge0\\\sum_i a_i\le t}}W(a)\,da,
+ \qquad q(t)=Z'_{\mathbf c}(t)>0.
+\]
+Using the lattice slice measure obtained by eliminating one coordinate,
+we have
+\[
+ F'(t)=q(t)h(t),\qquad
+ F(t)=\int_0^tq(s)h(s)\,ds
+ \le h(t)Z_{\mathbf c}(t).
+\]
+All quantities are positive, so
+\[
+ \frac{F'(t)}{F(t)}\ge\frac{Z'_{\mathbf c}(t)}{Z_{\mathbf c}(t)}.
+\]
+At $t=m+1$, the denominator on the left is the full anticanonical
+polytope volume and its numerator is the lattice volume of the
+unassigned facet at $v$. Their ratio is $A_v$, proving the first comparison.
+
+For integers $b\ge c\ge1$ and $0<a<1$,
+\[
+ \frac{d}{da}\log\frac{\phi_b(a)}{\phi_c(a)}
+ =\frac{a(b-c)}{(b+a)(c+a)}\ge0.
+\]
+The ratio is constant above one. Applying the same conditional-sum
+argument to products of these ratios proves monotonicity in the
+neighboring dimensions. Taking every $c_i=1$ gives
+$\phi_1(a)=1+\min(a,1)$ and recovers the star ratio, proving the
+second comparison.
+\end{proof}
+
+\begin{corollary}\label{branch:obstruction}
+In the Fano simple-graph mixed-blowup construction, a saturated vertex of
+degree at least six forces anticanonical tangent instability. In
+particular, if every vertex is saturated and the tangent bundle is
+stable, then the maximum graph degree is at most five. The star $Y_5$
+attains degree five.
+\end{corollary}
+
+\begin{proof}
+Let $v$ be saturated of degree $m\ge6$. Theorems~\ref{branch:stars}
+and~\ref{branch:comparison} give $A_v\ge A_m>1$. Its unassigned ray
+is the negative sum of $m$ basis vectors and is not collinear with
+another original ray in that factor. Original rays at other vertices
+lie in different direct summands, and exceptional rays have nonzero
+components in two summands. Thus its line has normalized ray weight
+exactly $A_v>1$ and defines a strict rank-one destabilizer.
+The last assertion follows from Theorem~\ref{branch:stars}.
+\end{proof}
+
+\begin{corollary}\label{branch:degree-five}
+If a saturated degree-five vertex has at least four neighbors of factor
+dimension at least two, its unassigned divisor degree satisfies
+\[
+ A_v\ge\frac{6244655501}{6233518181}>1,
+\]
+and its unassigned ray defines a strict rank-one destabilizer.
+Consequently, in a saturated simple graph with stable tangent bundle,
+each degree-five vertex has at least two degree-one neighbors.
+\end{corollary}
+
+\begin{proof}
+Theorem~\ref{branch:comparison} reduces the assertion to the neighboring
+dimensions $(2,2,2,2,1)$. Their simplex and facet volumes at capacity six are
+\[
+ Z(6)=\frac{6233518181}{362880},\qquad
+ Z'(6)=\frac{892093643}{51840}.
+\]
+To specify these rational calculations explicitly, let $c_{j,k}$ be
+the coefficient of $q^ju^k$ in
+\[
+ (2u^2+2u+1-q(3u+1))^4(u+1-q).
+\]
+The Laplace transforms of $\phi_1,\phi_2$ are respectively
+$(s+1-e^{-s})/s^2$ and
+$(2s^2+2s+1-e^{-s}(3s+1))/s^3$. Thus
+\[
+ Z(6)=\sum_{j,k}c_{j,k}\frac{(6-j)^{14-k}}{(14-k)!},\qquad
+ Z'(6)=\sum_{j,k}c_{j,k}\frac{(6-j)^{13-k}}{(13-k)!},
+\]
+where $0\le j\le5$ and $0\le k\le9$. These finite sums give the displayed
+values. The unassigned ray is the only ray on its line, by the same
+direct-summand argument as in Corollary~\ref{branch:obstruction}.
+Its weight exceeds one, so the line strictly destabilizes.
+In the saturated case neighboring dimensions equal neighboring degrees;
+at most three of the five neighbors can therefore have degree at least two.
+\end{proof}
+
+\begin{corollary}\label{branch:subdivision}
+A saturated five-arm tree is unstable whenever at least four of its arms
+have length at least two. In particular, subdivision of four arms of the
+stable five-arm star produces an unstable mixed blowup, and further
+subdivision of those arms preserves this obstruction.
+\end{corollary}
+
+\begin{proof}
+The central vertex has degree five and at least four degree-two neighbors,
+so Corollary~\ref{branch:degree-five} applies.
+\end{proof}
+
+Here subdivision refers to the indexing graph: its factor dimensions
+and the dimension of the variety change. It is not a fan subdivision in
+fixed dimension. The obstruction rules out a general stability theorem
+obtained merely by making every arm of a mixed-blowup tree sufficiently
+long. It concerns saturated vertices and places no corresponding degree
+bound on vertices whose dimensions exceed their degrees.

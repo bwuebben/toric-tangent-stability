@@ -1,0 +1,2796 @@
+[
+  {
+    "indices": [],
+    "rank": 0,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3
+    ],
+    "rank": 1,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4
+    ],
+    "rank": 1,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5
+    ],
+    "rank": 1,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6
+    ],
+    "rank": 1,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7
+    ],
+    "rank": 1,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      8
+    ],
+    "rank": 1,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      9
+    ],
+    "rank": 1,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      10
+    ],
+    "rank": 1,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      11
+    ],
+    "rank": 1,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      12
+    ],
+    "rank": 1,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      13
+    ],
+    "rank": 1,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      13
+    ],
+    "rank": 2,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      13
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      12,
+      13
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      13
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      13
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      8,
+      13
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      9,
+      13
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      10,
+      13
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      11,
+      13
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      11,
+      13
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      10,
+      11,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      11,
+      12,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      11,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      11,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      8,
+      11,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      9,
+      11,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      8,
+      9,
+      11,
+      13
+    ],
+    "rank": 4,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      9,
+      10,
+      11,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      9,
+      11,
+      12,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      9,
+      11,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      9,
+      11,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      6,
+      7,
+      8,
+      9,
+      11,
+      13
+    ],
+    "rank": 5,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      7,
+      9,
+      10,
+      11,
+      13
+    ],
+    "rank": 5,
+    "ground": false,
+    "quotient_full": true
+  },
+  {
+    "indices": [
+      2,
+      5,
+      7,
+      9,
+      11,
+      12,
+      13
+    ],
+    "rank": 5,
+    "ground": false,
+    "quotient_full": true
+  },
+  {
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "rank": 6,
+    "ground": true,
+    "quotient_full": true
+  },
+  {
+    "indices": [
+      1,
+      4,
+      6,
+      9,
+      10,
+      11,
+      13
+    ],
+    "rank": 5,
+    "ground": false,
+    "quotient_full": true
+  },
+  {
+    "indices": [
+      2,
+      5,
+      6,
+      9,
+      11,
+      12,
+      13
+    ],
+    "rank": 5,
+    "ground": false,
+    "quotient_full": true
+  },
+  {
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "rank": 5,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      8,
+      10,
+      11,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      8,
+      11,
+      12,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      8,
+      11,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      8,
+      11,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      7,
+      8,
+      10,
+      11,
+      13
+    ],
+    "rank": 5,
+    "ground": false,
+    "quotient_full": true
+  },
+  {
+    "indices": [
+      2,
+      5,
+      7,
+      8,
+      11,
+      12,
+      13
+    ],
+    "rank": 5,
+    "ground": false,
+    "quotient_full": true
+  },
+  {
+    "indices": [
+      1,
+      4,
+      6,
+      8,
+      10,
+      11,
+      13
+    ],
+    "rank": 5,
+    "ground": false,
+    "quotient_full": true
+  },
+  {
+    "indices": [
+      2,
+      5,
+      6,
+      8,
+      11,
+      12,
+      13
+    ],
+    "rank": 5,
+    "ground": false,
+    "quotient_full": true
+  },
+  {
+    "indices": [
+      0,
+      3,
+      6,
+      7,
+      11,
+      13
+    ],
+    "rank": 4,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      7,
+      10,
+      11,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      7,
+      11,
+      12,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      11,
+      12,
+      13
+    ],
+    "rank": 5,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      6,
+      10,
+      11,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      6,
+      11,
+      12,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      11,
+      12,
+      13
+    ],
+    "rank": 4,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      10,
+      13
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      10,
+      12,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      10,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      10,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      8,
+      10,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      9,
+      10,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      8,
+      9,
+      10,
+      13
+    ],
+    "rank": 4,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      9,
+      10,
+      12,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      9,
+      10,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      9,
+      10,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13
+    ],
+    "rank": 5,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      7,
+      9,
+      10,
+      12,
+      13
+    ],
+    "rank": 5,
+    "ground": false,
+    "quotient_full": true
+  },
+  {
+    "indices": [
+      2,
+      5,
+      6,
+      9,
+      10,
+      12,
+      13
+    ],
+    "rank": 5,
+    "ground": false,
+    "quotient_full": true
+  },
+  {
+    "indices": [
+      2,
+      5,
+      8,
+      10,
+      12,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      8,
+      10,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      8,
+      10,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      7,
+      8,
+      10,
+      12,
+      13
+    ],
+    "rank": 5,
+    "ground": false,
+    "quotient_full": true
+  },
+  {
+    "indices": [
+      2,
+      5,
+      6,
+      8,
+      10,
+      12,
+      13
+    ],
+    "rank": 5,
+    "ground": false,
+    "quotient_full": true
+  },
+  {
+    "indices": [
+      0,
+      3,
+      6,
+      7,
+      10,
+      13
+    ],
+    "rank": 4,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      7,
+      10,
+      12,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      6,
+      10,
+      12,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      8,
+      9,
+      13
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      9,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      9,
+      12,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      9,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      9,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      6,
+      7,
+      8,
+      9,
+      13
+    ],
+    "rank": 4,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      7,
+      9,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      7,
+      9,
+      12,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      12,
+      13
+    ],
+    "rank": 5,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      6,
+      9,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      6,
+      9,
+      12,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      8,
+      9,
+      12,
+      13
+    ],
+    "rank": 4,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      8,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      8,
+      12,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      8,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      8,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      7,
+      8,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      7,
+      8,
+      12,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      6,
+      8,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      6,
+      8,
+      12,
+      13
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      6,
+      7,
+      13
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      7,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      7,
+      12,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      12,
+      13
+    ],
+    "rank": 4,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      6,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      6,
+      12,
+      13
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      12,
+      13
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      12
+    ],
+    "rank": 2,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      12
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      12
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      12
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      8,
+      12
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      9,
+      12
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      10,
+      12
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      11,
+      12
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      11,
+      12
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      10,
+      11,
+      12
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      11,
+      12
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      11,
+      12
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      8,
+      11,
+      12
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      9,
+      11,
+      12
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      8,
+      9,
+      11,
+      12
+    ],
+    "rank": 4,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      9,
+      10,
+      11,
+      12
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      9,
+      11,
+      12
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      9,
+      11,
+      12
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12
+    ],
+    "rank": 5,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      7,
+      9,
+      10,
+      11,
+      12
+    ],
+    "rank": 5,
+    "ground": false,
+    "quotient_full": true
+  },
+  {
+    "indices": [
+      1,
+      4,
+      6,
+      9,
+      10,
+      11,
+      12
+    ],
+    "rank": 5,
+    "ground": false,
+    "quotient_full": true
+  },
+  {
+    "indices": [
+      1,
+      4,
+      8,
+      10,
+      11,
+      12
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      8,
+      11,
+      12
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      8,
+      11,
+      12
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      7,
+      8,
+      10,
+      11,
+      12
+    ],
+    "rank": 5,
+    "ground": false,
+    "quotient_full": true
+  },
+  {
+    "indices": [
+      1,
+      4,
+      6,
+      8,
+      10,
+      11,
+      12
+    ],
+    "rank": 5,
+    "ground": false,
+    "quotient_full": true
+  },
+  {
+    "indices": [
+      0,
+      3,
+      6,
+      7,
+      11,
+      12
+    ],
+    "rank": 4,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      7,
+      10,
+      11,
+      12
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      6,
+      10,
+      11,
+      12
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      10,
+      12
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      10,
+      12
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      10,
+      12
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      8,
+      10,
+      12
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      9,
+      10,
+      12
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      8,
+      9,
+      10,
+      12
+    ],
+    "rank": 4,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      9,
+      10,
+      12
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      9,
+      10,
+      12
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "rank": 5,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      8,
+      10,
+      12
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      8,
+      10,
+      12
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      6,
+      7,
+      10,
+      12
+    ],
+    "rank": 4,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      8,
+      9,
+      12
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      9,
+      12
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      9,
+      12
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      9,
+      12
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      6,
+      7,
+      8,
+      9,
+      12
+    ],
+    "rank": 4,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      7,
+      9,
+      12
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      6,
+      9,
+      12
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      8,
+      12
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      8,
+      12
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      8,
+      12
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      7,
+      8,
+      12
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      6,
+      8,
+      12
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      6,
+      7,
+      12
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      7,
+      12
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      6,
+      12
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      11
+    ],
+    "rank": 2,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      10,
+      11
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      11
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      11
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      11
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      8,
+      11
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      9,
+      11
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      8,
+      9,
+      11
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      9,
+      10,
+      11
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      9,
+      11
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      9,
+      11
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      9,
+      11
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      6,
+      7,
+      8,
+      9,
+      11
+    ],
+    "rank": 4,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      7,
+      9,
+      10,
+      11
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      7,
+      9,
+      11
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "rank": 5,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      6,
+      9,
+      10,
+      11
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      6,
+      9,
+      11
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      8,
+      9,
+      10,
+      11
+    ],
+    "rank": 4,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      8,
+      10,
+      11
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      8,
+      11
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      8,
+      11
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      8,
+      11
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      7,
+      8,
+      10,
+      11
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      7,
+      8,
+      11
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      6,
+      8,
+      10,
+      11
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      6,
+      8,
+      11
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      6,
+      7,
+      11
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      7,
+      10,
+      11
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      7,
+      11
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      11
+    ],
+    "rank": 4,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      6,
+      10,
+      11
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      6,
+      11
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      11
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      10
+    ],
+    "rank": 2,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      10
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      10
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      10
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      8,
+      10
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      9,
+      10
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      8,
+      9,
+      10
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      9,
+      10
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      9,
+      10
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      9,
+      10
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "rank": 4,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      7,
+      9,
+      10
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      6,
+      9,
+      10
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      8,
+      10
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      8,
+      10
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      8,
+      10
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      7,
+      8,
+      10
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      6,
+      8,
+      10
+    ],
+    "rank": 4,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      6,
+      7,
+      10
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      7,
+      10
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      6,
+      10
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      8,
+      9
+    ],
+    "rank": 2,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      9
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      9
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      9
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      9
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      6,
+      7,
+      8,
+      9
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      7,
+      9
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      7,
+      9
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "rank": 4,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      6,
+      9
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      6,
+      9
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      8,
+      9
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      8
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      8
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      6,
+      8
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      7,
+      8
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      7,
+      8
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      7,
+      8
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      6,
+      8
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      6,
+      8
+    ],
+    "rank": 3,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      3,
+      6,
+      7
+    ],
+    "rank": 2,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      7
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      7
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "rank": 3,
+    "ground": true,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      1,
+      4,
+      6
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      2,
+      5,
+      6
+    ],
+    "rank": 2,
+    "ground": false,
+    "quotient_full": false
+  },
+  {
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "rank": 2,
+    "ground": true,
+    "quotient_full": false
+  }
+]
