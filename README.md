@@ -37,15 +37,6 @@ for all **8,630 varieties in dimensions three through six**, and hence the exist
 of Hermitian–Einstein metrics on their tangent bundles with respect to an
 anticanonical Kähler form.
 
-**Prior work and the September 20 revision.** William Reynolds's
-[2023 Edinburgh PhD thesis](https://doi.org/10.7488/era/3511), Appendix A,
-already gives the complete dimension-four stability classification and the full
-Harder–Narasimhan filtrations of the 74 unstable tangent bundles. The revised paper
-credits these results and his dimension-four counterexample to Peternell's
-conjecture (Theorem 2.2.6). All 124 stability verdicts and the ranks and degrees
-of all 74 first Harder–Narasimhan terms agree with our computations. The theorem
-statements and classification data are unchanged by this revision.
-
 Every verdict in the paper is reproducible from the ray data in this
 repository, with exact (integer/rational) arithmetic and no external data
 dependencies.
