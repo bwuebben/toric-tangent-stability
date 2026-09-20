@@ -1,6 +1,10 @@
 # Validation: tangent-bundle (semi)stability of smooth toric Fano 4-folds, ρ ≤ 3, vs. the literature
 
 **Date:** 2026-07-10.
+**Attribution update:** 2026-09-20. Reynolds's 2023 thesis already classifies
+all 124 smooth toric Fano fourfolds; the comparison below remains the earlier
+check against the literature for Picard rank at most three. See the final
+paragraph for the full dimension-four attribution.
 **Our data:** `output/dim4_rho_le3_for_validation.json` (38 varieties: 1 with ρ=1, 9 with ρ=2,
 28 with ρ=3), verdicts from our Klyachko facet-volume computation of slope-(semi)stability of
 T_X w.r.t. −K, plus a barycenter-criterion KE flag.
@@ -147,5 +151,12 @@ notation names the blow-up centre by its isomorphism type.
 
 Our Klyachko-criterion computation reproduces the published classification of tangent-bundle
 (semi)stability for **all 38** smooth toric Fano 4-folds of Picard rank ≤ 3, and our barycenter
-KE flags reproduce the known KE set in this range. The validation set passes completely; the
-ρ ≥ 4 verdicts (86 varieties) are new territory not covered by DDK/BDGP.
+KE flags reproduce the known KE set in this range. The validation set passes completely.
+Although DDK/BDGP do not cover the 86 varieties of Picard rank at least four,
+William Reynolds's [2023 Edinburgh PhD thesis](https://doi.org/10.7488/era/3511),
+Appendix A, gives the complete anticanonical stability classification of all 124
+smooth toric Fano fourfolds and the full Harder–Narasimhan filtrations of the 74
+unstable tangent bundles. Our subsequent comparison agrees in all 124 stability
+verdicts and in the ranks and degrees of all 74 first Harder–Narasimhan terms;
+we have not independently compared every full filtration. The dimension-four
+stability classification is therefore recovered here, not new.

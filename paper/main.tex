@@ -38,36 +38,34 @@ of tangent bundles\\ of smooth toric Fano varieties}
 \keywords{Toric Fano varieties, tangent bundle, slope stability,
 Hermitian--Einstein metrics, K\"ahler--Einstein metrics, Klyachko
 filtrations, reflexive polytopes}
-\date{August 13, 2026}
+\date{Original version: August 13, 2026; revised: September 20, 2026}
 
 \begin{document}
 
 \begin{abstract}
-We classify the anticanonical slope stability of tangent bundles for all
-$8{,}630$ smooth toric Fano varieties in dimensions three through six, by
-exact evaluation of Klyachko's criterion, and determine polystability
-(equivalently, the existence of a Hermitian--Einstein metric with respect
-to an anticanonical K\"ahler form) in every strictly semistable case. Every
-K\"ahler--Einstein variety in the census has polystable tangent bundle,
-whereas the converse fails widely: $102$ of the $109$ five-folds with stable
-tangent bundle are not K\"ahler--Einstein.
+We construct smooth toric Fano $n$-folds of Picard number $n+2$ whose
+tangent bundles are slope-stable with respect to the anticanonical
+polarization, for every $n\ge4$. The construction gives toric fibrations
+with fibre the del Pezzo surface of degree six over products of projective
+lines, parametrized by multisets of roots of $A_2$. Every nonempty multiset
+of nonzero roots with vanishing sum yields a stable tangent bundle. Among
+these multisets, the resulting variety is K\"ahler--Einstein if and only
+if the multiset is invariant under negation or under the order-three
+rotation of the root hexagon. We also construct stable,
+non-K\"ahler--Einstein examples with nonzero twist sum in every even
+dimension at least four. The proofs reduce slope inequalities and
+barycenter computations to integrals over the moment hexagon.
 
-The census singles out one construction at high Picard rank, which we
-introduce in general: root-twisted toric $\dP_3$-fibrations over products of
-projective lines, parametrized by roots of $A_2$. Every nonempty multiset of
-nonzero root twists with vanishing sum produces a stable tangent bundle, in
-every dimension. Among these zero-sum twists, the resulting variety is
-K\"ahler--Einstein if and only if the multiset is invariant under negation or
-under the order-three rotation of the root hexagon. Thus stable toric Fanos of
-Picard rank $n+2$ exist for every $n\ge4$; vanishing twist sum does not force
-the K\"ahler--Einstein property, while a separate unbalanced family shows that
-a vanishing sum is not necessary for stability.
-
-The proof reduces the slope inequalities for the root-twist family to
-integrals over the $A_2$ moment hexagon. Positive layer decompositions and
-sharp one-dimensional convolution estimates establish stability, while a
-strict ordering of the hexagon's first moments at the extreme exponents
-yields the K\"ahler--Einstein classification.
+For a smooth toric Fano variety with strictly semistable tangent bundle,
+we prove that polystability is equivalent to decomposition as a nontrivial
+product of smooth toric Fano varieties with anticanonically stable tangent
+bundles. Exact evaluation of Klyachko's criterion extends the stability
+classification to dimensions five and six, recovering the classifications
+of Steffens and Reynolds in dimensions three and four. Together with the
+product criterion, this determines polystability for all $8{,}630$
+varieties in dimensions three through six, and hence the existence of
+Hermitian--Einstein metrics on their tangent bundles with respect to an
+anticanonical K\"ahler form.
 \end{abstract}
 
 \maketitle
@@ -118,12 +116,18 @@ landscape. In practice the literature covers: dimension $2$
 \cite{Steffens1996} classified $(-K)$-stability of $T_X$ for \emph{all}
 smooth Fano three-folds; and dimension $4$ for Picard rank
 $\rho(X) \le 2$ (Biswas--Dey--Gen\c{c}--Poddar \cite{BDGP2021}) and
-$\rho \le 3$ (Dasgupta--Dey--Khan \cite{DDK}). The four-folds of Picard
-rank $\ge 4$ ($86$ of Batyrev's $124$) and everything in dimensions five
-and six were open.
+$\rho \le 3$ (Dasgupta--Dey--Khan \cite{DDK}). Reynolds's 2023 thesis
+\cite[Appendix~A]{Reynolds2023} gives the complete anticanonical
+stability classification of all $124$ smooth toric Fano four-folds, in
+every Picard rank, and the full Harder--Narasimhan filtrations of the
+$74$ unstable tangent bundles.
 
-This paper closes the gap through dimension six and carries out the
-stability--K\"ahler--Einstein comparison across the resulting census.
+This paper constructs smooth toric Fano varieties of Picard rank $n+2$
+with stable tangent bundles in every dimension $n\ge4$ and characterizes
+polystability of strictly semistable tangent bundles by product
+decomposition. We also extend the stability classification to dimensions
+five and six, determine polystability in dimensions three through six,
+and compare the resulting classes with the K\"ahler--Einstein locus.
 Our main results are the following.
 
 \begin{theorem}[Classification; Theorem~\ref{thm:main}]
@@ -132,6 +136,10 @@ $4$, $26$, $109$, $636$ have $(-K)$-stable tangent bundle; exactly
 $7$, $24$, $82$, $366$ are strictly semistable; and exactly $7$,
 $74$, $675$, $6620$ are unstable.
 \end{theorem}
+
+The dimension-three and dimension-four classifications are due to
+Steffens \cite{Steffens1996} and Reynolds \cite[Appendix~A]{Reynolds2023},
+respectively; the counts in dimensions five and six extend these results.
 
 \begin{theorem}[Hermitian--Einstein classification; Theorem~\ref{thm:HE}]
 Exactly $8$ of the $18$ smooth toric Fano three-folds, $40$ of the $124$
@@ -241,10 +249,11 @@ first Harder--Narasimhan subspace. These subspaces have structure: in $7/7$,
 $68/74$, $558/675$ and $4877/6620$ of the unstable cases in dimensions
 $3$, $4$, $5$, $6$, they contain an antipodal pair of rays. Such a pair is
 the combinatorial signature of a candidate relative tangent direction for an
-equivariant $\PP^1$-fibration, in line with Steffens's principle that
-destabilizing subsheaves of Fano tangent bundles arise from relative tangent
-sheaves of extremal contractions \cite{Steffens1996}. Identifying the
-corresponding contractions is a separate geometric step.
+equivariant $\PP^1$-fibration, whose existence requires a separate check
+of the fan. The presence of such a pair does not imply that a Mori fibration
+has destabilizing relative tangent sheaf: Reynolds's four-dimensional
+counterexample to Peternell's conjecture \cite[Theorem~2.2.6]{Reynolds2023}
+already contains such a pair (Section~\ref{sec:antipodal}).
 
 \subsection*{Related and concurrent work}
 The combinatorial machinery of equivariant reflexive sheaves on toric
@@ -260,8 +269,12 @@ and Tipler develop polynomial stability conditions with equivariant
 positivity on $T$-varieties \cite{DNST2025}. On the Fano side, Kanemitsu
 \cite{Kanemitsu2021} determined the stability of the tangent bundles of
 Pasquier's two-orbit varieties, disproving the long-standing expectation
-that a Fano manifold of Picard number one has stable tangent bundle;
-and concurrently with the present paper, Chen and Lai \cite{ChenLai2026}
+that a Fano manifold of Picard number one has stable tangent bundle.
+Reynolds \cite[Theorem~2.2.6]{Reynolds2023} gives a toric counterexample
+to Peternell's conjecture on destabilizing relative tangent sheaves
+\cite[Conjecture~3.21]{Peternell2001} in dimension four and Picard rank
+four, thus in smaller dimension but higher Picard rank than Kanemitsu's
+examples. Concurrently with the present paper, Chen and Lai \cite{ChenLai2026}
 characterize the maximal destabilizing sheaf of the tangent sheaf of a
 Fano variety through the foliated minimal model program, classifying the
 $(-K)$-slope-unstable weak del Pezzo surfaces and exhibiting a singular
@@ -275,19 +288,26 @@ concentrated in the correctness of the computation, we describe the
 validation in detail (Section~\ref{sec:harness}). In brief: all
 arithmetic is exact (integer and rational); every variety passes internal
 consistency identities; and the implementation reproduces, without
-discrepancy, every published slice of the problem (Fahlaoui's del Pezzo
+discrepancy, the following prior classifications (Fahlaoui's del Pezzo
 table; the
 toric slice of Steffens's classification of Fano three-folds; the
 $38$ four-folds of Picard rank $\le 3$ classified by
 \cite{BDGP2021,DDK}, matched variety-by-variety via exact
-$GL(4,\ZZ)$-equivalence of fans; and the K\"ahler--Einstein tables of
+$GL(4,\ZZ)$-equivalence of fans; Reynolds's complete four-fold
+classification \cite[Appendix~A]{Reynolds2023}, including the rank and
+degree of the first Harder--Narasimhan term in all $74$ unstable cases;
+and the K\"ahler--Einstein tables of
 \cite{Nakagawa1993,Nakagawa1994,NSY2023}). All analysis code, the input polytope
 data, and the per-variety result files are publicly available at
 \url{https://github.com/bwuebben/toric-tangent-stability}; every verdict
 is independently recomputable from the ray data alone.
 
 \subsection*{Acknowledgements}
-The author used LLMs during the development of this work for literature exploration, editorial assistance, mathematical discussion and as an adversarial reader.
+The author thanks Milena Hering for bringing William Reynolds's thesis
+\cite{Reynolds2023} to his attention and for pointing out its overlap
+with the dimension-four results of the first version of this paper.
+
+The author used LLMs during the development of this work for literature exploration, coding and editorial assistance and as an adversarial reader.
 
 
 \section{Preliminaries}\label{sec:prelim}
@@ -440,8 +460,7 @@ lattice volume, all $142$ values agree with the computed anticanonical
 degrees.
 
 \subsection{Validation against published results}\label{sec:validation}
-The implementation reproduces every published result that overlaps its
-range:
+The implementation reproduces the following results in its range:
 
 \begin{enumerate}
 \item \emph{Surfaces} (Fahlaoui \cite{Fahlaoui1989}; \cite[Thm.~1.3,
@@ -460,6 +479,13 @@ to our database entries by exact $GL(4,\ZZ)$-equivalence of fans
 (necessary, since seven values of $(-K)^4$ are each shared by two to four
 varieties), and all $38$ verdicts agree, as do the slopes
 $\mu(T_X)$ reported in the proofs of \cite{DDK}.
+\item \emph{All four-folds} (Reynolds \cite[Appendix~A]{Reynolds2023}):
+all $124$ stability classifications agree. We recomputed the facet volumes
+and stability on the Macaulay2 database rays in Batyrev--Sato numbering
+and matched them to our entries using the sorted facet-volume multisets,
+which are distinct for all $124$ four-folds. In all $74$ unstable cases,
+the rank and anticanonical degree of our first Harder--Narasimhan term
+agree with those in Reynolds's full filtrations.
 \item \emph{K\"ahler--Einstein tables}
 (\cite{Mabuchi1987,Nakagawa1993,Nakagawa1994,NSY2023}): our barycenter
 column
@@ -472,7 +498,7 @@ classical.
 \end{enumerate}
 
 One near-miss shows why the matching in item (3) is necessary:
-verdicts cannot be transported by numerical invariants alone,
+verdicts cannot be transported by the anticanonical degree alone,
 and \cite{NSY2023} tabulate \emph{Ding} stability, a different notion;
 three of the rank-$3$ four-folds ($G_4$--$G_6$) are Ding-unstable
 with slope-stable tangent bundle. No contradiction is involved.
@@ -555,9 +581,10 @@ $\rho$ & \# & st & sss & un & $\rho$ & \# & st & sss & un \\
 \end{tabular}}
 \end{center}
 
-\noindent The rows $\rho \le 3$ for $n = 4$ coincide with
-\cite{BDGP2021,DDK}; the rows $\rho \ge 4$ ($86$ varieties) and the
-whole of $n = 5, 6$ are new. Stability collapses at high rank in every
+\noindent The complete $n=4$ table recovers Reynolds's classification
+\cite[Appendix~A]{Reynolds2023}; its rows $\rho\le3$ also coincide with
+\cite{BDGP2021,DDK}. The classifications for $n=5,6$ extend these
+earlier results. Stability collapses at high rank in every
 dimension: the last stable examples occur at $\rho = 6$ ($n=4$),
 $\rho = 7$ ($n=5$) and $\rho = 8$ ($n=6$), and above these ranks the
 varieties (pseudo-symmetric ones and products) are never stable (a
@@ -1822,12 +1849,25 @@ root multisets remains open.
 
 \section{Structural observations and open questions}\label{sec:structure}
 
-\subsection{Antipodal directions in destabilizers}
+\subsection{Antipodal directions in destabilizers}\label{sec:antipodal}
 Steffens proved that a Fano three-fold whose tangent bundle is not
 stable admits a destabilizing subsheaf that is the relative tangent
-sheaf of the contraction of an extremal face, and expected the statement
-to persist in every dimension \cite{Steffens1996}. For every unstable case
-our computation forms the sum of all maximal-slope ray-spanned subspaces,
+sheaf of the contraction of an extremal face \cite{Steffens1996}.
+Peternell \cite[Conjecture~3.21]{Peternell2001} conjectured the
+analogous statement in all dimensions, with a contraction
+$f\colon X\to Y$ satisfying $\dim Y<\dim X$.
+Kanemitsu's Picard-rank-one examples \cite{Kanemitsu2021} disprove the
+conjecture in that rank. Reynolds \cite[Theorem~2.2.6]{Reynolds2023}
+disproves it in Picard rank four and dimension four: Batyrev--Sato
+no.~$82$ has unstable tangent bundle, but no Mori fibration has
+destabilizing relative tangent sheaf. Here a Mori fibration may contract
+an extremal face of any dimension, not just an extremal ray.
+Reynolds also gives the full Harder--Narasimhan filtrations of all $74$
+unstable four-folds and a destabilizing Mori fibration for each of the
+other $73$ \cite[Appendix~A]{Reynolds2023}.
+
+For every unstable case our computation forms the sum of all
+maximal-slope ray-spanned subspaces,
 which is the canonical first Harder--Narasimhan subspace. Its dimension is
 one in $5/7$, $38/74$, $375/675$, $3865/6620$ of the unstable cases in
 dimensions $3, 4, 5, 6$. It contains an antipodal pair $\pm u$ of rays in
@@ -1836,10 +1876,14 @@ Klyachko datum of a rank-one relative tangent candidate; determining whether
 it comes from an equivariant $\PP^1$-fibration requires checking compatibility
 with the fan. The no-pair cases (six in dimension four, $117$ in dimension
 five, $1743$ in dimension six) include HN subspaces spanned by a single ray
-($1$, $50$, $986$ in dimensions $4, 5, 6$), candidates for relative tangent
-sheaves of birational contractions. Matching these subspaces to extremal
-faces of the Mori cone is needed to turn the numerical pattern into a theorem
-or a counterexample to the proposed higher-dimensional principle.
+($1$, $50$, $986$ in dimensions $4, 5, 6$).
+
+In Reynolds's counterexample, \textsf{F.4D.0002} in our numbering, the
+first Harder--Narasimhan term has rank $3$, degree $278$, and slope
+$278/3>92=\mu(T_X)$. Its subspace contains an antipodal pair, so this
+condition does not imply a destabilizing Mori fibration. Comparing the
+recorded subspaces with Mori fibrations in dimensions five and six would
+extend Reynolds's analysis.
 
 \subsection{High Picard rank in the Fano census}
 Question 1.5 of \cite{HNS2022} asks whether, for fixed $(n, \rho)$, only
@@ -1997,6 +2041,17 @@ Andreas Paffenholz, \emph{poly{DB}: a database for polytopes and related
 \bibitem[Per04]{Perling2004}
 Markus Perling, \emph{Graded rings and equivariant sheaves on toric varieties},
   Math. Nachr. \textbf{263/264} (2004), 181--197.
+
+\bibitem[Pet01]{Peternell2001}
+Thomas Peternell, \emph{Subsheaves in the tangent bundle: integrability,
+  stability and positivity}, School on Vanishing Theorems and Effective
+  Results in Algebraic Geometry (Trieste, 2000), ICTP Lect. Notes, vol.~6,
+  Abdus Salam Int. Cent. Theoret. Phys., Trieste, 2001, pp.~285--334.
+
+\bibitem[Rey23]{Reynolds2023}
+William Reynolds, \emph{On slope stability of tangent sheaves on smooth
+  toric {F}ano varieties}, Ph.D. thesis, University of Edinburgh, 2023,
+  DOI \href{https://doi.org/10.7488/era/3511}{10.7488/era/3511}.
 
 \bibitem[Sat00]{Sato2000}
 Hiroshi Sato, \emph{Toward the classification of higher-dimensional toric

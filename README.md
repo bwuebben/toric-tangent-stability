@@ -6,24 +6,38 @@ Reproducibility and verification companion to the paper
 > Bernd Johannes Wuebben, 2026.
 > [arXiv:2608.20411](https://arxiv.org/abs/2608.20411) (math.DG, cross-listed math.AG)
 
-The paper determines the slope stability, with respect to the anticanonical
-polarization, of the tangent bundle of **every smooth toric Fano variety of
-dimension at most six** — 18, 124, 866 and 7622 varieties in dimensions 3, 4,
-5 and 6 — by exact evaluation of Klyachko's criterion. It further
-decides polystability for every strictly semistable case (the
-Hermitian–Einstein census): the connected components of the ray matroid give
-the finest equivariant splitting of the tangent bundle, so a strictly
-semistable smooth toric Fano has polystable tangent bundle exactly when it is
-a nontrivial product of factors with stable tangent bundles. It compares the
-census with the Wang–Zhu Kähler–Einstein criterion and introduces the
-*root-twist* construction: toric dP₃-fibrations over products of projective
-lines twisted by roots of A₂. Every nonempty multiset of nonzero root twists
-with vanishing sum yields a stable tangent bundle, in every dimension, and
-among these the variety is Kähler–Einstein exactly when the multiset is
-invariant under negation or the order-three rotation of the root hexagon;
-a separate unbalanced family is stable but not Kähler–Einstein in every even
-dimension. The proofs reduce the slope inequalities to two-dimensional
-hexagon integrals.
+**Current manuscript:** [September 20, 2026 revision](paper/toric-tangent-stability.pdf)
+(original version: August 13, 2026). The arXiv replacement is pending.
+
+The paper constructs smooth toric Fano n-folds of Picard number n + 2 whose
+tangent bundles are slope-stable with respect to the anticanonical polarization,
+for every n ≥ 4. These are toric fibrations with fibre the del Pezzo surface of
+degree six over products of projective lines, parametrized by multisets of roots
+of A₂. Every nonempty multiset of nonzero roots with vanishing sum yields a stable
+tangent bundle. Among these multisets, the variety is Kähler–Einstein exactly
+when the multiset is invariant under negation or the order-three rotation of the
+root hexagon. A separate family with nonzero twist sum is stable but not
+Kähler–Einstein in every even dimension at least four. The proofs reduce slope
+inequalities and barycenter computations to integrals over the moment hexagon.
+
+For a smooth toric Fano variety with strictly semistable tangent bundle,
+polystability is equivalent to decomposition as a nontrivial product of smooth
+toric Fano varieties with anticanonically stable tangent bundles. Exact evaluation
+of Klyachko's criterion extends the stability classification to dimensions five
+and six, recovering the classifications of Steffens and Reynolds in dimensions
+three and four. Together with the product criterion, this determines polystability
+for all **8,630 varieties in dimensions three through six**, and hence the existence
+of Hermitian–Einstein metrics on their tangent bundles with respect to an
+anticanonical Kähler form.
+
+**Prior work and the September 20 revision.** William Reynolds's
+[2023 Edinburgh PhD thesis](https://doi.org/10.7488/era/3511), Appendix A,
+already gives the complete dimension-four stability classification and the full
+Harder–Narasimhan filtrations of the 74 unstable tangent bundles. The revised paper
+credits these results and his dimension-four counterexample to Peternell's
+conjecture (Theorem 2.2.6). All 124 stability verdicts and the ranks and degrees
+of all 74 first Harder–Narasimhan terms agree with our computations. The theorem
+statements and classification data are unchanged by this revision.
 
 Every verdict in the paper is reproducible from the ray data in this
 repository, with exact (integer/rational) arithmetic and no external data
