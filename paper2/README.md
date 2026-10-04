@@ -50,8 +50,11 @@ and [rational certificates](paper/anc/certificates/) are in `paper/anc/`.
 The same package accompanies the arXiv version as ancillary files, accessible
 through the ancillary-files link on its abstract page.
 
-This portable package requires Python 3.11 or newer and uses only its standard
-library. Its [README](paper/anc/README.txt) specifies all computations and their scope.
+The theorem-verification commands below require Python 3.11 or newer and only
+its standard library. The package also includes the classification screen and
+certificate-search sources cited in the paper; these optional searches require
+NumPy and SciPy. The [package README](paper/anc/README.txt) gives their commands,
+input files and dependencies.
 From that directory, quick exact checks include:
 
 ```sh
@@ -76,9 +79,11 @@ The eightfold slice of Picard number 10 and a dimension-nine stability
 classification are not claimed.
 
 The cycle table generator explicitly cited in the manuscript is
-`figures/code/compute06_cycle_tables.py`. It imports the portable exact module;
-its mathematical computation is unchanged. Run it from this directory with
-`python3 -S figures/code/compute06_cycle_tables.py`.
+[paper/anc/code/compute06_cycle_tables.py](paper/anc/code/compute06_cycle_tables.py),
+with the earlier repository wrapper retained at `figures/code/compute06_cycle_tables.py`.
+Both import the portable exact module;
+the mathematical computation is unchanged. From `paper/anc/`, run
+`python3 -S code/compute06_cycle_tables.py` to write `output/cycle_seeds.tex`.
 
 ## Build and version
 
@@ -90,7 +95,9 @@ latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
 The checked-in PDF and LaTeX sources are the official active version, updated
 on October 3, 2026. The printed manuscript date remains September 20, 2026.
 This update revises the prose and provides explicit code-availability links;
-the mathematics, tables, code and proof data are unchanged. Earlier versions
+the mathematics, tables and existing computation files are unchanged. The
+previously omitted classification and certificate-search scripts, their
+dependency, and the original classification inputs are now included. Earlier versions
 remain in Git history. `SHA256SUMS` records the distributed files; `paper/anc/SHA256SUMS` separately records the
 portable mathematical inputs. The historical research draft and unfinished
 unrestricted-bound programme are not part of this public manuscript package.

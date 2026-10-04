@@ -337,7 +337,10 @@ identity and the strong connectivity of the directed exchange graph.
 This verification requires no fan symmetry. The identification matrix
 \eqref{census:identification} gives a separate comparison with the graph construction.\footnote{\raggedright The
 computations are implemented by \texttt{screen\_high\_rank.py},
-\texttt{matroid\_certificate.py} and \texttt{verify\_certificate.py}.
+\texttt{matroid\_certificate.py} and \texttt{verify\_certificate.py},
+all in the ancillary package's \texttt{code/} directory.
+The first two programs require NumPy and SciPy; the exact certificate
+verifier uses only the Python standard library.
 The stable-eightfold expression is retained as
 \texttt{P8D\_389596.json}. The ancillary tables contain only completed
 calculations.}

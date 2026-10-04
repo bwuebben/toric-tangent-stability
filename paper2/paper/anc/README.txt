@@ -31,7 +31,7 @@ branching-tree theorems. From this directory:
   python3 -S code/mixed_tree_arithmetic.py --check-json data/mixed_tree_arithmetic/signs.json
 The first computes the finite inputs to the equal-end path proof. The second also
 runs independent graph-degree, rank, and exhaustive-enumeration checks for all end types.
-These programs need Python 3.11 or newer and its standard library only. Their finite checks combine with
+The theorem-verification commands listed above need Python 3.11 or newer and its standard library only. Their finite checks combine with
 the contraction and cycle-deletion arguments printed in the paper to prove all lengths.
 The corrected uniform ray-weight bound is 27 and the total error is <6e-17.
 
@@ -92,4 +92,53 @@ The verifier takes the normalized degrees in each file as input; it does not ind
 recompute them. The transfer formulas in the paper and code compute path degrees.
 P8D_389596.json uses degrees obtained directly from the classification rays.
 
-SHA256SUMS records all package contents other than itself.
+Additional source files cited in the manuscript (included October 3, 2026):
+
+  code/screen_high_rank.py: the original high-Picard-rank classification screen.
+  code/matroid_certificate.py: numerical basis search followed by exact rational
+    reconstruction and checking of the resulting certificate.
+  code/toric_fast.py: accelerated facet/vertex candidate generation with exact
+    rational certification, used by the classification screen.
+
+These three files are byte-identical to the research sources. They require
+NumPy and SciPy, unlike the standard-library theorem-verification commands above.
+The existing code/toric_stability.py supplies their exact linear algebra.
+The original classification input files are included under data/:
+  smooth_toric_fano_7d_rho_ge_9.json (1,277 polytopes),
+  smooth_toric_fano_8d_rho_ge_10.json (7,863 polytopes).
+Their source fields retain Paffenholz's classification provenance. The latter
+input includes the Picard-number-10 stratum; the manuscript's completed screen
+uses only its 1,582 polytopes with Picard number at least 11. Inclusion of the
+larger input file does not claim a stability classification of the extra cases.
+No dimension-nine input or stability classification is supplied.
+
+From the ancillary directory, prepare an environment for these optional searches:
+  python3 -m venv .venv
+  .venv/bin/python -m pip install numpy scipy
+  mkdir -p output
+  .venv/bin/python code/screen_high_rank.py 7 6 9
+  .venv/bin/python code/screen_high_rank.py 8 6 11
+The second argument is the number of worker processes. These are full
+classification runs and may take substantial time. The screen resumes from
+output/screen_<n>d.json if present. An example certificate search is:
+  .venv/bin/python code/matroid_certificate.py path2
+Verify its result independently with:
+  python3 -S code/verify_certificate.py output/certificates/path2.json
+To verify the stored eightfold certificate without a numerical search, use:
+  python3 -S code/verify_certificate.py certificates/P8D_389596.json
+
+The additional table-generation script is also portable:
+  python3 -S code/compute06_cycle_tables.py
+It writes output/cycle_seeds.tex. Its table calculation is unchanged from the
+public paper2/figures/code/compute06_cycle_tables.py; only the package-relative
+import and output paths differ.
+
+Official active version of Paper 2, designated by the author on October 3, 2026. Its manuscript date remains
+September 20, 2026. Public manuscript and source:
+https://github.com/bwuebben/toric-tangent-stability/tree/main/paper2
+Public copy of this ancillary package:
+https://github.com/bwuebben/toric-tangent-stability/tree/main/paper2/paper/anc
+The same package accompanies the arXiv version as ancillary files.
+
+SHA256SUMS records all distributed package contents other than itself.
+Regenerated output/, local .venv/ and Python cache files are excluded.
