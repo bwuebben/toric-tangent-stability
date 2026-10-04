@@ -1,8 +1,8 @@
 \section{Stability for cycles}\label{sec:cycles}
 
-The cycle construction gives another infinite family. Its additional
-symmetry allows a short induction in place of the finite reduction
-needed for paths.
+For cycles, symmetry reduces the number of subspaces needed to test
+stability. Four inequalities for the divisor degrees suffice; a recurrence
+proves them by induction.
 
 \begin{theorem}\label{cycle:stable}
 Let $C_j$ be a cycle with $j\ge3$ vertices and edges, or the graph with
@@ -30,7 +30,7 @@ fixes the vertices.
 
 Together with the independent hexagon reflections
 $r_i\mapsto r_i$, $q_i\mapsto-r_i-q_i$ and the transpositions of
-$f^c_1,f^c_2$, these maps give four ray orbits: the $2j$ distinguished
+$f^c_1,f^c_2$, these maps have four ray orbits: the $2j$ distinguished
 hexagon rays $\pm r_i$, the other $4j$ hexagon rays, the $2j$ untwisted
 base rays, and the $j$ twisted base rays. A ray-spanned invariant
 subspace containing any nondistinguished hexagon ray must contain the
@@ -40,8 +40,8 @@ binary choices $C,T$ for untwisted and twisted base rays.
 
 Let $a,b,c$ be the normalized degrees of a distinguished hexagon ray,
 a nondistinguished hexagon ray, and a base ray, respectively. Symmetry
-gives the first two equalities across factors. Principal divisor
-relations give equal degrees for all three base rays at a vertex, so
+makes the first two degrees independent of the hexagon factor. Principal
+divisor relations give equal degrees for all three base rays at a vertex, so
 there is only one base value $c$. Their sum satisfies
 \begin{equation}\label{cycle:weightsum}
  2a+4b+3c=4.
@@ -52,8 +52,8 @@ contribute $2jC$, and hexagon choices contribute $jH$. If $C=0$, each
 selected twisted ray has an independent base coordinate. If $C=T=1$,
 its residual vector is $r_{c-1}-r_c$: these vectors span a space of
 dimension $j-1$ when $H=0$, and vanish modulo the selected hexagon
-lines when $H>0$. This gives every rank in the table. The other three
-configurations are empty or have full rank.
+lines when $H>0$. These contributions give the ranks in the table. The
+other three configurations are empty or have full rank.
 
 \begin{table}[ht]
 \centering
@@ -78,7 +78,7 @@ $H$ & $C$ & $T$ & Rank & Weight divided by $j$\\
 \end{adjustbox}
 \end{table}
 
-We will prove the bounds
+It remains to prove the bounds
 \begin{equation}\label{cycle:bounds}
  a<\frac12,\qquad b>\frac14,\qquad \frac23<c<\frac56.
 \end{equation}
@@ -86,8 +86,7 @@ They imply every strict weight inequality in the table. For example,
 $3jc<(5/2)j\le3j-1$ for $j\ge2$; the row $(1,1,1)$ follows from
 $2a+3c=4-4b<3$; and the rows with $H=2$ follow from
 $2a+4b=4-3c$. The remaining inequalities follow directly from
-\eqref{cycle:bounds}. Proposition~\ref{prop:symmetry} will then prove
-stability.
+\eqref{cycle:bounds}. Stability then follows from Proposition~\ref{prop:symmetry}.
 
 Let $W,\kappa$ be the three-dimensional matrices in
 \eqref{path:matrices}, and put $M=W\kappa$. For $0\le p,q\le2$, set
@@ -97,7 +96,7 @@ Let $W,\kappa$ be the three-dimensional matrices in
  \kappa_1=\begin{pmatrix}3&-1&0\\1&0&0\\0&0&0\end{pmatrix}.
 \]
 Expanding the cyclic product of kernels and integrating each variable
-contracts their coefficients cyclically. Consequently the volume and
+gives a trace of the corresponding matrix product. Thus the volume and
 facet integrals of Section~\ref{sec:graphs} are
 \begin{align*}
  Z_j&=\operatorname{tr}(M^j),&
@@ -123,7 +122,7 @@ By Cayley--Hamilton, each sequence satisfies
  s_{j+3}=\frac{27}{2}s_{j+2}-\frac{2491}{240}s_{j+1}
              +\frac{127}{864}s_j.
 \end{equation}
-The starting values, obtained from the displayed matrices, are in
+The starting values obtained from these matrices are listed in
 Table~\ref{cycle:seeds}. Index one denotes a formal trace value, not a
 looped graph construction.
 
@@ -157,13 +156,15 @@ Suppose $s_k>12s_{k-1}>0$ and $s_{k-2}\ge0$. Recurrence
  \left(\frac{27}{2}-\frac{2491}{2880}\right)s_k>12s_k>0,
 \]
 since $27/2-2491/2880-12=1829/2880>0$. Induction proves positivity
-for each sequence at every $j\ge2$. These four signs are exactly
-\eqref{cycle:bounds}, completing the proof.
+for each sequence at every $j\ge2$. Their positivity is equivalent to
+\eqref{cycle:bounds}, which proves stability.
 \end{proof}
 
-All data used by the induction are printed above. Exact checks reproduce
-the seeds and compare the trace degrees with the independently integrated
-graph formulas for $j=2,3$.\footnote{The checks are implemented in
-\path{figures/code/compute06_cycle_tables.py}.}
-These checks verify the finite matrix calculations; the induction proves
-the assertion for every length.
+The matrices and initial values above specify the induction. Exact
+computations reproduce the initial values and compare the trace degrees
+with the independently integrated graph formulas for $j=2,3$.\footnote{The
+checks are implemented in
+\href{https://github.com/bwuebben/toric-tangent-stability/blob/main/paper2/figures/code/compute06_cycle_tables.py}{\path{figures/code/compute06_cycle_tables.py}},
+relative to the public repository's \texttt{paper2/} directory.}
+These computations verify the finite matrix calculations. The conclusion
+for every length follows from the induction.

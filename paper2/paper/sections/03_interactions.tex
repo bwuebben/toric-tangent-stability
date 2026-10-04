@@ -1,21 +1,22 @@
 \section{A sharp Picard bound for toric bundles}\label{sec:interactions}
 
-We now consider bundles with fibre a product of degree-six del Pezzo
-surfaces and base a product of projective spaces. In this class the
-maximal Picard number of a stable example is $\lfloor5n/4\rfloor+1$
-for every $n\ge4$. The upper bound allows arbitrary integral twists.
-Its proof combines three requirements: Fano positivity bounds the
-twisting at each base factor, stability requires each surface factor
-to meet at least two base factors, and stability excludes a product
-decomposition. The constructions in the following sections show that
-these requirements can be attained simultaneously.
+For smooth toric Fano bundles with fibre a product of degree-six del Pezzo surfaces
+and base a product of projective spaces, the maximal Picard number among
+varieties with stable tangent bundle is $\lfloor5n/4\rfloor+1$
+for every $n\ge4$. We prove the upper bound for arbitrary integral
+twists. The Fano condition bounds the twisting at each base factor.
+Stability requires each surface factor to have nonzero twists from at
+least two base factors and excludes product decompositions. These
+conditions give the bound; the families constructed in the following
+sections attain it.
 
 \subsection{Bundle fans and a relative tangent obstruction}
 Let $F$ be a smooth projective toric variety with lattice $N_F$, and let
 $B=\prod_{c=1}^k\PP^{b_c}$, where $k,b_c\ge1$. Throughout this section a
-\emph{toric bundle with fibre $F$ over $B$} has the following explicit
-fan presentation. Its lattice is $N_F\oplus\bigoplus_c\ZZ^{b_c}$;
-its fibre rays are those of $F$ in $N_F$; and its other primitive rays are
+\emph{toric bundle with fibre $F$ over $B$} means a bundle with the
+following fan presentation. Its lattice is $N_F\oplus\bigoplus_c\ZZ^{b_c}$.
+The fibre rays are those of $F$ in $N_F$, and the remaining primitive
+ray generators are
 \begin{equation}\label{interact:rays}
  f^c_a=(0,e^c_a)\quad(1\le a\le b_c),\qquad
  f^c_0=\left(t_c,-\sum_{a=1}^{b_c}e^c_a\right),\qquad t_c\in N_F.
@@ -23,16 +24,17 @@ its fibre rays are those of $F$ in $N_F$; and its other primitive rays are
 For every maximal fibre cone and every choice of one omitted ray from
 each set $\{f^c_0,\ldots,f^c_{b_c}\}$, their remaining generators form
 a maximal cone of $X$, and these are all the maximal cones.
-This is the fan description of a locally trivial toric bundle
-\cite[Theorem~3.3.19]{CoxLittleSchenck2011}; it is part of our hypotheses,
-and no assertion about an arbitrary Mori fibre space is intended.
+This fan description is a hypothesis throughout the section. It describes
+a locally trivial toric bundle
+\cite[Theorem~3.3.19]{CoxLittleSchenck2011} and does not cover arbitrary
+Mori fibre spaces.
 The vectors $t_c$ specify the twisting. The displayed normalization is
 obtained by an integral shear from the lifts of the standard base rays.
 
 Write $P_F=\{x:\langle x,v\rangle\ge-1\text{ for every fibre ray }v\}$
 when $F$ is Fano. All volume measures below are lattice normalized,
-without a factorial. The first obstruction only requires that $P_F$
-have barycentre zero. For the special case $F=\PP^1$ and base dimension
+without a factorial. The following obstruction applies whenever $P_F$
+has barycentre zero. For the special case $F=\PP^1$ and base dimension
 at least two, the strict inequality below recovers
 \cite[Theorem~8.1]{BiswasDeyGencPoddar2021}.
 
@@ -72,13 +74,13 @@ The slices are $b$-simplices, so
 \[
  D:=(-K_X)^n=\frac{n!}{b!}A_b.
 \]
-Each of the $b+1$ base-ray divisors has the same degree
+Each of the $b+1$ divisors associated with base rays has degree
 \[
  d=\frac{(n-1)!}{(b-1)!}A_{b-1}.
 \]
-For the facets $y_i=-1$ this follows by integrating the corresponding
-$(b-1)$-simplex volumes. All $b+1$ degrees are equal by the principal
-divisor relations from the characters dual to $e_i$.
+For the facets $y_i=-1$, integrate the corresponding
+$(b-1)$-simplex volumes. All $b+1$ degrees agree by the principal
+divisor relations associated with the characters dual to $e_i$.
 The relative tangent bundle has rank $f$ and first Chern class equal
 to the sum of the fibre-ray divisors. Hence
 \begin{align*}
@@ -187,14 +189,14 @@ subspace, and no base ray lies in it. Its normalized ray-weight sum is
    \int_{H\times\prod_{h\ne i}Q_h}G(x)\,d\sigma\,dx_{-i}
  =2+\frac1V\int_{\prod_iQ_i}x_i\cdot\nabla_iG(x)\,dx.
 \]
-The second equality is the divergence theorem in the $x_i$ variables.
-This is the slice-volume identity used in subspace concentration
-\cite[Eq.~(4.4)]{HenkLinke2014}; here we use the symmetry of the fibre
-factor, without assuming that the total polytope is centred.
+The second equality follows from the divergence theorem in the $x_i$
+variables. This slice-volume identity occurs in subspace concentration
+\cite[Eq.~(4.4)]{HenkLinke2014}. We use the symmetry of the fibre
+factor; the total polytope need not be centred.
 For a facet with primitive outward normal $u$ and equation
 $\langle u,x_i\rangle=1$, the normal component of $x_i$ is
 $1/\|u\|$, exactly converting Euclidean facet measure to lattice
-facet measure. Thus the identity has no missing normalization factor.
+facet measure. This gives the stated normalization.
 
 If all $t_{ic}$ vanish, then $w(N_{i,\CC})=2$ and stability fails.
 If only $t_{ic}$ is nonzero, write
@@ -206,9 +208,9 @@ to $\int x_i\cdot\nabla_iG$ is
  b_c\int_{Q_i}z(A+z)^{b_c-1}\,dx_i
  =b_c\int_{Q_i}z\big((A+z)^{b_c-1}-A^{b_c-1}\big)\,dx_i\ge0.
 \]
-Here $\int_{Q_i}z=0$ by central symmetry, and positivity follows from
-monotonicity as before. Consequently $w(N_{i,\CC})\ge2$, again
-contrary to stability. Thus $\ell\ge2j$.
+Here $\int_{Q_i}z=0$ by central symmetry, and the integrand is
+nonnegative by the same monotonicity argument. Consequently
+$w(N_{i,\CC})\ge2$, again contrary to stability. Thus $\ell\ge2j$.
 
 Finally, the incidence graph is connected. Otherwise, grouping the
 lattice summands according to its components gives a direct sum of
@@ -240,28 +242,27 @@ number of incidences at each base vertex $c$ is $b_c$.
 \begin{proof}
 Equality in the proof of Theorem~\ref{interact:bound} forces
 $s=\ell=j+k-1$ and $j=\lfloor n/4\rfloor$. Connectedness therefore makes
-the incidence graph a tree. Since the sum of all base capacities equals
-the number of incidences, every base inequality is an equality, and
+the incidence graph a tree. The sum of the dimensions of the base factors
+equals the number of incidences, so each base inequality is an equality, and
 $\psi_i(t_{ic})=1$ for each nonzero twist. In a unimodular hexagon cone,
 a nonzero integral vector with coefficient sum one is a primitive ray.
-Finally $\sum_i\deg(i)=\ell$ gives the displayed excess-degree formula.
+Finally $\sum_i\deg(i)=\ell$ gives the last formula.
 \end{proof}
 
-The coefficient $5/4$ follows from the separate geometric restrictions
-in~\eqref{interact:incidence-inequalities}. Each surface factor
-contributes two dimensions and four Picard classes, but stability forces
-at least two nonzero twists at that factor. Positivity of the base
-primitive relations requires a total base dimension at least equal to
-the number of such incidences. Thus the $j$ surface factors require
-at least $2j$ base dimensions. Connectedness gives the remaining
-inequality needed to bound the number of base factors.
+The coefficient $5/4$ comes from~\eqref{interact:incidence-inequalities}.
+Each surface factor contributes two dimensions and four Picard classes
+and requires at least two nonzero twists. The positivity of the base
+primitive relations bounds the number of these incidences by the total
+base dimension. The $j$ surface factors therefore require
+at least $2j$ base dimensions. Connectedness bounds the number of
+base factors.
 
-The equality conditions are necessary, not sufficient: they do not
-control the degrees of subspaces containing rays from several factors.
+The equality conditions alone do not imply stability, since they do not
+bound the degrees of subspaces containing rays from several factors.
 Section~\ref{sec:graphs} constructs the fans, and
 Section~\ref{sec:subdivided} proves stability for independently
 subdivided subcubic trees. Paths attain the bound when $4\mid n$;
 the end attachments of Corollary~\ref{attach:sharp} give attainment in
-every dimension $n\ge4$. Hence Theorem~\ref{interact:bound} is a sharp
-bound in its stated bundle class. It is not an upper bound for arbitrary
-smooth toric Fano varieties.
+every dimension $n\ge4$. Thus Theorem~\ref{interact:bound} is sharp
+in the stated bundle class. No bound for arbitrary smooth toric Fano
+varieties is asserted.

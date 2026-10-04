@@ -27,7 +27,7 @@ It suffices to test subspaces spanned by ray generators.
 \end{lemma}
 
 \begin{proof}
-This is the criterion of Hering--Nill--S\"u\ss{}
+The criterion is due to Hering--Nill--S\"u\ss{}
 \cite[Proposition 1.2 and Remark 2.6]{HeringNillSuess2022}, obtained from
 Klyachko's filtrations \cite{Klyachko1990}. For completeness, the
 decreasing filtrations for $T_X$ on $N_\CC$ are
@@ -60,7 +60,8 @@ This follows from the same induced filtrations. In particular, a line
 containing a single ray has first Chern class $D_\rho$; a line containing
 two opposite rays has the sum of the two divisors.
 
-There is an equivalent convex-geometric normalization. Let
+The same criterion can be expressed in terms of the anticanonical
+polytope. Let
 \[
  P=\{m\in M_\RR:\langle m,u_\rho\rangle\ge-1
                     \text{ for all }\rho\}
@@ -74,10 +75,10 @@ The probability measure assigning to $u_\rho$ the mass
                   {\operatorname{Vol}(P)}
             =\frac{\delta_\rho}{n}
 \]
-is the cone-volume measure, written on ray directions. The criterion
-is precisely $\nu_P(V)<\dim(V)/n$. This connection with subspace
-concentration is established in \cite{HeringNillSuess2022}; our use of
-it will be through the explicit divisor degrees of the two constructions.
+is the cone-volume measure on the ray directions. The slope criterion
+becomes $\nu_P(V)<\dim(V)/n$, the subspace concentration inequality
+of \cite{HeringNillSuess2022}. We will calculate the divisor degrees
+explicitly for each of the two constructions.
 
 \begin{lemma}\label{lem:degreerelation}
 The divisor degrees satisfy
@@ -149,7 +150,8 @@ spanned by ray generators.
 The group $A$ permutes the rays and preserves their divisor degrees,
 so $w(aV)=w(V)$ for $a\in A$. Necessity follows from
 Lemmas~\ref{lem:klyachko} and~\ref{lem:raycomponents}.
-We prove sufficiency by linear algebra.
+For sufficiency, suppose that the ray matroid is connected and that
+the strict inequality holds for every subspace specified in the statement.
 
 For any two subspaces $U,V\subseteq N_\CC$, counting the rays in their
 union and intersection gives
@@ -183,7 +185,7 @@ positive, every ray in $U+V$ then lies in $U$ or in $V$.
 There are finitely many nonzero tight subspaces. Let
 $U_1,\ldots,U_q$ be the minimal ones under inclusion. Distinct $U_i$
 have zero intersection, since an intersection is tight. Their sum is
-in fact direct. To see this inductively, put $W=U_1+\cdots+U_{k-1}$.
+direct, as follows by induction. Put $W=U_1+\cdots+U_{k-1}$.
 The intersection $U_k\cap W$ is tight, so minimality implies that it
 is either zero or all of $U_k$. In the latter case, choose a ray in
 $U_k$. Repeated use of the preceding observation about rays in a sum shows that

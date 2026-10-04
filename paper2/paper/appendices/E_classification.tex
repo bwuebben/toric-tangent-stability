@@ -1,8 +1,8 @@
 \section{The finite classifications}\label{sec:computation}
 
-The path family explains why the inequality $\rho\le n+2$ eventually
-fails for stable tangent bundles.  We now determine where the first
-failure occurs in the classifications of smooth toric Fano varieties.
+The path family shows that $\rho\le n+2$ can fail for varieties with
+stable tangent bundle. The finite classifications of smooth toric Fano
+varieties determine the first dimension in which this occurs.
 Throughout this section stability refers to the polarization $-K_X$.
 
 \begin{theorem}\label{census:lowdim}
@@ -18,7 +18,7 @@ tangent bundle is $11$.  Exactly one isomorphism class attains it:
 the path variety $X_2$ of Example~\ref{graph:path}.
 \end{theorem}
 
-\subsection{An independent test using bases}
+\subsection{A stability criterion using matroid bases}
 
 For $S\subseteq\mathcal R$, put $\delta(S)=\sum_{\rho\in S}\delta_\rho$.
 Lemma~\ref{lem:klyachko} is equivalent to
@@ -61,7 +61,7 @@ If a nonempty proper $S$ gives equality and the directed graph is
 strongly connected, an edge $e\longrightarrow e'$ leaves $S$.
 For its corresponding basis $B_k$, replacing $e'\notin S$ by $e\in S$
 produces a basis containing $r(S)+1$ members of $S$, a contradiction.
-Thus \eqref{eq:subsetstability} holds. This argument does not use
+Thus \eqref{eq:subsetstability} holds. The argument is independent of
 Proposition~\ref{prop:symmetry}.
 \end{proof}
 
@@ -73,15 +73,15 @@ from polyDB and the seven- and eight-dimensional lists distributed
 by Paffenholz \cite{polyDB}.  A smooth Fano polytope is the convex hull
 of the primitive ray generators, and its facets determine the maximal
 cones.  The facet normals of the dual moment polytope thus give the
-same ray configuration.  This distinction matters because the two
-distributions use different polytope conventions.
+same ray configuration. We use this correspondence to compare the two
+data distributions, which adopt different polytope conventions.
 
 The computations through dimension six are those of
 \cite{Wuebben2026}.  In dimension four, the classification by tangent
 bundle stability was already obtained by Reynolds
-\cite[Appendix~A]{Reynolds2023}; our four-dimensional calculation is an
-independent verification, rather than a new classification.
-The additional coverage used here is precisely
+\cite[Appendix~A]{Reynolds2023}; our four-dimensional calculation
+independently verifies that classification.
+The additional varieties examined here are
 \[
  \begin{array}{c|c|r}
  n&\text{Picard numbers examined}&\text{number of varieties}\\ \hline
@@ -89,8 +89,8 @@ The additional coverage used here is precisely
  8&\rho\ge11&1582.
  \end{array}
 \]
-Thus all sevenfolds at or above $\rho=n+2$ are covered, whereas in
-dimension eight the complete calculation starts at $\rho=n+3$.
+Thus the calculation includes all sevenfolds at or above $\rho=n+2$,
+whereas in dimension eight the complete calculation starts at $\rho=n+3$.
 The eight-dimensional stratum $\rho=10$ has not been classified here
 by stability.  No stability classification in dimension nine is used.
 
@@ -107,17 +107,17 @@ exhibit a proper ray-spanned subspace $W$ for which
 \begin{equation}\label{census:witness}
  \frac{\sum_{v\in W}d_v}{\dim W}\ge\frac Dn.
 \end{equation}
-The search first examines subspaces spanned by at most four rays.
-If it finds no such subspace, all ray-spanned subspaces are examined.
-Consequently failure to find a small-dimensional subspace is never
-used as evidence of stability.
+We first examine subspaces spanned by at most four rays.
+If none satisfies the displayed inequality, we examine all ray-spanned
+subspaces. Thus stability is concluded only after the full subspace
+test when the initial search is inconclusive.
 
-There are two distinct kinds of non-stability record.  A strict
-inequality in \eqref{census:witness} proves instability.  An equality
+The non-stability records distinguish strict inequality from equality.
+A strict inequality in \eqref{census:witness} proves instability.  An equality
 excludes stability but does not exclude the existence of a different
-subspace with strictly larger slope.  We therefore retain the term
-\emph{equality witness} for the latter records, without classifying
-all of them as semistable.
+subspace with strictly larger slope.  We use the term
+\emph{equality witness} for the latter records, without asserting
+semistability in all such cases.
 
 \begin{proof}[Proof of Theorem~\ref{census:lowdim}]
 The bound in dimensions at most six follows from the complete
@@ -156,7 +156,7 @@ and $819$ have an equality witness.  The stable variety has $\rho=11$
 and identifier \texttt{P8D.smooth\_fano\_8d.gz.389596} in Paffenholz's
 list.  Its anticanonical degree is $D=5753440$.
 
-Here is an explicit identification with $X_2$.  Order the coordinates
+To identify this variety with $X_2$, order the coordinates
 of its lattice as
 \[
  (r_0,q_0,r_1,q_1,f^0_1,f^1_1,f^1_2,f^2_1),
@@ -175,24 +175,24 @@ coordinates the lattice map is
  1&-1&0&0&0&0&0&0
  \end{pmatrix}.
 \end{equation}
-Direct evaluation gives $\det A=1$ and shows that $A$ maps the $19$
+A direct calculation gives $\det A=1$ and shows that $A$ maps the $19$
 ray generators of $X_2$ bijectively onto those of the listed variety.
 Since both fans are the fans over the faces of their smooth Fano
 polytopes, this ray bijection identifies the fans as well.
 
-There is also a finite verification of stability directly from the
-database rays, independent of the path-family proof.  Its rational
+Stability can also be verified directly from the database rays,
+independently of the path-family proof.  Its rational
 base-polytope expression consists of $19$ bases with positive rational
 coefficients summing to $1$.  The weighted sum of their incidence
 vectors equals $(\delta_v)_v$, and their directed exchange graph is
 strongly connected.  Lemma~\ref{lem:basecertificate} therefore proves stability.
-These finite checks and the absence of any other stable record prove
-uniqueness and maximality.
+These checks identify the stable variety. The absence of any other stable
+variety among the examined records proves uniqueness and maximality.
 \end{proof}
 
 \subsection{The varieties of Picard number \texorpdfstring{$n+2$}{n+2}}
 
-For clarity, define the even-dimensional del Pezzo variety $V_{2m}$
+Define the even-dimensional del Pezzo variety $V_{2m}$
 as the smooth toric Fano variety whose fan is the fan over the faces
 of the polytope
 \begin{equation}\label{census:del-pezzo}
@@ -248,13 +248,24 @@ Substituting $\rho(X)=n+2$ and $\rho(V_{2m})=2m+2$ yields
 $\rho(Y)=\dim Y$.
 \end{proof}
 
-The statement describes a finite part of the classification, not a
-criterion asserting stability for every del Pezzo bundle of these
-dimensions.  Nor does it imply that the base is a product of projective
-lines.  Already in dimension six there are stable hexagon bundles over
-other smooth toric bases of dimension and Picard number four.
+This theorem describes the stable varieties in the specified part of the
+finite classification. It does not give a sufficient condition for a del
+Pezzo bundle of these dimensions to be stable. The base need not be a
+product of projective lines: in dimension six, stable hexagon bundles
+already occur over other smooth toric bases of dimension and Picard
+number four.
 
 \subsection{Reproducibility}
+
+The programs and proof data are available at
+\url{https://github.com/bwuebben/toric-tangent-stability/tree/main/paper2/paper/anc}.
+On arXiv, this package is distributed through the ancillary-files link on
+the abstract page. The package contains the Python programs in
+\texttt{code/}, the exact inputs and outputs in \texttt{data/}, and the
+rational basis decompositions in \texttt{certificates/}.
+The file \texttt{README.txt} gives the requirements, commands and scope of
+each calculation. Run the commands below from the package directory
+(\texttt{paper2/paper/anc/} in the public repository).
 
 The ancillary package includes standalone rational-arithmetic programs
 for the uniform path, end-attachment, branching and cycle
@@ -264,10 +275,9 @@ and branching programs reproduce the finite minima, all-selected costs
 and error bounds. The unequal-arm calculation evaluates all $500$
 central choices for each of $7140$ mixed comparisons, including every
 short-length case required by the contraction argument. The general-tree
-theorem then uses an induction rather than an enumeration of tree shapes.
-Its additional arithmetic consists of the limiting transition inequalities
-and the explicit subdivision thresholds. From the ancillary
-directory, the commands
+theorem extends these calculations by induction on trees, without
+enumerating their shapes. The additional arithmetic computations are the limiting transition inequalities and the explicit
+subdivision thresholds. From the ancillary directory, the commands
 \begin{quote}
 \small\ttfamily\raggedright
 python3 -S code/end\_attachment\_proof.py --uniform\\
@@ -276,13 +286,13 @@ python3 -S code/two\_junction\_gluing.py\\
 python3 -S code/subcubic\_thresholds.py\\
 python3 -S code/research\_graph\_targets.py
 \end{quote}
-require only the Python standard library. The package retains the exact
+require only the Python standard library. The package includes the exact
 rational outputs and $93$ positive basis decompositions for independently
 checking selected finite examples. Running
 \texttt{python3 -S code/verify\_certificate.py certificates/*.json}
-checks all these decompositions. Numerical searches for decompositions
-are not dependencies of their rational verification or of the uniform
-stability proofs.
+checks all these decompositions. Both the rational verification and the
+uniform stability proofs are independent of the numerical searches used
+to find these decompositions.
 
 For the mixed-blowup construction, the tree criterion, the all-length
 path theorem and the saturated-vertex comparison are proved by identities
@@ -310,10 +320,10 @@ adjacent pairs in Proposition~\ref{treemix:two-centres}. The conclusions
 for arbitrary trees and connecting lengths use the monotonicity and
 induction arguments in Section~\ref{sec:mixed-tree-threshold}.
 
-The ancillary data distinguish input polytopes from varieties whose
-stability has actually been decided.  The seven-dimensional records
+The ancillary data distinguish the input polytopes from the varieties
+for which the calculation decides stability.  The seven-dimensional records
 cover all $1277$ varieties with $\rho\ge9$; the eight-dimensional records
-cover precisely the $1582$ with $\rho\ge11$.  They retain identifiers,
+cover precisely the $1582$ with $\rho\ge11$.  The records include identifiers,
 ray coordinates, divisor degrees and the subspaces proving
 non-stability.  The stable-boundary list is restricted to $\rho=n+2$
 in dimensions four through seven.  In particular it does not include
@@ -321,13 +331,13 @@ $X_2$, whose Picard number is $n+3$.
 
 For the stable eightfold, the rational expression in $19$ bases can be
 checked using only the ray matrix, the normalized degrees and rational
-arithmetic: verify each determinant is nonzero, each coefficient is
-positive, their sum is $1$, the weighted incidence-vector identity
-holds, and the directed exchange graph is strongly connected.  This check uses no fan
-symmetry.  The identification matrix \eqref{census:identification}
-gives a separate comparison with the graph construction.\footnote{\raggedright The
+arithmetic. Verify that each determinant is nonzero, each coefficient is
+positive, and their sum is $1$. Then check the weighted incidence-vector
+identity and the strong connectivity of the directed exchange graph.
+This verification requires no fan symmetry. The identification matrix
+\eqref{census:identification} gives a separate comparison with the graph construction.\footnote{\raggedright The
 computations are implemented by \texttt{screen\_high\_rank.py},
 \texttt{matroid\_certificate.py} and \texttt{verify\_certificate.py}.
 The stable-eightfold expression is retained as
-\texttt{P8D\_389596.json}.  Only completed calculations enter the
-ancillary tables.}
+\texttt{P8D\_389596.json}. The ancillary tables contain only completed
+calculations.}

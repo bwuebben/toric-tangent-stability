@@ -1,10 +1,10 @@
 \section{Further questions}\label{sec:questions}
 
-The two constructions give complete extremal statements within their
-classes, but do not classify all stable members. For blowups, the
-vertex criterion separates this classification problem from the
-subspace-rank calculation. For bundles, the subdivision theorem gives
-many extremizers without a characterization of every stable twist.
+The Picard maxima for the two construction classes leave open the
+classification of their stable members. For blowups indexed by trees,
+the vertex criterion reduces this problem to divisor-degree inequalities.
+For bundles, the subdivision theorem constructs families attaining
+the maximum, while the classification of stable twists remains open.
 
 \begin{question}
 Which saturated blowup trees of maximum degree four or five have
@@ -12,13 +12,13 @@ stable tangent bundle? What additional subspace inequalities are needed
 for the same construction on graphs with cycles?
 \end{question}
 
-The degree-four obstruction is sufficient, whereas
-Proposition~\ref{treemix:two-centres} gives stable higher-degree
-arrangements. Larger factor dimensions at nonleaf vertices also lie
-beyond the subcubic stability theorem. The exceptional mixed-intersection
-formula in Section~\ref{sec:intrinsic} remains available without a tree,
-but controlling its associated foliation alone does not control every
-higher-rank subsheaf.
+The degree-four obstruction gives a sufficient condition for instability.
+Proposition~\ref{treemix:two-centres} also provides stable examples with
+vertices of higher degree. The case of larger factor dimensions at
+nonleaf vertices is not covered by the subcubic stability theorem.
+The exceptional mixed-intersection formula of Section~\ref{sec:intrinsic}
+applies without the tree hypothesis. It determines the slope of the
+specified foliation; higher-rank subsheaves require further inequalities.
 
 \begin{question}
 Is there an absolute integer $L_*$ such that every finite subcubic
@@ -26,11 +26,12 @@ tree with an edge gives a stable graph bundle whenever all skeleton
 edges are subdivided to length at least $L_*$?
 \end{question}
 
-Theorem~\ref{tree:stable} gives a sufficient length growing
-logarithmically with the number of trivalent vertices. It does not
-show that this dependence is necessary. More generally, the necessary
-incidence conditions in Corollary~\ref{interact:equality} do not decide
-which primitive twisting vectors produce stable extremizers.
+The sufficient length in Theorem~\ref{tree:stable} grows logarithmically
+with the number of trivalent vertices. The theorem does not establish
+that this dependence is necessary. A further question is which primitive twisting
+vectors give stable bundles attaining the Picard bound. The necessary
+incidence conditions in Corollary~\ref{interact:equality} do not resolve
+this question.
 
 Finally, let $R(n)$ be the largest Picard number of a smooth toric
 Fano $n$-fold with anticanonically stable tangent bundle. The bundle
@@ -65,8 +66,10 @@ tangent bundle satisfy $\rho\le(4n+3)/3$ for $n\ge3$? What is
 $\limsup_{n\to\infty}R(n)/n$?
 \end{question}
 
-The results here give an asymptotic lower ratio of $5/4$. The proposed
-upper ratio $4/3$ remains conjectural. A general proof would have to
-show that excessive Picard number forces excessive degree in some
-proper tangent subspace. Neither the exceptional-intersection identity
-nor the restricted bundle incidence argument supplies that implication.
+The results here give an asymptotic lower ratio of $5/4$; the proposed
+upper ratio $4/3$ remains conjectural. To deduce the upper bound from
+the toric slope criterion, one would need to show that a Picard number
+exceeding the bound forces a proper subspace to violate the required
+degree inequality. The exceptional-intersection identity and the
+incidence argument for the specified bundles do not establish this
+implication.

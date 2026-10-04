@@ -1,8 +1,10 @@
 # Tangent stability on toric Fano blowups and bundles
 
-**Bernd Johannes Wuebben — preprint, 20 September 2026.**
+**Bernd Johannes Wuebben — official active version of Paper 2.**
 
-[Read the paper (PDF, 73 pages)](paper/main.pdf) ·
+Updated October 3, 2026; the manuscript date remains September 20, 2026.
+
+[Read the paper (PDF, 74 pages)](paper/main.pdf) ·
 [LaTeX source](paper/main.tex) · [Exact proof package](paper/anc/README.txt)
 
 This is the second paper in the repository's programme on anticanonical
@@ -43,8 +45,13 @@ They are computer assisted. The finite comparisons, matrices and error estimates
 are printed in the proof appendices. The blowup-tree arguments use uniform
 identities, integral comparisons and induction with explicit polynomial arithmetic.
 
-`paper/anc/` is a portable package requiring Python 3.11 or newer, using only
-its standard library. Its README specifies all computations and their scope.
+The [Python programs](paper/anc/code/), [exact inputs and outputs](paper/anc/data/),
+and [rational certificates](paper/anc/certificates/) are in `paper/anc/`.
+The same package accompanies the arXiv version as ancillary files, accessible
+through the ancillary-files link on its abstract page.
+
+This portable package requires Python 3.11 or newer and uses only its standard
+library. Its [README](paper/anc/README.txt) specifies all computations and their scope.
 From that directory, quick exact checks include:
 
 ```sh
@@ -80,8 +87,11 @@ cd paper
 latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
 ```
 
-The checked-in PDF is the reviewed 20 September 2026 manuscript. `SHA256SUMS`
-records the distributed files; `paper/anc/SHA256SUMS` separately records the
+The checked-in PDF and LaTeX sources are the official active version, updated
+on October 3, 2026. The printed manuscript date remains September 20, 2026.
+This update revises the prose and provides explicit code-availability links;
+the mathematics, tables, code and proof data are unchanged. Earlier versions
+remain in Git history. `SHA256SUMS` records the distributed files; `paper/anc/SHA256SUMS` separately records the
 portable mathematical inputs. The historical research draft and unfinished
 unrestricted-bound programme are not part of this public manuscript package.
 

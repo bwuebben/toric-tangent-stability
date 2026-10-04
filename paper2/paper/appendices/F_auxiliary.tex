@@ -1,6 +1,7 @@
 \section{Further examples and relative tangent slopes}\label{sec:auxiliary}
 
-We record several consequences of the methods used above. All slopes
+The preceding methods also give stability results for del Pezzo varieties
+and formulas for relative tangent slopes of toric bundles. All slopes
 in this appendix are taken with respect to the anticanonical
 polarization of the total space.
 
@@ -43,8 +44,8 @@ are a signed coordinate basis at an old vertex. At a new vertex they
 are $n-1$ signed coordinate vectors together with $s$ or $-s$; their
 determinant is $\pm1$. Both polytopes are therefore integral and
 simple with unimodular normal cones. The origin is interior, and
-all displayed inequalities define facets. This proves the smooth
-Fano assertion.
+all displayed inequalities define facets. Thus both varieties are smooth
+and Fano.
 
 For $V_n$, use the equivalent lattice presentation
 $\ZZ^{n+1}/\ZZ(e_0+\cdots+e_n)$, with rays $\pm e_i$.
@@ -71,7 +72,7 @@ Finally, subtracting the dimension from the number of rays gives
 the two Picard numbers.
 \end{proof}
 
-\subsection{Extensions with base \texorpdfstring{$\PP^1$}{P1}}
+\subsection{Toric bundles over \texorpdfstring{$\PP^1$}{P1}}
 
 Let $Z=X_{\Sigma_Z}$ be a positive-dimensional smooth projective toric variety with lattice
 $N_Z$, and let $t\in N_Z$. In $N_Z\oplus\ZZ$, take the cones
@@ -94,19 +95,19 @@ the vertices of $Q$.
 \begin{proof}
 On the upper half-space, the shear $(x,y)\mapsto(x-yt,y)$ identifies
 the cones with the product of $\Sigma_Z$ and the nonnegative ray.
-On the lower half-space they already have product form. This proves
-completeness, and each maximal cone is unimodular. If $X_t$ is Fano,
+On the lower half-space they already have product form. The fan is
+therefore complete, and each maximal cone is unimodular. If $X_t$ is Fano,
 restriction of $-K_{X_t}$ to a fibre gives $-K_Z$, so $Z$ is Fano.
 
-Assume henceforth that $Z$ is Fano. For a facet $F$ of $Q$, let
+Now assume that $Z$ is Fano. For a facet $F$ of $Q$, let
 $u_F\in M_Z$ satisfy $\langle u_F,v\rangle=1$ on $F$ and be
 strictly less than one at every other vertex. The linear forms
 supporting the two proposed facets over $F$ are
 \[
  (u_F,-1),\qquad (u_F,1-\langle u_F,t\rangle).
 \]
-Evaluating each on the opposite apex shows that the strict convexity
-condition is $\langle u_F,t\rangle<2$. Since this quantity is integral,
+Evaluating each form on the opposite apex gives the strict convexity
+condition $\langle u_F,t\rangle<2$. Since this quantity is integral,
 the condition is equivalent to $\langle u_F,t\rangle\le1$ for every
 facet, hence to $t\in Q$. These are exactly the strict support-function
 inequalities for ampleness of $-K_{X_t}$. Finally, the simplices
@@ -168,7 +169,7 @@ which has rank $f$ and degree $D-2(n-1)!\sum_iJ_i$.
 Comparing its slope with $D/n$ is equivalent to
 $kD\ge2n!\sum_iJ_i$. A term $I(S)$ occurs in the last sum exactly
 $k-|S|$ times, with coefficient $2^{k-1-|S|}$ each time.
-Subtracting gives \eqref{aux:relativeprism}.
+Subtraction gives \eqref{aux:relativeprism}.
 \end{proof}
 
 For $k=1$, write $b_F=\operatorname{vol}(P_F)^{-1}\int_{P_F}m\,dm$.
@@ -193,8 +194,8 @@ bundle has slope greater than $\mu(T_X)$ precisely when
  i\ne j\ \text{ and }\ \varepsilon_1\varepsilon_2=-1.
 \]
 For opposite twists with the same index, and for equal signs with
-different indices, this particular subsheaf has smaller slope.
-These comparisons alone do not decide stability of $T_X$.
+different indices, the relative tangent bundle has smaller slope.
+These comparisons alone do not determine the stability of $T_X$.
 
 \subsection{Projective-line bundles over a toric base}
 
@@ -238,7 +239,7 @@ At height $y$, the anticanonical polytope has slice
                          \text{ for every }\rho\},
 \]
 the polytope of $-K_Y+yL'$, of volume $g(y)/(n-1)!$.
-Integrating gives $D$; the facets at $y=-1$ and $y=1$ give the
+Integration gives $D$. The facets at $y=-1$ and $y=1$ give the
 two divisor degrees. The relative tangent line bundle is
 $\mathcal O_X(D_{(0,1)}+D_{(0,-1)})$, so its degree is their sum.
 Finally, expand $g(y)=\sum_j c_jy^j$. The difference between the
@@ -247,7 +248,8 @@ $2\sum_{j\ge2,\ j\text{ even}}c_jj/(j+1)$, giving the assertion.
 \end{proof}
 
 \begin{example}\label{aux:p1counterexample}
-A smaller relative tangent slope does not imply stability. Let
+The relative tangent bundle may have smaller slope even when the
+tangent bundle is unstable. Let
 $Y=\PP^2\times\PP^1$ and $L'=2H-F$, where $H$ and $F$ are the
 hyperplane classes of the two factors. Both $-K_Y\pm L'$ are ample;
 the strict support-function inequalities on the two sets of maximal

@@ -1,12 +1,11 @@
-\section{Extremal families and the effect of separation}\label{sec:bundle-families}
+\section{Families attaining the Picard bound}\label{sec:bundle-families}
 
-We first state the stable path, end-attachment and three-arm families
-needed for the extremum and the general subdivision theorem. Their
-complete degree calculations and uniform estimates appear in
-Appendices~\ref{sec:paths}--\ref{sec:spiders}. The distinction between
-the two uses of these results is useful: paths and attachments attain
-the numerical bound, whereas the quantitative three-arm estimate is
-the initial case for arbitrarily many branching vertices.
+Paths and suitable modifications at their ends attain the Picard bound
+in every dimension at least four. Trees with one trivalent vertex give further
+examples and provide the initial case of the subdivision theorem in
+the next section. We state these results here; the degree calculations
+and uniform estimates are in
+Appendices~\ref{sec:paths}--\ref{sec:spiders}.
 
 \subsection{Paths}
 
@@ -36,8 +35,8 @@ Put $r=(1,0)$ and $q=(0,1)$ in the hexagon lattice and define
 \]
 For $j\ge1$, take $j$ hexagon factors. Between hexagons $i-1$ and $i$
 place a $\PP^2$ base factor with twisting vector $r_{i-1}-r_i$.
-At the first hexagon attach one $\PP^1$ base factor for each root in
-$A_a$; at the last attach one for each root in $-A_b$. Use the locally
+At the first hexagon attach one $\PP^1$ base factor for each vector in
+$A_a$; at the last attach one for each vector in $-A_b$. Use the locally
 trivial toric bundle fan over the product of these projective spaces,
 with fibre $S_6^j$, and denote the resulting variety by $X_j(a,b)$.
 \begin{theorem}\label{attach:stable}
@@ -66,16 +65,17 @@ with the fan presentation~\eqref{interact:rays}, is
 \end{corollary}
 \begin{proof}
 Theorem~\ref{interact:bound} gives the upper bound. Write $n=4j+r$,
-$0\le r\le3$. For $r=0$ use the ordinary path $X_j$ from
+$0\le r\le3$. For $r=0$ use the path $X_j$ from
 Theorem~\ref{path:stable}. For $r=1,2,3$ use respectively the pairs
 $(1,0),(2,0),(3,0)$ in Theorem~\ref{attach:stable}. Their Picard
 numbers are $5j+r+1=\lfloor5n/4\rfloor+1$.
 \end{proof}
 
-\subsection{The first branching case}
+\subsection{Trees with one trivalent vertex}
 
-Stability at the Picard bound is compatible with branching, even when
-the branches have different lengths. Let $\Gamma_{a,b,c}$ be the tree
+Trees with a trivalent vertex also give stable examples at the Picard
+bound, including when the three arms have different lengths.
+Let $\Gamma_{a,b,c}$ be the tree
 with one vertex of degree three and arms containing $a,b,c$ edges.
 Put $b_v=\deg(v)$ and let $Y_{a,b,c}=X(\Gamma_{a,b,c})$ be the graph
 bundle of Section~\ref{sec:graphs}. Its base has one factor $\PP^3$,
@@ -90,31 +90,28 @@ stable with respect to $-K_{Y_{a,b,c}}$. Moreover,
 \]
 \end{theorem}
 
-Thus branching examples attain the bundle bound in every dimension
-divisible by four and at least twenty-four. Their fans are not
-lattice-isomorphic to the ordinary path fans in the same dimension:
+These examples attain the bundle bound in every dimension divisible
+by four and at least twenty-four. Their fans are not lattice-isomorphic
+to the path fans in the same dimension:
 the central $\PP^3$ rays form a primitive collection of size four,
 whereas the path primitive collections have sizes two or three by
 Lemma~\ref{graph:split-collections}.
 
 The Fano property and connected ray matroid follow from
-Proposition~\ref{graph:geometry}. The proof keeps independent subspace
-choices on the three arms. A cubic integral gives their interaction at
-the center. Contraction then bounds the effect of changing one arm
-along the others, uniformly even when their lengths are very different.
+Proposition~\ref{graph:geometry}. The proof in
+Appendix~\ref{sec:spiders} allows the subspace selections on the three
+arms to vary independently. A cubic integral expresses their joint
+contribution at the central vertex. A contraction estimate bounds the
+effect of changing one arm on the other two, uniformly in all three
+lengths.
 
-
-The proof is in Appendix~\ref{sec:spiders}.
-
-The contraction estimate behind the proof explains why separation is
-effective. At a
-degree-two vertex, integration over the base simplex acts on a positive
+At a degree-two vertex, integration over the base simplex acts on a positive
 function by the operator
 \[
  (\mathcal T f)(a')=
  \int_{-1}^1 f(a)\frac{(3+a-a')^2}{2}(2-|a|)\,da.
 \]
-Thus a path applies the same positive integral operator repeatedly.
+Integration along a path iterates this positive integral operator.
 For positive continuous functions define
 \[
  d_H(f,g)=\log\left(\sup_a\frac{f(a)}{g(a)}
@@ -134,13 +131,14 @@ satisfies
  |\log\delta(i,k)-\log\delta_\infty|
  \le\log(81/25)\bigl((2/7)^{i-1}+(2/7)^{k-1}\bigr).
 \]
-The limiting degree is independent of the distant end data. An end-ray
-degree has only a one-sided limit and can retain dependence on its own
-end factor. These are convergence estimates; they do not assert
-monotonicity in the path lengths.
+The limiting degree is independent of the data at the distant ends.
+A ray at an end has only a one-sided limiting degree, which can depend
+on the factor at that end. These estimates give convergence, without
+asserting monotonicity in the path lengths.
 
 
-Stability also requires a uniform bound for the deficits of all
-relevant subspaces. Section~\ref{sec:subdivided} supplies the rank
-formula and the gluing argument that preserve those bounds when smaller
-trees are joined.
+The deficit of a subspace is its dimension minus the sum of the
+normalized weights of the rays it contains. To deduce stability, we
+need a uniform bound on the deficits of all relevant subspaces.
+The rank formula and gluing argument in
+Section~\ref{sec:subdivided} give such bounds when subtrees are joined.

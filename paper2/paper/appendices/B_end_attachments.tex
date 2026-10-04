@@ -1,17 +1,17 @@
 \section{Proof for the end attachments}\label{sec:attachments}
 
-We prove Theorem~\ref{attach:stable}, using the varieties and root lists
-defined in Section~\ref{sec:bundle-families}.
+The proof of Theorem~\ref{attach:stable} uses the varieties and lists of twisting vectors
+of Section~\ref{sec:bundle-families}.
 
 \subsection{Geometry and divisor degrees}
 The lattice is the direct sum of the hexagon lattices and the base
 lattices. In a base factor of dimension $d$, the lifted rays are
 $e_1,\ldots,e_d,t-\sum e_i$, where $t$ is its stated twisting vector.
 Maximal cones contain adjacent ray pairs in each hexagon and omit one
-ray in each base factor. The simplex lengths in the anticanonical polytope are at least one,
-so its normal fan is precisely the displayed complete bundle fan;
-the block triangular maximal-cone matrices are unimodular. The primitive
-collections are the hexagon primitive collections and the lifted
+ray in each base factor. The simplex lengths in the anticanonical polytope
+are at least one, so its normal fan is the displayed complete bundle fan.
+The block triangular matrices of its maximal cones are unimodular.
+The primitive collections are the hexagon primitive collections and the lifted
 primitive collections of the base. Each leaf relation has degree
 $2-1=1$, and each internal base relation has degree $3-2=1$.
 The fibre primitive relations have degrees one and two. Thus the
@@ -21,8 +21,8 @@ connects its base coordinates to all the incident hexagon components.
 Hence the ray matroid is connected.
 
 The number of base factors is $j+a+b+1$ and their total dimension is
-$2j+a+b$. The dimension and Picard formulas follow. We prove stability
-using the following explicit degree and rank calculations.
+$2j+a+b$. This gives the dimension and Picard number. For stability, we
+compute the divisor degrees and subspace ranks as follows.
 \medskip
 The dual anticanonical hexagon is
 \[
@@ -50,8 +50,8 @@ For a hexagon ray $h$, define $m_{a,h}$ by the same formula integrated
 over its facet $\langle(x,z),h\rangle=-1$ with lattice measure.
 For either ray of leaf $\ell$, define $m_{a,\ell}$ by omitting the
 factor $2+\langle(x,z),t_\ell\rangle$ from $P_a$.
-These prescriptions specify every modified moment vector without
-rounding. Reflection changes a right-hand moment vector $v_p$ to
+These integrals determine every modified moment vector exactly. Reflection
+changes a right-hand moment vector $v_p$ to
 $(-1)^pv_p$. The reflected local hexagon ray $h$ is the global ray $-h$.
 
 Write
@@ -79,7 +79,7 @@ factor $c$, $1\le c\le j-1$, each of its three rays has weight
 For an internal hexagon $i$, $1\le i\le j-2$, replace $W$ in
 $L_{i-1}\kappa W\kappa R_{j-2-i}$ by its facet moment matrix $W_h$.
 Its denominator is $Z$. These formulas follow by integrating the
-simplex slices and applying Fubini. The case $j=1$ is simply the
+simplex slices and applying Fubini. For $j=1$, the volume is the
 integral of $P_a(x,z)P_b(-x,-z)$ over $Q$.
 
 \subsection{End subspaces and the rank recurrence}
@@ -90,15 +90,16 @@ An end of type $a$ has lattice $E_a=\ZZ^2\oplus\ZZ^{a+1}$ and rays
 \]
 Enumerate the ray-spanned subspaces by starting with zero, adjoining
 each ray in turn, and closing under inclusion of all rays in the span.
-This finite, exact linear-algebra procedure gives respectively
+This enumeration uses exact linear algebra and gives respectively
 $13,34,92,241$ subspaces for $a=0,1,2,3$, including zero and the whole
-space. All their ray subsets and ranks are supplied with the computation.
+space. The corresponding ray subsets and ranks are included in the
+ancillary data.
 For such an end subspace $S$, record its rank, selected ray weight,
 whether $r\in S$, and whether $S+\CC r=E_{a,\CC}$.
-No symmetry of either end is assumed.
+This enumeration requires no symmetry of either end.
 
-Use only the independent reflections of the internal hexagons fixing
-$r_i$, and the transpositions of the two untwisted rays of each internal
+For the symmetry reduction, use only the independent reflections of the
+internal hexagons fixing $r_i$, and the transpositions of the two untwisted rays of each internal
 $\PP^2$. These preserve the entire fan, including the end pieces.
 Every invariant ray-spanned subspace is represented by an end choice
 on each side, choices $H_i\in\{0,1,2\}$ of empty set, distinguished line,
@@ -122,8 +123,8 @@ the following hexagon adds the rank
 and gives state $G$ when $H\ge1$, state $g$ when $H=0$, $CT=1$,
 and $s\ne u$, and state $u$ otherwise. Its selected weight is
 $(2C+T)\beta+\omega(H)$, where $\omega(H)$ is the empty, line,
-or plane weight. This is the usual path relation
-$-g_c+r_{c-1}-r_c$ modulo previously selected subspaces.
+or plane weight. These formulas follow from the path relation
+$-g_c+r_{c-1}-r_c$ modulo the previously selected subspaces.
 
 For the selected subspace $V$ in the processed ambient space $E$, define
 binary indicators $\eta=\mathbf1_{V\ne0}$ and
@@ -139,8 +140,8 @@ $\mathbf1_{s=u}$. Otherwise, a missing direction independent of the
 boundary can never be supplied by the remaining chain. This also proves
 that $F=0$ implies $F'=0$.
 
-To close with right end subspace $S_R$, let $e=\dim S_R$ and let
-$g_R$ mean $r\in S_R$. The last base and right end add rank
+At the right end, choose a subspace $S_R$, put $e=\dim S_R$, and let
+$g_R$ mean $r\in S_R$. The final base factor and right end add rank
 \[
  d_R=2C+T(1-C)+e+\mathbf1_{CT=1}\mathbf1_{s=u\ \mathrm{or}\ \neg g_R}.
 \]
@@ -152,8 +153,9 @@ The formula for $d_R$ follows because the remaining relation
 $r_{j-2}-r_{j-1}$ is dependent exactly when both boundary lines are
 already spanned. Minimize rank minus selected weight, retaining only
 the least cost for each state and pair of binary indicators. Discard the empty
-and full-rank final configurations. This proves the finite recurrence;
-it is not inferred from comparisons with numerical ranks.
+and full-rank final configurations. The rank argument above proves this
+recurrence directly; its justification does not depend on comparisons
+with numerically computed ranks.
 
 \subsection{Uniform comparison and stability}
 The internal kernel is positive and has Hilbert projective contraction
@@ -171,22 +173,23 @@ weight is at most two. At an end, $1\le P_a\le3^4=81$ and the incoming
 function has oscillation ratio at most nine. Since a hexagon facet has
 lattice length one and $\operatorname{vol}(Q)=3$, every end hexagon
 weight is at most $81\cdot9/3=243$. End leaf weights are at most one.
-These bounds also hold for limiting and finite comparison weights.
+The same bounds hold for the limiting weights and the finite comparison
+weights.
 
 Take $q_0=20$, comparison index $K=40$, and $j=2q_0+m$.
 The left end and periods $1,\ldots,q_0-1$ retain their left chain
 indices and use the limiting right function. Periods
 $q_0,\ldots,q_0+m-1$ use both limiting functions. The remaining
 periods and the right end retain their right indices and use the
-limiting left function. There are at most $9q_0+10$ rays in either
-end zone. Write
+limiting left function. Each end region contains at most $9q_0+10$ rays. Write
 \[
  \bar\Delta=11757/10000,\quad x=\bar\Delta\tau^{q_0-3},\quad
  y=2\bar\Delta\tau^{K-2},\quad B=243.
 \]
-The deliberately weaker exponents cover the first kernel application
-from an end piece, including its adjacent base factor. The contraction
-bound and $e^t-1\le t+t^2$ imply the uniform true-path error
+The weaker exponents allow for the first application of the kernel
+from an end piece, including the adjacent base factor. The contraction
+bound and $e^t-1\le t+t^2$ give the following uniform error between the
+original and comparison weights:
 \[
  E_{\rm path}=B\left\{9\frac{2x}{1-\tau}(1+2x)
                     +2(9q_0+10)(x+x^2)\right\}.
@@ -196,17 +199,16 @@ indices by $K$ changes every configuration cost by at most
 \[
  E_{\rm rat}=B\{9(2q_0+4)+10\}(y+y^2).
 \]
-This also covers every simple internal transition cycle.
+This bound also applies to every simple internal transition cycle.
 
-The limiting all-selected period has weight four: summable convergence
-errors make the difference between total weight and the number of
-periods times the limiting weight bounded independently of $j$, whereas
-the total weight is $4j+a+b$. Hence the all-selected $G$ loop and empty
+The limiting all-selected period has weight four. Indeed, the convergence
+errors are summable, so the difference between the total weight and the
+number of periods times the limiting weight is bounded independently of
+$j$. The total weight is $4j+a+b$. Hence the all-selected $G$ loop and empty
 $u$ loop have exactly zero cost. All other simple cycles are the same
 as in the original path theorem and have cost exceeding $0.1259$.
-The exact rational comparison calculation gives the following strict
-lower bounds; these are terminating decimal lower bounds, not rounded
-minima:
+The rational comparison calculation gives the following strict lower
+bounds, written as terminating decimals rather than rounded minima:
 \begin{table}[ht]
 \centering
 \caption{Strict lower bounds for nonempty proper-rank configurations.}
@@ -214,7 +216,7 @@ minima:
 \begin{adjustbox}{max width=\textwidth,center}
 \begin{tabular}{ccc}
 \toprule
-$(a,b)$ & every true $2\le j\le44$ & each comparison $m=0,1,2,3$\\
+$(a,b)$ & every original $2\le j\le44$ & each comparison $m=0,1,2,3$\\
 \midrule
 \csname @@input\endcsname tables/attachment_bounds.tex
 \bottomrule
@@ -226,14 +228,14 @@ $6\cdot10^{-25}$. The exact rational bounds give
 \[
  E_{\rm path}+2E_{\rm rat}+6\cdot10^{-25}<0.00006523.
 \]
-The finite inputs are fully specified by the displayed rays, moment
-integrals, matrices, recurrence, and constants. The supplied code uses
-rational arithmetic to evaluate them. The $j=1$ cases are checked by
+The finite inputs are specified by the displayed rays, moment
+integrals, matrices, recurrence, and constants. The accompanying programs
+evaluate them using rational arithmetic. The $j=1$ cases are checked by
 positive rational decompositions into ray bases with strongly connected
 exchange graphs, as in Lemma~\ref{lem:basecertificate}. Their normalized
-degrees independently agree with direct integration of the product of
-the stated linear factors over $Q$ and its facets. The decompositions
-are supplied in the ancillary data.
+degrees also agree with an independent calculation by direct integration
+of the product of the stated linear factors over $Q$ and its facets.
+The decompositions are supplied in the ancillary data.
 
 \begin{proof}[Completion of the proof of Theorem~\ref{attach:stable}]
 Apply the cycle-deletion argument of Appendix~\ref{sec:paths} to the
@@ -243,8 +245,8 @@ all-selected $G$ loops preserves nonemptiness and proper rank. Deleting
 empty $u$ loops does likewise: the boundary at which deletion occurs is
 an internal hexagon, so state $u$ implies that this hexagon's independent
 nondistinguished direction is missing; the shortened configuration
-cannot become full rank. Thus the end pieces cause no new exception in
-the zero-loop argument. A full-rank reduced configuration has cost at
+cannot become full rank. Thus the same zero-loop argument applies in the
+presence of the end pieces. A full-rank reduced configuration has cost at
 least that of the all-selected configuration, by positivity of weights.
 Deleting cycles therefore reduces every comparison configuration to
 $m\le3$, or supplies the positive cycle bound. Subtracting all errors,

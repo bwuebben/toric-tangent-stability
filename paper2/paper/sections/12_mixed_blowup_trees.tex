@@ -1,15 +1,15 @@
 \section{Blowups of products of projective spaces}\label{sec:mixed}
 
-We first study blowups of products of projective spaces along invariant
-codimension-two centres. A simple graph specifies the two factors meeting
-each centre. The main result of this section is
-Theorem~\ref{mixed:tree}: on a tree, stability against all tangent
-subsheaves is equivalent to one divisor-degree inequality at each vertex.
-The proof combines a rank formula for the rays with a divergence identity
-for the anticanonical polytope. Section~\ref{sec:intrinsic} interprets
-the positive terms in that identity as exceptional intersection numbers;
-Sections~\ref{sec:mixed-branching}--\ref{sec:mixed-tree-threshold} then
-estimate them to obtain uniform stability and local instability theorems.
+Consider blowups of a product of projective spaces along invariant
+codimension-two centres, each defined by a ray from each of two factors.
+A simple graph records these pairs of factors. When this graph is a tree,
+Theorem~\ref{mixed:tree} characterizes tangent stability by one
+divisor-degree inequality at each vertex. Its proof uses the ranks of
+subsets of rays and a divergence identity on the anticanonical polytope.
+Section~\ref{sec:intrinsic} expresses the positive terms of this identity as
+exceptional intersection numbers. The estimates in
+Sections~\ref{sec:mixed-branching}--\ref{sec:mixed-tree-threshold} give
+uniform stability results and local obstructions to stability.
 
 \subsection{The fan and its primitive collections}
 
@@ -28,9 +28,10 @@ $\langle r_{v,e},r_{w,e}\rangle$ by the ray
  s_e=r_{v,e}+r_{w,e}.
 \end{equation}
 Denote the resulting fan by $\Sigma(G,b)$ and its variety by $Y(G,b)$.
-The injectivity condition makes these pairs of original rays disjoint.
-All choices of the assignments are related by permutations of the rays
-within the projective-space factors and hence give isomorphic fans.
+The pairs of original rays are disjoint by injectivity. Permuting the
+rays within each projective-space factor carries any assignment to any
+other, so the resulting fan is independent of these choices up to
+isomorphism.
 
 \begin{proposition}\label{mixed:geometry}
 The fan $\Sigma(G,b)$ is independent of the order of subdivision and is
@@ -65,16 +66,17 @@ positive-dimensional base.
 \end{proposition}
 
 \begin{proof}
-In an original maximal cone, the subdivision centres that it contains
-use disjoint pairs of basis vectors. The subdivisions are therefore
-products of subdivisions of two-dimensional orthants. They commute and
-remain unimodular. Each remaining original centre persists after the
-other subdivisions. Every step is a toric blowup along a smooth invariant
-centre, so the resulting fan is projective. It has $n+k+m$ rays, proving
+Within each original maximal cone, the centres use disjoint pairs of
+basis vectors. Subdivision therefore amounts to subdividing separate
+two-dimensional orthants. These operations commute and preserve
+unimodularity, and the other original centres remain available for
+subdivision. Each step is a toric blowup along a smooth invariant centre,
+which also proves projectivity. The resulting fan has $n+k+m$ rays,
+proving
 \eqref{mixed:dimension}.
 
-We first describe all its faces. For a subset $A$ of the final rays,
-write $B$ for its original rays and $J$ for the edges whose exceptional
+The cones can be described as follows. For a subset $A$ of the final
+rays, let $B$ be its original rays and $J$ the edges whose exceptional
 rays belong to $A$. Then $A$ spans a cone if and only if
 \begin{enumerate}
 \item $B$ contains no endpoint pair $\mathcal C_e$;
@@ -83,23 +85,21 @@ rays belong to $A$. Then $A$ spans a cone if and only if
 \end{enumerate}
 Indeed, the smallest original cone containing $s_e$ contains both its
 endpoints, whereas the original endpoint pair is removed by subdivision.
-This proves necessity. For sufficiency, the second condition places the
-expanded set in an original product cone. Within that cone, the
-subdivisions act on disjoint coordinate pairs, and the first condition
-is exactly the condition for the chosen rays to lie in one of the
-resulting cones.
+Both conditions are therefore necessary. Conversely, the second places
+the expanded set in an original product cone. The subdivisions within
+that cone act on disjoint coordinate pairs. The first condition then
+ensures that the chosen rays lie together in a cone of the subdivision.
 
 The sets in \eqref{mixed:edge-collection} are minimal nonfaces. The
 expansion of $\mathcal P_v(J)$ contains $R_v$, and deleting any one member
 removes its unique representative of one ray of $R_v$. At any other
 vertex, that expansion contains at most one ray, because $G$ is simple;
 it cannot contain the full set of at least two rays of that factor.
-There is also no original endpoint pair in $\mathcal P_v(J)$. The face
-criterion proves its minimality, including when every member is an
-exceptional ray. Conversely, a nonface containing no $\mathcal C_e$
+There is also no original endpoint pair in $\mathcal P_v(J)$. The cone criterion therefore proves minimality, including the case in
+which every member is an exceptional ray. Conversely, a nonface containing no $\mathcal C_e$
 expands to a set containing some $R_v$. Choosing one original or
 exceptional representative for each ray of $R_v$ produces a subset
-$\mathcal P_v(J)$. The list is complete.
+$\mathcal P_v(J)$. Thus there are no further primitive collections.
 
 The vector identities \eqref{mixed:primitive-relations} follow from
 $\sum_{r\in R_v}r=0$. On the right of the second identity there is at
@@ -116,31 +116,30 @@ in its interior and is bounded by completeness, so $-K$ is also big.
 Finally, the cone complex of a torically locally trivial bundle is the
 join of its fibre and base cone complexes. Its rays partition into fibre
 rays and one lift of each base ray, and every primitive collection lies
-entirely in one part. This follows on the invariant affine charts, where
-the fan is the product of the fibre fan and the base cone; the
-identifications agree on common faces. In our fan, the primitive
-collection $R_v=\mathcal P_v(\varnothing)$ joins all original rays of
+entirely in one part. Indeed, over each invariant affine chart the fan is the product of
+the fibre fan and the base cone, and these identifications agree on
+common faces. In the present fan, the primitive collection $R_v=\mathcal P_v(\varnothing)$ joins all original rays of
 one factor. The collections $\mathcal C_e$ join neighbouring factors,
 and $\mathcal P_v(\{e\})$ joins $s_e$ to $b_v\ge1$ original rays.
 For connected $G$, all rays consequently lie in one equivalence class
 generated by membership in a common primitive collection. They admit
 no partition into two nonempty parts respecting every primitive
-collection. This excludes every bundle presentation of the stated kind,
-including alternative choices of fibre and base.
+collection. Hence no choice of fibre and base gives a bundle presentation of the
+stated kind.
 \end{proof}
 
-The last assertion concerns locally trivial toric bundles; it does not
-exclude toric morphisms with special fibres or arbitrary non-equivariant
-fibrations. Simplicity of $G$ and injectivity of the incidence assignments
-are part of the construction. For example, two parallel edges using the
+The bundle assertion leaves open the existence of toric morphisms with
+special fibres or non-equivariant fibrations. Both the simplicity of
+$G$ and the injectivity of the incidence assignments are required in
+the construction. For example, two parallel edges using the
 opposite pairs of rays of $\PP^1\times\PP^1$ give the degree-six del Pezzo
 surface, which does not satisfy \eqref{mixed:fano} with these vertex
 dimensions.
 
 \subsection{Divisor degrees and a divergence identity}
 
-For the remainder of this section assume $b_v\ge d_v$, and put
-$Y=Y(G,b)$. Use the normalized degrees of Section~\ref{sec:stability}:
+For the remainder of this section, assume that $b_v\ge d_v$, and put $Y=Y(G,b)$. As in
+Section~\ref{sec:stability}, normalize the divisor degrees by
 \begin{equation}\label{mixed:normalized-degrees}
  \delta_r=\frac{nD_r\cdot(-K_Y)^{n-1}}{(-K_Y)^n},
  \qquad \sum_r\delta_r=n.
@@ -151,12 +150,11 @@ $A_v$ for the degrees of the unassigned original rays at $v$, and
  \delta_{r_{v,e}}=A_v-C_e,\qquad
  \sum_v(b_v+1)A_v-\sum_eC_e=n.
 \end{equation}
-To see this, project the relation $\sum_r\delta_r r=0$ of
+Indeed, project the relation $\sum_r\delta_r r=0$ of
 Lemma~\ref{lem:degreerelation} onto the $v$-th lattice summand. The
 coefficient of an assigned ray is $\delta_{r_{v,e}}+C_e$, and that
-of an unassigned ray is its degree. The unique relation among $R_v$
-has all coefficients equal, proving the first assertion. Summing all
-ray degrees gives the second. In particular,
+of an unassigned ray is its degree. Since the unique relation among $R_v$ has equal coefficients, the first
+assertion follows. Summing the ray degrees gives the second. In particular,
 \begin{equation}\label{mixed:degree-positive}
  0<C_e<A_v\qquad(e\in E(v)).
 \end{equation}
@@ -171,7 +169,7 @@ incidence $(v,e)$. The anticanonical polytope $P$ is
  a_{v,j}\ge0,\qquad \sum_{j=1}^{b_v}a_{v,j}\le b_v+1,
  \qquad a_{v,e}+a_{w,e}\ge1\quad(e=\{v,w\}).
 \end{equation}
-Throughout, volumes are lattice volumes without factorial normalization.
+We use lattice volume, without factorial normalization.
 If $F_r$ is the facet corresponding to $r$, then
 \begin{equation}\label{mixed:facet-ratio}
  (-K_Y)^n=n!\operatorname{vol}(P),\qquad
@@ -196,15 +194,16 @@ of degree one, for every positive value of $b_v$.
 \end{lemma}
 
 \begin{proof}
-Apply the divergence theorem to the vector field equal to $a_v$ in the
-$v$-th coordinate block and zero elsewhere. Its divergence is $b_v$.
+Consider the vector field equal to $a_v$ in the $v$-th coordinate block
+and zero in every other block. Its divergence is $b_v$. Apply the
+divergence theorem.
 The coordinate facets have zero flux. The facet
 $\sum_j a_{v,j}=b_v+1$ has flux $(b_v+1)$ times its lattice volume,
 and the exceptional facet $F_{s_e}$ has flux
 $-\int_{F_{s_e}}a_{v,e}\,d\operatorname{vol}$. All remaining facets have
-zero flux. For a primitive integral normal, its Euclidean length in
-hypersurface measure cancels the reciprocal factor in the unit-normal
-flux. Division by $\operatorname{vol}(P)$ proves the first identity.
+zero flux. The Euclidean length of a primitive integral normal occurs in the
+hypersurface measure and its reciprocal occurs in the unit-normal flux,
+so these factors cancel. Division by $\operatorname{vol}(P)$ proves the first identity.
 
 On $F_{s_e}$ one has $a_{v,e}+a_{w,e}=1$. Its relative interior has
 both coordinates strictly between zero and one, since intersection
@@ -224,8 +223,8 @@ rays of $\Sigma(G,b)$ as follows:
 \item each unassigned original ray at $v$ corresponds to an edge $o\to v$;
 \item the exceptional ray $s_e$ corresponds to an edge $o\to z_e$.
 \end{itemize}
-The orientations specify an incidence matrix and do not affect graph
-connectivity. Thus $H$ has $k+m+1$ vertices and $n+k+m$ edges. It is
+These orientations define the incidence matrix; connectivity is
+independent of their choice. Thus $H$ has $k+m+1$ vertices and $n+k+m$ edges. It is
 connected, even if $G$ is disconnected: each $z_e$ joins the root, each
 nonisolated $v$ joins some $z_e$, and an isolated $v$ has unassigned
 rays joining it to the root.
@@ -252,9 +251,8 @@ because $H$ is connected, and the original rays span $N_\QQ$. Hence
 $\ker R=\operatorname{im}B^{\mathsf T}$.
 
 A relation supported on $S$ is therefore $B^{\mathsf T}f$, where $f$
-is constant on every component of $H\setminus S$. Modulo the global
-constants, these functions have dimension $c(H\setminus S)-1$.
-Subtracting this relation dimension from $|S|$ proves
+is constant on every component of $H\setminus S$. Modulo constant functions, this space has dimension
+$c(H\setminus S)-1$. Subtracting from $|S|$ proves
 \eqref{mixed:rank-formula}. Rational and complex ranks agree. A subset
 of $n$ rays is a basis precisely when its complement is connected;
 that complement has $k+m$ edges on $k+m+1$ vertices, so it is a
@@ -283,7 +281,7 @@ for its total weight, and put
 \[
  \beta(E')=|E'|-|V(H)|+c(E').
 \]
-This is the cycle rank, with all vertices retained. By
+This is the cycle rank of the subgraph with all vertices retained. By
 Proposition~\ref{mixed:rank}, $r(S)=n-\beta(E')$. Since the total
 weight is $n$, the slope inequality becomes
 \begin{equation}\label{mixed:complement-test}
@@ -305,8 +303,7 @@ Otherwise the original vertices in $Q$ form a nonempty connected subtree
 $I$ of $G$. All exceptional vertices on internal edges of $I$ belong
 to $Q$. Let $\partial I$ be the edges with exactly one endpoint in $I$,
 write $v(e)$ for that endpoint, and set $t_e=1$ if $z_e\in Q$, and
-$t_e=0$ otherwise. Counting the original-ray contributions and then
-using \eqref{mixed:flux-identity} gives
+$t_e=0$ otherwise. Summing the contributions from original rays and applying \eqref{mixed:flux-identity} gives
 \begin{align*}
  W(Q)
  &=\sum_{v\in I}(b_v+1)A_v
@@ -328,16 +325,15 @@ and hence
 \end{equation}
 Assume now $A_v\le1$ for every $v$. If $I$ is proper, its boundary is
 nonempty, so this sum is strictly positive. If $I$ contains every original
-vertex, connectivity forces $Q=K$. Together with the exceptional singleton
-case, this proves $D(Q)>0$ for every nonempty proper connected $Q$.
+vertex, connectivity forces $Q=K$. The exceptional singleton case was treated above. Hence $D(Q)>0$ for
+every nonempty proper connected $Q$.
 
 The selected non-root edges of $E'$ form a forest in $K$. Each component
 has a connected vertex set $Q$ and contains every $K$-edge internal to
 that set, since $K$ is a tree. If it has $h$ selected root edges, counted
-with multiplicity, it contributes $\max(h-1,0)$ to $\beta(E')$. This
-remains true when several components join the common root: each component
-with a root edge adds one connection and its remaining root edges add
-cycles. For $h=0$, its contribution to weight minus cycle rank is
+with multiplicity, it contributes $\max(h-1,0)$ to $\beta(E')$. This count also applies when several components meet the root. For
+each component the first root edge makes the connection, and each
+remaining root edge adds a cycle. For $h=0$, its contribution to weight minus cycle rank is
 nonnegative, and positive if it contains an edge. For $h\ge1$, completing
 the missing root edges gives the exact contribution
 \begin{equation}\label{mixed:root-completion}
@@ -347,14 +343,13 @@ All root degrees are at most one; indeed $C_e<A_v\le1$. Thus every
 component contribution is nonnegative, proving the weak inequalities
 in \eqref{mixed:complement-test}.
 
-If every $A_v<1$, all root degrees are strictly below one. Contributions
-from proper components with root edges are already positive. A full
+If every $A_v<1$, all root degrees are strictly below one. Every proper component with a root edge has positive contribution. A full
 component $Q=K$ is also positive if a root edge is missing, by
 \eqref{mixed:root-completion}; if none is missing, $E'=E(H)$ and
 $S=\varnothing$. Components without root edges contribute positively
-whenever they contain an edge. The only remaining graph with no positive
-contribution is the empty $E'$, which has $r(S)=n$. Both exceptions lie
-outside the tested ranks. This proves every strict inequality.
+whenever they contain an edge. The only other case with no positive contribution is the empty $E'$,
+for which $r(S)=n$. Neither exceptional case lies in the range of ranks
+being tested, so all the required inequalities are strict.
 
 Conversely, an unassigned ray of degree $A_v$ belongs to a rank-one
 subspace of weight at least $A_v$. This is a proper subspace because
@@ -363,14 +358,12 @@ requires $A_v\le1$. These necessity statements, the inequalities just
 proved, and Lemma~\ref{lem:klyachko} give all three alternatives.
 \end{proof}
 
-The reduction to vertex inequalities uses two different features of the
-construction. Proposition~\ref{mixed:rank} describes all tangent subspace
-ranks for any simple graph. For trees, the boundary formula
-\eqref{mixed:boundary-deficit} expresses the remaining inequalities as
-positive sums of vertex and exceptional contributions. In particular,
-the scalar criterion is not obtained by disregarding higher-rank
-subsheaves. The tree hypothesis is used in this passage from local
-degrees to all subspace inequalities.
+Proposition~\ref{mixed:rank} gives the tangent subspace ranks for any
+simple graph. When the graph is a tree,
+\eqref{mixed:boundary-deficit} expresses the required inequalities as
+positive sums of vertex and exceptional contributions. This is where
+the tree hypothesis enters: it allows the vertex inequalities to control
+subsheaves of every rank.
 
 \begin{corollary}\label{mixed:single-edge}
 For every $p,q\ge1$, the blowup of $\PP^p\times\PP^q$ along the invariant
@@ -400,9 +393,9 @@ $A_v\le24/25$.
 \end{theorem}
 
 \begin{proof}
-Fix the incidence coordinate $a$ on one side of an edge and integrate
-the coordinates of the branch on the other side. Denote its volume by
-$\phi(a)$. We shall use the following properties:
+Fix the incidence coordinate $a$ at one endpoint of an edge. Integrate
+over the branch on the opposite side and denote its volume by
+$\phi(a)$. We will prove that
 \begin{equation}\label{mixed:incoming-bound}
  \phi(a)>0,\qquad \phi(a)=c:=\phi(1)\ (a\ge1),\qquad
  \phi(a)\ge ac\ (0\le a\le1).
@@ -411,8 +404,8 @@ A leaf of dimension $b$ gives
 \[
  \phi_b(a)=\frac{(b+\min(a,1))^b}{b!}.
 \]
-Indeed, translating its assigned coordinate by the lower bound
-$\max(0,1-a)$ leaves a simplex of that capacity. Bernoulli's inequality
+Indeed, subtracting the lower bound $\max(0,1-a)$ from its assigned
+coordinate leaves a simplex with the indicated volume. Bernoulli's inequality
 gives
 \[
  \frac{\phi_b(a)}{\phi_b(1)}
@@ -421,15 +414,15 @@ gives
 \]
 so \eqref{mixed:incoming-bound} holds for every endpoint dimension.
 
-At a degree-two vertex, integration of the coordinate assigned to the
-parent transforms an incoming function by
+At a degree-two vertex, integrate the coordinate assigned to the parent.
+An incoming function then contributes
 \begin{equation}\label{mixed:path-operator}
  g(a)=\int_0^{2+\min(a,1)}
              (2+\min(a,1)-t)\phi(t)\,dt.
 \end{equation}
-For a positive input constant beyond one, set
+For a positive function constant beyond one, set
 $I_0=\int_0^1\phi(t)\,dt$ and $I_1=\int_0^1t\phi(t)\,dt$.
-On $0\le a\le1$, the output is $g(a)=g_0+g_1a+g_2a^2$, where
+On $0\le a\le1$, this gives $g(a)=g_0+g_1a+g_2a^2$, where
 \[
  g_0=2I_0-I_1+c/2,\qquad g_1=I_0+c,\qquad g_2=c/2.
 \]
@@ -437,16 +430,15 @@ All coefficients are positive, and $g_0-g_2=2I_0-I_1>0$. Hence
 \[
  g(a)-ag(1)=(1-a)(g_0-ag_2)\ge0.
 \]
-The output is constant beyond one. Induction along each branch proves
-\eqref{mixed:incoming-bound} for every incoming function, including
-branches whose first input is not quadratic.
+The function is constant beyond one. Induction along a branch proves
+\eqref{mixed:incoming-bound} for each incoming function; the initial
+leaf function need not be quadratic.
 
 At an internal vertex let $\phi$ and $\psi$ be the two incoming
 functions. The branches have disjoint coordinate blocks, so their
-product is the integrand over $a,b\ge0$, $a+b\le3$. For either input
-use subscripts to distinguish $c$, $I_0$ and $I_1$. Splitting this
-simplex at $a=1$ and $b=1$ gives its full volume $V$ and its unassigned
-facet volume $F$ as
+product is the integrand over $a,b\ge0$, $a+b\le3$. Distinguish the corresponding values of $c$, $I_0$ and $I_1$ by
+subscripts. Partitioning the simplex at $a=1$ and $b=1$ gives its
+volume $V$ and the volume $F$ of its unassigned facet:
 \begin{align}
  V={}&I_{0,\phi}I_{0,\psi}
    +c_\psi(2I_{0,\phi}-I_{1,\phi})
@@ -455,9 +447,9 @@ facet volume $F$ as
  F={}&c_\phi c_\psi+c_\psi I_{0,\phi}+c_\phi I_{0,\psi}.
  \label{mixed:path-facet}
 \end{align}
-The first term of $V$ is the unit square, the next two are the regions
-with just one coordinate at least one, and the last is the remaining
-triangle. Eliminating one coordinate from $a+b=3$ gives the lattice
+The four terms of $V$ are the contributions from the unit square,
+the two regions with exactly one coordinate at least one, and the
+remaining triangle, respectively. Eliminating one coordinate from $a+b=3$ gives the lattice
 measure in the formula for $F$.
 
 Define
@@ -481,8 +473,8 @@ $h_\psi=1/6+v$, with $x,y,u,v\ge0$. Then
 \]
 Thus \eqref{mixed:facet-ratio} gives $A_v=F/V\le24/25<1$ at every
 internal vertex. Lemma~\ref{mixed:flux} gives $A_v<1$ at both endpoints.
-Theorem~\ref{mixed:tree} proves stability, also for $L=1$, when there
-is no internal vertex. The dimension and Picard number follow from
+Stability follows from Theorem~\ref{mixed:tree}. This includes $L=1$,
+for which there is no internal vertex. The dimension and Picard number follow from
 Proposition~\ref{mixed:geometry}.
 \end{proof}
 
@@ -515,7 +507,7 @@ For $n=1$, the single-vertex graph with dimension one gives $\PP^1$,
 whose rank-one tangent bundle is stable and whose Picard number is one.
 \end{proof}
 
-This maximum concerns the specified blowups of products of projective
-spaces. It is separate from the bundle-class maximum in
-Section~\ref{sec:interactions} and does not give an upper bound for
-arbitrary smooth toric Fano varieties.
+The maximum is taken within the specified class of blowups of products
+of projective spaces. The class of bundles in
+Section~\ref{sec:interactions} has a different maximum. The blowup
+maximum gives no upper bound for arbitrary smooth toric Fano varieties.

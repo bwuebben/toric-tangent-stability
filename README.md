@@ -5,7 +5,7 @@ Manuscripts, exact computations and data for two related papers.
 | Paper | Manuscript and materials |
 |---|---|
 | **1. Slope stability of tangent bundles of smooth toric Fano varieties** | [Current PDF](paper/toric-tangent-stability.pdf) · [arXiv:2608.20411](https://arxiv.org/abs/2608.20411) · code and data below |
-| **2. Tangent stability on toric Fano blowups and bundles** | [PDF](paper2/paper/main.pdf) · [Guide, source and exact proof package](paper2/README.md) · preprint, 20 September 2026 |
+| **2. Tangent stability on toric Fano blowups and bundles** | [Official active PDF](paper2/paper/main.pdf) · [Guide, source and exact proof package](paper2/README.md) · updated 3 October 2026; manuscript date 20 September 2026 |
 
 ## Paper 1: classification and root-twisted families
 
@@ -42,6 +42,10 @@ repository, with exact (integer/rational) arithmetic and no external data
 dependencies.
 
 ## Paper 2: stability mechanisms and abundant extremizers
+
+The [official active manuscript](paper2/paper/main.pdf) was updated on
+October 3, 2026; its manuscript date remains September 20, 2026. The Python
+programs and proof data are in [paper2/paper/anc/](paper2/paper/anc/README.txt).
 
 The second paper proves an all-subspace stability criterion for blowup trees,
 uniform stability for trees of maximum degree three with the stated factor

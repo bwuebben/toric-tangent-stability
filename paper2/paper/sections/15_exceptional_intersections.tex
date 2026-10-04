@@ -1,13 +1,12 @@
 \section{Exceptional intersections and tangent foliations}
 \label{sec:intrinsic}
 
-The quantities $J_{v,e}$ in Lemma~\ref{mixed:flux} measure more than
-the number of blowups incident to a factor. They are first moments of
-exceptional facets, and they can be recovered from ordinary intersection
-numbers on the blowup centres. We establish this interpretation without
-assuming that the remaining factors are indexed by a tree. It identifies
-the tangent subsheaf whose degree is being estimated and gives a
-criterion in terms of a specified collection of exceptional contractions.
+The first moments $J_{v,e}$ of the exceptional facets in
+Lemma~\ref{mixed:flux} can be expressed as intersection numbers on the
+blowup centres. This expression also applies without a tree indexing
+the remaining factors. We identify the tangent subsheaf whose degree
+these moments determine and express its slope in terms of the
+exceptional contractions.
 
 \subsection{The radial foliation}
 
@@ -25,19 +24,20 @@ $\mathcal H_i\times D_i$. Assume that $X$ is Fano, and put
  f=\operatorname{pr}_1\circ\pi,\qquad
  L=f^*\mathcal O_{\PP^b}(1).
 \end{equation}
-The pairs of rays defining the centres are disjoint. In every original
-smooth cone their subdivisions act on disjoint pairs of basis vectors.
-They therefore commute, all the centres remain smooth, and each
-exceptional divisor $E_i$ can be contracted while retaining the other
-blowups. The centres themselves need not be disjoint.
+The centres are defined by disjoint pairs of rays. Within each original
+smooth cone, subdivision acts on disjoint pairs of basis vectors. The
+subdivisions therefore commute and preserve the smoothness of the
+remaining centres. In particular, each exceptional divisor $E_i$ can
+be contracted with all other blowups retained. The centres themselves
+may intersect.
 
 Projection from $p$ induces a rational map
 \[
  X\dashrightarrow\PP^{b-1}\times B.
 \]
 Let $\mathcal F$ be the saturation in $T_X$ of the tangent directions
-to its general fibres. Thus $\mathcal F$ is the birational transform
-of the foliation by lines through $p$, with the $B$-coordinate fixed.
+to its general fibres. Equivalently, $\mathcal F$ is the birational transform of the foliation
+by lines through $p$ at fixed $B$-coordinate.
 
 \begin{proposition}\label{intrinsic:foliation}
 The sheaf $\mathcal F$ is a rank-one toric foliation and
@@ -59,25 +59,24 @@ projective-space factor lies on this line. Rays of $B$ lie in the
 other lattice summand, and the new exceptional rays have nonzero
 components in both summands. Thus $r_0$ is the only ray on the line.
 The induced tangent filtrations from Lemma~\ref{lem:klyachko} give
-$c_1(\mathcal F)=D_{r_0}$. The invariant hyperplane opposite $p$
-contains none of the blowup centres, so its strict transform has class
-$D_{r_0}=L$.
+$c_1(\mathcal F)=D_{r_0}$. None of the blowup centres is contained in the invariant hyperplane
+opposite $p$. Its strict transform therefore has class $D_{r_0}=L$.
 
 A saturated rank-one subsheaf of a locally free sheaf on a smooth
-variety is reflexive: the quotient is torsion-free, and the depth
-lemma gives depth at least two in codimension at least two. It is
-therefore a line bundle. This proves the sheaf identification; it
-does not assert that the foliation is nonsingular everywhere.
+variety is reflexive. Indeed, its quotient is torsion-free, so the
+depth lemma gives depth at least two in codimension at least two.
+It is consequently a line bundle, which proves the asserted
+identification. The foliation may still have singularities.
 The first equality in \eqref{intrinsic:slope} now follows from
-$\mu_H(T_X)=H^n/n$. Near the ample class $H$, algebraic volume is
-the top intersection number. Differentiating $(H+tL)^n$ proves the
-last equality and the slope conclusions.
+$\mu_H(T_X)=H^n/n$. In a neighbourhood of the ample class $H$, the algebraic volume equals
+the top intersection number. Differentiation of $(H+tL)^n$ gives the
+last equality, and the slope conclusions follow.
 \end{proof}
 
-The restriction $b\ge2$ is essential. For a $\PP^1$ factor the two
-original rays lie on the same line, and both contribute to its tangent
-subsheaf. This is why the leaf estimates in Lemma~\ref{mixed:flux}
-are kept separate from the present foliation statement.
+The hypothesis $b\ge2$ is required because both original rays of a
+$\PP^1$ factor lie on the same line and contribute to the corresponding
+tangent subsheaf. The leaf estimates of Lemma~\ref{mixed:flux} are
+therefore separate from this foliation calculation.
 
 \subsection{Mixed intersections on the exceptional centres}
 
@@ -91,16 +90,15 @@ $N_{i,A}$ and $N_{i,B}$. Thus
  q_i:E_i=\PP_{\rm lines}(N_{i,A}\oplus N_{i,B})\longrightarrow Z_i.
 \]
 Let $S_{i,0}$ be the section corresponding to the normal direction
-$N_{i,B}$, and let $S_{i,1}$ correspond to $N_{i,A}$. The first is
-the intersection with the strict transform of $\mathcal H_i\times B$.
-Identify the sections with $Z_i$ and set
+$N_{i,B}$, and let $S_{i,1}$ correspond to $N_{i,A}$. The first section is the intersection with the strict transform of
+$\mathcal H_i\times B$. Identifying both sections with $Z_i$, put
 \begin{equation}\label{intrinsic:polarizations}
  M_{i,0}=H|_{S_{i,0}}=-K_{Z_i}+N_{i,A},\qquad
  M_{i,1}=H|_{S_{i,1}}=-K_{Z_i}+N_{i,B}.
 \end{equation}
-These are ample classes. The displayed equalities use additive notation
-for line bundles. Indeed, if $\xi=c_1(\mathcal O_{\PP_{\rm lines}(N)}(1))$,
-then
+Both classes are ample. We use additive notation for line bundles.
+To verify the equalities, write
+$\xi=c_1(\mathcal O_{\PP_{\rm lines}(N)}(1))$. Then
 \[
  E_i|_{E_i}=-\xi,\qquad
  H|_{E_i}=q_i^*(-K_{Y_i}|_{Z_i})+\xi,
@@ -108,13 +106,13 @@ then
 while $\xi$ restricts to $-N_{i,B}$ on $S_{i,0}$ and to $-N_{i,A}$
 on $S_{i,1}$. Adjunction gives \eqref{intrinsic:polarizations}.
 
-For the next proposition all products of the $M_{i,j}$ are top
-intersection numbers on $Z_i$. Define
+In what follows, products of the $M_{i,j}$ denote top intersection
+numbers on $Z_i$. Define
 \begin{equation}\label{intrinsic:Q}
  Q_i=\sum_{k=0}^{n-2}(k+1)M_{i,0}^{n-2-k}M_{i,1}^k,
  \qquad C_i=\frac{nE_iH^{n-1}}{H^n}.
 \end{equation}
-The order of the two normal directions is part of these data.
+These definitions use the specified order of the two normal directions.
 
 \begin{proposition}\label{intrinsic:intersections}
 Let $P$ be the anticanonical polytope of $X$ and $F_i$ its facet
@@ -137,20 +135,19 @@ Numerically equal endpoint classes give $J_i=C_i/2$.
 Let $a_i$ and $c_i$ be the affine support coordinates of the two
 original rays defining the $i$-th blowup. The exceptional equation is
 $a_i+c_i=1$, with $a_i,c_i\ge0$, so $t=a_i$ has the stated endpoints.
-The original two rays extend to an integral basis. On the exceptional
-facet, an integral tangent vector can therefore increase $a_i$ by one
-and decrease $c_i$ by one. Thus its lattice measure disintegrates as
-$dt$ times the lattice measure on the centre, without an index factor.
+The original rays extend to an integral basis, so the exceptional
+facet has an integral tangent vector that increases $a_i$ by one and
+decreases $c_i$ by one. Its lattice measure consequently disintegrates
+as $dt$ times lattice measure on the centre, with no index factor.
 
 The slice at $t$ is, up to translation, the moment polytope of
 \[
  M_{i,t}=(1-t)M_{i,0}+tM_{i,1}.
 \]
-One way to see this is to restrict the supporting inequalities of
-$H|_{E_i}$ along the two sections: their constants interpolate
-affinely, giving precisely the supporting inequalities of $M_{i,t}$.
-Both endpoints are ample, so the normal fan remains the fan of $Z_i$
-along the entire segment. The slice volume is consequently
+Indeed, restrict the supporting inequalities of $H|_{E_i}$ to the two
+sections. Affine interpolation of their constants gives the supporting
+inequalities of $M_{i,t}$. Since both endpoint classes are ample, the
+normal fan along the whole segment is the fan of $Z_i$. The slice volume is consequently
 $M_{i,t}^{n-2}/(n-2)!$. Since $\operatorname{vol}(P)=H^n/n!$,
 \begin{equation}\label{intrinsic:beta-integral}
  J_i=\frac{n(n-1)}{H^n}\int_0^1tM_{i,t}^{n-2}\,dt.
@@ -161,8 +158,8 @@ integral is
  \binom dk\int_0^1t^{k+1}(1-t)^{d-k}\,dt
  =\frac{k+1}{(d+1)(d+2)}.
 \]
-This proves \eqref{intrinsic:moment}. Integration without $t$ gives
-\eqref{intrinsic:exceptional-degree}, also the projective-bundle
+This gives \eqref{intrinsic:moment}. Omitting the factor $t$ gives
+\eqref{intrinsic:exceptional-degree}, which is also the projective-bundle
 formula for $(H|_{E_i})^{n-1}$. Replacing $t$ by $1-t$ replaces the
 coefficient $k+1$ by $n-1-k$, so the two contributions sum to $C_i$.
 Their positivity follows from ampleness.
@@ -175,7 +172,8 @@ $M_{i,1}-M_{i,0}$ is nef, then
 \]
 Pairing $k$ with $d-k$ in
 $\sum_k(k-d/2)I_k$ proves $J_i-C_i/2\ge0$.
-The reverse nef condition and numerical equality are treated identically.
+The reversed nef condition and numerical equality follow by the same
+argument.
 \end{proof}
 
 \begin{theorem}\label{intrinsic:criterion}
@@ -203,8 +201,9 @@ In central affine coordinates the anticanonical polytope has inequalities
  a_j\ge0,\qquad \sum_{j=1}^ba_j\le b+1,\qquad
  a_i+c_i\ge1\quad(1\le i\le m),
 \]
-together with the inequalities from the rays of $B$. Apply divergence
-to $\sum_ja_j\partial/\partial a_j$, whose divergence is $b$.
+together with the inequalities from the rays of $B$. For the divergence
+theorem, use the vector field $\sum_ja_j\partial/\partial a_j$,
+whose divergence is $b$.
 The coordinate facets and the facets from $B$ have zero flux. The
 opposite central facet contributes $(b+1)$ times its lattice volume,
 and $F_i$ contributes $-\int_{F_i}a_i$. As in
@@ -217,22 +216,21 @@ slope conclusions. Substituting $f^*(-K_{\PP^b})=(b+1)L$ proves
 \eqref{intrinsic:relative-defect}.
 \end{proof}
 
-Thus an exceptional divisor contributes its normalized degree $C_i$
-multiplied by the mean of $t$ in its slice-volume distribution.
-The two section polarizations determine how this degree is divided.
-For example, the geometric hypotheses $M_{i,1}-M_{i,0}$ nef for every
-$i$ and $\sum_iC_i\ge2$ imply failure of stability; a strict weighted
-inequality implies instability. We do not impose these nef hypotheses
-in the tree theorems below. The identity, which does not require them,
-retains the effect of all other blowups through $Z_i$ and $M_{i,0},M_{i,1}$.
-It also distinguishes an individual foliation test from a test of every
-subsheaf: $\sum_iQ_i<H^n$ controls $\mathcal F$ alone.
+The contribution of an exceptional divisor is its normalized degree
+$C_i$ times the mean of $t$ with respect to the slice-volume
+distribution. The polarizations on the two sections determine this
+mean. For example, if $M_{i,1}-M_{i,0}$ is nef for every $i$ and
+$\sum_iC_i\ge2$, stability fails; a strict weighted inequality gives
+instability. These nef assumptions are not required by the identity
+or by the tree theorems below. The dependence on other blowups is
+contained in $Z_i$ and $M_{i,0},M_{i,1}$. The inequality
+$\sum_iQ_i<H^n$ tests only the foliation $\mathcal F$, and does not
+control all tangent subsheaves.
 
-\subsection{Geometric slice profiles}
+\subsection{Slice volumes as intersection polynomials}
 
-There is a second useful description when $m=b$ and
-$B=\prod_{i=1}^bB_i$, with $D_i$ pulled back from a smooth invariant
-prime divisor on $B_i$. Put $d_i=\dim B_i$ and $h_i=-K_{B_i}$.
+Suppose now that $m=b$ and $B=\prod_{i=1}^bB_i$, with each $D_i$
+pulled back from a smooth invariant prime divisor on $B_i$. Put $d_i=\dim B_i$ and $h_i=-K_{B_i}$.
 Assume that $h_i$ and $h_i-D_i$ are ample, as well as $H=-K_X$.
 Define the positive continuous functions
 \begin{equation}\label{intrinsic:profiles}
@@ -242,7 +240,8 @@ Define the positive continuous functions
  h_i^{d_i}/d_i!,&a\ge1.
  \end{cases}
 \end{equation}
-These functions express the volume of a divisor segment on the base.
+These are the volume functions along the indicated divisor segments
+on the base.
 
 \begin{proposition}\label{intrinsic:profile-test}
 In this product-base setting, let
@@ -266,43 +265,41 @@ the reverse inequality.
 \begin{proof}
 At fixed $a_i\in[0,1]$, the exceptional constraint moves the facet of
 $D_i$ inward by $1-a_i$. The remaining polytope is therefore the
-moment polytope of $h_i-(1-a_i)D_i$. The ample endpoint assumption
-keeps the whole segment in the same ample cone and gives exactly
+moment polytope of $h_i-(1-a_i)D_i$. Ample endpoints place the whole segment in the ample cone, giving
 \eqref{intrinsic:profiles}. For $a_i\ge1$ the new constraint is
-redundant. Independence of the base factors gives the product
-integrand. Hence $Z(b+1)$ is the full polytope volume, and $Z'(b+1)$
+redundant. Integration over the separate base factors gives the product integrand. Hence $Z(b+1)$ is the full polytope volume, and $Z'(b+1)$
 is the lattice volume of the opposite central facet. Their ratio is
 $A$. Differentiating the intersection polynomial gives the second
-formula in \eqref{intrinsic:profile-slope}. The comparison is
-Lemma~\ref{treemix:convolution}, proved below from Efron's
-conditional-sum theorem; it requires log-concavity of the reference
-profiles only.
+formula in \eqref{intrinsic:profile-slope}. The comparison follows from Lemma~\ref{treemix:convolution}, proved
+below using Efron's conditional-sum theorem. Log-concavity is required
+only for the comparison functions.
 \end{proof}
 
 For a vertex $v$ of a blowup tree, deleting $v$ separates the remaining
-construction into factors $B_i$. The divisor at the former parent
-incidence becomes an unassigned divisor $D_i$ on its component.
-Its class is the pullback of a hyperplane at that component's root.
+construction into factors $B_i$. The divisor assigned to the deleted parent edge becomes an unassigned
+divisor $D_i$ on its component. Its class is the pullback of a
+hyperplane at the root of that component.
 The classes $h_i-D_i$ are ample: after deleting the parent edge,
 every primitive relation of root type has degree at least two.
 Subtracting $D_i$ lowers each such degree by one, while edge and
 non-root primitive relations are unchanged.
-Thus the incoming functions in the tree calculations are precisely the
+Hence the branch functions in the tree calculations are given by the
 intersection polynomials \eqref{intrinsic:profiles}.
 
-The proof of Theorem~\ref{treemix:subcubic} bounds their logarithmic
-derivatives above by $3/(2+a)$ when every nonleaf dimension equals its
-valence and the maximum degree is three. The degree-four obstruction
-instead supplies four profiles bounded below in ratio order by
-\eqref{treemix:g-four}. Proposition~\ref{intrinsic:profile-test}
-allows either comparison to be tested on other polarized base pairs,
-without assigning a construction graph to those factors. Outside the
-tree criterion, an upper bound concerns only the radial foliation;
-a lower bound exceeding one still proves instability of $T_X$.
+When every nonleaf dimension equals its valence and the maximum degree
+is three, the proof of Theorem~\ref{treemix:subcubic} bounds their
+logarithmic derivatives above by $3/(2+a)$. In the degree-four
+obstruction, each of four branch functions has nondecreasing ratio
+to \eqref{treemix:g-four}. By Proposition~\ref{intrinsic:profile-test},
+these comparisons can also be applied to other polarized base pairs
+without a graph construction. Unless the tree criterion applies,
+an upper bound controls only the radial foliation. A lower bound
+exceeding one proves instability of $T_X$.
 
-Neither this description nor \eqref{intrinsic:relative-defect} asserts
-that a large Picard number forces the required contraction data or
-intersection inequality. That is a separate structural problem. Also,
-the edges of the bundle constructions in Section~\ref{sec:graphs}
-represent twists, not the exceptional divisors used here; their
-subdivision theorems do not assert monotonicity of these blowup weights.
+It remains a separate structural question whether a large Picard
+number forces the contraction data or intersection inequality above.
+This description and \eqref{intrinsic:relative-defect} do not establish
+such an implication. In the bundle constructions of
+Section~\ref{sec:graphs}, edges represent twists. Their subdivision
+theorems therefore make no assertion about monotonicity of the
+exceptional contributions considered here.

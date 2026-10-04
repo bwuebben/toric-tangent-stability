@@ -1,16 +1,16 @@
-\section{Star transitions and two-centre comparisons}\label{sec:blowup-comparisons}
+\section{Calculations for stars and two branching vertices}\label{sec:blowup-comparisons}
 
-We give the complete calculations for Theorem~\ref{branch:stars} and
-Proposition~\ref{treemix:two-centres}, retaining the notation of
+We prove Theorem~\ref{branch:stars} and
+Proposition~\ref{treemix:two-centres} using the notation of
 Sections~\ref{sec:mixed-branching} and~\ref{sec:mixed-tree-threshold}.
 
-\subsection{Proof of the star transition}
+\subsection{Stability of stars}
 \begin{proof}
 The geometric assertions follow from Proposition~\ref{mixed:geometry}.
-The unassigned divisor degree at every leaf is strictly less than one
-by the local identity in Lemma~\ref{mixed:flux}. The tree criterion,
-Theorem~\ref{mixed:tree}, therefore reduces stability to $A_m<1$.
-This reduction includes $m=1$, when both vertices are leaves.
+Lemma~\ref{mixed:flux} gives unassigned divisor degree strictly less
+than one at every leaf. By Theorem~\ref{mixed:tree}, stability is
+therefore equivalent to $A_m<1$. This also applies to $m=1$, when
+both vertices are leaves.
 
 Use affine coordinates $a_i=1+\langle x,e_i\rangle$ and coordinates
 $y_i=\langle x,u_i\rangle$. The anticanonical polytope is
@@ -31,7 +31,8 @@ facet, whose volume is $Z'_m(t)$. Consequently
 \begin{equation}\label{branch:central-degree}
  A_m=\frac{Z'_m(m+1)}{Z_m(m+1)}.
 \end{equation}
-There is no Euclidean normal-length factor in this formula.
+The use of lattice measure eliminates any Euclidean normal-length
+factor.
 
 For $t>m$, the integral has the finite expression
 \begin{equation}\label{branch:finite-sum}
@@ -45,12 +46,12 @@ $(\lambda+1-e^{-\lambda})/\lambda^2$. The simplex integral in
 \eqref{branch:star-volume} has transform
 $(\lambda+1-e^{-\lambda})^m/\lambda^{2m+1}$; expanding the numerator
 and inverting each term proves \eqref{branch:finite-sum}.
-Differentiating that finite sum gives the exact values of $1-A_m$ in
-Table~\ref{branch:finite-signs}. They prove stability for $1\le m\le5$
-and $A_m>1$ for $6\le m\le14$. The entries are comparisons of the
-individual divisor degree $A_m$ with one. In particular, the entry at
-$m=1$ is not the weight deficit of the line $\CC e_0$, which then also
-contains $e_1$.
+Differentiation gives the exact values of $1-A_m$ in
+Table~\ref{branch:finite-signs}. Thus stability holds for $1\le m\le5$,
+and $A_m>1$ for $6\le m\le14$. Each entry compares the individual
+divisor degree $A_m$ with one. At $m=1$, the line $\CC e_0$ also
+contains $e_1$, so the table entry is not the weight deficit of that
+line.
 
 \begin{table}[ht]
 \centering
@@ -80,8 +81,8 @@ $(1,\infty)$, symmetry among the coordinates gives
 \begin{equation}\label{branch:star-euler}
  tZ'_m(t)=mZ_m(t)+mJ_m(t).
 \end{equation}
-The kink of $\ell$ occurs on a set of measure zero and does not
-contribute an additional term.
+The derivative of $\ell$ fails to exist only on a set of measure zero,
+which contributes no additional term.
 
 For every integer $p\ge1$, $s>0$, and $0<\theta\le1$, the inequalities
 $\theta\ell(a)\le\ell(\theta a)\le\ell(a)$ imply
@@ -110,9 +111,8 @@ Hence
  \ge\int_0^1ae^{-2a}\,da
  =\frac{1-3e^{-2}}4>\frac17.
 \]
-The last strict inequality follows from $e^2>7$: the terms of its
-power series through degree four sum to seven and the remaining terms
-are positive. It follows that $J_m(t)/Z_m(t)>m/(14t)$. Substituting in
+For the strict inequality, use $e^2>7$. The terms through degree four
+in its power series sum to seven, and every remaining term is positive. It follows that $J_m(t)/Z_m(t)>m/(14t)$. Substituting in
 \eqref{branch:star-euler}, with $t=m+1$, proves
 \begin{equation}\label{branch:star-tail}
  A_m-1
@@ -120,15 +120,13 @@ are positive. It follows that $J_m(t)/Z_m(t)>m/(14t)$. Substituting in
  >\frac{m^2-14m-14}{14(m+1)^2}>0
  \qquad(m\ge15).
 \end{equation}
-The numerator on the right equals one at $m=15$ and is increasing
-thereafter.
+The numerator on the right is one at $m=15$ and increases thereafter.
 
 For $m\ge6$, the ray $e_0$ is the only ray on its line. The other
 central rays are not collinear with the negative sum of at least two
 basis vectors, and every other ray has a nonzero leaf component.
 Thus $\CC e_0$ has normalized ray weight $A_m>1$ and gives the stated
-strict destabilizer. Together with the finite table and the tree
-criterion, this proves the theorem.
+strict destabilizer. The finite calculation and the tree criterion complete the proof.
 \end{proof}
 
 \begin{corollary}\label{branch:hn}
@@ -150,10 +148,11 @@ Since $\ell\le2$, strictly on an open set, $B>1/2$.
 Also $Z(1-2B+C)=\int_{\Delta\cap\{a_i\le1\}}a_iF\,da>0$.
 Thus $2B-C<1$, and positivity of $B-C$ gives $C<2B-C<1$.
 
-The first Harder--Narasimhan term is unique, hence preserved by the torus
-and by arm permutations. Its generic subspace is ray-spanned: otherwise
-taking the span of its contained rays preserves its positive degree
-and decreases its rank, contradicting maximality of slope.
+Uniqueness of the first Harder--Narasimhan term implies its invariance
+under the torus and the permutations of the arms. Its generic subspace
+is spanned by rays. Otherwise, replacing it by the span of the rays it
+contains would preserve its positive degree and decrease its rank,
+contrary to maximality of the slope.
 Define
 \[
  L=\CC e_0,\quad
@@ -161,8 +160,8 @@ Define
  \mathcal U=\operatorname{span}(u_i),\quad
  \mathcal S=\operatorname{span}(s_i).
 \]
-An invariant ray-spanned subspace is generated by complete ray orbits.
-The two leaf-sign orbits have the same span; any two of
+An invariant subspace spanned by rays is generated by complete ray
+orbits. The positive and negative leaf rays have the same span. Any two of
 $\mathcal E,\mathcal U,\mathcal S$ span the ambient space, and
 $L\subset\mathcal E$. Thus the nonzero proper possibilities are
 $L,\mathcal E,\mathcal U,\mathcal S,L+\mathcal U,L+\mathcal S$.
@@ -174,20 +173,22 @@ Their normalized slopes at the three rank-$m$ spaces are
 \]
 The last two spaces have slopes
 $(A+m(2B-C))/(m+1)$ and $(A+mC)/(m+1)$, both strictly below $A>1$.
-Hence this first term has generic subspace $L$. It is saturated and
-rank one, hence reflexive and a line bundle on the smooth variety.
-The induced filtration jumps only at $e_0$, with multiplicity one,
-so this line bundle is $\mathcal O_{Y_m}(D_{e_0})$.
+Thus the generic subspace of the first term is $L$. Since the term is
+saturated and has rank one, it is reflexive and hence a line bundle on
+the smooth variety. Its induced filtration has a single jump, at $e_0$
+with multiplicity one, giving the line bundle
+$\mathcal O_{Y_m}(D_{e_0})$.
 \end{proof}
 
 Rank-one maximal destabilizing subsheaves also occur in the
 four-dimensional examples of Reynolds~\cite[Appendix~A, p.~68]{Reynolds2023}.
 
 
-\subsection{Proof for two branching vertices}
+\subsection{Two branching vertices}
 \begin{proof}
-For the unit leaf input $\ell$, the incoming function supplied by a
-degree-$d$ branching vertex with its $d-1$ pendant leaves is
+Let $\ell$ be the volume function for a leaf of dimension one. A
+branching vertex of degree $d$ with $d-1$ pendant leaves contributes
+the function
 \[
  g_d(a)=[z^d]e^{(1+a)z}Q_\ell(z)^{d-1}\qquad(0\le a\le1),
 \]
@@ -198,8 +199,8 @@ polynomials are
  g_4(a)&=\frac{5217+5965a+2610a^2+520a^3+40a^4}{120},\\
  g_5(a)&=\frac{122889+141357a+66120a^2+15760a^3+1920a^4+96a^5}{720}.
 \end{align*}
-The degree-$d$ centre receives $T^{L-1}g_e$ from the connecting path.
-For any positive input $p$, write $c=p(1)$,
+At the degree-$d$ centre, the volume function from the connecting path
+is $T^{L-1}g_e$. For any positive function $p$, write $c=p(1)$,
 $i=\int_0^1p(a)\,da$, and $j=\int_0^1ap(a)\,da$. Then
 \begin{equation}\label{treemix:transfer-coefficients}
  T(p)(a)=(2i-j+c/2)+(i+c)a+(c/2)a^2.
@@ -218,10 +219,10 @@ Equation~\eqref{treemix:transfer-coefficients} also gives
 \[
  T(p)(a)-aT(p)(1)=(1-a)(2i-j+c/2-ac/2)\ge0.
 \]
-Every input at a connecting degree-two vertex therefore satisfies
-\eqref{mixed:incoming-bound}. The two-input calculation in the proof
-of Theorem~\ref{mixed:paths} again gives $A_v\le24/25<1$ at each of
-these vertices, regardless of $L$.
+Every incoming function at a degree-two vertex of the connecting path
+therefore satisfies \eqref{mixed:incoming-bound}. The calculation in
+the proof of Theorem~\ref{mixed:paths} gives $A_v\le24/25<1$ at all
+these vertices, for every $L$.
 
 It remains to treat the two branching vertices. For $d\in\{3,4,5\}$
 define the linear functional
@@ -229,20 +230,20 @@ define the linear functional
  D_d(p)=[z^d]e^zQ_\ell(z)^{d-1}Q_p(z)
        -[z^{d-1}]e^zQ_\ell(z)^{d-1}Q_p(z).
 \end{equation}
-It equals $V-F$ at the degree-$d$ centre, so positivity is equivalent to
-$A_v<1$. When a monomial $a^k$ is used as an input, it is understood to
-be continued constantly with value one above one. Then
+This is $V-F$ at the degree-$d$ centre. It is positive exactly when
+$A_v<1$. In the following calculation, each monomial $a^k$ is extended
+by the constant one above one. Then
 \[
  T(a^k)=\left(\frac2{k+1}-\frac1{k+2}+\frac12\right)
         +\left(\frac1{k+1}+1\right)a+\frac12a^2.
 \]
-The required values of $D_d(T(a^k))$ are printed in
-Table~\ref{treemix:transfer-signs}. They are exact evaluations of
-\eqref{treemix:Q} and \eqref{treemix:D}.
+Table~\ref{treemix:transfer-signs} lists the values of $D_d(T(a^k))$
+obtained by exact evaluation of \eqref{treemix:Q} and
+\eqref{treemix:D}.
 
 \begin{table}[ht]
 \centering
-\caption{Positive values of $D_d(T(a^k))$ for the capped monomial inputs.}
+\caption{Values of $D_d(T(a^k))$, with each monomial extended constantly above one.}
 \label{treemix:transfer-signs}
 \begin{adjustbox}{max width=\textwidth,center}
 \begin{tabular}{rrrrrrr}
@@ -257,23 +258,23 @@ $d$ & $k=0$ & $k=1$ & $k=2$ & $k=3$ & $k=4$ & $k=5$\\
 \end{adjustbox}
 \end{table}
 
-For $L=2$, the input before the final application of $T$ is $g_e$, of
-degree at most five with positive coefficients. For $L\ge3$, it is
-$T^{L-2}g_e$, a quadratic with positive coefficients by
-\eqref{treemix:transfer-coefficients}. In either case it is a nonnegative linear combination of the capped
-monomials $1,a,\ldots,a^5$, with at least one positive coefficient.
+For $L=2$, the final application of $T$ acts on $g_e$, which has
+degree at most five and positive coefficients. For $L\ge3$, it acts
+on $T^{L-2}g_e$, a quadratic with positive coefficients by
+\eqref{treemix:transfer-coefficients}. In both cases the function is a
+nonnegative linear combination of the constantly extended monomials
+$1,a,\ldots,a^5$, with at least one positive coefficient.
 Linearity and Table~\ref{treemix:transfer-signs} prove
 $D_d(T^{L-1}g_e)>0$ for every $L\ge2$. Interchanging $d,e$ proves the
 inequality at the other centre.
 
-For $L=1$, the inputs are $g_e,g_d$ directly. The six possibilities up
-to interchange are listed in Table~\ref{treemix:adjacent-signs}.
-Their strictly positive values follow from the displayed polynomials
-and coefficient formula \eqref{treemix:D}, divided by the corresponding
-positive volumes.
+For $L=1$, the two centres have incoming functions $g_e,g_d$.
+Table~\ref{treemix:adjacent-signs} lists the six cases up to interchange.
+Their positive values are obtained from the displayed polynomials and
+\eqref{treemix:D} by division by the corresponding positive volumes.
 \begin{table}[ht]
 \centering
-\caption{The smaller normalized deficit at the two adjacent branching vertices.}
+\caption{The minimum of one minus the two normalized divisor degrees at adjacent branching vertices.}
 \label{treemix:adjacent-signs}
 \begin{adjustbox}{max width=\textwidth,center}
 \begin{tabular}{cl}

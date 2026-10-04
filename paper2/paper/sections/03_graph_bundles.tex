@@ -1,9 +1,10 @@
-\section{Hexagon bundles over graphs}\label{sec:graphs}
+\section{Toric bundles associated with graphs}\label{sec:graphs}
 
-We associate a toric fibre bundle to a graph whose vertices carry positive
-integers.  Each edge contributes a degree-six del Pezzo surface, and each
-vertex contributes a projective-space factor to the base.  The graph records
-which two base factors twist a given surface factor.
+A graph with positive integers assigned to its vertices determines a
+toric fibre bundle as follows. Each edge corresponds to a degree-six
+del Pezzo surface in the fibre, and each vertex to a projective-space
+factor in the base. The endpoints of an edge specify the two base
+factors that twist the corresponding surface.
 
 \begin{definition}\label{graph:construction}
 Let $\Gamma$ be a finite nonempty graph without loops, with vertex set $C$
@@ -28,23 +29,23 @@ We write $X(\Gamma,b)$, or $X(\Gamma)$ when the integers are understood,
 for the associated toric variety.
 \end{definition}
 
-The construction indeed gives a smooth projective fan, as proved below.
+The fan is smooth and projective, as proved below.
 The surface with the indicated hexagon fan is the blow-up of $\PP^2$ at
 its three torus-fixed points; we denote it by $S_6$, with the subscript
 indicating its anticanonical degree.  Projection onto the last summands
-will identify $X(\Gamma)$ as a toric fibre bundle with fibre $S_6^j$ over
+identifies $X(\Gamma)$ as a toric fibre bundle with fibre $S_6^j$ over
 $\prod_c\PP^{b_c}$.  Reversing the orientation of an edge gives an
 isomorphic fan: multiplication by $-1$ on its summand $\ZZ^2_i$, and the
 identity on every other summand, gives the required lattice isomorphism.
-Thus no choice of edge orientation affects the variety.
+The variety is therefore independent of the edge orientations.
 
-We first record the primitive collections needed to test ampleness.  A
+We use primitive collections to test ampleness. A
 \emph{primitive collection} of a simplicial fan is a set of rays which
 does not span a cone, whereas every proper subset does.  For a complete
 simplicial fan, its \emph{primitive relation} expresses the sum of these
 primitive ray generators as a positive linear combination of the ray
 generators of the unique cone whose relative interior contains that sum.
-The zero sum has the empty cone on the right.
+When the sum is zero, the cone on the right is the empty cone.
 
 \begin{lemma}\label{graph:split-collections}
 Suppose a complete simplicial fan $\Sigma$ is split by a base fan
@@ -73,9 +74,10 @@ Let $x$ be the sum of the generators of a lifted base collection, and
 write its minimal containing cone as $\widehat\sigma+\tau$.  Projection
 maps the relative interior of this cone onto the relative interior of
 $\sigma$.  Thus $\sigma$ is the minimal containing cone of the projected
-sum.  Comparing coefficients in the linearly independent generators of
-$\sigma$ identifies all base coefficients; the remaining coefficients
-are the nonnegative fibre coefficients in $x$.  If instead $x\in N_{F,\RR}$,
+sum. Since the generators of $\sigma$ are linearly independent,
+comparison of coefficients determines all base coefficients. The
+remaining terms in $x$ are nonnegative multiples of fibre rays.
+If $x\in N_{F,\RR}$,
 its minimal containing cone has $\widehat\sigma=0$, so the fibre relation
 is unchanged.
 \end{proof}
@@ -101,7 +103,7 @@ where the degree counts edges with multiplicity.
 \end{proposition}
 
 \begin{proof}
-We verify completeness and projectivity directly.  Let
+To prove completeness and projectivity, let
 \begin{equation}\label{graph:dual-hexagon}
  Q=\{(a,z)\in\RR^2: |a|\le1,\ |z|\le1,\ |a+z|\le1\},
 \end{equation}
@@ -121,16 +123,16 @@ Conversely, each such vertex and each choice of a vertex in every
 simplex give a vertex of the full polytope.  Exactly $n$ inequalities
 are active, and their inward normals are precisely the generators of a
 maximal cone in Definition~\ref{graph:construction}.
-The fan of inward normals is consequently $\Sigma_\Gamma$; in particular
-it is complete and projective.  Each maximal cone is unimodular: its
+The fan of inward normals is therefore $\Sigma_\Gamma$, which is
+complete and projective. Each maximal cone is unimodular: its
 hexagon generators give a basis of $\bigoplus_i\ZZ^2_i$, and modulo that
 sublattice its remaining generators form a standard maximal cone of
-$\prod_c\PP^{b_c}$.  This also shows that the polytope just constructed
-has integral vertices.
+$\prod_c\PP^{b_c}$. The same bases show that the polytope has integral
+vertices.
 
 Projection to the base splits the fan in the sense of
 Lemma~\ref{graph:split-collections}, with fibre the product hexagon fan.
-The toric local triviality theorem gives the asserted bundle
+The toric local triviality theorem gives the bundle structure
 \cite[Theorem~3.3.19]{CoxLittleSchenck2011}.
 There are $6j+\sum_c(b_c+1)$ rays.  Subtracting $n$ gives
 \eqref{graph:dimension-rank}.
@@ -163,8 +165,8 @@ $r_i+q_i-(r_i+q_i)=0$ connect all six.  For each $c$, the set
 is a circuit.  Indeed, projection to $\ZZ^{b_c}$ forces the
 coefficients of all the $f^c_t$ in any relation to agree; the independent
 $r_i$ then determine all the other coefficients, and a nonzero relation
-has no zero coefficient.  These circuits join exactly the vertex and
-edge factors incident in $\Gamma$.  Thus a connected graph gives a
+has no zero coefficient. These circuits connect precisely the vertex
+and edge factors incident in $\Gamma$. Thus a connected graph gives a
 connected matroid.  Distinct connected components of $\Gamma$ use
 disjoint lattice summands, giving a direct sum of nonempty ray
 matroids and proving the converse.
@@ -179,7 +181,7 @@ same vertex dimensions.
 \end{lemma}
 
 \begin{proof}
-We first recover the fibre rays without using the given presentation.
+The fibre rays can be recovered without the given presentation.
 They are precisely the primitive ray generators whose negatives also
 occur in the fan. Every fibre ray has this property. A base ray cannot
 be opposite a fibre ray, since its projection to the base lattice is
@@ -199,7 +201,7 @@ Restrict the ray matroid to the recovered fibre rays. Its connected
 components are exactly the six-ray sets of the individual hexagons.
 Indeed, the opposite pairs and the circuit on the three ray lines
 connect all rays of one hexagon, whereas independent hexagon planes
-admit no circuit meeting two factors. We therefore recover each plane
+admit no circuit meeting two factors. This determines each plane
 $W_i$ and their direct sum $W=\bigoplus_iW_i$.
 
 The primitive collections consisting entirely of the remaining rays
@@ -212,7 +214,7 @@ $b_c=|C_c|-1$, are determined by the fan. Their vector sums lie in $W$:
      =\sum_{c_i^+=c}r_i-\sum_{c_i^-=c}r_i.
 \]
 The component of $s_c$ in the recovered direct summand $W_i$ is nonzero
-exactly when $c$ is an endpoint of $i$. This recovers the incidence
+exactly when $c$ is an endpoint of $i$. These components determine the incidence
 graph, including parallel edges, and hence $\Gamma$. Primitive ray
 generators, opposite pairs, matroid components, primitive collections,
 and these vector sums are all preserved by a lattice isomorphism of
@@ -255,8 +257,8 @@ connected components, so $X(\Gamma)$ is a product of positive-dimensional
 varieties.  Its tangent bundle is not stable for any polarization:
 it splits into nonzero direct summands, and at least one summand has
 slope at least the slope of their direct sum.  The bound
-\eqref{graph:rank-bound} concerns this graph construction; it makes no
-claim for arbitrary smooth toric Fano varieties.
+\eqref{graph:rank-bound} applies to this graph construction. No bound
+for arbitrary smooth toric Fano varieties is asserted.
 
 \begin{example}\label{graph:path}
 For $j\ge1$, let $\Gamma_j$ be the path with vertices $0,\ldots,j$,
@@ -268,8 +270,8 @@ It is Fano, has connected ray matroid, and satisfies
  \dim X_j=4j,\qquad \rho(X_j)=5j+1.
 \]
 Thus these paths attain the bound in Corollary~\ref{graph:ceiling}.
-Connectedness alone does not establish stability; the slope inequalities
-for this family will require the degree formulas below.
+To prove stability, we must also check the slope inequalities using
+the divisor degrees computed below; connectedness alone does not suffice.
 \end{example}
 
 \subsection{Anticanonical degrees}
@@ -297,8 +299,9 @@ $dE_v$ on $[-1,1]$ specified by
  &dE_{q_i}=dE_{-r_i-q_i}&=\mathbf1_{[0,1]}(a_i)\,da_i.
  \end{aligned}
 \end{equation}
-Here $\delta_{\pm1}$ denote unit point masses, not normalized divisor
-degrees.  Each measure in \eqref{graph:edge-measures} has total mass $1$.
+Here $\delta_{\pm1}$ denote unit point masses; this notation is separate
+from that for normalized divisor degrees. Each measure in
+\eqref{graph:edge-measures} has total mass $1$.
 
 \begin{proposition}\label{graph:degree-formulas}
 Write $D=(-K_X)^n$ and $d_v=D_v\cdot(-K_X)^{n-1}$ for $X=X(\Gamma)$.
@@ -336,7 +339,7 @@ $\sum_tu^c_t=L_c(a)$; eliminating one coordinate gives the same
 volume.  This elimination is an isomorphism of the affine facet
 lattice with the coordinate lattice, since the coefficient of the
 eliminated coordinate is $1$ and $s_c$ is integral affine.
-Thus no additional factor occurs in its lattice measure.  The standard
+Its lattice measure therefore requires no additional factor. The standard
 facet-volume identity $d_v=(n-1)!\operatorname{vol}(F_v)$ proves
 \eqref{graph:base-degree}, including $b_c=1$.
 
@@ -347,13 +350,13 @@ On each other edge, projection to $a$ is a lattice isomorphism onto
 an interval of length $1$.  Specifically, $a+z=-1$ and $z=1$ give
 $[-1,0]$, whereas $z=-1$ and $a+z=1$ give $[0,1]$.  These are exactly
 the four interval measures in \eqref{graph:edge-measures}.
-Fubini on the facet proves \eqref{graph:fibre-degree}.
+Fubini's theorem on the facet gives \eqref{graph:fibre-degree}.
 \end{proof}
 
 \begin{remark}\label{graph:normalized-degrees}
 If $Z=\int\Phi\,d\nu$, the normalized degrees
 $\delta_v=nd_v/D$ are the respective integrals in
 \eqref{graph:base-degree} and \eqref{graph:fibre-degree}, divided by $Z$.
-Thus the factorials cancel before applying the slope criterion.
-In particular the $b_c+1$ rays associated to a vertex have equal degrees.
+The factorials thus cancel in the slope criterion.
+The $b_c+1$ rays associated to a vertex have equal degrees.
 \end{remark}
