@@ -1,0 +1,187 @@
+{
+  "scope": "Exact finite cross-checks, not proof for all k",
+  "intersection_checks": [
+    {
+      "k": 1,
+      "dimension": 2,
+      "I": "2",
+      "J": null,
+      "anticanonical_degree": 8,
+      "slope": "4",
+      "proper_equality_count": 1
+    },
+    {
+      "k": 2,
+      "dimension": 4,
+      "I": "22/3",
+      "J": "26/3",
+      "anticanonical_degree": 352,
+      "slope": "88",
+      "proper_equality_count": 3
+    },
+    {
+      "k": 3,
+      "dimension": 6,
+      "I": "406/15",
+      "J": "158/5",
+      "anticanonical_degree": 38976,
+      "slope": "6496",
+      "proper_equality_count": 7
+    },
+    {
+      "k": 4,
+      "dimension": 8,
+      "I": "3518/35",
+      "J": "12182/105",
+      "anticanonical_degree": 8105472,
+      "slope": "1013184",
+      "proper_equality_count": 15
+    },
+    {
+      "k": 5,
+      "dimension": 10,
+      "I": "118246/315",
+      "J": "27010/63",
+      "anticanonical_degree": 2724387840,
+      "slope": "272438784",
+      "proper_equality_count": 31
+    },
+    {
+      "k": 6,
+      "dimension": 12,
+      "I": "976586/693",
+      "J": "1840906/1155",
+      "anticanonical_degree": 1350032486400,
+      "slope": "112502707200",
+      "proper_equality_count": 63
+    },
+    {
+      "k": 7,
+      "dimension": 14,
+      "I": "15962174/3003",
+      "J": "7668346/1287",
+      "anticanonical_degree": 926776592179200,
+      "slope": "66198328012800",
+      "proper_equality_count": 127
+    },
+    {
+      "k": 8,
+      "dimension": 16,
+      "I": "129573838/6435",
+      "J": "1008444014/45045",
+      "anticanonical_degree": 842593997655244800,
+      "slope": "52662124853452800",
+      "proper_equality_count": 255
+    }
+  ],
+  "lattice_identifications": [
+    {
+      "id": "F.4D.0072",
+      "k": 2,
+      "basis_images": [
+        [
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "ray_indices_in_family_order": [
+        6,
+        3,
+        4,
+        5,
+        1,
+        0,
+        2,
+        7
+      ]
+    },
+    {
+      "id": "F.6D.5541",
+      "k": 3,
+      "basis_images": [
+        [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "ray_indices_in_family_order": [
+        7,
+        5,
+        6,
+        8,
+        2,
+        4,
+        9,
+        0,
+        3,
+        11,
+        10,
+        1
+      ]
+    }
+  ]
+}

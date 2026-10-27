@@ -1,0 +1,774 @@
+\pdfoutput=1
+\documentclass[11pt]{amsart}
+\usepackage{amsmath,amssymb,amsthm,booktabs,longtable}
+\setcounter{MaxMatrixCols}{20}
+\usepackage[margin=1.15in]{geometry}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\hypersetup{pdfauthor={Bernd Johannes Wuebben},
+pdftitle={Local stability chambers for toric tangent bundles}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{example}[theorem]{Example}
+\newcommand{\PP}{\mathbb P}
+\newcommand{\RR}{\mathbb R}
+\newcommand{\CC}{\mathbb C}
+\newcommand{\ZZ}{\mathbb Z}
+\newcommand{\Amp}{\operatorname{Amp}}
+\newcommand{\rk}{\operatorname{rk}}
+\newcommand{\Span}{\operatorname{span}}
+\newcommand{\Gr}{\operatorname{Gr}}
+\newcommand{\id}{\operatorname{id}}
+\title{Local stability chambers for toric tangent bundles}
+\author{Bernd Johannes Wuebben}
+\subjclass[2020]{14M25 (primary); 14J45, 14J60 (secondary)}
+\keywords{Toric variety, tangent bundle, slope stability, polarization,
+projective bundle, Jordan--H\"older filtration}
+\date{October 26, 2026}
+
+\begin{document}
+\begin{abstract}
+We classify the anticanonical slope stability of the tangent bundles of
+$X_{p,q}=\PP_{(\PP^1)^{p+q}}(\mathcal O\oplus\mathcal O(1^p,-1^q))$,
+where $p,q$ are nonnegative integers and $p+q\ge1$. The tangent bundle is stable when
+$p=q$, strictly semistable when $|p-q|=1$, and unstable otherwise.
+For $p=k$ and $q=k-1$, the germ of the semistable polarization locus at
+the anticanonical class is real analytically equivalent to
+$[0,\infty)^k\times\RR^k$, with stable locus
+$(0,\infty)^k\times\RR^k$. In particular, the number of independent
+local chamber boundaries is unbounded.
+
+For a smooth projective toric variety whose tangent bundle is semistable
+at a polarization $H_0$, we describe the local chamber at $H_0$ by the order ideals of a finite poset
+determined by the equal-slope ray subspaces. If each such subspace is
+spanned by the rays it contains in every maximal cone, nearby stable
+polarizations exist precisely when the variety is not a nontrivial
+toric product. Applied to the existing anticanonical census in dimensions
+three through six, this criterion gives nearby stability in all 31
+indecomposable strictly semistable cases, whose local chambers have
+one, two, or three independent boundaries. We determine locally free,
+pairwise nonisomorphic Jordan--H\"older factors both for these cases and
+for the family $X_{k,k-1}$.
+\end{abstract}
+\maketitle
+
+\section{Introduction}
+
+Slope stability depends on the polarization. A tangent bundle that is
+strictly semistable at the anticanonical class can become stable after a
+small change of that class, whereas a direct-sum decomposition prevents
+stability for every polarization. We ask how this distinction is
+reflected in the local geometry of the stable locus on a smooth toric
+variety.
+
+Let $X$ be smooth and projective of dimension $n$. For an ample real
+divisor class $H$ and a torsion-free sheaf $E$, our convention is
+\[
+ \mu_H(E)=\frac{c_1(E)H^{n-1}}{\rk E}.
+\]
+The stable and semistable loci below are subsets of $\Amp(X)_\RR$.
+We use quotient projectivization throughout: $\PP(E)$ parametrizes
+one-dimensional quotients of $E$.
+
+Our first result concerns a family of $\PP^1$-bundles. In
+$\mathcal O(1^p,-1^q)$ the notation means $p$ entries equal to $1$
+and $q$ entries equal to $-1$.
+
+\begin{theorem}\label{thm:family}
+For nonnegative integers $p,q$ with $p+q\ge1$, put
+\[
+ X_{p,q}=\PP_{(\PP^1)^{p+q}}
+       \bigl(\mathcal O\oplus\mathcal O(1^p,-1^q)\bigr).
+\]
+These varieties are smooth Fano, and $T_{X_{p,q}}$ is, with respect to
+$-K_{X_{p,q}}$,
+\[
+ \begin{cases}
+ \text{stable},&p=q,\\
+ \text{strictly semistable},&|p-q|=1,\\
+ \text{unstable},&|p-q|\ge2.
+ \end{cases}
+\]
+For $X_k=X_{k,k-1}$, of dimension and Picard number $2k$, the germ of
+the semistable locus at $-K_{X_k}$ is real analytically equivalent to
+\[
+ [0,\infty)^k\times\RR^k,
+\]
+and the stable locus corresponds to $(0,\infty)^k\times\RR^k$.
+There is an exact sequence of vector bundles
+\begin{equation}\label{eq:intro-extension}
+ 0\longrightarrow T_{X_k/(\PP^1)^k}\longrightarrow T_{X_k}
+ \longrightarrow\bigoplus_{i=1}^k\pi_i^*\mathcal O_{\PP^1}(2)
+ \longrightarrow0,
+\end{equation}
+where $\pi_i$ is projection onto the $i$th positive-twist factor.
+The relative tangent bundle is stable of rank $k$ at $-K_{X_k}$.
+All displayed factors have the same slope and are pairwise nonisomorphic,
+and every component of the extension class is nonzero.
+\end{theorem}
+
+The $k$ boundary hypersurfaces in this statement are the irredundant
+boundaries of the semistable chamber. There are $2^k-1$ proper nonzero
+equal-slope subspaces. For $k\ge2$, their equality hypersurfaces include hypersurfaces
+defined by sums of several boundary coordinates, so the entire equality arrangement is
+larger than the $k$ transverse chamber boundaries.
+
+The proof reduces all slopes to integrals on $[-1,1]$. The anticanonical
+polytope has cross-sectional volume
+$(2+t)^p(2-t)^q$. The sign of a single odd moment separates the stable,
+semistable, and unstable cases. At $p=q+1$, all equality subspaces contain
+the vertical direction and every negative-twist direction. This identifies
+both the chamber and the relative tangent factor in
+\eqref{eq:intro-extension}.
+
+The family also illustrates a more general description. The equal-slope
+ray subspaces of a semistable toric tangent bundle form a finite
+distributive lattice. Its associated poset determines the active slope
+inequalities. The essential geometric issue is whether changes of
+polarization vary the resulting slope gaps independently. In
+Theorem~\ref{thm:general}, a condition on each maximal cone implies this
+independence: a hypothetical principal relation among the block divisors
+is successively annihilated by positive relations among rays. The local
+chamber then has the form of an order-ideal cone, and its stable part is
+nonempty exactly when the variety is not a toric product.
+
+Finally, Section~\ref{sec:census} applies this criterion to the existing
+anticanonical census in dimensions three through six. Among its 479
+strictly semistable cases, 31 are indecomposable as toric products.
+Their degrees and complete equal-slope subspaces are reconstructed here
+from the ray configurations. All satisfy the geometric condition, and
+their local chambers are orthants with one, two, or three boundary
+coordinates. The other 448 varieties are products and have no stable
+tangent polarization. The imported census supplies the exhaustive list;
+the new finite calculation determines its local chamber geometry.
+
+\subsection*{Relation to previous work}
+The starting point is Klyachko's description of equivariant bundles
+\cite{Klyachko} and the toric slope criterion in the form of
+Hering--Nill--S\"u\ss\ \cite{HNS}. The reduction to finitely many ray
+subspaces and the polyhedral description in curve classes are already
+established there. The pullback to the ample cone is nonlinear, and
+ample-cone stability regions need not be globally convex or polyhedral.
+Our assertions concern their local analytic form.
+
+Reynolds studies tangent stability on Fano Bott manifolds in Chapter~4
+of \cite{Reynolds}. His Lemmas~4.2.3--4.2.4 compute the vertical facets
+of $\PP^1$-bundles over products of projective lines, and
+Proposition~4.2.6 gives a bound on their volumes. This is the ambient
+construction used in Theorem~\ref{thm:family}. Our calculation also treats
+all nonvertical ray subspaces and determines the complete equality
+structure in every dimension. The Hirzebruch-surface case $k=1$ is
+classical; see \cite[Section~6]{BDGP}. The Bott-tower constructions in
+\cite[Section~6]{DDK} concern other equivariant rank-two bundles.
+
+Napame--Tipler \cite{NT} give stability criteria for pullbacks along
+toric fibrations and applications to stable perturbations.
+Clarke--Tipler \cite{CT} describe local chambers and convergence of
+Hermitian Yang--Mills connections for simple bundles whose graded object
+is locally free with abelian automorphism group. The locally free, pairwise
+nonisomorphic factors obtained here give the required graded objects.
+The tangent bundles of $X_k$ and the 31 indecomposable census examples
+are simple because they are stable at a nearby polarization. Thus these
+examples satisfy the geometric hypotheses of \cite{CT}.
+The distributive-lattice argument itself is the standard tight-set
+construction for submodular polyhedra; see \cite{Fujishige}.
+
+\section{Projective bundles and the number of chamber boundaries}
+\label{sec:family}
+
+\subsection{The fan and anticanonical degrees}
+Write $d=p+q$, $n=d+1$, and let $h_i$ be the hyperplane classes on the
+base. Set $a_i=1$ for $i\le p$, $a_i=-1$ otherwise,
+$A=\sum_i a_i h_i$, $S=\sum_i h_i$, and
+$\xi=c_1(\mathcal O_{X_{p,q}}(1))$. Then
+\begin{equation}\label{eq:chow}
+ h_i^2=0,\qquad \xi^2=A\xi,\qquad
+ D:=-K_{X_{p,q}}=2\xi+2S-A.
+\end{equation}
+In a lattice basis $e_1,\ldots,e_d,v$, the fan rays are
+\begin{equation}\label{eq:family-rays}
+ v,\ -v,\qquad e_i,\ -e_i+a_iv\quad(1\le i\le d).
+\end{equation}
+Every maximal cone chooses one ray from each pair, including the vertical
+pair. These are the projective-bundle cones of \cite[Section~7.3]{CLS}.
+The divisor relations give $D_{-v}=\xi$, $D_v=\xi-A$, and both divisors
+of the $i$th base pair have class $h_i$.
+
+The anticanonical polytope in the dual coordinates $(x_1,\ldots,x_d,t)$
+is
+\begin{equation}\label{eq:family-polytope}
+ -1\le t\le1,\qquad -1\le x_i\le1+a_it.
+\end{equation}
+At $t=\pm1$, all interval lengths $2+a_it$ are positive. Its normal
+cones are therefore precisely the cones just described, and their
+primitive generators are lattice bases. In particular $D$ is ample.
+
+For the integral slope calculation through the next subsection, divide
+divisor degrees by $(n-1)!$.
+Thus facet volumes use Lebesgue measure in the affine facet lattice.
+Put
+\begin{equation}\label{eq:general-integrals}
+ \begin{split}
+ w(t)&=(2+t)^p(2-t)^q,\\
+ M&=\int_{-1}^1w(t)\,dt,\\
+ I_+&=\int_{-1}^1\frac{w(t)}{2+t}\,dt\quad(p>0),\\
+ I_-&=\int_{-1}^1\frac{w(t)}{2-t}\,dt\quad(q>0).
+ \end{split}
+\end{equation}
+The two vertical facets have degrees $3^p,3^q$. Each ray of a positive
+pair has degree $I_+$, and each ray of a negative pair has degree $I_-$.
+For a sloping facet $x_i=1+a_it$, the other coordinates and $t$ are
+integral coordinates for its affine lattice; no additional normal-length
+factor occurs. The full polytope has volume $M$, so
+\begin{equation}\label{eq:total-slope}
+ \frac{D^n}{(n-1)!}=nM=3^p+3^q+2pI_++2qI_-,
+ \qquad \frac{\mu_D(T_X)}{(n-1)!}=M.
+\end{equation}
+Terms for an absent sign are omitted. The vertical formulas agree with
+\cite[Lemmas~4.2.3--4.2.4]{Reynolds}.
+
+\subsection{The slope test}
+For a subspace $W\subset N_\CC$, the saturated induced equivariant
+subsheaf $\mathcal F_W\subset T_X$ has rank $\dim W$ and
+\begin{equation}\label{eq:toric-c1}
+ c_1(\mathcal F_W)=\sum_{u_\rho\in W}D_\rho.
+\end{equation}
+It suffices to test slope inequalities on subspaces spanned by rays
+\cite[Proposition~1.2 and Remark~2.6]{HNS}. For the configuration
+\eqref{eq:family-rays}, these subspaces have a particularly simple form.
+If $v\notin W$, at most one ray from each base pair belongs to $W$.
+Their images in the base lattice are independent, so their number is
+$\dim W$. If $v\in W$, either both rays of a base pair belong to $W$
+or neither does; hence
+\begin{equation}\label{eq:vertical-flat}
+ W=\Span_\CC(v,e_i:i\in T)
+\end{equation}
+for a subset $T\subseteq\{1,\ldots,d\}$.
+
+Interchanging $p,q$ reverses the vertical coordinate, so suppose $p\ge q$.
+If $p=q\ge1$, symmetry gives $I_+=I_-=I$. We have $M>I$ because
+$2+t>1$ in the interior, whereas
+\[
+ M-2I=\int_{-1}^1t(2-t)(4-t^2)^{p-1}\,dt
+      =-\int_{-1}^1t^2(4-t^2)^{p-1}\,dt<0.
+\]
+A subspace not containing $v$ thus has normalized slope $I<M$.
+For a proper subspace containing $v$, let $J$ be the nonempty set of
+omitted base indices. By \eqref{eq:total-slope}, its normalized slope
+margin is
+\[
+ \frac{c_1(\mathcal F_W)D^{n-1}}{(n-1)!}-(\dim W)M
+       =|J|(M-2I)<0.
+\]
+This proves stability in the balanced case.
+
+If $p\ge q+2$, write $h=p-q-1\ge1$. Then
+\[
+ M-2I_+=\int_{-1}^1t(2+t)^h(4-t^2)^q\,dt>0,
+\]
+since pairing $t$ and $-t$ gives the positive integrand
+$t((2+t)^h-(2-t)^h)(4-t^2)^q$ for $0<t<1$.
+Take $W$ to contain $v$ and every base direction except one positive
+direction. Its rank is $n-1$ and its normalized slope margin is
+$M-2I_+>0$. Thus the tangent bundle is unstable.
+
+It remains to treat $p=q+1$. Put $k=p$ and $q=k-1$. Define
+\[
+ I_q=\int_{-1}^1(4-t^2)^q\,dt,
+\]
+and, for $q\ge1$, put
+\[
+ J_q=\int_{-1}^1(4+t^2)(4-t^2)^{q-1}\,dt.
+\]
+These are $I_+$ and $I_-$, respectively, and $M=2I_q$. Integrating
+the derivative of $t(4-t^2)^q$ gives
+\begin{equation}\label{eq:integral-identity}
+ qJ_q=(q+1)I_q-2\cdot3^q\qquad(q\ge1).
+\end{equation}
+For $q\ge1$ we have $I_q>2\cdot3^q$, and it follows that
+\begin{equation}\label{eq:integral-bounds}
+ I_q<J_q<2I_q\qquad(q\ge1).
+\end{equation}
+Thus every subspace not containing $v$ has slope strictly less than
+$M$. For $q\ge1$, a subspace of the form \eqref{eq:vertical-flat}, with $a$ positive
+and $b$ negative base directions, has rank $1+a+b$ and margin
+\begin{equation}\label{eq:family-margin}
+ 4\cdot3^q+2aI_q+2bJ_q-2(1+a+b)I_q
+       =2(b-q)(J_q-I_q).
+\end{equation}
+For $q\ge1$ this is nonpositive, with equality exactly when $b=q$.
+For $q=0$, there are no negative directions and $I_0=2$; the margin is
+directly $4+2aI_0-2(1+a)I_0=0$.
+
+Consequently the proper nonzero equal-slope subspaces are precisely
+\begin{equation}\label{eq:family-equalities}
+ V_0+\Span_\CC(e_i:i\in T),\qquad
+ V_0=\Span_\CC(v,e_{k+1},\ldots,e_{2k-1}),\quad
+ T\subsetneq\{1,\ldots,k\}.
+\end{equation}
+This proves the trichotomy and exhausts all equalities.
+
+\subsection{Local coordinates and stable factors}
+We now return to ordinary intersection degrees, without the factorial
+normalization used in the integral calculation.
+The space $V_0$ in \eqref{eq:family-equalities} corresponds to the relative
+tangent bundle $F=T_{X_k/(\PP^1)^k}$. Indeed the projection to the
+positive base factors is locally a product with fiber
+\[
+ \PP_{(\PP^1)^{k-1}}
+       \bigl(\mathcal O\oplus\mathcal O(-1,\ldots,-1)\bigr).
+\]
+Its relative tangent sequence is \eqref{eq:intro-extension}.
+Write $C_0=c_1(F)=D-2\sum_{i=1}^kh_i$ and $C_i=2h_i$ for $i\ge1$.
+These classes are independent: $C_0$ has nonzero $\xi$ coefficient in
+the basis $\xi,h_1,\ldots,h_{2k-1}$.
+
+For a nearby polarization set
+\begin{equation}\label{eq:family-z}
+ z_i(H)=\left(2h_i-\frac{D}{2k}\right)H^{2k-1},\qquad1\le i\le k.
+\end{equation}
+The centered divisor classes in this expression have rank $k$.
+The derivative of $H\mapsto H^{n-1}$ at an ample class is an isomorphism
+on numerical divisor and curve spaces, by the Hodge-index pairing
+\cite[Theorem~6.4 and Corollary~6.5]{GRT}. Thus the $z_i$ extend to
+real analytic local coordinates at $D$.
+
+Only the inequalities in \eqref{eq:family-equalities} can be active
+sufficiently near $D$, since the finite list of other inequalities is
+strict there. For the subspace indexed by $T$, its slope margin is
+$-\sum_{i\notin T}z_i(H)$. Hence semistability is exactly $z_i\ge0$
+for every $i$, and stability exactly $z_i>0$ for every $i$. This proves
+the chamber statement of Theorem~\ref{thm:family}.
+
+The subbundle $F$ is stable at $D$. A subsheaf of greater slope would
+contradict semistability of $T_X$; an equivariant equal-slope proper
+subsheaf would contradict the minimality of $V_0$ in
+\eqref{eq:family-equalities}. The toric criterion tests ordinary
+stability, so this suffices. The quotient factors are line bundles of
+the same slope. Their first Chern classes, together with $C_0$, are
+independent, which excludes isomorphic factors. Finally a zero
+component of the extension class would split off its quotient line
+bundle. A nontrivial direct sum cannot be stable for any polarization,
+whereas the local chamber contains stable classes. Every extension
+component is therefore nonzero, completing the proof of
+Theorem~\ref{thm:family}.
+
+\begin{example}
+For $k=1$, $X_k$ is the Hirzebruch surface $\mathbb F_1$. If $S$ is
+its negative section and $f$ a fiber, the first Chern classes of the two
+stable factors are
+$2S+f$ and $2f$. For $H=aS+bf$ with $b>a>0$, the relevant inequality
+is $2b-3a<0$. Thus the stable side near $-K=2S+3f$ is
+$a<b<3a/2$, in agreement with the classical surface calculation.
+For $k=2,3$, the anticanonical degrees are $352$ and $38976$,
+respectively; the proper equality subspaces number $3$ and $7$.
+\end{example}
+
+\section{Equal-slope subspaces and local chambers}
+\label{sec:general}
+
+Let $X=X_\Sigma$ be a smooth projective toric variety of dimension
+$n\ge2$. Write $R=\Sigma(1)$, let $u_\rho$ be the primitive ray
+generators, and put $D=\sum_{\rho\in R}D_\rho=c_1(T_X)$.
+Fix an ample real class $H_0$ such that $T_X$ is semistable, and set
+\[
+ \alpha_0=H_0^{n-1},\qquad d_\rho=D_\rho\alpha_0>0,
+ \qquad\mu=D\alpha_0/n>0.
+\]
+Positivity holds because each invariant divisor is nonzero and effective.
+For a subspace $V\subset N_\CC$ write
+$R_V=\{\rho:u_\rho\in V\}$ and $d(V)=\sum_{\rho\in R_V}d_\rho$.
+
+We use the toric criterion \eqref{eq:toric-c1} also for real ample
+classes. To justify this extension, specialize an arbitrary subsheaf
+to a torus-fixed point in the closure of its orbit in the projective
+Quot scheme. Flat specialization preserves rank and numerical first
+Chern class, and saturation only increases degree against an ample
+real class. Thus any ordinary destabilizing or equal-slope subsheaf
+gives an equivariant one with at least that slope. This is the same
+equivariant reduction underlying \cite[Proposition~2.3]{HNS}.
+
+Let $\mathcal L$ consist of $0,N_\CC$ and the subspaces with
+$d(V)=\mu\dim V$. Each such subspace is ray-spanned: otherwise its
+contained-ray span has the same positive degree and smaller rank,
+contradicting semistability. Thus $\mathcal L$ is finite.
+
+\begin{lemma}\label{lem:lattice}
+The set $\mathcal L$ is a distributive lattice under sum and
+intersection. For $V,W\in\mathcal L$,
+\[
+ R_{V+W}=R_V\cup R_W,\qquad R_{V\cap W}=R_V\cap R_W.
+\]
+\end{lemma}
+\begin{proof}
+Ray membership and semistability give
+\[
+ d(V)+d(W)\le d(V+W)+d(V\cap W)
+ \le\mu\bigl(\dim(V+W)+\dim(V\cap W)\bigr)
+ =d(V)+d(W).
+\]
+Both inequalities are equalities. The two resulting subspaces have
+the required slope, and positivity of all $d_\rho$ excludes any extra
+ray in $V+W$. Since equality subspaces are ray-spanned, $V\mapsto R_V$
+is injective. Its image is closed under union and intersection, which
+proves distributivity.
+\end{proof}
+
+This is the standard tight-set argument for a submodular rank function
+\cite{Fujishige}. In fact $(d_\rho/\mu)_{\rho\in R}$ belongs to the
+base polytope of the ray matroid, and its tight sets are exactly the
+sets $R_V$ above.
+
+Partition $R$ into blocks $B_p$ according to identical membership in
+all equality sets. Define $p\le q$ if every equality set containing
+$B_q$ also contains $B_p$, and denote this finite poset by $P$.
+The equality sets are precisely unions of blocks over order ideals of
+$P$. Indeed, intersection of all equality sets containing $B_q$ gives
+its principal ideal; unions of these give every ideal.
+For an ideal $I$, denote its subspace by $V_I$.
+
+Put $s=|P|$ and $C_p=\sum_{\rho\in B_p}D_\rho$. There are positive
+integers $r_p$ such that
+\begin{equation}\label{eq:rank-valuation}
+ \dim V_I=\sum_{p\in I}r_p,\qquad
+ \sum_pr_p=n,\qquad C_p\alpha_0=\mu r_p.
+\end{equation}
+To see this, choose a linear extension of $P$. The rank increment
+when $B_p$ is added to an initial ideal equals
+$\sum_{\rho\in B_p}d_\rho/\mu$. It is positive and integral, and the
+formula shows independence of the chosen linear extension.
+
+\begin{definition}
+In $Z=\{z\in\RR^s:\sum_pz_p=0\}$ define
+\[
+ \mathcal C(P)=\left\{z:\sum_{p\in I}z_p\le0
+       \text{ for every nonempty proper order ideal }I\right\}.
+\]
+Let $\mathcal C^\circ(P)$ denote the set where all displayed
+inequalities are strict. The superscript denotes this strict locus;
+it does not assert that the cone is full-dimensional.
+\end{definition}
+
+We impose the following condition on equal-slope subspaces:
+\begin{equation}\label{eq:cone-condition}
+ V=\Span_\CC\{u_\rho:\rho\in\sigma(1),\ u_\rho\in V\}
+ \quad\text{for every }V\in\mathcal L
+ \text{ and every maximal cone }\sigma.
+\end{equation}
+Because the rays of a maximal smooth cone form a basis, this says that
+exactly $\dim V$ of them lie in $V$.
+
+\begin{theorem}\label{thm:general}
+Under \eqref{eq:cone-condition}, the germs of the semistable and stable
+polarization loci at $H_0$ are real analytically equivalent to
+\[
+ \mathcal C(P)\times\RR^{\rho(X)-s+1},\qquad
+ \mathcal C^\circ(P)\times\RR^{\rho(X)-s+1},
+\]
+respectively. Stable polarizations occur arbitrarily close to $H_0$
+if and only if $X$ is not a nontrivial toric product. In that case
+rational ample stable classes occur arbitrarily close to $H_0$.
+\end{theorem}
+
+\begin{lemma}\label{lem:positive-rays}
+If a ray subspace $V$ satisfies \eqref{eq:cone-condition}, its induced
+sheaf $\mathcal F_V$ is a vector subbundle of $T_X$. The cones of
+$\Sigma$ contained in $V_\RR$ form a complete fan in $V_\RR$.
+\end{lemma}
+\begin{proof}
+On each smooth affine chart, $T_X$ splits into the coordinate weight
+lines of its ray basis. The condition makes $V$ a sum of a subset of
+these lines, so the induced inclusion is locally a direct summand.
+For completeness, take $v\in V_\RR$ and a maximal cone containing it.
+In that ray basis, all coordinates outside $V$ vanish. Thus $v$ lies
+in the face generated by the rays in $V$. These faces cover $V_\RR$.
+\end{proof}
+
+\begin{lemma}\label{lem:independence}
+Under \eqref{eq:cone-condition}, the numerical classes $C_p$ are
+linearly independent.
+\end{lemma}
+\begin{proof}
+Numerical and linear equivalence agree for divisors on a smooth
+complete toric variety, and the invariant divisor sequence identifies
+$N^1(X)_\RR$ with $\RR^R/M_\RR$
+\cite[Propositions~6.3.15 and 6.4.1]{CLS}.
+Consequently a relation $\sum_pa_pC_p=0$ is represented by a character
+$m\in M_\RR$ satisfying $\langle m,u_\rho\rangle=a_p$ on $B_p$.
+
+Order the blocks by a linear extension $p_1,\ldots,p_s$, and let $I_j$
+be the initial ideal. By Lemma~\ref{lem:positive-rays}, its rays
+positively span $V_{I_j}$. They therefore admit a relation
+$\sum_{\rho\in R_{V_{I_j}}}b_\rho u_\rho=0$ with every $b_\rho>0$:
+sum nonnegative expressions for the negatives of all generators.
+Inductively suppose $a_{p_i}=0$ for $i<j$. Pairing this positive
+relation with $m$ yields
+\[
+ a_{p_j}\sum_{\rho\in B_{p_j}}b_\rho=0,
+\]
+and hence $a_{p_j}=0$. All coefficients vanish.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:general}]
+For a curve class $\alpha$ near $\alpha_0$, set
+\[
+ z_p(\alpha)=\left(C_p-\frac{r_p}{n}D\right)\alpha.
+\]
+These coordinates sum to zero and vanish at $\alpha_0$.
+Lemma~\ref{lem:independence} implies that their linear map onto $Z$
+has rank $s-1$. The Hodge-index argument used in
+Section~\ref{sec:family} shows that $H\mapsto z(H^{n-1})$ is a
+submersion at $H_0$. Complete its components to real analytic local
+coordinates. All initially strict inequalities for ray-spanned subspaces remain strict
+in a sufficiently small neighborhood. The remaining inequalities are
+exactly those defining $\mathcal C(P)$, by
+\eqref{eq:rank-valuation}.
+
+The strict cone is nonempty exactly when the undirected Hasse diagram
+of $P$ is connected. If it is disconnected, a connected component and
+its complement are both ideals, whose coordinate sums cannot both be
+negative. If it is connected, orient each covering relation upward
+and sum $e_q-e_p$ over the edges $p<q$. For every nonempty proper
+ideal, no edge enters and at least one leaves, so its coordinate sum
+is negative. For a singleton poset the condition is vacuous.
+
+It remains to interpret connectedness. Disconnectedness gives two
+complementary equality ideals. Their ray spans have ranks summing to
+$n$, and every ray belongs to one of them, so they split $N_\RR$.
+A maximal-cone lattice basis shows that this is an integral lattice
+splitting. Every cone splits into its component faces. Completeness
+forces every combination of component cones to occur: take interior
+points in the two cones and a cone containing their sum; the fan
+intersection property makes their sum a face of that cone.
+Thus the fan is a product fan. Conversely, a toric product splits
+$T_X$ into equivariant summands. Semistability and the weighted-average
+identity force all summands to have slope $\mu$. Their complementary
+ray sets are equality ideals, which disconnect $P$.
+
+Finally, strict inequalities define an open subset. Rational ample
+classes are dense there. A nontrivial direct sum cannot be stable at
+any polarization, since one summand has slope at least the total
+weighted average.
+\end{proof}
+
+\begin{remark}
+Only rank $s-1$ of the centered divisor classes is needed for the
+coordinate argument. Condition \eqref{eq:cone-condition} is a sufficient
+geometric condition that implies the stronger independence of all
+$C_p$. We do not assert that every semistable toric tangent bundle
+satisfies it.
+\end{remark}
+
+\subsection{The graded bundle}
+\begin{proposition}\label{prop:graded}
+Under \eqref{eq:cone-condition}, a maximal chain of equality subspaces
+gives a Jordan--H\"older filtration by vector subbundles. Its stable
+quotients have ranks $r_p$ and first Chern classes $C_p$, and are
+pairwise nonisomorphic. In particular the graded bundle is locally
+free with automorphism group $(\CC^*)^s$.
+\end{proposition}
+\begin{proof}
+Local freeness follows from Lemma~\ref{lem:positive-rays}; additivity
+gives the ranks and Chern classes. Write $A\subset B$ for successive
+terms. A saturated equivariant subsheaf $G\subset B/A$ lifts to a
+subsheaf $\widetilde G\subset T_X$. It is saturated, since
+\[
+ 0\longrightarrow(B/A)/G\longrightarrow T_X/\widetilde G
+ \longrightarrow T_X/B\longrightarrow0
+\]
+has torsion-free end terms. If $G$ had greater slope, so would
+$\widetilde G$, contrary to semistability. If it had equal slope,
+its subspace would lie strictly between two successive terms of the
+maximal equality chain. This is impossible. The toric criterion
+therefore gives ordinary stability. Independence of $C_p$ excludes
+isomorphic quotients. Stable bundles of equal slope have only scalar
+endomorphisms and no nonzero morphisms between distinct factors.
+\end{proof}
+
+\section{The strictly semistable census in dimensions three through six}
+\label{sec:census}
+
+The anticanonical census of \cite{Wuebben} contains 479 strictly
+semistable cases in dimensions three through six. Its full scope is
+imported here; the present calculation reconstructs the local data of
+the indecomposable cases. The identifiers below refer to its smooth
+Fano polytope lists, with primitive fan generators as vertices.
+
+\begin{theorem}\label{thm:census}
+Among the strictly semistable cases of the dimension three through six
+census, the 31 varieties that are not nontrivial toric products admit
+stable polarizations arbitrarily close to the anticanonical class.
+Each satisfies \eqref{eq:cone-condition}. Its equality poset has one
+minimal element and $k$ incomparable elements above it, with counts
+\[
+\begin{array}{c|rrr|rr}
+ n&k=1&k=2&k=3&\text{indecomposable}&\text{product}\\ \hline
+ 3&2&0&0&2&5\\
+ 4&2&1&0&3&21\\
+ 5&7&1&0&8&74\\
+ 6&15&2&1&18&348
+\end{array}
+\]
+The local semistable germ is
+$[0,\infty)^k\times\RR^{\rho(X)-k}$, with stable locus its strict
+orthant. The other 448 cases have no stable tangent polarization.
+\end{theorem}
+
+\begin{proof}
+For each selected indecomposable configuration, the calculation gives
+the following complete description. There is a minimal equal-slope
+ray block $B_0$, of rank $r_0$, and upper blocks $B_1,\ldots,B_k$.
+The nonzero proper equality sets are exactly $B_0$ together with any
+proper subset of the upper blocks. Their ranks are additive, and
+every equality subspace meets every maximal cone in exactly its rank
+many ray generators. The ray matrices, degree vectors, and block
+partitions are printed in Appendix~\ref{app:data}; the summary appears
+in Table~\ref{tab:records}. Theorem~\ref{thm:general} applies.
+
+For this poset, the ideal containing all blocks except $B_j$ gives
+$z_j\ge0$. These $k$ inequalities imply all the other ideal
+inequalities, and their strict versions do the same for stability.
+Thus the local cone is an orthant. The remaining selected ray
+configurations split into nontrivial direct sums. Smoothness and
+completeness convert these into toric products, as in the proof of
+Theorem~\ref{thm:general}. Their tangent bundles cannot be stable.
+\end{proof}
+
+The number $k$ need not equal the rank of the quotient by the minimal
+subbundle. For example, F.6D.6547 has block ranks $(3,3)$ and a
+single chamber boundary. The multiple-boundary cases have ranks
+$(2,1,1)$, $(3,1,1)$, $(4,1,1)$, $(4,1,1)$, and $(3,1,1,1)$.
+The first and last are $X_2$ and $X_3$ from Theorem~\ref{thm:family}.
+In the coordinates of Appendix~\ref{app:data}, the images of the ordered
+family basis $(e_1,\ldots,e_{2k-1},v)$ are
+\[
+ (-e_1,-e_3,-e_2,e_4)\quad(k=2),\qquad
+ (-e_1,-e_2,-e_5,-e_3,-e_4,e_6)\quad(k=3).
+\]
+These signed permutations identify the full fans, not only their ray sets.
+
+In all 31 cases, let $F$ be the stable minimal subbundle. The images
+of the upper blocks in $N_\CC/V_0$ span a direct sum: they span the
+quotient and their ranks add to its dimension. Each projected ray
+filtration belongs to one summand, so the quotient bundle splits.
+We obtain
+\begin{equation}\label{eq:census-extension}
+ 0\longrightarrow F\longrightarrow T_X
+ \longrightarrow Q_1\oplus\cdots\oplus Q_k\longrightarrow0,
+\end{equation}
+with stable locally free factors of the same slope, pairwise
+nonisomorphic by Proposition~\ref{prop:graded}. Each extension
+component is nonzero, by nearby stability and the splitting argument
+used for \eqref{eq:intro-extension}. Thus 26 cases give nonsplit
+extensions of two stable bundles; the remaining five give three or
+four stable factors. The product cases need not be polystable:
+a product can have a factor with strictly semistable nonpolystable
+tangent bundle.
+
+\input{classification_table.tex}
+
+\subsection{Exact computation and its scope}
+The fan of a smooth Fano polytope consists of cones over its faces.
+For the 31 configurations we determine every facet by its rational
+supporting equation and check that its vertices form an integral basis.
+Every other ray lies strictly below its supporting hyperplane, and
+every ridge occurs in two facets. This nonempty collection is closed
+under facet adjacency and hence is the entire boundary. An independent
+calculation enumerates all subsets of $n$ rays and recovers the same
+facets directly.
+
+For degrees we use equivariant localization. If $m_{\sigma,i}$ is
+the character basis dual to the rays of a maximal cone and
+$w_{\sigma,i}=\langle m_{\sigma,i},\eta\rangle$ for a generic
+integral $\eta$, then
+\[
+ D^n=\sum_\sigma\frac{(\sum_iw_{\sigma,i})^n}{\prod_iw_{\sigma,i}},
+ \quad
+ D_\rho D^{n-1}=
+ \sum_{\sigma\ni\rho}
+ \frac{w_{\sigma,\rho}(\sum_iw_{\sigma,i})^{n-1}}
+      {\prod_iw_{\sigma,i}}.
+\]
+The same integers are independently obtained by triangulating the
+corresponding facets of the polar polytope and summing their lattice
+volumes. Ray flats are enumerated by adjoining a ray and taking linear
+closure; every flat has a ray basis, which proves completeness of this
+procedure. Independent enumeration by intersections of ray-spanned
+hyperplanes gives the same 4,890 proper flats. Every slope inequality
+and every equality is then tested exactly.
+
+The product partitions of all 479 selected cases are obtained from
+the connected components of their linear ray matroids. Fundamental
+circuits relative to one basis and exhaustive minimal dependent
+subsets give identical partitions. The complete census and its
+exclusion of other strictly semistable cases remain inputs from
+\cite{Wuebben}; they are not consequences of checking only the 31
+indecomposable records. The accompanying data and rational-arithmetic
+programs specify the input hashes and reproduce the calculations.
+The supplementary directory \texttt{reproducibility/} contains the
+31 complete records, the rays of all 479 selected cases, and an exact
+verifier requiring only Python's standard library. Its \texttt{README.md}
+gives the command \texttt{python3 verify.py}, the data conventions, and
+the optional comparison with the full source files. This verifier
+reconstructs facets, degrees, flats, and product partitions; selection
+of the 479 cases from the complete census remains an imported input.
+
+\appendix
+\section{Ray configurations, degrees, and equality blocks}\label{app:data}
+For each record, the columns of $U$ are the primitive ray generators
+in their given order, numbered from $0$. The vector $d$ lists
+$D_\rho(-K_X)^{n-1}$. The blocks $B_0;B_1;\ldots;B_k$ determine
+every proper equality subspace as described in the proof of
+Theorem~\ref{thm:census}. The fan is recovered by taking cones over
+the faces of $\operatorname{conv}(U)$, so the displayed data determine
+all inputs to the 31 indecomposable computations.
+\input{ray_data.tex}
+
+\begin{thebibliography}{BDGP21}
+\bibitem[BDGP21]{BDGP} I. Biswas, A. Dey, O. Gen\c c, and M. Poddar,
+\emph{On stability of tangent bundle of toric varieties},
+Proc. Indian Acad. Sci. Math. Sci. \textbf{131} (2021), Paper No.~36,
+arXiv:1808.08701.
+\bibitem[CLS11]{CLS} D. Cox, J. Little, and H. Schenck,
+\emph{Toric Varieties}, Graduate Studies in Mathematics, vol.~124,
+American Mathematical Society, 2011.
+\bibitem[CT24]{CT} A. Clarke and C. Tipler,
+\emph{Semi-stability and local wall-crossing for Hermitian Yang--Mills
+connections}, J. Symplectic Geom. \textbf{22} (2024), no.~3,
+673--694; arXiv:2304.05245.
+\bibitem[DDK20]{DDK} J. Dasgupta, A. Dey, and B. Khan,
+\emph{Stability of equivariant vector bundles over toric varieties},
+Doc. Math. \textbf{25} (2020), 1787--1833.
+\bibitem[Fuj84]{Fujishige} S. Fujishige,
+\emph{A characterization of faces of the base polyhedron associated
+with a submodular system}, J. Oper. Res. Soc. Japan \textbf{27} (1984),
+no.~2, 112--129,
+\href{https://doi.org/10.15807/jorsj.27.112}{doi:10.15807/jorsj.27.112}.
+\bibitem[GRT16]{GRT} D. Greb, J. Ross, and M. Toma,
+\emph{Variation of Gieseker moduli spaces via quiver GIT},
+Geom. Topol. \textbf{20} (2016), 1539--1610.
+\bibitem[HNS22]{HNS} M. Hering, B. Nill, and H. S\"u\ss,
+\emph{Stability of tangent bundles on smooth toric Picard-rank-2
+varieties and surfaces}, Facets of Algebraic Geometry, Vol.~II,
+London Math. Soc. Lecture Note Ser., vol.~473, Cambridge University
+Press, 2022, 1--25; arXiv:1910.08848.
+\bibitem[Kly90]{Klyachko} A. A. Klyachko,
+\emph{Equivariant bundles on toral varieties}, Math. USSR-Izv.
+\textbf{35} (1990), 337--375.
+\bibitem[NT24]{NT} A. Napame and C. Tipler,
+\emph{Toric sheaves, stability and fibrations}, J. Pure Appl. Algebra
+\textbf{228} (2024), Paper No.~107494; arXiv:2210.04587.
+\bibitem[Rey23]{Reynolds} W. Reynolds,
+\emph{On slope stability of tangent sheaves on smooth toric Fano
+varieties}, Ph.D. thesis, University of Edinburgh, 2023,
+\href{https://doi.org/10.7488/era/3511}{doi:10.7488/era/3511}.
+\bibitem[Wue26]{Wuebben} B. J. Wuebben,
+\emph{Slope stability of tangent bundles of smooth toric Fano varieties},
+arXiv:2608.20411, 2026.
+\end{thebibliography}
+\end{document}

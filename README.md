@@ -1,11 +1,12 @@
 # Tangent-bundle stability on smooth toric Fano varieties
 
-Manuscripts, exact computations and data for two related papers.
+Manuscripts, exact computations and data for three related papers.
 
 | Paper | Manuscript and materials |
 |---|---|
 | **1. Slope stability of tangent bundles of smooth toric Fano varieties** | [Current PDF](paper/toric-tangent-stability.pdf) · [arXiv:2608.20411](https://arxiv.org/abs/2608.20411) · code and data below |
 | **2. Tangent stability on toric Fano blowups and bundles** | [Official active PDF](paper2/paper/main.pdf) · [Guide, source and exact proof package](paper2/README.md) · updated 3 October 2026; manuscript date 20 September 2026 |
+| **3. Local stability chambers for toric tangent bundles** | [Current PDF](paper3/paper/main.pdf) · [Guide, source and exact computations](paper3/README.md) · 26 October 2026 |
 
 ## Paper 1: classification and root-twisted families
 
@@ -65,12 +66,27 @@ error estimates and induction. Complete proofs, reproducible code and data are
 included in [paper2/](paper2/README.md). This is a separate preprint; it is not an
 arXiv replacement for Paper 1.
 
+## Paper 3: local stability chambers
+
+The [third paper](paper3/README.md) classifies anticanonical tangent stability
+for projective line bundles over products of lines with positive and negative
+unit twists. In the strictly semistable family, the local semistable locus is
+an orthant with arbitrarily many independent boundaries, times a smooth factor.
+A geometric condition on equal-slope ray subspaces gives independent divisor
+classes and characterizes nearby stable polarizations by toric
+indecomposability. It applies to all 31 indecomposable strictly semistable
+examples in the earlier census, with locally free stable factors determined
+explicitly. The [portable exact supplement](paper3/paper/reproducibility/README.md)
+checks their local data and all 479 selected product partitions; census
+completeness remains an input from Paper 1.
+
 ## Layout
 
 | Path | Contents |
 |---|---|
 | `paper/` | Paper 1: `main.tex` (self-contained, bibliography included), `toric-tangent-stability.pdf`, and `anc/` — the ancillary data package (per-variety degrees, slopes, maximal-slope subspace and verdict for all 8630 varieties, plus the root-twist family and the nine zero-sum twist classes, gzipped, with its own `README.txt`). |
 | `paper2/` | Paper 2 guide, complete manuscript and source, and a portable exact proof package with its own README and checksums. |
+| `paper3/` | Paper 3 guide, manuscript, printed ray data, and a self-contained exact verifier with its data and checksums. |
 | `src/` | The computation and verification code (Python, standard library + NumPy/SciPy; see below). |
 | `data/` | Vertex data of the smooth Fano polytopes (primitive ray generators of the fans) in dimensions 3–6. Each file records its `source` in a `source` field. |
 | `results/` | Precomputed verdict tables: `sweep_<n>d.json` (per-variety degrees, slopes, witness subsheaf, verdict, barycenter) and `polystability_<n>d.json` (the polystability refinement), plus `root_twist.json` (the root-twist family, dimensions 4–8) and `root_twist_classes.json` (all nine zero-sum twist classes up to the hexagon's dihedral symmetry, with stability, Kähler–Einstein status, and multiset symmetries). Fully regenerable from `src/` + `data/`. |
@@ -152,12 +168,16 @@ latexmk -pdf -jobname=toric-tangent-stability main.tex
 For Paper 2, run `latexmk -pdf main.tex` from `paper2/paper/`. Its portable
 proof commands and Python requirements are in [paper2/README.md](paper2/README.md).
 
+For Paper 3, run `latexmk -pdf main.tex` from `paper3/paper/`; its finite
+verifier needs only Python's standard library. See [paper3/README.md](paper3/README.md).
+
 ## License
 
 - **Code** (`src/`, `paper2/paper/anc/code/`, `paper2/figures/code/`): MIT License — see `LICENSE`.
 - **Manuscripts and mathematical data** (`paper/`, `data/`, `results/`, and
   the non-code contents of `paper2/`):
   Creative Commons Attribution 4.0 International (CC BY 4.0) — see `LICENSE`.
+- **Paper 3** (`paper3/`): copyright retained; see its [rights statement](paper3/README.md#rights).
 
 ## Citation
 
@@ -174,3 +194,4 @@ proof commands and Python requirements are in [paper2/README.md](paper2/README.m
 ```
 
 For Paper 2, use the separate [citation entry](paper2/README.md#citation).
+For Paper 3, use its [citation entry](paper3/README.md#citation).
