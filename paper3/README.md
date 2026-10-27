@@ -17,8 +17,8 @@ $[0,\infty)^k\times\mathbb R^k$, with stable locus
 $(0,\infty)^k\times\mathbb R^k$. The number of independent local chamber
 boundaries is therefore unbounded.
 
-A general criterion describes local chambers by the order ideals of the
-poset of equal-slope ray subspaces. Under the stated maximal-cone condition,
+A general criterion describes local chambers by the order ideals of a finite
+poset determined by the equal-slope ray subspaces. Under the stated maximal-cone condition,
 nearby stable polarizations exist precisely when the variety is not a
 nontrivial toric product. The criterion applies to all 31 indecomposable
 strictly semistable cases in the existing dimension-three-through-six
