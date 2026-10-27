@@ -6,7 +6,7 @@ Manuscripts, exact computations and data for three related papers.
 |---|---|
 | **1. Slope stability of tangent bundles of smooth toric Fano varieties** | [Current PDF](paper/toric-tangent-stability.pdf) · [arXiv:2608.20411](https://arxiv.org/abs/2608.20411) · code and data below |
 | **2. Tangent stability on toric Fano blowups and bundles** | [Official active PDF](paper2/paper/main.pdf) · [Guide, source and exact proof package](paper2/README.md) · updated 3 October 2026; manuscript date 20 September 2026 |
-| **3. Local stability chambers for toric tangent bundles** | [Current PDF](paper3/paper/main.pdf) · [Guide, source and exact computations](paper3/README.md) · [Zenodo:23681809](https://zenodo.org/records/23681809) · 26 October 2026 |
+| **3. Local stability chambers for toric tangent bundles** | [Current PDF](paper3/paper/main.pdf) · [Guide, source and exact computations](paper3/README.md) · [Zenodo:23682140](https://zenodo.org/records/23682140) · 26 October 2026; revised 27 October 2026 |
 
 ## Paper 1: classification and root-twisted families
 

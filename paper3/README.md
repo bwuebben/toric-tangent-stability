@@ -1,10 +1,13 @@
 # Local stability chambers for toric tangent bundles
 
-Bernd Johannes Wuebben · 26 October 2026 · 17 pages.
+Bernd Johannes Wuebben · 26 October 2026; revised 27 October 2026 · 17 pages.
+
+The revision adds the public repository URL and supplement path on page 10;
+mathematical content, abstract, data, and code are unchanged.
 
 [Current version (PDF)](paper/main.pdf) · [LaTeX source](paper/main.tex) ·
 [Exact computations](paper/reproducibility/README.md) ·
-[Zenodo:23681809](https://zenodo.org/records/23681809) ·
+[Zenodo:23682140](https://zenodo.org/records/23682140) ·
 [Abstract and citation](https://bwuebben.github.io/papers/toric-local-stability-chambers/)
 
 For the Fano projective bundles
@@ -61,7 +64,7 @@ licenses for Papers 1 and 2 do not grant additional rights in Paper 3.
   author = {Wuebben, Bernd Johannes},
   title = {Local stability chambers for toric tangent bundles},
   year = {2026},
-  doi = {10.5281/zenodo.23681809},
-  url = {https://doi.org/10.5281/zenodo.23681809}
+  doi = {10.5281/zenodo.23682140},
+  url = {https://doi.org/10.5281/zenodo.23682140}
 }
 ```
