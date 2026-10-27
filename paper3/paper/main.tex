@@ -29,7 +29,7 @@ pdftitle={Local stability chambers for toric tangent bundles}}
 \subjclass[2020]{14M25 (primary); 14J45, 14J60 (secondary)}
 \keywords{Toric variety, tangent bundle, slope stability, polarization,
 projective bundle, Jordan--H\"older filtration}
-\date{October 26, 2026}
+\date{October 26, 2026; revised October 27, 2026}
 
 \begin{document}
 \begin{abstract}
@@ -708,9 +708,10 @@ circuits relative to one basis and exhaustive minimal dependent
 subsets give identical partitions. The complete census and its
 exclusion of other strictly semistable cases remain inputs from
 \cite{Wuebben}; they are not consequences of checking only the 31
-indecomposable records. The accompanying data and rational-arithmetic
-programs specify the input hashes and reproduce the calculations.
-The supplementary directory \texttt{reproducibility/} contains the
+indecomposable records. The data and exact verifier are available in the
+public repository
+\url{https://github.com/bwuebben/toric-tangent-stability}.
+Its \texttt{paper3/paper/reproducibility/} directory contains the
 31 complete records, the rays of all 479 selected cases, and an exact
 verifier requiring only Python's standard library. Its \texttt{README.md}
 gives the command \texttt{python3 verify.py}, the data conventions, and
