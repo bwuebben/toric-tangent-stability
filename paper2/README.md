@@ -5,7 +5,9 @@
 Updated October 3, 2026; the manuscript date remains September 20, 2026.
 
 [Read the paper (PDF, 74 pages)](paper/main.pdf) ·
-[LaTeX source](paper/main.tex) · [Exact proof package](paper/anc/README.txt)
+[LaTeX source](paper/main.tex) · [Exact proof package](paper/anc/README.txt) ·
+[Zenodo:23643199](https://zenodo.org/records/23643199) ·
+[Abstract and citation](https://bwuebben.github.io/papers/toric-tangent-blowups-bundles/)
 
 This is the second paper in the repository's programme on anticanonical
 slope stability of tangent bundles of smooth toric Fano varieties. It develops
@@ -47,8 +49,8 @@ identities, integral comparisons and induction with explicit polynomial arithmet
 
 The [Python programs](paper/anc/code/), [exact inputs and outputs](paper/anc/data/),
 and [rational certificates](paper/anc/certificates/) are in `paper/anc/`.
-The same package accompanies the arXiv version as ancillary files, accessible
-through the ancillary-files link on its abstract page.
+The same package will accompany the arXiv version as ancillary files; Paper 2
+is not yet on arXiv.
 
 The theorem-verification commands below require Python 3.11 or newer and only
 its standard library. The package also includes the classification screen and
@@ -110,6 +112,7 @@ unrestricted-bound programme are not part of this public manuscript package.
   title  = {Tangent stability on toric Fano blowups and bundles},
   year   = {2026},
   note   = {Preprint, September 20, 2026},
+  doi    = {10.5281/zenodo.23643199},
   url    = {https://github.com/bwuebben/toric-tangent-stability/tree/main/paper2}
 }
 ```
