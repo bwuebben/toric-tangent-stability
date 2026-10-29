@@ -6,7 +6,7 @@ Original version: September 20, 2026. This version: October 29, 2026.
 
 [Read the paper (PDF, 75 pages)](paper/main.pdf) ·
 [LaTeX source](paper/main.tex) · [Exact proof package](paper/anc/README.txt) ·
-[Zenodo:23643199](https://zenodo.org/records/23643199) ·
+[Earlier version: Zenodo:23643199](https://zenodo.org/records/23643199) ·
 [Abstract and citation](https://bwuebben.github.io/papers/toric-tangent-blowups-bundles/)
 
 This is the second paper in the repository's programme on anticanonical
@@ -107,6 +107,9 @@ remain in Git history. `SHA256SUMS` records the distributed files; `paper/anc/SH
 portable mathematical inputs. The historical research draft and unfinished
 unrestricted-bound programme are not part of this public manuscript package.
 
+The revised PDF is public; its new version in the existing Zenodo series is
+being prepared. The archive link above identifies the earlier version.
+
 ## Citation
 
 ```bibtex
@@ -115,8 +118,7 @@ unrestricted-bound programme are not part of this public manuscript package.
   title  = {Tangent stability on toric Fano blowups and bundles},
   year   = {2026},
   note   = {Preprint, original September 20, 2026; this version October 29, 2026},
-  doi    = {10.5281/zenodo.23643199},
-  url    = {https://github.com/bwuebben/toric-tangent-stability/tree/main/paper2}
+  url    = {https://bwuebben.github.io/papers/toric-tangent-blowups-bundles/}
 }
 ```
 
