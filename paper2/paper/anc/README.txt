@@ -3,7 +3,9 @@ Ancillary files for
 
 screen_7d.json.gz: all 1,277 smooth toric Fano sevenfolds with Picard number >=9.
 screen_8d.json.gz: all 1,582 smooth toric Fano eightfolds with Picard number >=11.
-The eightfolds of Picard number 10 and dimension-nine stability cases are not included.
+The separate complete Picard-number-10 eightfold census is supplied in
+data/census8_certificates.json.gz; see README-census8.txt. No dimension-nine
+stability classification is included.
 Sources: Paffenholz's distribution of Obro's classification,
 https://polymake.org/polytopes/paffenholz/www/fano.html .
 Primitive ray generators are integer vectors. Divisor degrees are exact integers in the
@@ -107,9 +109,13 @@ The original classification input files are included under data/:
   smooth_toric_fano_7d_rho_ge_9.json (1,277 polytopes),
   smooth_toric_fano_8d_rho_ge_10.json (7,863 polytopes).
 Their source fields retain Paffenholz's classification provenance. The latter
-input includes the Picard-number-10 stratum; the manuscript's completed screen
-uses only its 1,582 polytopes with Picard number at least 11. Inclusion of the
-larger input file does not claim a stability classification of the extra cases.
+input includes 6,281 Picard-number-10 polytopes and 1,582 polytopes with
+Picard number at least 11. The older screen uses the latter stratum. The new
+independent census verifier certifies every Picard-number-10 case: 64 stable,
+692 strictly semistable and 5,525 unstable. All 692 strictly semistable fans
+are integral nontrivial product fans; none has any stable polarization.
+See README-census8.txt for exact degree, slope, tight-flat and product checks.
+This verifier requires NumPy, but not SciPy; no certificate search is needed.
 No dimension-nine input or stability classification is supplied.
 
 From the ancillary directory, prepare an environment for these optional searches:
@@ -133,12 +139,12 @@ It writes output/cycle_seeds.tex. Its table calculation is unchanged from the
 public paper2/figures/code/compute06_cycle_tables.py; only the package-relative
 import and output paths differ.
 
-Official active version of Paper 2, designated by the author on October 3, 2026. Its manuscript date remains
-September 20, 2026. Public manuscript and source:
+Official active version of Paper 2. Original version: September 20, 2026.
+This version: October 29, 2026. Public manuscript and source:
 https://github.com/bwuebben/toric-tangent-stability/tree/main/paper2
 Public copy of this ancillary package:
 https://github.com/bwuebben/toric-tangent-stability/tree/main/paper2/paper/anc
-The same package accompanies the arXiv version as ancillary files.
+Paper 2 awaits arXiv submission; the package is intended as ancillary files.
 
 SHA256SUMS records all distributed package contents other than itself.
 Regenerated output/, local .venv/ and Python cache files are excluded.

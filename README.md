@@ -6,7 +6,7 @@ Abstract pages: [Paper 1](https://bwuebben.github.io/papers/toric-tangent-stabil
 | Paper | Manuscript and materials |
 |---|---|
 | **1. Slope stability of tangent bundles of smooth toric Fano varieties** | [Current PDF](paper/toric-tangent-stability.pdf) · [arXiv:2608.20411](https://arxiv.org/abs/2608.20411) · code and data below |
-| **2. Tangent stability on toric Fano blowups and bundles** | [Official active PDF](paper2/paper/main.pdf) · [Guide, source and exact proof package](paper2/README.md) · [Zenodo:23643199](https://zenodo.org/records/23643199) · updated 3 October 2026; manuscript date 20 September 2026 |
+| **2. Tangent stability on toric Fano blowups and bundles** | [Official active PDF](paper2/paper/main.pdf) · [Guide, source and exact proof package](paper2/README.md) · [Zenodo:23643199](https://zenodo.org/records/23643199) · original version 20 September 2026; this version 29 October 2026 |
 | **3. Local stability chambers for toric tangent bundles** | [Current PDF](paper3/paper/main.pdf) · [Guide, source and exact computations](paper3/README.md) · [Zenodo:23682140](https://zenodo.org/records/23682140) · 26 October 2026; revised 27 October 2026 |
 
 ## Paper 1: classification and root-twisted families
@@ -46,7 +46,7 @@ dependencies.
 ## Paper 2: stability mechanisms and abundant extremizers
 
 The [official active manuscript](paper2/paper/main.pdf) was updated on
-October 3, 2026; its manuscript date remains September 20, 2026. The Python
+October 29, 2026; its original date remains September 20, 2026. The Python
 programs and proof data are in [paper2/paper/anc/](paper2/paper/anc/README.txt).
 
 The second paper proves an all-subspace stability criterion for blowup trees,
@@ -60,7 +60,9 @@ projective-space-product bases, it proves the sharp stable Picard maximum
 `floor(5n/4)+1` for every `n >= 4`, allowing arbitrary integral twists.
 Every fixed subcubic tree with an edge gives further maximizers after sufficiently
 long independent subdivisions. The resulting number of torically distinct
-extremizers is unbounded. The unrestricted `4n/3+1` upper bound remains open.
+extremizers is unbounded. The unrestricted `4n/3+1` upper bound remains open. The complete Picard-number-10
+eightfold census now certifies 64 stable, 692 strictly semistable and 5,525 unstable
+varieties; every strictly semistable fan is a nontrivial product.
 
 The bundle existence proofs use exact rational calculations together with uniform
 error estimates and induction. Complete proofs, reproducible code and data are

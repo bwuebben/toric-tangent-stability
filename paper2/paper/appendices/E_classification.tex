@@ -18,6 +18,38 @@ tangent bundle is $11$.  Exactly one isomorphism class attains it:
 the path variety $X_2$ of Example~\ref{graph:path}.
 \end{theorem}
 
+\begin{proposition}\label{census:picardten}
+Among the $6281$ smooth toric Fano eightfolds of Picard number ten,
+exactly $64$ have stable tangent bundle, $692$ have strictly semistable
+tangent bundle, and $5525$ have unstable tangent bundle, with respect
+to $-K_X$. Every strictly semistable member is a nontrivial toric
+product. Consequently none of these $692$ members has a stable tangent
+bundle for any ample polarization.
+\end{proposition}
+
+\begin{proof}
+The complete eighteen-ray stratum of the input classification is
+checked by the finite procedure below. Each verdict is supplied either
+by a strict rational slope witness or by a positive rational expression
+in matroid bases and its exact exchange graph. All fans and divisor
+degrees are recomputed independently. The resulting counts are
+\[
+\begin{array}{c|rrr}
+ &\text{stable}&\text{strictly semistable}&\text{unstable}\\\hline
+\rho=10&64&692&5525.
+\end{array}
+\]
+For every strictly semistable record, the ray configuration splits
+as a direct sum and its complete fan is checked to be the Cartesian
+product of the factor fans. A maximal-cone lattice basis makes this
+an integral lattice splitting. The numbers of records with respectively
+$2,3,4,5,6,7$ finest factors are $464,170,44,10,3,1$.
+The accompanying data give all factors and cones. Finally, the tangent
+bundle of a nontrivial product is a direct sum of nonzero subbundles;
+at least one summand has slope at least the rank-weighted average at
+every ample class, precluding stability.
+\end{proof}
+
 \subsection{A stability criterion using matroid bases}
 
 For $S\subseteq\mathcal R$, put $\delta(S)=\sum_{\rho\in S}\delta_\rho$.
@@ -47,7 +79,11 @@ where each $B_k$ is a basis of the ray matroid. Then $T_X$ is
 semistable. Form a directed graph on $\mathcal R$ with an edge
 $e\longrightarrow e'$ whenever, for some $k$, one has
 $e\notin B_k$, $e'\in B_k$, and $(B_k\setminus\{e'\})\cup\{e\}$ is
-also a basis. If this graph is strongly connected, then $T_X$ is stable.
+also a basis. A subset $S$ is tight, meaning $\delta(S)=r(S)$,
+if and only if no directed edge leaves $S$. Thus $T_X$ is stable
+if and only if this graph is strongly connected. Otherwise every
+proper sink strong component is a tight flat and proves strict
+semistability.
 \end{lemma}
 
 \begin{proof}
@@ -57,13 +93,28 @@ For every $S\subseteq\mathcal R$,
 \]
 because $B_k\cap S$ is independent. Equality holds precisely when
 $|B_k\cap S|=r(S)$ for every $k$.
-If a nonempty proper $S$ gives equality and the directed graph is
-strongly connected, an edge $e\longrightarrow e'$ leaves $S$.
-For its corresponding basis $B_k$, replacing $e'\notin S$ by $e\in S$
-produces a basis containing $r(S)+1$ members of $S$, a contradiction.
-Thus \eqref{eq:subsetstability} holds. The argument is independent of
-Proposition~\ref{prop:symmetry}.
+If $S$ is tight, then $B_k\cap S$ is a basis of $\operatorname{span}S$
+for every $k$. The expansion in $B_k$ of a ray in $S$ therefore uses
+only members of $S$, so no exchange edge leaves $S$.
+Conversely, suppose no edge leaves $S$. If $B_k\cap S$ failed to
+span $S$, some $e\in S\setminus B_k$ would have a nonzero coefficient
+at an $e'\in B_k\setminus S$ in its basis expansion. Replacing $e'$
+by $e$ would give an outgoing edge, a contradiction. Thus every
+$B_k\cap S$ has rank $r(S)$ and $S$ is tight.
+
+If the graph is strongly connected, there is no proper nonempty tight
+set, proving stability. Otherwise a sink strong component is such a
+set. It is a flat: adding any ray in its span would increase its
+positive weight without changing rank, contrary to the already proved
+semistability. Positivity also makes its rank less than $n$.
+The argument is independent of Proposition~\ref{prop:symmetry}.
 \end{proof}
+
+In particular, all tight sets are precisely the outgoing-closed unions
+of strong components. Ordering the components by reversed reachability
+identifies this lattice with an order-ideal lattice. The block ranks
+are quotient dimensions obtained from nested tight sets; they need
+not equal the dimensions spanned by individual blocks of rays.
 
 \subsection{Coverage and exact slope comparisons}
 
@@ -86,15 +137,45 @@ The additional varieties examined here are
  \begin{array}{c|c|r}
  n&\text{Picard numbers examined}&\text{number of varieties}\\ \hline
  7&\rho\ge9&1277\\
- 8&\rho\ge11&1582.
+ 8&\rho\ge11&1582\\
+ 8&\rho=10&6281.
  \end{array}
 \]
-Thus the calculation includes all sevenfolds at or above $\rho=n+2$,
-whereas in dimension eight the complete calculation starts at $\rho=n+3$.
-The eight-dimensional stratum $\rho=10$ has not been classified here
-by stability.  No stability classification in dimension nine is used.
+Thus the calculation includes all sevenfolds at or above $\rho=n+2$.
+The original eight-dimensional calculation covers $\rho\ge n+3$;
+Proposition~\ref{census:picardten} adds a complete stability classification
+at $\rho=n+2$. The higher-rank screening records described below retain
+their stated distinction between strict and equality witnesses.
+No stability classification in dimension nine is used.
 
-For each ray configuration, the intersection numbers $d_v$ are
+For the new Picard-number-ten stratum, the fan and degree calculation
+also has a complete check independent of facet triangulations. Every
+proposed facet consists of eight rays with an integral inverse matrix.
+Its supporting functional is exactly one on these rays and strictly
+less than one on all others. Every seven-ray ridge occurs twice.
+Since the adjacency graph of facets of a polytope is connected, this
+nonempty collection, closed across every ridge, is the full boundary.
+The unimodular ray bases therefore give the complete smooth Fano fan.
+
+If $u_{\sigma,i}$ is the basis dual to the rays of a maximal cone,
+choose an integral $\zeta$ for which every
+$w_{\sigma,i}=\langle u_{\sigma,i},\zeta\rangle$ is nonzero.
+Equivariant localization gives
+\begin{equation}\label{census:localization}
+ \begin{split}
+ (-K_X)^8&=\sum_\sigma
+ \frac{(\sum_iw_{\sigma,i})^8}{\prod_iw_{\sigma,i}},\\
+ D_\rho(-K_X)^7&=\sum_{\sigma\ni\rho}
+ \frac{w_{\sigma,\rho}(\sum_iw_{\sigma,i})^7}
+      {\prod_iw_{\sigma,i}}.
+ \end{split}
+\end{equation}
+The second computation uses another generic integral vector and its
+own exact inverses. It reproduces all $113058$ divisor degrees and
+checks all $2443089$ maximal cones of the stratum. The slope and
+product-fan checks then prove Proposition~\ref{census:picardten}.
+
+For the original higher-Picard screening, the intersection numbers $d_v$ are
 computed as normalized facet volumes of the moment polytope.
 Candidate facets and vertices obtained numerically are checked by
 rational linear algebra before evaluating the volumes.  The identities
@@ -259,8 +340,8 @@ number four.
 
 The programs and proof data are available at
 \url{https://github.com/bwuebben/toric-tangent-stability/tree/main/paper2/paper/anc}.
-On arXiv, this package is distributed through the ancillary-files link on
-the abstract page. The package contains the Python programs in
+For a future arXiv submission, the package is intended to accompany the
+manuscript as ancillary files. The package contains the Python programs in
 \texttt{code/}, the exact inputs and outputs in \texttt{data/}, and the
 rational basis decompositions in \texttt{certificates/}.
 The file \texttt{README.txt} gives the requirements, commands and scope of
@@ -322,8 +403,12 @@ induction arguments in Section~\ref{sec:mixed-tree-threshold}.
 
 The ancillary data distinguish the input polytopes from the varieties
 for which the calculation decides stability.  The seven-dimensional records
-cover all $1277$ varieties with $\rho\ge9$; the eight-dimensional records
-cover precisely the $1582$ with $\rho\ge11$.  The records include identifiers,
+cover all $1277$ varieties with $\rho\ge9$; the original eight-dimensional
+screening records cover the $1582$ with $\rho\ge11$. The separate
+\texttt{census8\_certificates.json.gz} contains the full $6281$-record
+$\rho=10$ classification, its rational basis decompositions or strict
+witnesses, and the product factors of all $692$ semistable cases.
+The records include identifiers,
 ray coordinates, divisor degrees and the subspaces proving
 non-stability.  The stable-boundary list is restricted to $\rho=n+2$
 in dimensions four through seven.  In particular it does not include
@@ -344,3 +429,12 @@ verifier uses only the Python standard library.
 The stable-eightfold expression is retained as
 \texttt{P8D\_389596.json}. The ancillary tables contain only completed
 calculations.}
+
+The complete Picard-number-ten verification is run from the ancillary
+directory by \texttt{python3 -B code/verify\_census8.py}. It checks the
+raw input, every smooth Fano fan, all divisor degrees using
+\eqref{census:localization}, each exact stability verdict, and all
+semistable product fans. The program's requirements and coverage are
+specified in \texttt{README-census8.txt}. The original classification's
+completeness and nonrepetition are inputs to this finite verification,
+not conclusions of the numerical hull routine.

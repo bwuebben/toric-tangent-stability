@@ -2,9 +2,9 @@
 
 **Bernd Johannes Wuebben — official active version of Paper 2.**
 
-Updated October 3, 2026; the manuscript date remains September 20, 2026.
+Original version: September 20, 2026. This version: October 29, 2026.
 
-[Read the paper (PDF, 74 pages)](paper/main.pdf) ·
+[Read the paper (PDF, 75 pages)](paper/main.pdf) ·
 [LaTeX source](paper/main.tex) · [Exact proof package](paper/anc/README.txt) ·
 [Zenodo:23643199](https://zenodo.org/records/23643199) ·
 [Abstract and citation](https://bwuebben.github.io/papers/toric-tangent-blowups-bundles/)
@@ -77,8 +77,13 @@ The package includes the completed classification slices: all 1,277 sevenfolds
 with Picard number at least 9, all 1,582 eightfolds with Picard number at least
 11, and the 29 stable boundary examples with Picard number n+2 in dimensions
 4–7. An equality witness excludes stability but does not prove semistability.
-The eightfold slice of Picard number 10 and a dimension-nine stability
-classification are not claimed.
+The new complete Picard-number-10 eightfold census certifies all 6,281 cases:
+**64 stable, 692 strictly semistable and 5,525 unstable**. All 692 strictly
+semistable fans are nontrivial integral products, so none admits a stable
+polarization. The exact exchange graph recovers every tight flat. See
+[the census instructions](paper/anc/README-census8.txt); the standalone verifier
+needs NumPy and no SciPy. Classification completeness and nonrepetition are
+inputs from the cited classification. No dimension-nine census is claimed.
 
 The cycle table generator explicitly cited in the manuscript is
 [paper/anc/code/compute06_cycle_tables.py](paper/anc/code/compute06_cycle_tables.py),
@@ -94,12 +99,10 @@ cd paper
 latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
 ```
 
-The checked-in PDF and LaTeX sources are the official active version, updated
-on October 3, 2026. The printed manuscript date remains September 20, 2026.
-This update revises the prose and provides explicit code-availability links;
-the mathematics, tables and existing computation files are unchanged. The
-previously omitted classification and certificate-search scripts, their
-dependency, and the original classification inputs are now included. Earlier versions
+The checked-in PDF and LaTeX sources are the official active version. The
+printed original date remains September 20, 2026, with a separate October 29,
+2026 version date. This revision adds the complete eightfold census and its
+exact geometric, degree, slope and product certificates. Earlier versions
 remain in Git history. `SHA256SUMS` records the distributed files; `paper/anc/SHA256SUMS` separately records the
 portable mathematical inputs. The historical research draft and unfinished
 unrestricted-bound programme are not part of this public manuscript package.
@@ -111,7 +114,7 @@ unrestricted-bound programme are not part of this public manuscript package.
   author = {Wuebben, Bernd Johannes},
   title  = {Tangent stability on toric Fano blowups and bundles},
   year   = {2026},
-  note   = {Preprint, September 20, 2026},
+  note   = {Preprint, original September 20, 2026; this version October 29, 2026},
   doi    = {10.5281/zenodo.23643199},
   url    = {https://github.com/bwuebben/toric-tangent-stability/tree/main/paper2}
 }

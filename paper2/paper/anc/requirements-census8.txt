@@ -1,0 +1,3 @@
+# Python 3.11 or newer. All certificate arithmetic uses the standard library.
+# NumPy proposes inverses; every accepted inverse is certified with integers.
+numpy>=1.24
